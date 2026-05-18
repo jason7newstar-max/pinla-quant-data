@@ -1,0 +1,69 @@
+{
+  "as_of": "2026-05-18T18:40:08.182267+00:00",
+  "spy": {
+    "symbol": "SPY",
+    "last": 734.35,
+    "bid": 734.34,
+    "ask": 734.36,
+    "volume": 27413828,
+    "mark": 734.35
+  },
+  "live_account": {
+    "account_type": "CASH",
+    "cash": 41.33,
+    "settled_funds": 41.33,
+    "option_buying_power": 41.33,
+    "total_value": 41.33
+  },
+  "lottery": {
+    "starting_capital": 200.0,
+    "cash": 175.0,
+    "open_position": {
+      "side": "put",
+      "strike": 731.0,
+      "delta": -0.09,
+      "entry_price": 0.12,
+      "contracts": 2,
+      "total_cost": 25.0,
+      "underlying_at_open": 734.695,
+      "expiration": "2026-05-18",
+      "open_ts": "2026-05-18T18:17:50.048785+00:00",
+      "current_mid": 0.1,
+      "unrealized_pnl_dollar": -5.0,
+      "unrealized_pnl_pct": -0.208
+    },
+    "closed_trades_total": 0,
+    "closed_trades_today": 0,
+    "wins": 0,
+    "win_rate": null,
+    "today_pnl": 0,
+    "cumulative_pnl": 0,
+    "portfolio_value": 195.0,
+    "roi_pct": -0.025
+  },
+  "ic": {},
+  "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -20.8%",
+      "current_mid": 0.095,
+      "pnl_per_contract": -2.5,
+      "pnl_pct": -0.208,
+      "ts": "2026-05-18T18:30:01.869404+00:00"
+    },
+    {
+      "action": "open",
+      "side": "put",
+      "strike": 731.0,
+      "delta": -0.09,
+      "entry_price": 0.12,
+      "contracts": 2,
+      "total_cost": 25.0,
+      "underlying_at_open": 734.695,
+      "expiration": "2026-05-18",
+      "open_ts": "2026-05-18T18:17:50.048785+00:00",
+      "ts": "2026-05-18T18:17:50.049105+00:00"
+    }
+  ]
+}
