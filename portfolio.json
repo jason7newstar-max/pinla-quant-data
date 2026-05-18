@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-18T19:10:05.904189+00:00",
+  "as_of": "2026-05-18T19:40:03.720179+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 736.23,
-    "bid": 736.21,
-    "ask": 736.25,
-    "volume": 32425955,
-    "mark": 736.23
+    "last": 736.98,
+    "bid": 736.98,
+    "ask": 736.99,
+    "volume": 35502260,
+    "mark": 736.98
   },
   "live_account": {
     "account_type": "CASH",
@@ -17,8 +17,21 @@
   },
   "lottery": {
     "starting_capital": 200.0,
-    "cash": 175.0,
-    "open_position": {
+    "cash": 180.0,
+    "open_position": null,
+    "closed_trades_total": 1,
+    "closed_trades_today": 1,
+    "wins": 0,
+    "win_rate": 0.0,
+    "today_pnl": -20.0,
+    "cumulative_pnl": -20.0,
+    "portfolio_value": 180.0,
+    "roi_pct": -0.1
+  },
+  "ic": {},
+  "events": [
+    {
+      "action": "close",
       "side": "put",
       "strike": 731.0,
       "delta": -0.09,
@@ -28,21 +41,23 @@
       "underlying_at_open": 734.695,
       "expiration": "2026-05-18",
       "open_ts": "2026-05-18T18:17:50.048785+00:00",
-      "current_mid": 0.04,
-      "unrealized_pnl_dollar": -17.0,
-      "unrealized_pnl_pct": -0.708
+      "close_price": 0.025,
+      "close_proceeds": 5.0,
+      "pnl_dollar": -20.0,
+      "pnl_pct": -0.8,
+      "close_reason": "force_close",
+      "close_ts": "2026-05-18T19:30:03.870112+00:00",
+      "ts": "2026-05-18T19:30:03.870463+00:00"
     },
-    "closed_trades_total": 0,
-    "closed_trades_today": 0,
-    "wins": 0,
-    "win_rate": null,
-    "today_pnl": 0,
-    "cumulative_pnl": 0,
-    "portfolio_value": 183.0,
-    "roi_pct": -0.085
-  },
-  "ic": {},
-  "events": [
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "SL -79%",
+      "current_mid": 0.025,
+      "pnl_per_contract": -9.5,
+      "pnl_pct": -0.792,
+      "ts": "2026-05-18T19:30:03.869787+00:00"
+    },
     {
       "action": "monitor",
       "close": false,
