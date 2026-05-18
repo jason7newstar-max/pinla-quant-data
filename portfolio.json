@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-18T18:40:08.182267+00:00",
+  "as_of": "2026-05-18T18:51:53.681472+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 734.35,
-    "bid": 734.34,
-    "ask": 734.36,
-    "volume": 27413828,
-    "mark": 734.35
+    "last": 733.955,
+    "bid": 733.96,
+    "ask": 733.97,
+    "volume": 28667060,
+    "mark": 733.96
   },
   "live_account": {
     "account_type": "CASH",
@@ -28,9 +28,9 @@
       "underlying_at_open": 734.695,
       "expiration": "2026-05-18",
       "open_ts": "2026-05-18T18:17:50.048785+00:00",
-      "current_mid": 0.1,
-      "unrealized_pnl_dollar": -5.0,
-      "unrealized_pnl_pct": -0.208
+      "current_mid": 0.11,
+      "unrealized_pnl_dollar": -3.0,
+      "unrealized_pnl_pct": -0.125
     },
     "closed_trades_total": 0,
     "closed_trades_today": 0,
@@ -38,8 +38,8 @@
     "win_rate": null,
     "today_pnl": 0,
     "cumulative_pnl": 0,
-    "portfolio_value": 195.0,
-    "roi_pct": -0.025
+    "portfolio_value": 197.0,
+    "roi_pct": -0.015
   },
   "ic": {},
   "events": [
