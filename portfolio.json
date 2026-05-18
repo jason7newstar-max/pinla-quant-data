@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-18T18:51:53.681472+00:00",
+  "as_of": "2026-05-18T18:52:19.891546+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 733.955,
-    "bid": 733.96,
-    "ask": 733.97,
-    "volume": 28667060,
-    "mark": 733.96
+    "last": 733.82,
+    "bid": 733.81,
+    "ask": 733.82,
+    "volume": 28690634,
+    "mark": 733.82
   },
   "live_account": {
     "account_type": "CASH",
@@ -29,8 +29,8 @@
       "expiration": "2026-05-18",
       "open_ts": "2026-05-18T18:17:50.048785+00:00",
       "current_mid": 0.11,
-      "unrealized_pnl_dollar": -3.0,
-      "unrealized_pnl_pct": -0.125
+      "unrealized_pnl_dollar": -1.0,
+      "unrealized_pnl_pct": -0.042
     },
     "closed_trades_total": 0,
     "closed_trades_today": 0,
