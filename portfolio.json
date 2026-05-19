@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-18T20:10:02.818630+00:00",
+  "as_of": "2026-05-19T00:24:08.390342+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 737.99,
-    "bid": 737.96,
-    "ask": 738.0,
-    "volume": 42563534,
-    "mark": 738.0
+    "last": 738.89,
+    "bid": 738.81,
+    "ask": 738.92,
+    "volume": 47843865,
+    "mark": 738.81
   },
   "live_account": {
     "account_type": "CASH",
@@ -15,20 +15,87 @@
     "option_buying_power": 41.33,
     "total_value": 41.33
   },
-  "lottery": {
-    "starting_capital": 200.0,
-    "cash": 180.0,
-    "open_position": null,
-    "closed_trades_total": 1,
-    "closed_trades_today": 1,
-    "wins": 0,
-    "win_rate": 0.0,
-    "today_pnl": -20.0,
-    "cumulative_pnl": -20.0,
-    "portfolio_value": 180.0,
-    "roi_pct": -0.1
+  "strategies": {
+    "lottery": {
+      "name": null,
+      "starting_capital": 200.0,
+      "cash": 180.0,
+      "open_position": null,
+      "closed_trades_total": 1,
+      "closed_trades_today": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "today_pnl": -20.0,
+      "cumulative_pnl": -20.0,
+      "portfolio_value": 180.0,
+      "roi_pct": -0.1
+    },
+    "bounce": {
+      "name": "bounce",
+      "starting_capital": 200.0,
+      "cash": 200.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 200.0,
+      "roi_pct": 0.0
+    },
+    "calendar": {
+      "name": "calendar",
+      "starting_capital": 200.0,
+      "cash": 200.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 200.0,
+      "roi_pct": 0.0
+    },
+    "butterfly": {
+      "name": "butterfly",
+      "starting_capital": 200.0,
+      "cash": 200.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 200.0,
+      "roi_pct": 0.0
+    }
   },
-  "ic": {},
+  "ic": null,
+  "leaderboard": [
+    {
+      "name": "bounce",
+      "roi_pct": 0.0,
+      "portfolio_value": 200.0
+    },
+    {
+      "name": "calendar",
+      "roi_pct": 0.0,
+      "portfolio_value": 200.0
+    },
+    {
+      "name": "butterfly",
+      "roi_pct": 0.0,
+      "portfolio_value": 200.0
+    },
+    {
+      "name": "lottery",
+      "roi_pct": -0.1,
+      "portfolio_value": 180.0
+    }
+  ],
   "events": [
     {
       "action": "close",
@@ -47,7 +114,8 @@
       "pnl_pct": -0.8,
       "close_reason": "force_close",
       "close_ts": "2026-05-18T19:30:03.870112+00:00",
-      "ts": "2026-05-18T19:30:03.870463+00:00"
+      "ts": "2026-05-18T19:30:03.870463+00:00",
+      "_strategy": "lottery"
     },
     {
       "action": "monitor",
@@ -56,7 +124,8 @@
       "current_mid": 0.025,
       "pnl_per_contract": -9.5,
       "pnl_pct": -0.792,
-      "ts": "2026-05-18T19:30:03.869787+00:00"
+      "ts": "2026-05-18T19:30:03.869787+00:00",
+      "_strategy": "lottery"
     },
     {
       "action": "monitor",
@@ -65,7 +134,8 @@
       "current_mid": 0.095,
       "pnl_per_contract": -2.5,
       "pnl_pct": -0.208,
-      "ts": "2026-05-18T18:30:01.869404+00:00"
+      "ts": "2026-05-18T18:30:01.869404+00:00",
+      "_strategy": "lottery"
     },
     {
       "action": "open",
@@ -78,7 +148,8 @@
       "underlying_at_open": 734.695,
       "expiration": "2026-05-18",
       "open_ts": "2026-05-18T18:17:50.048785+00:00",
-      "ts": "2026-05-18T18:17:50.049105+00:00"
+      "ts": "2026-05-18T18:17:50.049105+00:00",
+      "_strategy": "lottery"
     }
   ]
 }
