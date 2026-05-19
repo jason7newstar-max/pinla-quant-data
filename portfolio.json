@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-05-19T00:24:08.390342+00:00",
+  "as_of": "2026-05-19T13:40:08.985892+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 738.89,
-    "bid": 738.81,
-    "ask": 738.92,
-    "volume": 47843865,
-    "mark": 738.81
+    "last": 735.29,
+    "bid": 735.27,
+    "ask": 735.29,
+    "volume": 2987609,
+    "mark": 735.29
   },
   "live_account": {
     "account_type": "CASH",
-    "cash": 41.33,
-    "settled_funds": 41.33,
-    "option_buying_power": 41.33,
-    "total_value": 41.33
+    "cash": 141.33,
+    "settled_funds": 141.33,
+    "option_buying_power": 141.33,
+    "total_value": 141.33
   },
   "strategies": {
     "lottery": {
@@ -22,10 +22,10 @@
       "cash": 180.0,
       "open_position": null,
       "closed_trades_total": 1,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 0,
       "win_rate": 0.0,
-      "today_pnl": -20.0,
+      "today_pnl": 0,
       "cumulative_pnl": -20.0,
       "portfolio_value": 180.0,
       "roi_pct": -0.1
@@ -73,7 +73,29 @@
       "roi_pct": 0.0
     }
   },
-  "ic": null,
+  "ic": {
+    "action": "open",
+    "underlying_price_at_open": 734.28,
+    "expiration": "2026-05-19",
+    "strikes": {
+      "sc": 739.0,
+      "lc": 744.0,
+      "sp": 729.0,
+      "lp": 724.0
+    },
+    "net_credit": 0.76,
+    "max_loss_per_contract": 424.0,
+    "contracts": 1,
+    "open_ts": "2026-05-19T13:35:04.564258+00:00",
+    "ts": "2026-05-19T13:35:04.564270+00:00",
+    "mtm": {
+      "close": false,
+      "reason": "holding \u00b7 pnl -9.2%",
+      "close_cost": 0.83,
+      "pnl_per_contract": -7.0,
+      "pnl_pct": -0.092
+    }
+  },
   "leaderboard": [
     {
       "name": "bounce",
@@ -97,6 +119,23 @@
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "underlying_price_at_open": 734.28,
+      "expiration": "2026-05-19",
+      "strikes": {
+        "sc": 739.0,
+        "lc": 744.0,
+        "sp": 729.0,
+        "lp": 724.0
+      },
+      "net_credit": 0.76,
+      "max_loss_per_contract": 424.0,
+      "contracts": 1,
+      "open_ts": "2026-05-19T13:35:04.564258+00:00",
+      "ts": "2026-05-19T13:35:04.564270+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "close",
       "side": "put",
