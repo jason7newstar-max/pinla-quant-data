@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-19T15:40:06.597705+00:00",
+  "as_of": "2026-05-19T16:10:09.602675+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 733.396,
-    "bid": 733.37,
-    "ask": 733.39,
-    "volume": 17165869,
-    "mark": 733.39
+    "last": 732.5357,
+    "bid": 732.53,
+    "ask": 732.56,
+    "volume": 18782518,
+    "mark": 732.5357
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 732.46,
         "expiration": "2026-05-19",
         "open_ts": "2026-05-19T14:30:10.472336+00:00",
-        "current_mid": 0.07,
-        "unrealized_pnl_dollar": -21.0,
-        "unrealized_pnl_pct": -0.618
+        "current_mid": 0.08,
+        "unrealized_pnl_dollar": -19.0,
+        "unrealized_pnl_pct": -0.559
       },
       "closed_trades_total": 1,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -20.0,
-      "portfolio_value": 161.0,
-      "roi_pct": -0.195
+      "portfolio_value": 163.0,
+      "roi_pct": -0.185
     },
     "bounce": {
       "name": "bounce",
@@ -86,29 +86,7 @@
       "roi_pct": 0.12
     }
   },
-  "ic": {
-    "action": "open",
-    "underlying_price_at_open": 734.28,
-    "expiration": "2026-05-19",
-    "strikes": {
-      "sc": 739.0,
-      "lc": 744.0,
-      "sp": 729.0,
-      "lp": 724.0
-    },
-    "net_credit": 0.76,
-    "max_loss_per_contract": 424.0,
-    "contracts": 1,
-    "open_ts": "2026-05-19T13:35:04.564258+00:00",
-    "ts": "2026-05-19T13:35:04.564270+00:00",
-    "mtm": {
-      "close": true,
-      "reason": "50% profit target hit (55.3%)",
-      "close_cost": 0.34,
-      "pnl_per_contract": 42.0,
-      "pnl_pct": 0.553
-    }
-  },
+  "ic": {},
   "leaderboard": [
     {
       "name": "butterfly",
@@ -127,11 +105,69 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.195,
-      "portfolio_value": 161.0
+      "roi_pct": -0.185,
+      "portfolio_value": 163.0
     }
   ],
   "events": [
+    {
+      "action": "skip_open",
+      "reason": "meets_budget=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 733.07,
+      "strike": 733,
+      "short_exp": "2026-05-19",
+      "long_exp": "2026-05-26",
+      "net_debit": 4.88,
+      "cost_per_contract": 488.0,
+      "meets_budget": false,
+      "ts": "2026-05-19T16:00:10.973037+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-19T16:00:06.946031+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "close",
+      "reason": "50% profit target hit (61.8%)",
+      "close_cost": 0.29,
+      "pnl_per_contract": 47.0,
+      "pnl_pct": 0.618,
+      "open_position": {
+        "action": "open",
+        "underlying_price_at_open": 734.28,
+        "expiration": "2026-05-19",
+        "strikes": {
+          "sc": 739.0,
+          "lc": 744.0,
+          "sp": 729.0,
+          "lp": 724.0
+        },
+        "net_credit": 0.76,
+        "max_loss_per_contract": 424.0,
+        "contracts": 1,
+        "open_ts": "2026-05-19T13:35:04.564258+00:00",
+        "ts": "2026-05-19T13:35:04.564270+00:00"
+      },
+      "close_ts": "2026-05-19T16:00:04.696277+00:00",
+      "ts": "2026-05-19T16:00:04.696284+00:00",
+      "_strategy": "ic"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "50% profit target hit (61.8%)",
+      "close_cost": 0.29,
+      "pnl_per_contract": 47.0,
+      "pnl_pct": 0.618,
+      "ts": "2026-05-19T16:00:04.696016+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "monitor",
       "close": false,
