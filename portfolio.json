@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-19T14:25:08.863001+00:00",
+  "as_of": "2026-05-19T14:40:12.133401+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 732.71,
-    "bid": 732.69,
-    "ask": 732.71,
-    "volume": 9311865,
-    "mark": 732.71
+    "last": 732.59,
+    "bid": 732.58,
+    "ask": 732.6,
+    "volume": 12242790,
+    "mark": 732.59
   },
   "live_account": {
     "account_type": "CASH",
@@ -19,16 +19,29 @@
     "lottery": {
       "name": null,
       "starting_capital": 200.0,
-      "cash": 180.0,
-      "open_position": null,
+      "cash": 147.0,
+      "open_position": {
+        "side": "put",
+        "strike": 725.0,
+        "delta": -0.072,
+        "entry_price": 0.17,
+        "contracts": 2,
+        "total_cost": 33.0,
+        "underlying_at_open": 732.46,
+        "expiration": "2026-05-19",
+        "open_ts": "2026-05-19T14:30:10.472336+00:00",
+        "current_mid": 0.17,
+        "unrealized_pnl_dollar": -1.0,
+        "unrealized_pnl_pct": -0.029
+      },
       "closed_trades_total": 1,
       "closed_trades_today": 0,
       "wins": 0,
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -20.0,
-      "portfolio_value": 180.0,
-      "roi_pct": -0.1
+      "portfolio_value": 181.0,
+      "roi_pct": -0.095
     },
     "bounce": {
       "name": "bounce",
@@ -108,10 +121,10 @@
     "ts": "2026-05-19T13:35:04.564270+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl 10.5%",
-      "close_cost": 0.68,
-      "pnl_per_contract": 8.0,
-      "pnl_pct": 0.105
+      "reason": "holding \u00b7 pnl 18.4%",
+      "close_cost": 0.62,
+      "pnl_per_contract": 14.0,
+      "pnl_pct": 0.184
     }
   },
   "leaderboard": [
@@ -132,11 +145,25 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.1,
-      "portfolio_value": 180.0
+      "roi_pct": -0.095,
+      "portfolio_value": 181.0
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "side": "put",
+      "strike": 725.0,
+      "delta": -0.072,
+      "entry_price": 0.17,
+      "contracts": 2,
+      "total_cost": 33.0,
+      "underlying_at_open": 732.46,
+      "expiration": "2026-05-19",
+      "open_ts": "2026-05-19T14:30:10.472336+00:00",
+      "ts": "2026-05-19T14:30:10.472724+00:00",
+      "_strategy": "lottery"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
