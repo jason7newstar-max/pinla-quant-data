@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-19T15:10:08.632041+00:00",
+  "as_of": "2026-05-19T15:40:06.597705+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 733.37,
-    "bid": 733.36,
+    "last": 733.396,
+    "bid": 733.37,
     "ask": 733.39,
-    "volume": 15053494,
-    "mark": 733.37
+    "volume": 17165869,
+    "mark": 733.39
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 732.46,
         "expiration": "2026-05-19",
         "open_ts": "2026-05-19T14:30:10.472336+00:00",
-        "current_mid": 0.1,
-        "unrealized_pnl_dollar": -15.0,
-        "unrealized_pnl_pct": -0.441
+        "current_mid": 0.07,
+        "unrealized_pnl_dollar": -21.0,
+        "unrealized_pnl_pct": -0.618
       },
       "closed_trades_total": 1,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -20.0,
-      "portfolio_value": 167.0,
-      "roi_pct": -0.165
+      "portfolio_value": 161.0,
+      "roi_pct": -0.195
     },
     "bounce": {
       "name": "bounce",
@@ -102,11 +102,11 @@
     "open_ts": "2026-05-19T13:35:04.564258+00:00",
     "ts": "2026-05-19T13:35:04.564270+00:00",
     "mtm": {
-      "close": false,
-      "reason": "holding \u00b7 pnl 43.4%",
-      "close_cost": 0.43,
-      "pnl_per_contract": 33.0,
-      "pnl_pct": 0.434
+      "close": true,
+      "reason": "50% profit target hit (55.3%)",
+      "close_cost": 0.34,
+      "pnl_per_contract": 42.0,
+      "pnl_pct": 0.553
     }
   },
   "leaderboard": [
@@ -127,11 +127,21 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.165,
-      "portfolio_value": 167.0
+      "roi_pct": -0.195,
+      "portfolio_value": 161.0
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -32.4%",
+      "current_mid": 0.11499999999999999,
+      "pnl_per_contract": -5.5,
+      "pnl_pct": -0.324,
+      "ts": "2026-05-19T15:30:05.493570+00:00",
+      "_strategy": "lottery"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
