@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-20T15:10:08.657329+00:00",
+  "as_of": "2026-05-20T15:40:09.728933+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 738.84,
-    "bid": 738.83,
-    "ask": 738.84,
-    "volume": 13329799,
-    "mark": 738.84
+    "last": 740.06,
+    "bid": 740.06,
+    "ask": 740.08,
+    "volume": 17604247,
+    "mark": 740.06
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 737.99,
         "expiration": "2026-05-20",
         "open_ts": "2026-05-20T14:30:06.128656+00:00",
-        "current_mid": 0.24,
-        "unrealized_pnl_dollar": 3.0,
-        "unrealized_pnl_pct": 0.065
+        "current_mid": 0.38,
+        "unrealized_pnl_dollar": 29.0,
+        "unrealized_pnl_pct": 0.63
       },
       "closed_trades_total": 2,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -46.0,
-      "portfolio_value": 157.0,
-      "roi_pct": -0.215
+      "portfolio_value": 185.0,
+      "roi_pct": -0.075
     },
     "bounce": {
       "name": "bounce",
@@ -103,10 +103,10 @@
     "ts": "2026-05-20T13:35:08.095506+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl -12.8%",
-      "close_cost": 0.92,
-      "pnl_per_contract": -10.5,
-      "pnl_pct": -0.128
+      "reason": "holding \u00b7 pnl -52.4%",
+      "close_cost": 1.25,
+      "pnl_per_contract": -43.0,
+      "pnl_pct": -0.524
     }
   },
   "leaderboard": [
@@ -121,17 +121,27 @@
       "portfolio_value": 200.0
     },
     {
-      "name": "butterfly",
+      "name": "lottery",
       "roi_pct": -0.075,
       "portfolio_value": 185.0
     },
     {
-      "name": "lottery",
-      "roi_pct": -0.215,
-      "portfolio_value": 157.0
+      "name": "butterfly",
+      "roi_pct": -0.075,
+      "portfolio_value": 185.0
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +32.6%",
+      "current_mid": 0.305,
+      "pnl_per_contract": 7.5,
+      "pnl_pct": 0.326,
+      "ts": "2026-05-20T15:30:07.553977+00:00",
+      "_strategy": "lottery"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
