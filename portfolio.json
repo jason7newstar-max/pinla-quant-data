@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-19T20:10:02.844763+00:00",
+  "as_of": "2026-05-20T13:40:08.581233+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 733.58,
-    "bid": 733.55,
-    "ask": 733.6,
-    "volume": 50011893,
-    "mark": 733.6
+    "last": 734.82,
+    "bid": 734.8,
+    "ask": 734.84,
+    "volume": 2920961,
+    "mark": 734.82
   },
   "live_account": {
     "account_type": "CASH",
@@ -22,10 +22,10 @@
       "cash": 154.0,
       "open_position": null,
       "closed_trades_total": 2,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 0,
       "win_rate": 0.0,
-      "today_pnl": -26.0,
+      "today_pnl": 0,
       "cumulative_pnl": -46.0,
       "portfolio_value": 154.0,
       "roi_pct": -0.23
@@ -64,16 +64,38 @@
       "cash": 224.0,
       "open_position": null,
       "closed_trades_total": 1,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 1,
       "win_rate": 1.0,
-      "today_pnl": 24.0,
+      "today_pnl": 0,
       "cumulative_pnl": 24.0,
       "portfolio_value": 224.0,
       "roi_pct": 0.12
     }
   },
-  "ic": {},
+  "ic": {
+    "action": "open",
+    "underlying_price_at_open": 735.5054,
+    "expiration": "2026-05-20",
+    "strikes": {
+      "sc": 741.0,
+      "lc": 746.0,
+      "sp": 730.0,
+      "lp": 725.0
+    },
+    "net_credit": 0.82,
+    "max_loss_per_contract": 418.0,
+    "contracts": 1,
+    "open_ts": "2026-05-20T13:35:08.095494+00:00",
+    "ts": "2026-05-20T13:35:08.095506+00:00",
+    "mtm": {
+      "close": false,
+      "reason": "holding \u00b7 pnl -1.2%",
+      "close_cost": 0.83,
+      "pnl_per_contract": -1.0,
+      "pnl_pct": -0.012
+    }
+  },
   "leaderboard": [
     {
       "name": "butterfly",
@@ -97,6 +119,23 @@
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "underlying_price_at_open": 735.5054,
+      "expiration": "2026-05-20",
+      "strikes": {
+        "sc": 741.0,
+        "lc": 746.0,
+        "sp": 730.0,
+        "lp": 725.0
+      },
+      "net_credit": 0.82,
+      "max_loss_per_contract": 418.0,
+      "contracts": 1,
+      "open_ts": "2026-05-20T13:35:08.095494+00:00",
+      "ts": "2026-05-20T13:35:08.095506+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
