@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-20T16:10:08.434132+00:00",
+  "as_of": "2026-05-20T16:40:13.244971+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 740.15,
-    "bid": 740.15,
-    "ask": 740.17,
-    "volume": 19276846,
-    "mark": 740.15
+    "last": 738.91,
+    "bid": 738.9,
+    "ask": 738.93,
+    "volume": 21111266,
+    "mark": 738.91
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 737.99,
         "expiration": "2026-05-20",
         "open_ts": "2026-05-20T14:30:06.128656+00:00",
-        "current_mid": 0.33,
-        "unrealized_pnl_dollar": 19.0,
-        "unrealized_pnl_pct": 0.413
+        "current_mid": 0.2,
+        "unrealized_pnl_dollar": -7.0,
+        "unrealized_pnl_pct": -0.152
       },
       "closed_trades_total": 2,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -46.0,
-      "portfolio_value": 175.0,
-      "roi_pct": -0.125
+      "portfolio_value": 149.0,
+      "roi_pct": -0.255
     },
     "bounce": {
       "name": "bounce",
@@ -103,10 +103,10 @@
     "ts": "2026-05-20T13:35:08.095506+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl -48.8%",
-      "close_cost": 1.22,
-      "pnl_per_contract": -40.0,
-      "pnl_pct": -0.488
+      "reason": "holding \u00b7 pnl -4.9%",
+      "close_cost": 0.86,
+      "pnl_per_contract": -4.0,
+      "pnl_pct": -0.049
     }
   },
   "leaderboard": [
@@ -127,11 +127,21 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.125,
-      "portfolio_value": 175.0
+      "roi_pct": -0.255,
+      "portfolio_value": 149.0
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -19.6%",
+      "current_mid": 0.185,
+      "pnl_per_contract": -4.5,
+      "pnl_pct": -0.196,
+      "ts": "2026-05-20T16:30:03.229229+00:00",
+      "_strategy": "lottery"
+    },
     {
       "action": "open_failed",
       "reason": "no signal",
