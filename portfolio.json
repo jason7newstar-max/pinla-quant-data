@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-20T13:40:08.581233+00:00",
+  "as_of": "2026-05-20T13:55:05.456132+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 734.82,
-    "bid": 734.8,
-    "ask": 734.84,
-    "volume": 2920961,
-    "mark": 734.82
+    "last": 735.93,
+    "bid": 735.93,
+    "ask": 735.94,
+    "volume": 4939353,
+    "mark": 735.93
   },
   "live_account": {
     "account_type": "CASH",
@@ -90,10 +90,10 @@
     "ts": "2026-05-20T13:35:08.095506+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl -1.2%",
-      "close_cost": 0.83,
-      "pnl_per_contract": -1.0,
-      "pnl_pct": -0.012
+      "reason": "holding \u00b7 pnl 4.9%",
+      "close_cost": 0.78,
+      "pnl_per_contract": 4.0,
+      "pnl_pct": 0.049
     }
   },
   "leaderboard": [
