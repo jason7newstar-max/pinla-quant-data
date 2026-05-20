@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-20T18:10:17.701881+00:00",
+  "as_of": "2026-05-20T18:40:09.554326+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 740.1,
-    "bid": 740.09,
-    "ask": 740.11,
-    "volume": 26519903,
-    "mark": 740.1
+    "last": 740.74,
+    "bid": 740.74,
+    "ask": 740.75,
+    "volume": 28503208,
+    "mark": 740.74
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 737.99,
         "expiration": "2026-05-20",
         "open_ts": "2026-05-20T14:30:06.128656+00:00",
-        "current_mid": 0.21,
-        "unrealized_pnl_dollar": -5.0,
-        "unrealized_pnl_pct": -0.109
+        "current_mid": 0.29,
+        "unrealized_pnl_dollar": 11.0,
+        "unrealized_pnl_pct": 0.239
       },
       "closed_trades_total": 2,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -46.0,
-      "portfolio_value": 151.0,
-      "roi_pct": -0.245
+      "portfolio_value": 167.0,
+      "roi_pct": -0.165
     },
     "bounce": {
       "name": "bounce",
@@ -103,10 +103,10 @@
     "ts": "2026-05-20T13:35:08.095506+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl -20.7%",
-      "close_cost": 0.99,
-      "pnl_per_contract": -17.0,
-      "pnl_pct": -0.207
+      "reason": "holding \u00b7 pnl -47.6%",
+      "close_cost": 1.21,
+      "pnl_per_contract": -39.0,
+      "pnl_pct": -0.476
     }
   },
   "leaderboard": [
@@ -127,11 +127,21 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.245,
-      "portfolio_value": 151.0
+      "roi_pct": -0.165,
+      "portfolio_value": 167.0
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -10.9%",
+      "current_mid": 0.20500000000000002,
+      "pnl_per_contract": -2.5,
+      "pnl_pct": -0.109,
+      "ts": "2026-05-20T18:30:07.028303+00:00",
+      "_strategy": "lottery"
+    },
     {
       "action": "monitor",
       "close": false,
@@ -651,23 +661,6 @@
       "pnl_per_contract": 4.0,
       "pnl_pct": 0.053,
       "ts": "2026-05-19T14:00:01.760383+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "open",
-      "underlying_price_at_open": 734.28,
-      "expiration": "2026-05-19",
-      "strikes": {
-        "sc": 739.0,
-        "lc": 744.0,
-        "sp": 729.0,
-        "lp": 724.0
-      },
-      "net_credit": 0.76,
-      "max_loss_per_contract": 424.0,
-      "contracts": 1,
-      "open_ts": "2026-05-19T13:35:04.564258+00:00",
-      "ts": "2026-05-19T13:35:04.564270+00:00",
       "_strategy": "ic"
     }
   ]
