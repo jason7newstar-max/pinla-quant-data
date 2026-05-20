@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-20T14:55:06.049885+00:00",
+  "as_of": "2026-05-20T15:10:08.657329+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 738.67,
-    "bid": 738.67,
-    "ask": 738.69,
-    "volume": 12028338,
-    "mark": 738.67
+    "last": 738.84,
+    "bid": 738.83,
+    "ask": 738.84,
+    "volume": 13329799,
+    "mark": 738.84
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 737.99,
         "expiration": "2026-05-20",
         "open_ts": "2026-05-20T14:30:06.128656+00:00",
-        "current_mid": 0.26,
-        "unrealized_pnl_dollar": 5.0,
-        "unrealized_pnl_pct": 0.109
+        "current_mid": 0.24,
+        "unrealized_pnl_dollar": 3.0,
+        "unrealized_pnl_pct": 0.065
       },
       "closed_trades_total": 2,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.0,
       "today_pnl": 0,
       "cumulative_pnl": -46.0,
-      "portfolio_value": 161.0,
-      "roi_pct": -0.195
+      "portfolio_value": 157.0,
+      "roi_pct": -0.215
     },
     "bounce": {
       "name": "bounce",
@@ -74,34 +74,16 @@
     "butterfly": {
       "name": "butterfly",
       "starting_capital": 200.0,
-      "cash": 45.0,
-      "open_position": {
-        "underlying_symbol": "SPY",
-        "underlying_price": 736.13,
-        "expiration": "2026-05-20",
-        "atm_strike": 736.0,
-        "strikes": {
-          "sc": 736.0,
-          "lc": 741.0,
-          "sp": 736.0,
-          "lp": 731.0
-        },
-        "net_credit": 3.21,
-        "max_loss_per_contract": 179.0,
-        "meets_credit_threshold": true,
-        "real_money_collateral_required": 179.0,
-        "cost": 179.0,
-        "contracts": 1,
-        "open_ts": "2026-05-20T14:00:04.090932+00:00"
-      },
-      "closed_trades_total": 1,
-      "closed_trades_today": 0,
+      "cash": 185.0,
+      "open_position": null,
+      "closed_trades_total": 2,
+      "closed_trades_today": 1,
       "wins": 1,
-      "win_rate": 1.0,
-      "today_pnl": 0,
-      "cumulative_pnl": 24.0,
-      "portfolio_value": 224.0,
-      "roi_pct": 0.12
+      "win_rate": 0.5,
+      "today_pnl": -39.0,
+      "cumulative_pnl": -15.0,
+      "portfolio_value": 185.0,
+      "roi_pct": -0.075
     }
   },
   "ic": {
@@ -121,18 +103,13 @@
     "ts": "2026-05-20T13:35:08.095506+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl -6.1%",
-      "close_cost": 0.87,
-      "pnl_per_contract": -5.0,
-      "pnl_pct": -0.061
+      "reason": "holding \u00b7 pnl -12.8%",
+      "close_cost": 0.92,
+      "pnl_per_contract": -10.5,
+      "pnl_pct": -0.128
     }
   },
   "leaderboard": [
-    {
-      "name": "butterfly",
-      "roi_pct": 0.12,
-      "portfolio_value": 224.0
-    },
     {
       "name": "bounce",
       "roi_pct": 0.0,
@@ -144,12 +121,91 @@
       "portfolio_value": 200.0
     },
     {
+      "name": "butterfly",
+      "roi_pct": -0.075,
+      "portfolio_value": 185.0
+    },
+    {
       "name": "lottery",
-      "roi_pct": -0.195,
-      "portfolio_value": 161.0
+      "roi_pct": -0.215,
+      "portfolio_value": 157.0
     }
   ],
   "events": [
+    {
+      "action": "skip_open",
+      "reason": "meets_budget=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 739.29,
+      "strike": 739,
+      "short_exp": "2026-05-20",
+      "long_exp": "2026-05-26",
+      "net_debit": 3.75,
+      "cost_per_contract": 375.0,
+      "meets_budget": false,
+      "ts": "2026-05-20T15:00:10.276148+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +28.3%",
+      "current_mid": 0.295,
+      "pnl_per_contract": 6.5,
+      "pnl_pct": 0.283,
+      "ts": "2026-05-20T15:00:06.420721+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -28.0%",
+      "close_cost": 1.05,
+      "pnl_per_contract": -23.0,
+      "pnl_pct": -0.28,
+      "ts": "2026-05-20T15:00:06.182188+00:00",
+      "_strategy": "ic"
+    },
+    {
+      "action": "close",
+      "underlying_symbol": "SPY",
+      "underlying_price": 736.13,
+      "expiration": "2026-05-20",
+      "atm_strike": 736.0,
+      "strikes": {
+        "sc": 736.0,
+        "lc": 741.0,
+        "sp": 736.0,
+        "lp": 731.0
+      },
+      "net_credit": 3.21,
+      "max_loss_per_contract": 179.0,
+      "meets_credit_threshold": true,
+      "real_money_collateral_required": 179.0,
+      "cost": 179.0,
+      "contracts": 1,
+      "open_ts": "2026-05-20T14:00:04.090932+00:00",
+      "close_reason": "defensive short delta (sc_delta=0.75 sp_delta=0.25)",
+      "pnl_dollar": -39.0,
+      "pnl_pct": -0.121,
+      "proceeds": 140.0,
+      "close_ts": "2026-05-20T15:00:05.977871+00:00",
+      "ts": "2026-05-20T15:00:05.978548+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "defensive short delta (sc_delta=0.75 sp_delta=0.25)",
+      "close_cost": 3.6,
+      "pnl_per_contract": -39.0,
+      "pnl_pct": -0.121,
+      "ts": "2026-05-20T15:00:05.976823+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
     {
       "action": "open",
       "side": "call",
