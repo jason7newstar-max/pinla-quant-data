@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T15:10:07.839640+00:00",
+  "as_of": "2026-05-21T15:40:09.009210+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 737.3,
-    "bid": 737.27,
-    "ask": 737.31,
-    "volume": 10712608,
-    "mark": 737.3
+    "last": 738.93,
+    "bid": 738.89,
+    "ask": 738.93,
+    "volume": 13260934,
+    "mark": 738.93
   },
   "live_account": {
     "account_type": "CASH",
@@ -103,11 +103,11 @@
     "open_ts": "2026-05-21T13:35:03.493108+00:00",
     "ts": "2026-05-21T13:35:03.493118+00:00",
     "mtm": {
-      "close": false,
-      "reason": "holding \u00b7 pnl 45.6%",
-      "close_cost": 0.37,
-      "pnl_per_contract": 31.0,
-      "pnl_pct": 0.456
+      "close": true,
+      "reason": "50% profit target hit (70.6%)",
+      "close_cost": 0.2,
+      "pnl_per_contract": 48.0,
+      "pnl_pct": 0.706
     }
   },
   "leaderboard": [
@@ -138,6 +138,29 @@
     }
   ],
   "events": [
+    {
+      "action": "no_signal",
+      "underlying_price": 738.8,
+      "prior_high": 741.87,
+      "prior_low": 733.89,
+      "signal": null,
+      "ts": "2026-05-21T15:30:06.143904+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T15:30:04.332455+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T15:15:07.641938+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal",
@@ -620,42 +643,6 @@
       "ts": "2026-05-20T14:00:03.925896+00:00",
       "strategy": "calendar",
       "_strategy": "calendar"
-    },
-    {
-      "action": "no_signal",
-      "underlying_price": 736.01,
-      "prior_high": 737.65,
-      "prior_low": 731.53,
-      "signal": null,
-      "ts": "2026-05-20T14:00:03.905230+00:00",
-      "_strategy": "lottery"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl 7.3%",
-      "close_cost": 0.76,
-      "pnl_per_contract": 6.0,
-      "pnl_pct": 0.073,
-      "ts": "2026-05-20T14:00:01.521172+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "open",
-      "underlying_price_at_open": 735.5054,
-      "expiration": "2026-05-20",
-      "strikes": {
-        "sc": 741.0,
-        "lc": 746.0,
-        "sp": 730.0,
-        "lp": 725.0
-      },
-      "net_credit": 0.82,
-      "max_loss_per_contract": 418.0,
-      "contracts": 1,
-      "open_ts": "2026-05-20T13:35:08.095494+00:00",
-      "ts": "2026-05-20T13:35:08.095506+00:00",
-      "_strategy": "ic"
     }
   ]
 }
