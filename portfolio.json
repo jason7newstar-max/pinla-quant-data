@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T18:40:09.186142+00:00",
+  "as_of": "2026-05-21T19:10:09.138184+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 743.1199,
-    "bid": 743.09,
-    "ask": 743.12,
-    "volume": 27869807,
-    "mark": 743.1199
+    "last": 742.305,
+    "bid": 742.29,
+    "ask": 742.32,
+    "volume": 31479850,
+    "mark": 742.305
   },
   "live_account": {
     "account_type": "CASH",
@@ -30,9 +30,9 @@
         "underlying_at_open": 742.24,
         "expiration": "2026-05-21",
         "open_ts": "2026-05-21T17:30:07.341240+00:00",
-        "current_mid": 0.1,
-        "unrealized_pnl_dollar": -11.0,
-        "unrealized_pnl_pct": -0.367
+        "current_mid": 0.04,
+        "unrealized_pnl_dollar": -21.0,
+        "unrealized_pnl_pct": -0.7
       },
       "closed_trades_total": 3,
       "closed_trades_today": 0,
@@ -40,8 +40,8 @@
       "win_rate": 0.333,
       "today_pnl": 0,
       "cumulative_pnl": -34.0,
-      "portfolio_value": 157.0,
-      "roi_pct": -0.215
+      "portfolio_value": 145.0,
+      "roi_pct": -0.275
     },
     "bounce": {
       "name": "bounce",
@@ -124,8 +124,8 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.215,
-      "portfolio_value": 157.0
+      "roi_pct": -0.275,
+      "portfolio_value": 145.0
     }
   ],
   "events": [
