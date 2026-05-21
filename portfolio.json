@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T14:40:10.863414+00:00",
+  "as_of": "2026-05-21T14:55:08.341149+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 738.9,
-    "bid": 738.89,
-    "ask": 738.92,
-    "volume": 9180170,
-    "mark": 738.9
+    "last": 738.68,
+    "bid": 738.68,
+    "ask": 738.69,
+    "volume": 9867249,
+    "mark": 738.68
   },
   "live_account": {
     "account_type": "CASH",
@@ -122,10 +122,10 @@
     "ts": "2026-05-21T13:35:03.493118+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl 41.2%",
-      "close_cost": 0.4,
-      "pnl_per_contract": 28.0,
-      "pnl_pct": 0.412
+      "reason": "holding \u00b7 pnl 48.5%",
+      "close_cost": 0.35,
+      "pnl_per_contract": 33.0,
+      "pnl_pct": 0.485
     }
   },
   "leaderboard": [
@@ -156,6 +156,13 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T14:45:08.505683+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "no_signal",
       "underlying_price": 738.515,
@@ -661,32 +668,6 @@
       "ts": "2026-05-19T16:00:06.946031+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "close",
-      "reason": "50% profit target hit (61.8%)",
-      "close_cost": 0.29,
-      "pnl_per_contract": 47.0,
-      "pnl_pct": 0.618,
-      "open_position": {
-        "action": "open",
-        "underlying_price_at_open": 734.28,
-        "expiration": "2026-05-19",
-        "strikes": {
-          "sc": 739.0,
-          "lc": 744.0,
-          "sp": 729.0,
-          "lp": 724.0
-        },
-        "net_credit": 0.76,
-        "max_loss_per_contract": 424.0,
-        "contracts": 1,
-        "open_ts": "2026-05-19T13:35:04.564258+00:00",
-        "ts": "2026-05-19T13:35:04.564270+00:00"
-      },
-      "close_ts": "2026-05-19T16:00:04.696277+00:00",
-      "ts": "2026-05-19T16:00:04.696284+00:00",
-      "_strategy": "ic"
     }
   ]
 }
