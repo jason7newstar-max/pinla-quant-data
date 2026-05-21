@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T16:10:07.756198+00:00",
+  "as_of": "2026-05-21T16:40:05.180970+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 739.9,
-    "bid": 739.89,
-    "ask": 739.9,
-    "volume": 14755661,
-    "mark": 739.9
+    "last": 738.725,
+    "bid": 738.71,
+    "ask": 738.73,
+    "volume": 16501128,
+    "mark": 738.725
   },
   "live_account": {
     "account_type": "CASH",
@@ -116,6 +116,29 @@
     }
   ],
   "events": [
+    {
+      "action": "no_signal",
+      "underlying_price": 738.755,
+      "prior_high": 741.87,
+      "prior_low": 733.89,
+      "signal": null,
+      "ts": "2026-05-21T16:30:11.859828+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T16:30:10.119655+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T16:15:07.818941+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
@@ -557,41 +580,6 @@
       "pnl_pct": -0.598,
       "ts": "2026-05-20T16:00:03.090252+00:00",
       "_strategy": "ic"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +32.6%",
-      "current_mid": 0.305,
-      "pnl_per_contract": 7.5,
-      "pnl_pct": 0.326,
-      "ts": "2026-05-20T15:30:07.553977+00:00",
-      "_strategy": "lottery"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_budget=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 739.29,
-      "strike": 739,
-      "short_exp": "2026-05-20",
-      "long_exp": "2026-05-26",
-      "net_debit": 3.75,
-      "cost_per_contract": 375.0,
-      "meets_budget": false,
-      "ts": "2026-05-20T15:00:10.276148+00:00",
-      "strategy": "calendar",
-      "_strategy": "calendar"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +28.3%",
-      "current_mid": 0.295,
-      "pnl_per_contract": 6.5,
-      "pnl_pct": 0.283,
-      "ts": "2026-05-20T15:00:06.420721+00:00",
-      "_strategy": "lottery"
     }
   ]
 }
