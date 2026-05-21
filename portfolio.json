@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T17:10:07.737738+00:00",
+  "as_of": "2026-05-21T17:40:09.729784+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 739.04,
-    "bid": 739.04,
-    "ask": 739.07,
-    "volume": 17900376,
-    "mark": 739.04
+    "last": 742.95,
+    "bid": 742.93,
+    "ask": 742.97,
+    "volume": 22483852,
+    "mark": 742.95
   },
   "live_account": {
     "account_type": "CASH",
@@ -19,16 +19,29 @@
     "lottery": {
       "name": null,
       "starting_capital": 200.0,
-      "cash": 166.0,
-      "open_position": null,
+      "cash": 137.0,
+      "open_position": {
+        "side": "call",
+        "strike": 746.0,
+        "delta": 0.097,
+        "entry_price": 0.15,
+        "contracts": 2,
+        "total_cost": 29.0,
+        "underlying_at_open": 742.24,
+        "expiration": "2026-05-21",
+        "open_ts": "2026-05-21T17:30:07.341240+00:00",
+        "current_mid": 0.18,
+        "unrealized_pnl_dollar": 7.0,
+        "unrealized_pnl_pct": 0.233
+      },
       "closed_trades_total": 3,
       "closed_trades_today": 0,
       "wins": 1,
       "win_rate": 0.333,
       "today_pnl": 0,
       "cumulative_pnl": -34.0,
-      "portfolio_value": 166.0,
-      "roi_pct": -0.17
+      "portfolio_value": 173.0,
+      "roi_pct": -0.135
     },
     "bounce": {
       "name": "bounce",
@@ -111,11 +124,39 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.17,
-      "portfolio_value": 166.0
+      "roi_pct": -0.135,
+      "portfolio_value": 173.0
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "side": "call",
+      "strike": 746.0,
+      "delta": 0.097,
+      "entry_price": 0.15,
+      "contracts": 2,
+      "total_cost": 29.0,
+      "underlying_at_open": 742.24,
+      "expiration": "2026-05-21",
+      "open_ts": "2026-05-21T17:30:07.341240+00:00",
+      "ts": "2026-05-21T17:30:07.342368+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T17:30:05.901320+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T17:15:04.777972+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
@@ -542,38 +583,6 @@
       "pnl_pct": -0.317,
       "ts": "2026-05-20T17:30:03.776547+00:00",
       "_strategy": "ic"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +19.6%",
-      "current_mid": 0.275,
-      "pnl_per_contract": 4.5,
-      "pnl_pct": 0.196,
-      "ts": "2026-05-20T17:30:03.258289+00:00",
-      "_strategy": "lottery"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_budget=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 739.4,
-      "strike": 739,
-      "short_exp": "2026-05-20",
-      "long_exp": "2026-05-26",
-      "net_debit": 3.82,
-      "cost_per_contract": 381.5,
-      "meets_budget": false,
-      "ts": "2026-05-20T17:00:03.659018+00:00",
-      "strategy": "calendar",
-      "_strategy": "calendar"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-20T17:00:03.586723+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
     }
   ]
 }
