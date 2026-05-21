@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T02:48:02.140113+00:00",
+  "as_of": "2026-05-21T13:40:09.038189+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 738.305,
-    "bid": 738.25,
-    "ask": 738.35,
-    "volume": 45768035,
-    "mark": 738.35
+    "last": 737.61,
+    "bid": 737.6,
+    "ask": 737.61,
+    "volume": 2875739,
+    "mark": 737.61
   },
   "live_account": {
     "account_type": "CASH",
@@ -22,10 +22,10 @@
       "cash": 166.0,
       "open_position": null,
       "closed_trades_total": 3,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 1,
       "win_rate": 0.333,
-      "today_pnl": 12.0,
+      "today_pnl": 0,
       "cumulative_pnl": -34.0,
       "portfolio_value": 166.0,
       "roi_pct": -0.17
@@ -78,16 +78,38 @@
       "cash": 185.0,
       "open_position": null,
       "closed_trades_total": 2,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 1,
       "win_rate": 0.5,
-      "today_pnl": -39.0,
+      "today_pnl": 0,
       "cumulative_pnl": -15.0,
       "portfolio_value": 185.0,
       "roi_pct": -0.075
     }
   },
-  "ic": {},
+  "ic": {
+    "action": "open",
+    "underlying_price_at_open": 738.44,
+    "expiration": "2026-05-21",
+    "strikes": {
+      "sc": 744.0,
+      "lc": 749.0,
+      "sp": 732.0,
+      "lp": 727.0
+    },
+    "net_credit": 0.68,
+    "max_loss_per_contract": 432.0,
+    "contracts": 1,
+    "open_ts": "2026-05-21T13:35:03.493108+00:00",
+    "ts": "2026-05-21T13:35:03.493118+00:00",
+    "mtm": {
+      "close": false,
+      "reason": "holding \u00b7 pnl 5.9%",
+      "close_cost": 0.64,
+      "pnl_per_contract": 4.0,
+      "pnl_pct": 0.059
+    }
+  },
   "leaderboard": [
     {
       "name": "bounce",
@@ -116,6 +138,23 @@
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "underlying_price_at_open": 738.44,
+      "expiration": "2026-05-21",
+      "strikes": {
+        "sc": 744.0,
+        "lc": 749.0,
+        "sp": 732.0,
+        "lp": 727.0
+      },
+      "net_credit": 0.68,
+      "max_loss_per_contract": 432.0,
+      "contracts": 1,
+      "open_ts": "2026-05-21T13:35:03.493108+00:00",
+      "ts": "2026-05-21T13:35:03.493118+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "close",
       "reason": "force_close",
@@ -638,17 +677,6 @@
       "proceeds": 216.0,
       "close_ts": "2026-05-19T15:00:04.633664+00:00",
       "ts": "2026-05-19T15:00:04.633927+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "defensive short delta (sc_delta=0.32 sp_delta=0.68)",
-      "close_cost": 2.84,
-      "pnl_per_contract": 24.0,
-      "pnl_pct": 0.078,
-      "ts": "2026-05-19T15:00:04.633421+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
     }
