@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T16:40:05.180970+00:00",
+  "as_of": "2026-05-21T17:10:07.737738+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 738.725,
-    "bid": 738.71,
-    "ask": 738.73,
-    "volume": 16501128,
-    "mark": 738.725
+    "last": 739.04,
+    "bid": 739.04,
+    "ask": 739.07,
+    "volume": 17900376,
+    "mark": 739.04
   },
   "live_account": {
     "account_type": "CASH",
@@ -116,6 +116,42 @@
     }
   ],
   "events": [
+    {
+      "action": "skip_open",
+      "reason": "meets_budget=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 738.96,
+      "strike": 739,
+      "short_exp": "2026-05-21",
+      "long_exp": "2026-05-26",
+      "net_debit": 3.13,
+      "cost_per_contract": 313.0,
+      "meets_budget": false,
+      "ts": "2026-05-21T17:00:06.431336+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T17:00:05.908712+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T17:00:05.753381+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T16:45:02.939733+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "no_signal",
       "underlying_price": 738.755,
@@ -538,48 +574,6 @@
       "ts": "2026-05-20T17:00:03.586723+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -19.6%",
-      "current_mid": 0.185,
-      "pnl_per_contract": -4.5,
-      "pnl_pct": -0.196,
-      "ts": "2026-05-20T16:30:03.229229+00:00",
-      "_strategy": "lottery"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-20T16:00:08.086888+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_budget=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 740.26,
-      "strike": 740,
-      "short_exp": "2026-05-20",
-      "long_exp": "2026-05-26",
-      "net_debit": 3.72,
-      "cost_per_contract": 372.5,
-      "meets_budget": false,
-      "ts": "2026-05-20T16:00:05.958460+00:00",
-      "strategy": "calendar",
-      "_strategy": "calendar"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -59.8%",
-      "close_cost": 1.31,
-      "pnl_per_contract": -49.0,
-      "pnl_pct": -0.598,
-      "ts": "2026-05-20T16:00:03.090252+00:00",
-      "_strategy": "ic"
     }
   ]
 }
