@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T14:25:16.803527+00:00",
+  "as_of": "2026-05-21T14:40:10.863414+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 737.89,
-    "bid": 737.88,
-    "ask": 737.91,
-    "volume": 8161619,
-    "mark": 737.89
+    "last": 738.9,
+    "bid": 738.89,
+    "ask": 738.92,
+    "volume": 9180170,
+    "mark": 738.9
   },
   "live_account": {
     "account_type": "CASH",
@@ -122,10 +122,10 @@
     "ts": "2026-05-21T13:35:03.493118+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl 25.0%",
-      "close_cost": 0.51,
-      "pnl_per_contract": 17.0,
-      "pnl_pct": 0.25
+      "reason": "holding \u00b7 pnl 41.2%",
+      "close_cost": 0.4,
+      "pnl_per_contract": 28.0,
+      "pnl_pct": 0.412
     }
   },
   "leaderboard": [
@@ -156,6 +156,22 @@
     }
   ],
   "events": [
+    {
+      "action": "no_signal",
+      "underlying_price": 738.515,
+      "prior_high": 741.87,
+      "prior_low": 733.89,
+      "signal": null,
+      "ts": "2026-05-21T14:30:04.446007+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-21T14:30:04.156896+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "skip_open",
       "reason": "meets_budget=False",
@@ -671,26 +687,6 @@
       "close_ts": "2026-05-19T16:00:04.696277+00:00",
       "ts": "2026-05-19T16:00:04.696284+00:00",
       "_strategy": "ic"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "50% profit target hit (61.8%)",
-      "close_cost": 0.29,
-      "pnl_per_contract": 47.0,
-      "pnl_pct": 0.618,
-      "ts": "2026-05-19T16:00:04.696016+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -32.4%",
-      "current_mid": 0.11499999999999999,
-      "pnl_per_contract": -5.5,
-      "pnl_pct": -0.324,
-      "ts": "2026-05-19T15:30:05.493570+00:00",
-      "_strategy": "lottery"
     }
   ]
 }
