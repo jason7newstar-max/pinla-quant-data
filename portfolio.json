@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-20T20:10:05.605262+00:00",
+  "as_of": "2026-05-21T02:48:02.140113+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 741.09,
-    "bid": 741.04,
-    "ask": 741.1,
-    "volume": 40866897,
-    "mark": 741.1
+    "last": 738.305,
+    "bid": 738.25,
+    "ask": 738.35,
+    "volume": 45768035,
+    "mark": 738.35
   },
   "live_account": {
     "account_type": "CASH",
@@ -32,6 +32,20 @@
     },
     "bounce": {
       "name": "bounce",
+      "starting_capital": 200.0,
+      "cash": 200.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 200.0,
+      "roi_pct": 0.0
+    },
+    "snapback": {
+      "name": "snapback",
       "starting_capital": 200.0,
       "cash": 200.0,
       "open_position": null,
@@ -77,6 +91,11 @@
   "leaderboard": [
     {
       "name": "bounce",
+      "roi_pct": 0.0,
+      "portfolio_value": 200.0
+    },
+    {
+      "name": "snapback",
       "roi_pct": 0.0,
       "portfolio_value": 200.0
     },
