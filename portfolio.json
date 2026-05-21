@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-21T19:10:09.138184+00:00",
+  "as_of": "2026-05-21T19:40:07.526432+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 742.305,
-    "bid": 742.29,
-    "ask": 742.32,
-    "volume": 31479850,
-    "mark": 742.305
+    "last": 742.9175,
+    "bid": 742.9,
+    "ask": 742.93,
+    "volume": 33989004,
+    "mark": 742.9175
   },
   "live_account": {
     "account_type": "CASH",
@@ -19,29 +19,16 @@
     "lottery": {
       "name": null,
       "starting_capital": 200.0,
-      "cash": 137.0,
-      "open_position": {
-        "side": "call",
-        "strike": 746.0,
-        "delta": 0.097,
-        "entry_price": 0.15,
-        "contracts": 2,
-        "total_cost": 29.0,
-        "underlying_at_open": 742.24,
-        "expiration": "2026-05-21",
-        "open_ts": "2026-05-21T17:30:07.341240+00:00",
-        "current_mid": 0.04,
-        "unrealized_pnl_dollar": -21.0,
-        "unrealized_pnl_pct": -0.7
-      },
-      "closed_trades_total": 3,
-      "closed_trades_today": 0,
+      "cash": 142.0,
+      "open_position": null,
+      "closed_trades_total": 4,
+      "closed_trades_today": 1,
       "wins": 1,
-      "win_rate": 0.333,
-      "today_pnl": 0,
-      "cumulative_pnl": -34.0,
-      "portfolio_value": 145.0,
-      "roi_pct": -0.275
+      "win_rate": 0.25,
+      "today_pnl": -24.0,
+      "cumulative_pnl": -58.0,
+      "portfolio_value": 142.0,
+      "roi_pct": -0.29
     },
     "bounce": {
       "name": "bounce",
@@ -124,11 +111,41 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.275,
-      "portfolio_value": 145.0
+      "roi_pct": -0.29,
+      "portfolio_value": 142.0
     }
   ],
   "events": [
+    {
+      "action": "close",
+      "side": "call",
+      "strike": 746.0,
+      "delta": 0.097,
+      "entry_price": 0.15,
+      "contracts": 2,
+      "total_cost": 29.0,
+      "underlying_at_open": 742.24,
+      "expiration": "2026-05-21",
+      "open_ts": "2026-05-21T17:30:07.341240+00:00",
+      "close_price": 0.025,
+      "close_proceeds": 5.0,
+      "pnl_dollar": -24.0,
+      "pnl_pct": -0.828,
+      "close_reason": "force_close",
+      "close_ts": "2026-05-21T19:30:07.463028+00:00",
+      "ts": "2026-05-21T19:30:07.463419+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "SL -83%",
+      "current_mid": 0.025,
+      "pnl_per_contract": -12.5,
+      "pnl_pct": -0.833,
+      "ts": "2026-05-21T19:30:07.462740+00:00",
+      "_strategy": "lottery"
+    },
     {
       "action": "monitor",
       "close": false,
@@ -544,36 +561,6 @@
       "close_ts": "2026-05-20T19:30:03.972261+00:00",
       "ts": "2026-05-20T19:30:03.972268+00:00",
       "_strategy": "ic"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -53.7%",
-      "close_cost": 1.26,
-      "pnl_per_contract": -44.0,
-      "pnl_pct": -0.537,
-      "ts": "2026-05-20T19:30:03.972023+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "close",
-      "side": "call",
-      "strike": 744.0,
-      "delta": 0.093,
-      "entry_price": 0.23,
-      "contracts": 2,
-      "total_cost": 45.0,
-      "underlying_at_open": 737.99,
-      "expiration": "2026-05-20",
-      "open_ts": "2026-05-20T14:30:06.128656+00:00",
-      "close_price": 0.28500000000000003,
-      "close_proceeds": 57.0,
-      "pnl_dollar": 12.0,
-      "pnl_pct": 0.267,
-      "close_reason": "force_close",
-      "close_ts": "2026-05-20T19:30:03.631636+00:00",
-      "ts": "2026-05-20T19:30:03.632035+00:00",
-      "_strategy": "lottery"
     }
   ]
 }
