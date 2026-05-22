@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T15:40:10.997801+00:00",
+  "as_of": "2026-05-22T16:10:13.204762+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 747.63,
-    "bid": 747.62,
-    "ask": 747.63,
-    "volume": 10793891,
-    "mark": 747.63
+    "last": 747.3,
+    "bid": 747.28,
+    "ask": 747.3,
+    "volume": 12100629,
+    "mark": 747.3
   },
   "live_account": {
     "account_type": "CASH",
@@ -31,9 +31,9 @@
         "underlying_at_open": 746.78,
         "expiration": "2026-05-22",
         "open_ts": "2026-05-22T14:00:05.954886+00:00",
-        "current_mid": 0.07,
-        "unrealized_pnl_dollar": -17.0,
-        "unrealized_pnl_pct": -0.567
+        "current_mid": 0.06,
+        "unrealized_pnl_dollar": -19.0,
+        "unrealized_pnl_pct": -0.633
       },
       "closed_trades_total": 4,
       "closed_trades_today": 0,
@@ -41,8 +41,8 @@
       "win_rate": 0.25,
       "today_pnl": 0,
       "cumulative_pnl": -58.0,
-      "portfolio_value": 127.0,
-      "roi_pct": -0.365
+      "portfolio_value": 125.0,
+      "roi_pct": -0.375
     },
     "bounce": {
       "name": "bounce",
@@ -101,29 +101,7 @@
       "roi_pct": 0.275
     }
   },
-  "ic": {
-    "action": "open",
-    "underlying_price_at_open": 747.17,
-    "expiration": "2026-05-22",
-    "strikes": {
-      "sc": 752.0,
-      "lc": 757.0,
-      "sp": 742.0,
-      "lp": 737.0
-    },
-    "net_credit": 0.62,
-    "max_loss_per_contract": 438.0,
-    "contracts": 1,
-    "open_ts": "2026-05-22T13:35:07.760631+00:00",
-    "ts": "2026-05-22T13:35:07.760643+00:00",
-    "mtm": {
-      "close": true,
-      "reason": "50% profit target hit (69.4%)",
-      "close_cost": 0.19,
-      "pnl_per_contract": 43.0,
-      "pnl_pct": 0.694
-    }
-  },
+  "ic": {},
   "leaderboard": [
     {
       "name": "butterfly",
@@ -147,11 +125,83 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.365,
-      "portfolio_value": 127.0
+      "roi_pct": -0.375,
+      "portfolio_value": 125.0
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T16:00:54.977587+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-22T16:00:15.880869+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "skip_open",
+      "reason": "meets_budget=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 747.52,
+      "strike": 748,
+      "short_exp": "2026-05-22",
+      "long_exp": "2026-05-26",
+      "net_debit": 1.78,
+      "cost_per_contract": 178.5,
+      "meets_budget": false,
+      "ts": "2026-05-22T16:00:14.433438+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "close",
+      "reason": "50% profit target hit (75.8%)",
+      "close_cost": 0.15,
+      "pnl_per_contract": 47.0,
+      "pnl_pct": 0.758,
+      "open_position": {
+        "action": "open",
+        "underlying_price_at_open": 747.17,
+        "expiration": "2026-05-22",
+        "strikes": {
+          "sc": 752.0,
+          "lc": 757.0,
+          "sp": 742.0,
+          "lp": 737.0
+        },
+        "net_credit": 0.62,
+        "max_loss_per_contract": 438.0,
+        "contracts": 1,
+        "open_ts": "2026-05-22T13:35:07.760631+00:00",
+        "ts": "2026-05-22T13:35:07.760643+00:00"
+      },
+      "close_ts": "2026-05-22T16:00:07.372348+00:00",
+      "ts": "2026-05-22T16:00:07.372355+00:00",
+      "_strategy": "ic"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "50% profit target hit (75.8%)",
+      "close_cost": 0.15,
+      "pnl_per_contract": 47.0,
+      "pnl_pct": 0.758,
+      "ts": "2026-05-22T16:00:07.372097+00:00",
+      "_strategy": "ic"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T15:45:16.223367+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -523,72 +573,6 @@
       "ts": "2026-05-21T16:00:06.840444+00:00",
       "strategy": "calendar",
       "_strategy": "calendar"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T16:00:06.288585+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T16:00:05.904692+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "close",
-      "reason": "50% profit target hit (77.9%)",
-      "close_cost": 0.15,
-      "pnl_per_contract": 53.0,
-      "pnl_pct": 0.779,
-      "open_position": {
-        "action": "open",
-        "underlying_price_at_open": 738.44,
-        "expiration": "2026-05-21",
-        "strikes": {
-          "sc": 744.0,
-          "lc": 749.0,
-          "sp": 732.0,
-          "lp": 727.0
-        },
-        "net_credit": 0.68,
-        "max_loss_per_contract": 432.0,
-        "contracts": 1,
-        "open_ts": "2026-05-21T13:35:03.493108+00:00",
-        "ts": "2026-05-21T13:35:03.493118+00:00"
-      },
-      "close_ts": "2026-05-21T16:00:03.337829+00:00",
-      "ts": "2026-05-21T16:00:03.337837+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "50% profit target hit (77.9%)",
-      "close_cost": 0.15,
-      "pnl_per_contract": 53.0,
-      "pnl_pct": 0.779,
-      "ts": "2026-05-21T16:00:03.336779+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T15:45:01.938714+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "no_signal",
-      "underlying_price": 738.8,
-      "prior_high": 741.87,
-      "prior_low": 733.89,
-      "signal": null,
-      "ts": "2026-05-21T15:30:06.143904+00:00",
-      "_strategy": "lottery"
     }
   ]
 }
