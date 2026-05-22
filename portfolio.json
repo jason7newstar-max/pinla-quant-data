@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T13:55:08.489424+00:00",
+  "as_of": "2026-05-22T14:10:08.836021+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 747.29,
-    "bid": 747.27,
-    "ask": 747.28,
-    "volume": 4704395,
-    "mark": 747.28
+    "last": 746.11,
+    "bid": 746.07,
+    "ask": 746.09,
+    "volume": 6153166,
+    "mark": 746.09
   },
   "live_account": {
     "account_type": "CASH",
@@ -19,16 +19,30 @@
     "lottery": {
       "name": null,
       "starting_capital": 200.0,
-      "cash": 142.0,
-      "open_position": null,
+      "cash": 113.0,
+      "open_position": {
+        "symbol": "SPY",
+        "side": "call",
+        "strike": 753.0,
+        "delta": 0.09,
+        "entry_price": 0.15,
+        "contracts": 2,
+        "total_cost": 29.0,
+        "underlying_at_open": 746.78,
+        "expiration": "2026-05-22",
+        "open_ts": "2026-05-22T14:00:05.954886+00:00",
+        "current_mid": 0.12,
+        "unrealized_pnl_dollar": -5.0,
+        "unrealized_pnl_pct": -0.167
+      },
       "closed_trades_total": 4,
       "closed_trades_today": 0,
       "wins": 1,
       "win_rate": 0.25,
       "today_pnl": 0,
       "cumulative_pnl": -58.0,
-      "portfolio_value": 142.0,
-      "roi_pct": -0.29
+      "portfolio_value": 137.0,
+      "roi_pct": -0.315
     },
     "bounce": {
       "name": "bounce",
@@ -75,8 +89,26 @@
     "butterfly": {
       "name": "butterfly",
       "starting_capital": 200.0,
-      "cash": 218.0,
-      "open_position": null,
+      "cash": 5.0,
+      "open_position": {
+        "underlying_symbol": "SPY",
+        "underlying_price": 747.01,
+        "expiration": "2026-05-22",
+        "atm_strike": 747.0,
+        "strikes": {
+          "sc": 747.0,
+          "lc": 752.0,
+          "sp": 747.0,
+          "lp": 742.0
+        },
+        "net_credit": 2.87,
+        "max_loss_per_contract": 213.0,
+        "meets_credit_threshold": true,
+        "real_money_collateral_required": 213.0,
+        "cost": 213.0,
+        "contracts": 1,
+        "open_ts": "2026-05-22T14:00:02.562756+00:00"
+      },
       "closed_trades_total": 3,
       "closed_trades_today": 0,
       "wins": 2,
@@ -104,10 +136,10 @@
     "ts": "2026-05-22T13:35:07.760643+00:00",
     "mtm": {
       "close": false,
-      "reason": "holding \u00b7 pnl 16.1%",
-      "close_cost": 0.52,
-      "pnl_per_contract": 10.0,
-      "pnl_pct": 0.161
+      "reason": "holding \u00b7 pnl 12.9%",
+      "close_cost": 0.54,
+      "pnl_per_contract": 8.0,
+      "pnl_pct": 0.129
     }
   },
   "leaderboard": [
@@ -133,11 +165,74 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.29,
-      "portfolio_value": 142.0
+      "roi_pct": -0.315,
+      "portfolio_value": 137.0
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "symbol": "SPY",
+      "side": "call",
+      "strike": 753.0,
+      "delta": 0.09,
+      "entry_price": 0.15,
+      "contracts": 2,
+      "total_cost": 29.0,
+      "underlying_at_open": 746.78,
+      "expiration": "2026-05-22",
+      "open_ts": "2026-05-22T14:00:05.954886+00:00",
+      "ts": "2026-05-22T14:00:05.955310+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "skip_open",
+      "reason": "meets_budget=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 747.04,
+      "strike": 747,
+      "short_exp": "2026-05-22",
+      "long_exp": "2026-05-26",
+      "net_debit": 1.61,
+      "cost_per_contract": 161.0,
+      "meets_budget": false,
+      "ts": "2026-05-22T14:00:04.925220+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "open",
+      "underlying_symbol": "SPY",
+      "underlying_price": 747.01,
+      "expiration": "2026-05-22",
+      "atm_strike": 747.0,
+      "strikes": {
+        "sc": 747.0,
+        "lc": 752.0,
+        "sp": 747.0,
+        "lp": 742.0
+      },
+      "net_credit": 2.87,
+      "max_loss_per_contract": 213.0,
+      "meets_credit_threshold": true,
+      "real_money_collateral_required": 213.0,
+      "cost": 213.0,
+      "contracts": 1,
+      "open_ts": "2026-05-22T14:00:02.562756+00:00",
+      "ts": "2026-05-22T14:00:02.563963+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl 16.1%",
+      "close_cost": 0.52,
+      "pnl_per_contract": 10.0,
+      "pnl_pct": 0.161,
+      "ts": "2026-05-22T14:00:01.894537+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "open",
       "underlying_price_at_open": 747.17,
@@ -515,65 +610,6 @@
       "ts": "2026-05-21T14:00:05.108169+00:00",
       "strategy": "calendar",
       "_strategy": "calendar"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "SPY",
-      "underlying_price": 739.81,
-      "expiration": "2026-05-21",
-      "atm_strike": 740.0,
-      "strikes": {
-        "sc": 740.0,
-        "lc": 745.0,
-        "sp": 740.0,
-        "lp": 735.0
-      },
-      "net_credit": 3.15,
-      "max_loss_per_contract": 185.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 185.0,
-      "cost": 185.0,
-      "contracts": 1,
-      "open_ts": "2026-05-21T14:00:04.843248+00:00",
-      "ts": "2026-05-21T14:00:04.844426+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "no_signal",
-      "underlying_price": 739.75,
-      "prior_high": 741.87,
-      "prior_low": 733.89,
-      "signal": null,
-      "ts": "2026-05-21T14:00:03.295081+00:00",
-      "_strategy": "lottery"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl 4.4%",
-      "close_cost": 0.65,
-      "pnl_per_contract": 3.0,
-      "pnl_pct": 0.044,
-      "ts": "2026-05-21T14:00:01.624282+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "open",
-      "underlying_price_at_open": 738.44,
-      "expiration": "2026-05-21",
-      "strikes": {
-        "sc": 744.0,
-        "lc": 749.0,
-        "sp": 732.0,
-        "lp": 727.0
-      },
-      "net_credit": 0.68,
-      "max_loss_per_contract": 432.0,
-      "contracts": 1,
-      "open_ts": "2026-05-21T13:35:03.493108+00:00",
-      "ts": "2026-05-21T13:35:03.493118+00:00",
-      "_strategy": "ic"
     }
   ]
 }
