@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T15:10:11.589880+00:00",
+  "as_of": "2026-05-22T15:40:10.997801+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 747.02,
-    "bid": 747.02,
-    "ask": 747.05,
-    "volume": 9153401,
-    "mark": 747.02
+    "last": 747.63,
+    "bid": 747.62,
+    "ask": 747.63,
+    "volume": 10793891,
+    "mark": 747.63
   },
   "live_account": {
     "account_type": "CASH",
@@ -31,9 +31,9 @@
         "underlying_at_open": 746.78,
         "expiration": "2026-05-22",
         "open_ts": "2026-05-22T14:00:05.954886+00:00",
-        "current_mid": 0.1,
-        "unrealized_pnl_dollar": -11.0,
-        "unrealized_pnl_pct": -0.367
+        "current_mid": 0.07,
+        "unrealized_pnl_dollar": -17.0,
+        "unrealized_pnl_pct": -0.567
       },
       "closed_trades_total": 4,
       "closed_trades_today": 0,
@@ -41,8 +41,8 @@
       "win_rate": 0.25,
       "today_pnl": 0,
       "cumulative_pnl": -58.0,
-      "portfolio_value": 133.0,
-      "roi_pct": -0.335
+      "portfolio_value": 127.0,
+      "roi_pct": -0.365
     },
     "bounce": {
       "name": "bounce",
@@ -118,10 +118,10 @@
     "ts": "2026-05-22T13:35:07.760643+00:00",
     "mtm": {
       "close": true,
-      "reason": "50% profit target hit (59.7%)",
-      "close_cost": 0.25,
-      "pnl_per_contract": 37.0,
-      "pnl_pct": 0.597
+      "reason": "50% profit target hit (69.4%)",
+      "close_cost": 0.19,
+      "pnl_per_contract": 43.0,
+      "pnl_pct": 0.694
     }
   },
   "leaderboard": [
@@ -147,11 +147,35 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.335,
-      "portfolio_value": 133.0
+      "roi_pct": -0.365,
+      "portfolio_value": 127.0
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T15:30:17.459978+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -43.3%",
+      "current_mid": 0.08499999999999999,
+      "pnl_per_contract": -6.5,
+      "pnl_pct": -0.433,
+      "ts": "2026-05-22T15:30:02.640630+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T15:15:12.737210+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -565,27 +589,6 @@
       "signal": null,
       "ts": "2026-05-21T15:30:06.143904+00:00",
       "_strategy": "lottery"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T15:30:04.332455+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T15:15:07.641938+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T15:00:12.419208+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
     }
   ]
 }
