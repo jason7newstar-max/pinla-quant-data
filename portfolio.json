@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T16:40:10.511053+00:00",
+  "as_of": "2026-05-22T17:10:09.734000+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 746.9591,
-    "bid": 746.93,
-    "ask": 746.95,
-    "volume": 13256892,
-    "mark": 746.95
+    "last": 747.8,
+    "bid": 747.79,
+    "ask": 747.8,
+    "volume": 14254779,
+    "mark": 747.8
   },
   "live_account": {
     "account_type": "CASH",
@@ -116,6 +116,42 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T17:00:18.504561+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "skip_open",
+      "reason": "meets_budget=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 747.31,
+      "strike": 747,
+      "short_exp": "2026-05-22",
+      "long_exp": "2026-05-26",
+      "net_debit": 1.88,
+      "cost_per_contract": 188.0,
+      "meets_budget": false,
+      "ts": "2026-05-22T17:00:04.768022+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-05-22T17:00:03.556082+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T16:45:17.947008+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -528,42 +564,6 @@
       "action": "open_failed",
       "reason": "no signal",
       "ts": "2026-05-21T17:15:04.777972+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_budget=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 738.96,
-      "strike": 739,
-      "short_exp": "2026-05-21",
-      "long_exp": "2026-05-26",
-      "net_debit": 3.13,
-      "cost_per_contract": 313.0,
-      "meets_budget": false,
-      "ts": "2026-05-21T17:00:06.431336+00:00",
-      "strategy": "calendar",
-      "_strategy": "calendar"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T17:00:05.908712+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T17:00:05.753381+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T16:45:02.939733+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
     }
