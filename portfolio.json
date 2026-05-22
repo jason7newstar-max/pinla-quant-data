@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T17:40:09.160594+00:00",
+  "as_of": "2026-05-22T18:10:08.710106+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 748.26,
-    "bid": 748.25,
-    "ask": 748.27,
-    "volume": 17294040,
-    "mark": 748.26
+    "last": 747.28,
+    "bid": 747.27,
+    "ask": 747.3,
+    "volume": 19152709,
+    "mark": 747.28
   },
   "live_account": {
     "account_type": "CASH",
@@ -47,8 +47,25 @@
     "snapback": {
       "name": "snapback",
       "starting_capital": 200.0,
-      "cash": 200.0,
-      "open_position": null,
+      "cash": 193.0,
+      "open_position": {
+        "symbol": "NVDA",
+        "underlying_price": 216.27,
+        "pct_change_30min": -0.0071,
+        "signal": "call",
+        "strike": 220.0,
+        "delta": 0.041,
+        "net_debit": 0.04,
+        "entry_price": 0.04,
+        "contracts": 1,
+        "cost_per_contract": 3.5,
+        "total_cost": 7.0,
+        "meets_budget": true,
+        "expiration": "2026-05-22",
+        "side": "call",
+        "cost": 7.0,
+        "open_ts": "2026-05-22T18:00:24.839381+00:00"
+      },
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
@@ -116,6 +133,35 @@
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "symbol": "NVDA",
+      "underlying_price": 216.27,
+      "pct_change_30min": -0.0071,
+      "signal": "call",
+      "strike": 220.0,
+      "delta": 0.041,
+      "net_debit": 0.04,
+      "entry_price": 0.04,
+      "contracts": 1,
+      "cost_per_contract": 3.5,
+      "total_cost": 7.0,
+      "meets_budget": true,
+      "expiration": "2026-05-22",
+      "side": "call",
+      "cost": 7.0,
+      "open_ts": "2026-05-22T18:00:24.839381+00:00",
+      "ts": "2026-05-22T18:00:24.840777+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T17:45:15.229392+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -545,27 +591,6 @@
       "ts": "2026-05-21T18:00:08.857384+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T17:45:07.689654+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open",
-      "side": "call",
-      "strike": 746.0,
-      "delta": 0.097,
-      "entry_price": 0.15,
-      "contracts": 2,
-      "total_cost": 29.0,
-      "underlying_at_open": 742.24,
-      "expiration": "2026-05-21",
-      "open_ts": "2026-05-21T17:30:07.341240+00:00",
-      "ts": "2026-05-21T17:30:07.342368+00:00",
-      "_strategy": "lottery"
     }
   ]
 }
