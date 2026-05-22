@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T05:25:09.566769+00:00",
+  "as_of": "2026-05-22T13:40:06.381800+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 744.1311,
-    "bid": 744.11,
-    "ask": 744.22,
-    "volume": 43332225,
-    "mark": 744.11
+    "last": 747.79,
+    "bid": 747.79,
+    "ask": 747.8,
+    "volume": 2479600,
+    "mark": 747.79
   },
   "live_account": {
     "account_type": "CASH",
@@ -87,7 +87,29 @@
       "roi_pct": 0.09
     }
   },
-  "ic": {},
+  "ic": {
+    "action": "open",
+    "underlying_price_at_open": 747.17,
+    "expiration": "2026-05-22",
+    "strikes": {
+      "sc": 752.0,
+      "lc": 757.0,
+      "sp": 742.0,
+      "lp": 737.0
+    },
+    "net_credit": 0.62,
+    "max_loss_per_contract": 438.0,
+    "contracts": 1,
+    "open_ts": "2026-05-22T13:35:07.760631+00:00",
+    "ts": "2026-05-22T13:35:07.760643+00:00",
+    "mtm": {
+      "close": false,
+      "reason": "holding \u00b7 pnl 9.7%",
+      "close_cost": 0.56,
+      "pnl_per_contract": 6.0,
+      "pnl_pct": 0.097
+    }
+  },
   "leaderboard": [
     {
       "name": "butterfly",
@@ -116,6 +138,23 @@
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "underlying_price_at_open": 747.17,
+      "expiration": "2026-05-22",
+      "strikes": {
+        "sc": 752.0,
+        "lc": 757.0,
+        "sp": 742.0,
+        "lp": 737.0
+      },
+      "net_credit": 0.62,
+      "max_loss_per_contract": 438.0,
+      "contracts": 1,
+      "open_ts": "2026-05-22T13:35:07.760631+00:00",
+      "ts": "2026-05-22T13:35:07.760643+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "close",
       "side": "call",
@@ -534,32 +573,6 @@
       "contracts": 1,
       "open_ts": "2026-05-21T13:35:03.493108+00:00",
       "ts": "2026-05-21T13:35:03.493118+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "close",
-      "reason": "force_close",
-      "close_cost": 1.26,
-      "pnl_per_contract": -44.0,
-      "pnl_pct": -0.537,
-      "open_position": {
-        "action": "open",
-        "underlying_price_at_open": 735.5054,
-        "expiration": "2026-05-20",
-        "strikes": {
-          "sc": 741.0,
-          "lc": 746.0,
-          "sp": 730.0,
-          "lp": 725.0
-        },
-        "net_credit": 0.82,
-        "max_loss_per_contract": 418.0,
-        "contracts": 1,
-        "open_ts": "2026-05-20T13:35:08.095494+00:00",
-        "ts": "2026-05-20T13:35:08.095506+00:00"
-      },
-      "close_ts": "2026-05-20T19:30:03.972261+00:00",
-      "ts": "2026-05-20T19:30:03.972268+00:00",
       "_strategy": "ic"
     }
   ]
