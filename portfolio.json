@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-05-22T16:10:13.204762+00:00",
+  "as_of": "2026-05-22T16:40:10.511053+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 747.3,
-    "bid": 747.28,
-    "ask": 747.3,
-    "volume": 12100629,
-    "mark": 747.3
+    "last": 746.9591,
+    "bid": 746.93,
+    "ask": 746.95,
+    "volume": 13256892,
+    "mark": 746.95
   },
   "live_account": {
     "account_type": "CASH",
@@ -19,30 +19,16 @@
     "lottery": {
       "name": null,
       "starting_capital": 200.0,
-      "cash": 113.0,
-      "open_position": {
-        "symbol": "SPY",
-        "side": "call",
-        "strike": 753.0,
-        "delta": 0.09,
-        "entry_price": 0.15,
-        "contracts": 2,
-        "total_cost": 29.0,
-        "underlying_at_open": 746.78,
-        "expiration": "2026-05-22",
-        "open_ts": "2026-05-22T14:00:05.954886+00:00",
-        "current_mid": 0.06,
-        "unrealized_pnl_dollar": -19.0,
-        "unrealized_pnl_pct": -0.633
-      },
-      "closed_trades_total": 4,
-      "closed_trades_today": 0,
+      "cash": 122.0,
+      "open_position": null,
+      "closed_trades_total": 5,
+      "closed_trades_today": 1,
       "wins": 1,
-      "win_rate": 0.25,
-      "today_pnl": 0,
-      "cumulative_pnl": -58.0,
-      "portfolio_value": 125.0,
-      "roi_pct": -0.375
+      "win_rate": 0.2,
+      "today_pnl": -20.0,
+      "cumulative_pnl": -78.0,
+      "portfolio_value": 122.0,
+      "roi_pct": -0.39
     },
     "bounce": {
       "name": "bounce",
@@ -125,11 +111,56 @@
     },
     {
       "name": "lottery",
-      "roi_pct": -0.375,
-      "portfolio_value": 125.0
+      "roi_pct": -0.39,
+      "portfolio_value": 122.0
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T16:30:27.420921+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "close",
+      "symbol": "SPY",
+      "side": "call",
+      "strike": 753.0,
+      "delta": 0.09,
+      "entry_price": 0.15,
+      "contracts": 2,
+      "total_cost": 29.0,
+      "underlying_at_open": 746.78,
+      "expiration": "2026-05-22",
+      "open_ts": "2026-05-22T14:00:05.954886+00:00",
+      "close_price": 0.045,
+      "close_proceeds": 9.0,
+      "pnl_dollar": -20.0,
+      "pnl_pct": -0.69,
+      "close_reason": "SL -70%",
+      "close_ts": "2026-05-22T16:30:08.395433+00:00",
+      "ts": "2026-05-22T16:30:08.395776+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "SL -70%",
+      "current_mid": 0.045,
+      "pnl_per_contract": -10.5,
+      "pnl_pct": -0.7,
+      "ts": "2026-05-22T16:30:08.395195+00:00",
+      "_strategy": "lottery"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-05-22T16:15:15.444693+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -535,44 +566,6 @@
       "ts": "2026-05-21T16:45:02.939733+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "no_signal",
-      "underlying_price": 738.755,
-      "prior_high": 741.87,
-      "prior_low": 733.89,
-      "signal": null,
-      "ts": "2026-05-21T16:30:11.859828+00:00",
-      "_strategy": "lottery"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T16:30:10.119655+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-05-21T16:15:07.818941+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_budget=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 739.3,
-      "strike": 739,
-      "short_exp": "2026-05-21",
-      "long_exp": "2026-05-26",
-      "net_debit": 3.04,
-      "cost_per_contract": 304.0,
-      "meets_budget": false,
-      "ts": "2026-05-21T16:00:06.840444+00:00",
-      "strategy": "calendar",
-      "_strategy": "calendar"
     }
   ]
 }
