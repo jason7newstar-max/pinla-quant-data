@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-06-02T14:55:06.600329+00:00",
+  "as_of": "2026-06-02T15:10:05.849438+00:00",
   "spy": {
     "symbol": "SPY",
-    "last": 759.52,
-    "bid": 759.51,
-    "ask": 759.52,
-    "volume": 8197320,
-    "mark": 759.52
+    "last": 760.1399,
+    "bid": 760.12,
+    "ask": 760.14,
+    "volume": 9707703,
+    "mark": 760.1399
   },
   "live_account": {
     "account_type": "CASH",
@@ -87,34 +87,16 @@
     "butterfly": {
       "name": "butterfly",
       "starting_capital": 700,
-      "cash": 575.0,
-      "open_position": {
-        "underlying_symbol": "SPY",
-        "underlying_price": 757.69,
-        "expiration": "2026-06-02",
-        "atm_strike": 758.0,
-        "strikes": {
-          "sc": 758.0,
-          "lc": 763.0,
-          "sp": 758.0,
-          "lp": 753.0
-        },
-        "net_credit": 2.06,
-        "max_loss_per_contract": 294.0,
-        "meets_credit_threshold": true,
-        "real_money_collateral_required": 294.0,
-        "cost": 294.0,
-        "contracts": 1,
-        "open_ts": "2026-06-02T14:00:02.128681+00:00"
-      },
-      "closed_trades_total": 12,
-      "closed_trades_today": 0,
+      "cash": 841.5,
+      "open_position": null,
+      "closed_trades_total": 13,
+      "closed_trades_today": 1,
       "wins": 8,
-      "win_rate": 0.667,
-      "today_pnl": 0,
-      "cumulative_pnl": 169.0,
-      "portfolio_value": 869.0,
-      "roi_pct": 0.2414
+      "win_rate": 0.615,
+      "today_pnl": -27.5,
+      "cumulative_pnl": 141.5,
+      "portfolio_value": 841.5,
+      "roi_pct": 0.2021
     },
     "volhedge": {
       "name": "volhedge",
@@ -166,8 +148,8 @@
   "leaderboard": [
     {
       "name": "butterfly",
-      "roi_pct": 0.2414,
-      "portfolio_value": 869.0
+      "roi_pct": 0.2021,
+      "portfolio_value": 841.5
     },
     {
       "name": "snapback",
@@ -201,6 +183,77 @@
     }
   ],
   "events": [
+    {
+      "action": "skip_open",
+      "reason": "cost $238.0 > cash $202.5",
+      "ts": "2026-06-02T15:03:06.859086+00:00",
+      "strategy": "ic_hifreq",
+      "_strategy": "ic_hifreq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-02T15:00:12.018948+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-06-02T15:00:06.099860+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -6.5%",
+      "current_value": 1.7950000000000004,
+      "pnl_per_contract": -12.5,
+      "pnl_pct": -0.065,
+      "ts": "2026-06-02T15:00:05.988402+00:00",
+      "strategy": "calendar",
+      "_strategy": "calendar"
+    },
+    {
+      "action": "close",
+      "underlying_symbol": "SPY",
+      "underlying_price": 757.69,
+      "expiration": "2026-06-02",
+      "atm_strike": 758.0,
+      "strikes": {
+        "sc": 758.0,
+        "lc": 763.0,
+        "sp": 758.0,
+        "lp": 753.0
+      },
+      "net_credit": 2.06,
+      "max_loss_per_contract": 294.0,
+      "meets_credit_threshold": true,
+      "real_money_collateral_required": 294.0,
+      "cost": 294.0,
+      "contracts": 1,
+      "open_ts": "2026-06-02T14:00:02.128681+00:00",
+      "close_reason": "defensive short delta (sc_delta=0.74 sp_delta=0.26)",
+      "pnl_dollar": -27.5,
+      "pnl_pct": -0.133,
+      "proceeds": 266.5,
+      "close_ts": "2026-06-02T15:00:05.117810+00:00",
+      "ts": "2026-06-02T15:00:05.118309+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "defensive short delta (sc_delta=0.74 sp_delta=0.26)",
+      "close_cost": 2.33,
+      "pnl_per_contract": -27.5,
+      "pnl_pct": -0.133,
+      "ts": "2026-06-02T15:00:05.117604+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -658,107 +711,6 @@
       "ts": "2026-06-01T17:00:01.501049+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -6.2%",
-      "current_mid": 0.07500000000000001,
-      "pnl_per_contract": -0.5,
-      "pnl_pct": -0.062,
-      "ts": "2026-06-01T16:45:02.170758+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open",
-      "symbol": "NVDA",
-      "underlying_price": 222.18,
-      "pct_change_30min": 0.0092,
-      "signal": "put",
-      "strike": 217.5,
-      "delta": -0.06,
-      "net_debit": 0.08,
-      "entry_price": 0.08,
-      "contracts": 1,
-      "cost_per_contract": 7.5,
-      "total_cost": 15.0,
-      "meets_budget": true,
-      "expiration": "2026-06-01",
-      "side": "put",
-      "cost": 15.0,
-      "open_ts": "2026-06-01T16:30:09.801145+00:00",
-      "ts": "2026-06-01T16:30:09.801575+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "close",
-      "symbol": "NVDA",
-      "underlying_price": 221.32,
-      "pct_change_30min": 0.0109,
-      "signal": "put",
-      "strike": 215.0,
-      "delta": -0.058,
-      "net_debit": 0.11,
-      "entry_price": 0.11,
-      "contracts": 1,
-      "cost_per_contract": 10.5,
-      "total_cost": 21.0,
-      "meets_budget": true,
-      "expiration": "2026-06-01",
-      "side": "put",
-      "cost": 21.0,
-      "open_ts": "2026-06-01T14:30:08.616173+00:00",
-      "close_reason": "SL -59%",
-      "pnl_dollar": -6.5,
-      "pnl_pct": -0.591,
-      "proceeds": 14.5,
-      "close_ts": "2026-06-01T16:15:06.227282+00:00",
-      "ts": "2026-06-01T16:15:06.227606+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "SL -59%",
-      "current_mid": 0.045,
-      "pnl_per_contract": -6.5,
-      "pnl_pct": -0.591,
-      "ts": "2026-06-01T16:15:06.227030+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $245.0 > cash $202.5",
-      "ts": "2026-06-01T16:03:06.907332+00:00",
-      "strategy": "ic_hifreq",
-      "_strategy": "ic_hifreq"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "SPY",
-      "underlying_price": 756.77,
-      "expiration": "2026-06-01",
-      "atm_strike": 757.0,
-      "strikes": {
-        "sc": 757.0,
-        "lc": 762.0,
-        "sp": 757.0,
-        "lp": 752.0
-      },
-      "net_credit": 1.55,
-      "max_loss_per_contract": 345.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 345.0,
-      "cost": 345.0,
-      "contracts": 1,
-      "open_ts": "2026-06-01T16:00:07.957790+00:00",
-      "ts": "2026-06-01T16:00:07.958455+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
     }
   ],
   "chart_data": {
@@ -2607,9 +2559,129 @@
         "t": 1780412100000,
         "o": 759.56,
         "h": 759.57,
-        "l": 759.515,
-        "c": 759.52,
-        "v": 8211
+        "l": 759.42,
+        "c": 759.43,
+        "v": 56949
+      },
+      {
+        "t": 1780412160000,
+        "o": 759.44,
+        "h": 759.5,
+        "l": 759.385,
+        "c": 759.47,
+        "v": 54007
+      },
+      {
+        "t": 1780412220000,
+        "o": 759.47,
+        "h": 759.63,
+        "l": 759.44,
+        "c": 759.625,
+        "v": 57404
+      },
+      {
+        "t": 1780412280000,
+        "o": 759.63,
+        "h": 759.7,
+        "l": 759.57,
+        "c": 759.62,
+        "v": 68671
+      },
+      {
+        "t": 1780412340000,
+        "o": 759.61,
+        "h": 759.73,
+        "l": 759.59,
+        "c": 759.72,
+        "v": 47385
+      },
+      {
+        "t": 1780412400000,
+        "o": 759.71,
+        "h": 759.76,
+        "l": 759.55,
+        "c": 759.64,
+        "v": 89110
+      },
+      {
+        "t": 1780412460000,
+        "o": 759.63,
+        "h": 759.78,
+        "l": 759.63,
+        "c": 759.66,
+        "v": 46403
+      },
+      {
+        "t": 1780412520000,
+        "o": 759.67,
+        "h": 759.74,
+        "l": 759.62,
+        "c": 759.711,
+        "v": 48159
+      },
+      {
+        "t": 1780412580000,
+        "o": 759.72,
+        "h": 759.73,
+        "l": 759.4,
+        "c": 759.46,
+        "v": 99668
+      },
+      {
+        "t": 1780412640000,
+        "o": 759.4686,
+        "h": 759.52,
+        "l": 759.41,
+        "c": 759.45,
+        "v": 25563
+      },
+      {
+        "t": 1780412700000,
+        "o": 759.46,
+        "h": 759.62,
+        "l": 759.375,
+        "c": 759.61,
+        "v": 48753
+      },
+      {
+        "t": 1780412760000,
+        "o": 759.61,
+        "h": 759.86,
+        "l": 759.53,
+        "c": 759.84,
+        "v": 45931
+      },
+      {
+        "t": 1780412820000,
+        "o": 759.8496,
+        "h": 760.07,
+        "l": 759.81,
+        "c": 760.05,
+        "v": 76006
+      },
+      {
+        "t": 1780412880000,
+        "o": 760.04,
+        "h": 760.11,
+        "l": 759.96,
+        "c": 760.09,
+        "v": 59359
+      },
+      {
+        "t": 1780412940000,
+        "o": 760.1,
+        "h": 760.115,
+        "l": 760.03,
+        "c": 760.1099,
+        "v": 61469
+      },
+      {
+        "t": 1780413000000,
+        "o": 760.1,
+        "h": 760.21,
+        "l": 760.09,
+        "c": 760.15,
+        "v": 12765
       }
     ]
   },
@@ -2750,6 +2822,10 @@
       {
         "t": "2026-06-01T19:00:04.648818+00:00",
         "v": 869.0
+      },
+      {
+        "t": "2026-06-02T15:00:05.117810+00:00",
+        "v": 841.5
       }
     ],
     "volhedge": [
