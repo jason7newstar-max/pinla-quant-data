@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T18:40:09.049011+00:00",
+  "as_of": "2026-06-03T19:10:07.933543+00:00",
   "spy": {
     "last": null,
     "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
@@ -160,6 +160,20 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T19:00:10.226509+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T18:45:08.624404+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -497,25 +511,11 @@
       "ts": "2026-06-02T17:15:07.145598+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $259.0 > cash $202.5",
-      "ts": "2026-06-02T17:03:04.817717+00:00",
-      "strategy": "ic_hifreq",
-      "_strategy": "ic_hifreq"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-02T17:00:30.447424+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
     }
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780483208843&endDate=1780512008843'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780485007780&endDate=1780513807780'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
