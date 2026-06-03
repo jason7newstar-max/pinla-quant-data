@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T15:40:07.495838+00:00",
+  "as_of": "2026-06-03T16:10:06.716880+00:00",
   "spy": {
     "last": null,
     "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
@@ -160,6 +160,20 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T16:00:12.113127+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T15:45:08.026996+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -530,41 +544,11 @@
       "ts": "2026-06-02T16:00:05.655879+00:00",
       "strategy": "calendar",
       "_strategy": "calendar"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "SPY",
-      "underlying_price": 759.7,
-      "expiration": "2026-06-02",
-      "atm_strike": 760.0,
-      "strikes": {
-        "sc": 760.0,
-        "lc": 765.0,
-        "sp": 760.0,
-        "lp": 755.0
-      },
-      "net_credit": 1.43,
-      "max_loss_per_contract": 357.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 357.0,
-      "cost": 357.0,
-      "contracts": 1,
-      "open_ts": "2026-06-02T16:00:03.144191+00:00",
-      "ts": "2026-06-02T16:00:03.145717+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-06-02T16:00:01.768671+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
     }
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780472407336&endDate=1780501207336'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780474206116&endDate=1780503006116'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
