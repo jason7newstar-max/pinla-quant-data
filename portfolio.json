@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T17:40:08.525249+00:00",
+  "as_of": "2026-06-03T18:10:08.323399+00:00",
   "spy": {
     "last": null,
     "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
@@ -160,6 +160,20 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T18:00:09.725048+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T17:45:08.095413+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -501,50 +515,11 @@
       "ts": "2026-06-02T17:00:09.897201+00:00",
       "strategy": "calendar",
       "_strategy": "calendar"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 759.7,
-      "expiration": "2026-06-02",
-      "atm_strike": 760.0,
-      "strikes": {
-        "sc": 760.0,
-        "lc": 765.0,
-        "sp": 760.0,
-        "lp": 755.0
-      },
-      "net_credit": 1.43,
-      "max_loss_per_contract": 357.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 357.0,
-      "cost": 357.0,
-      "contracts": 1,
-      "open_ts": "2026-06-02T16:00:03.144191+00:00",
-      "close_reason": "defensive short delta (sc_delta=0.45 sp_delta=0.55)",
-      "pnl_dollar": 28.0,
-      "pnl_pct": 0.196,
-      "proceeds": 385.0,
-      "close_ts": "2026-06-02T17:00:08.799620+00:00",
-      "ts": "2026-06-02T17:00:08.800116+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "defensive short delta (sc_delta=0.45 sp_delta=0.55)",
-      "close_cost": 1.15,
-      "pnl_per_contract": 28.0,
-      "pnl_pct": 0.196,
-      "ts": "2026-06-02T17:00:08.799401+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
     }
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780479608381&endDate=1780508408381'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780481407911&endDate=1780510207911'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
