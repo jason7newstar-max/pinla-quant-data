@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T18:10:08.323399+00:00",
+  "as_of": "2026-06-03T18:40:09.049011+00:00",
   "spy": {
     "last": null,
     "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
@@ -160,6 +160,20 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T18:30:09.210801+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-03T18:15:07.778333+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -497,29 +511,11 @@
       "ts": "2026-06-02T17:00:30.447424+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-06-02T17:00:16.609987+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +0.8%",
-      "current_value": 1.935,
-      "pnl_per_contract": 1.5,
-      "pnl_pct": 0.008,
-      "ts": "2026-06-02T17:00:09.897201+00:00",
-      "strategy": "calendar",
-      "_strategy": "calendar"
     }
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780481407911&endDate=1780510207911'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780483208843&endDate=1780512008843'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
