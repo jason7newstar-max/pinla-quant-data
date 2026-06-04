@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-04T16:10:03.715500+00:00",
+  "as_of": "2026-06-04T16:40:12.058019+00:00",
   "spy": {
     "last": null,
     "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
@@ -160,6 +160,20 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-04T16:30:08.287522+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-04T16:15:07.810932+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
     {
       "action": "open_failed",
       "reason": "no signal across pool",
@@ -408,13 +422,6 @@
       "_strategy": "ic_hifreq"
     },
     {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-02T19:00:11.291622+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
       "action": "monitor",
       "close": false,
       "reason": "holding \u00b7 pnl +9.9%",
@@ -472,13 +479,6 @@
       "_strategy": "butterfly"
     },
     {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-02T18:45:08.173034+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
       "action": "skip_open",
       "reason": "cost $269.0 > cash $202.5",
       "ts": "2026-06-02T18:03:04.994983+00:00",
@@ -511,7 +511,7 @@
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780560603403&endDate=1780589403403'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1780562411641&endDate=1780591211641'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
