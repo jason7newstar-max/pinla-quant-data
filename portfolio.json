@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-11T05:56:53.481423+00:00",
+  "as_of": "2026-06-11T06:06:15.984411+00:00",
   "spy": {
     "symbol": "SPY",
     "last": 722.8604,
@@ -139,69 +139,74 @@
       "name": "bearcall_qqq"
     },
     "bwb_agy": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "bwb_agy",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "bwb_agy"
+      "portfolio_value": 1000.0,
+      "roi_pct": 0.0
     },
     "bwb_dali": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "bwb_dali",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "bwb_dali"
+      "portfolio_value": 1000.0,
+      "roi_pct": 0.0
     },
     "bwb_ia10": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "bwb_ia10",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "bwb_ia10"
+      "portfolio_value": 1000.0,
+      "roi_pct": 0.0
     },
     "karen_bps": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "karen_bps",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "karen_bps"
+      "portfolio_value": 1000.0,
+      "roi_pct": 0.0
     },
     "mini_bcs": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "mini_bcs",
+      "starting_capital": 1000.0,
+      "cash": 1000.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "mini_bcs"
+      "portfolio_value": 1000.0,
+      "roi_pct": 0.0
     },
     "volhedge": {
       "name": "volhedge",
@@ -266,28 +271,28 @@
     },
     {
       "name": "bwb_agy",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 1000.0
     },
     {
       "name": "bwb_dali",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 1000.0
     },
     {
       "name": "bwb_ia10",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 1000.0
     },
     {
       "name": "karen_bps",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 1000.0
     },
     {
       "name": "mini_bcs",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 1000.0
     },
     {
       "name": "volhedge",
@@ -13595,11 +13600,36 @@
     "butterfly_iwm": [],
     "bearcall_spy": [],
     "bearcall_qqq": [],
-    "bwb_agy": [],
-    "bwb_dali": [],
-    "bwb_ia10": [],
-    "karen_bps": [],
-    "mini_bcs": [],
+    "bwb_agy": [
+      {
+        "t": null,
+        "v": 1000.0
+      }
+    ],
+    "bwb_dali": [
+      {
+        "t": null,
+        "v": 1000.0
+      }
+    ],
+    "bwb_ia10": [
+      {
+        "t": null,
+        "v": 1000.0
+      }
+    ],
+    "karen_bps": [
+      {
+        "t": null,
+        "v": 1000.0
+      }
+    ],
+    "mini_bcs": [
+      {
+        "t": null,
+        "v": 1000.0
+      }
+    ],
     "volhedge": [
       {
         "t": null,
