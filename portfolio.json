@@ -1,13 +1,25 @@
 {
-  "as_of": "2026-06-11T07:31:26.942247+00:00",
+  "as_of": "2026-06-11T09:02:52.498895+00:00",
   "market_open": false,
   "spy": {
     "symbol": "SPY",
-    "last": 722.8604,
-    "bid": 722.86,
-    "ask": 722.87,
-    "volume": 60341349,
-    "mark": 725.43
+    "last": 731.65,
+    "bid": 731.6,
+    "ask": 731.64,
+    "volume": 122997,
+    "mark": 731.6,
+    "change_pct": 0.85742249,
+    "close": 725.43
+  },
+  "qqq": {
+    "symbol": "QQQ",
+    "last": 703.3,
+    "bid": 703.27,
+    "ask": 703.35,
+    "volume": 444435,
+    "mark": 703.27,
+    "change_pct": 1.38534504,
+    "close": 693.69
   },
   "live_account": {
     "account_type": "CASH",
