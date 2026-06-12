@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-12T04:44:21.143374+00:00",
+  "as_of": "2026-06-12T05:14:11.039624+00:00",
   "market_open": false,
   "spy": {
     "symbol": "SPY",
@@ -23,13 +23,13 @@
   },
   "senate": {
     "date": "2026-06-12",
-    "ts": "2026-06-12T04:42:53.025608+00:00",
+    "ts": "2026-06-12T05:14:08.835599+00:00",
     "brief": "Date: 2026-06-12 (premarket/open).\nSPY $739.48 (+1.94% today, prev close 725.43).\nQQQ $719.38 (+3.70% today).\nVIX 19.4. Context: market rebounded hard the prior session after a week-long tech-led selloff; FOMC decision June 17.",
     "votes": [
       {
         "direction": "bull",
-        "confidence": 60,
-        "reason": "Momentum from rebound",
+        "confidence": 70,
+        "reason": "Momentum from strong rebound",
         "seat": "Llama-70B#1",
         "provider": "groq",
         "ok": true
@@ -37,7 +37,7 @@
       {
         "direction": "bull",
         "confidence": 70,
-        "reason": "Momentum rebound",
+        "reason": "Momentum from rebound",
         "seat": "Llama-70B#2",
         "provider": "groq",
         "ok": true
@@ -45,15 +45,15 @@
       {
         "direction": "bull",
         "confidence": 70,
-        "reason": "Momentum from rebound",
+        "reason": "Momentum rebound",
         "seat": "Llama-70B#3",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "bull",
-        "confidence": 60,
-        "reason": "Market rebounded strongly, FOMC decision uncertainty may fuel continued short-term gains",
+        "confidence": 70,
+        "reason": "Market rebounded sharply, VIX low, FOMC decision still 5 days away",
         "seat": "Llama-8B",
         "provider": "groq",
         "ok": true
@@ -61,64 +61,70 @@
       {
         "direction": "bull",
         "confidence": 60,
-        "reason": "Sharp rebound in tech-heavy indices suggests relief rally ahead of FOMC",
+        "reason": "sharp rebound in tech-heavy indices ahead of FOMC decision",
         "seat": "Llama4-Scout",
         "provider": "groq",
         "ok": true
       },
       {
-        "seat": "Llama4-Mav",
-        "provider": "groq",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
+        "direction": "bull",
+        "confidence": 75,
+        "reason": "Strong momentum from tech-led rebound ahead of FOMC meeting.",
         "seat": "DeepSeek",
         "provider": "openrouter",
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden"
+        "ok": true
       },
       {
+        "direction": "bull",
+        "confidence": 75,
+        "reason": "Tech rebound lifts sentiment ahead of FOMC; volatility moderate",
         "seat": "Qwen-Max",
         "provider": "openrouter",
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden"
+        "ok": true
       },
       {
+        "direction": "bull",
+        "confidence": 70,
+        "reason": "Strong rebound, pre-FOMC optimism and oversold tech rallying.",
         "seat": "Mistral",
         "provider": "openrouter",
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden"
+        "ok": true
       },
       {
+        "direction": "bull",
+        "confidence": 65,
+        "reason": "Rebound momentum into FOMC, VIX still elevated but falling",
         "seat": "Grok",
         "provider": "openrouter",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found"
+        "ok": true
       },
       {
+        "direction": "chop",
+        "confidence": 75,
+        "reason": "Pre-FOMC consolidation likely after massive tech rebound.",
         "seat": "GLM",
         "provider": "openrouter",
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden"
+        "ok": true
       },
       {
+        "direction": "bull",
+        "confidence": 75,
+        "reason": "Strong rebound post tech selloff, FOMC ahead, VIX suggests some underlying caution remains.",
         "seat": "Gemini-Flash",
         "provider": "openrouter",
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden"
+        "ok": true
       }
     ],
-    "seats_ok": 5,
-    "seats_total": 12,
+    "seats_ok": 11,
+    "seats_total": 11,
     "tally": {
-      "bull": 5,
+      "bull": 10,
       "bear": 0,
-      "chop": 0
+      "chop": 1
     },
     "consensus": "bull",
-    "strength": 1.0,
-    "dispersion": 0.0,
+    "strength": 0.903,
+    "dispersion": 0.091,
     "mode": "shadow"
   },
   "sentiment": {
