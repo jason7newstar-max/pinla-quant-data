@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-12T05:14:11.039624+00:00",
+  "as_of": "2026-06-12T05:45:52.286879+00:00",
   "market_open": false,
   "spy": {
     "symbol": "SPY",
@@ -7,9 +7,9 @@
     "bid": 739.45,
     "ask": 739.63,
     "volume": 86330522,
-    "mark": 739.45,
-    "change_pct": 1.93678232,
-    "close": 725.43
+    "mark": 737.76,
+    "change_pct": 0.23313815,
+    "close": 737.76
   },
   "qqq": {
     "symbol": "QQQ",
@@ -23,37 +23,37 @@
   },
   "senate": {
     "date": "2026-06-12",
-    "ts": "2026-06-12T05:14:08.835599+00:00",
-    "brief": "Date: 2026-06-12 (premarket/open).\nSPY $739.48 (+1.94% today, prev close 725.43).\nQQQ $719.38 (+3.70% today).\nVIX 19.4. Context: market rebounded hard the prior session after a week-long tech-led selloff; FOMC decision June 17.",
+    "ts": "2026-06-12T05:45:50.398413+00:00",
+    "brief": "Date: 2026-06-12 (premarket/open).\nSPY $739.48 (+0.23% today, prev close 737.76).\nQQQ $719.38 (+3.70% today).\nVIX 19.4. Context: market rebounded hard the prior session after a week-long tech-led selloff; FOMC decision June 17.",
     "votes": [
       {
         "direction": "bull",
-        "confidence": 70,
-        "reason": "Momentum from strong rebound",
+        "confidence": 60,
+        "reason": "Post-selloff rebound momentum",
         "seat": "Llama-70B#1",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "bull",
-        "confidence": 70,
-        "reason": "Momentum from rebound",
+        "confidence": 60,
+        "reason": "Post-selloff rebound momentum",
         "seat": "Llama-70B#2",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "bull",
-        "confidence": 70,
-        "reason": "Momentum rebound",
+        "confidence": 60,
+        "reason": "Momentum from rebound",
         "seat": "Llama-70B#3",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "bull",
-        "confidence": 70,
-        "reason": "Market rebounded sharply, VIX low, FOMC decision still 5 days away",
+        "confidence": 60,
+        "reason": "Market rebounding with VIX at lows, QQQ leading the charge, cautious optimism before FOMC",
         "seat": "Llama-8B",
         "provider": "groq",
         "ok": true
@@ -61,7 +61,7 @@
       {
         "direction": "bull",
         "confidence": 60,
-        "reason": "sharp rebound in tech-heavy indices ahead of FOMC decision",
+        "reason": "QQQ outpacing SPY, VIX easing, rebound momentum",
         "seat": "Llama4-Scout",
         "provider": "groq",
         "ok": true
@@ -69,7 +69,7 @@
       {
         "direction": "bull",
         "confidence": 75,
-        "reason": "Strong momentum from tech-led rebound ahead of FOMC meeting.",
+        "reason": "Strong tech rebound persists pre-FOMC, QQQ up 3.7% leading.",
         "seat": "DeepSeek",
         "provider": "openrouter",
         "ok": true
@@ -77,7 +77,7 @@
       {
         "direction": "bull",
         "confidence": 75,
-        "reason": "Tech rebound lifts sentiment ahead of FOMC; volatility moderate",
+        "reason": "Tech rebound and FOMC decision could fuel continued recovery in large-caps",
         "seat": "Qwen-Max",
         "provider": "openrouter",
         "ok": true
@@ -85,7 +85,7 @@
       {
         "direction": "bull",
         "confidence": 70,
-        "reason": "Strong rebound, pre-FOMC optimism and oversold tech rallying.",
+        "reason": "Tech rebound momentum, Fed pause expectations, VIX below 20",
         "seat": "Mistral",
         "provider": "openrouter",
         "ok": true
@@ -93,15 +93,15 @@
       {
         "direction": "bull",
         "confidence": 65,
-        "reason": "Rebound momentum into FOMC, VIX still elevated but falling",
+        "reason": "Tech rebound momentum into FOMC, VIX not elevated",
         "seat": "Grok",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 75,
-        "reason": "Pre-FOMC consolidation likely after massive tech rebound.",
+        "confidence": 65,
+        "reason": "Post-selloff relief fades pre-FOMC; VIX elevated.",
         "seat": "GLM",
         "provider": "openrouter",
         "ok": true
@@ -109,22 +109,46 @@
       {
         "direction": "bull",
         "confidence": 75,
-        "reason": "Strong rebound post tech selloff, FOMC ahead, VIX suggests some underlying caution remains.",
+        "reason": "Strong tech rebound after selloff, pre-FOMC optimism could sustain rally short-term.",
         "seat": "Gemini-Flash",
+        "provider": "openrouter",
+        "ok": true
+      },
+      {
+        "direction": "bull",
+        "confidence": 70,
+        "reason": "Massive tech outperformance and prior session's hard rebound signal continued short-term momentum ahead of FOMC.",
+        "seat": "Gemini3-Pro",
+        "provider": "openrouter",
+        "ok": true
+      },
+      {
+        "direction": "chop",
+        "confidence": 55,
+        "reason": "Hard rebound after tech selloff likely consolidates; elevated VIX and looming FOMC cap follow-through.",
+        "seat": "GPT-5.5",
+        "provider": "openrouter",
+        "ok": true
+      },
+      {
+        "direction": "chop",
+        "confidence": 55,
+        "reason": "Sharp rebound likely consolidates; elevated VIX and FOMC June 17 cap follow-through conviction.",
+        "seat": "Fable-5",
         "provider": "openrouter",
         "ok": true
       }
     ],
-    "seats_ok": 11,
-    "seats_total": 11,
+    "seats_ok": 14,
+    "seats_total": 14,
     "tally": {
-      "bull": 10,
+      "bull": 11,
       "bear": 0,
-      "chop": 1
+      "chop": 3
     },
     "consensus": "bull",
-    "strength": 0.903,
-    "dispersion": 0.091,
+    "strength": 0.807,
+    "dispersion": 0.214,
     "mode": "shadow"
   },
   "sentiment": {
