@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T15:40:07.690216+00:00",
+  "as_of": "2026-06-19T16:10:07.841971+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -606,6 +606,88 @@
     {
       "action": "open_failed",
       "reason": "no signal across pool",
+      "ts": "2026-06-19T16:00:05.640995+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.4%",
+      "close_cost": 1.4,
+      "pnl_per_contract": 0.5,
+      "pnl_pct": 0.004,
+      "ts": "2026-06-19T16:00:05.546331+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -0.2%",
+      "close_cost": 2.31,
+      "pnl_per_contract": -0.5,
+      "pnl_pct": -0.002,
+      "ts": "2026-06-19T16:00:05.136382+00:00",
+      "strategy": "bwb_dali",
+      "_strategy": "bwb_dali"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-06-19T16:00:04.652288+00:00",
+      "strategy": "bearcall_qqq",
+      "_strategy": "bearcall_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-06-19T16:00:04.599897+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.0%",
+      "close_cost": 0.73,
+      "pnl_per_contract": 0.0,
+      "pnl_pct": 0.0,
+      "ts": "2026-06-19T16:00:04.493095+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-06-19T16:00:04.411802+00:00",
+      "strategy": "butterfly_qqq",
+      "_strategy": "butterfly_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-06-19T16:00:04.374557+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-06-19T16:00:04.216021+00:00",
+      "strategy": "butterfly_iwm",
+      "_strategy": "butterfly_iwm"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T15:45:01.748024+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
       "ts": "2026-06-19T15:30:04.170415+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
@@ -945,124 +1027,6 @@
       "ts": "2026-06-18T19:30:14.131890+00:00",
       "strategy": "bwb_dali",
       "_strategy": "bwb_dali"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -99.2%",
-      "close_cost": 0.02,
-      "pnl_per_contract": -261.0,
-      "pnl_pct": -0.992,
-      "ts": "2026-06-18T19:30:14.131080+00:00",
-      "strategy": "bwb_dali",
-      "_strategy": "bwb_dali"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "hold \u00b7 DTE 22 \u00b7 pnl -73%",
-      "current_mid": 0.35,
-      "pnl_per_contract": -94.5,
-      "pnl_pct": -0.727,
-      "ts": "2026-06-18T19:30:12.388021+00:00",
-      "strategy": "volhedge",
-      "_strategy": "volhedge"
-    },
-    {
-      "action": "close",
-      "symbol": "NVDA",
-      "underlying_price": 210.74,
-      "pct_change_30min": 0.0071,
-      "signal": "put",
-      "strike": 207.5,
-      "delta": -0.068,
-      "net_debit": 0.07,
-      "entry_price": 0.07,
-      "contracts": 1,
-      "cost_per_contract": 6.5,
-      "total_cost": 13.0,
-      "meets_budget": true,
-      "expiration": "2026-06-18",
-      "side": "put",
-      "cost": 13.0,
-      "open_ts": "2026-06-18T16:45:15.015056+00:00",
-      "close_reason": "force_close",
-      "pnl_dollar": 0.5,
-      "pnl_pct": 0.071,
-      "proceeds": 13.5,
-      "close_ts": "2026-06-18T19:30:09.250441+00:00",
-      "ts": "2026-06-18T19:30:09.251619+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +7.1%",
-      "current_mid": 0.07500000000000001,
-      "pnl_per_contract": 0.5,
-      "pnl_pct": 0.071,
-      "ts": "2026-06-18T19:30:09.250202+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +7.1%",
-      "current_mid": 0.07500000000000001,
-      "pnl_per_contract": 0.5,
-      "pnl_pct": 0.071,
-      "ts": "2026-06-18T19:15:02.230806+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -100.0%",
-      "close_cost": 0.0,
-      "pnl_per_contract": -263.0,
-      "pnl_pct": -1.0,
-      "ts": "2026-06-18T19:00:08.152838+00:00",
-      "strategy": "bwb_dali",
-      "_strategy": "bwb_dali"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $345.5 > cash $194.5",
-      "ts": "2026-06-18T19:00:07.710889+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_credit_threshold=False",
-      "underlying_symbol": "IWM",
-      "underlying_price": 294.62,
-      "expiration": "2026-06-18",
-      "atm_strike": 295.0,
-      "net_credit": 0.7,
-      "max_loss_per_contract": 129.5,
-      "meets_credit_threshold": false,
-      "real_money_collateral_required": 129.5,
-      "ts": "2026-06-18T19:00:07.607446+00:00",
-      "strategy": "butterfly_iwm",
-      "_strategy": "butterfly_iwm"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-06-18T19:00:07.494734+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $470.0 > cash $200.0",
-      "ts": "2026-06-18T19:00:07.376709+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
     }
   ],
   "chart_data": {
