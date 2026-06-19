@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T15:10:04.475694+00:00",
+  "as_of": "2026-06-19T15:40:07.690216+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -604,6 +604,20 @@
   ],
   "events": [
     {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T15:30:04.170415+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T15:15:03.991359+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
       "action": "monitor",
       "close": false,
       "reason": "holding \u00b7 pnl +0.4%",
@@ -1049,33 +1063,6 @@
       "ts": "2026-06-18T19:00:07.376709+00:00",
       "strategy": "bearcall_spy",
       "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_credit_threshold=False",
-      "underlying_symbol": "QQQ",
-      "underlying_price": 739.44,
-      "expiration": "2026-06-18",
-      "short_strike": 741.0,
-      "long_strike": 746.0,
-      "net_credit": 0.21,
-      "max_loss_per_contract": 479.0,
-      "meets_credit_threshold": false,
-      "real_money_collateral_required": 479.0,
-      "ts": "2026-06-18T19:00:07.063880+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +35.7%",
-      "current_mid": 0.095,
-      "pnl_per_contract": 2.5,
-      "pnl_pct": 0.357,
-      "ts": "2026-06-18T19:00:06.099392+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
     }
   ],
   "chart_data": {
