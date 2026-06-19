@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T16:10:07.841971+00:00",
+  "as_of": "2026-06-19T16:40:06.649080+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -606,6 +606,20 @@
     {
       "action": "open_failed",
       "reason": "no signal across pool",
+      "ts": "2026-06-19T16:30:05.687955+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T16:15:04.053694+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
       "ts": "2026-06-19T16:00:05.640995+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
@@ -987,51 +1001,11 @@
       "ts": "2026-06-19T14:00:00.995211+00:00",
       "strategy": "bearcall_qqq",
       "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "open_attempt_failed",
-      "reason": "could not find short legs at target delta",
-      "ts": "2026-06-19T13:35:03.343757+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "QQQ",
-      "underlying_price": 730.775,
-      "entry_spot": 730.775,
-      "expiration": "2026-06-18",
-      "dte_target": 2,
-      "strikes": {
-        "sc": 728.0,
-        "lc": 713.0,
-        "sp": 703.0
-      },
-      "k_high": 728.0,
-      "k_mid": 713.0,
-      "k_low": 703.0,
-      "upper_wing": 15.0,
-      "lower_wing": 10.0,
-      "net_debit": 2.63,
-      "net_credit": -2.63,
-      "max_loss_per_contract": 263.0,
-      "real_money_collateral_required": 263.0,
-      "meets_credit_threshold": true,
-      "cost": 263.0,
-      "contracts": 1,
-      "open_ts": "2026-06-17T14:00:04.228273+00:00",
-      "close_reason": "force_close",
-      "pnl_dollar": -261.0,
-      "pnl_pct": -0.992,
-      "proceeds": 2.0,
-      "close_ts": "2026-06-18T19:30:14.131457+00:00",
-      "ts": "2026-06-18T19:30:14.131890+00:00",
-      "strategy": "bwb_dali",
-      "_strategy": "bwb_dali"
     }
   ],
   "chart_data": {
-    "QQQ": [],
-    "SPY": []
+    "SPY": [],
+    "QQQ": []
   },
   "equity_curves": {
     "lottery": [
