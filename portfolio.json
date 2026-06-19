@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T14:40:04.786775+00:00",
+  "as_of": "2026-06-19T14:55:04.958522+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -606,6 +606,13 @@
     {
       "action": "open_failed",
       "reason": "no signal across pool",
+      "ts": "2026-06-19T14:45:03.770932+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
       "ts": "2026-06-19T14:30:03.768152+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
@@ -1122,29 +1129,6 @@
       "ts": "2026-06-18T18:00:10.183618+00:00",
       "strategy": "butterfly_iwm",
       "_strategy": "butterfly_iwm"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "SPY",
-      "underlying_price": 747.06,
-      "expiration": "2026-06-18",
-      "atm_strike": 747.0,
-      "strikes": {
-        "sc": 747.0,
-        "lc": 752.0,
-        "sp": 747.0,
-        "lp": 742.0
-      },
-      "net_credit": 1.43,
-      "max_loss_per_contract": 357.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 357.0,
-      "cost": 357.0,
-      "contracts": 1,
-      "open_ts": "2026-06-18T18:00:10.115523+00:00",
-      "ts": "2026-06-18T18:00:10.116434+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
     }
   ],
   "chart_data": {
