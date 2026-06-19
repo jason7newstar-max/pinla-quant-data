@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T16:40:06.649080+00:00",
+  "as_of": "2026-06-19T17:10:06.176032+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -604,6 +604,95 @@
   ],
   "events": [
     {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -0.2%",
+      "close_cost": 2.31,
+      "pnl_per_contract": -0.5,
+      "pnl_pct": -0.002,
+      "ts": "2026-06-19T17:00:03.269964+00:00",
+      "strategy": "bwb_dali",
+      "_strategy": "bwb_dali"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.4%",
+      "close_cost": 1.4,
+      "pnl_per_contract": 0.5,
+      "pnl_pct": 0.004,
+      "ts": "2026-06-19T17:00:02.141832+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T17:00:02.032701+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.0%",
+      "close_cost": 0.73,
+      "pnl_per_contract": 0.0,
+      "pnl_pct": 0.0,
+      "ts": "2026-06-19T17:00:01.846747+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-06-19T17:00:01.683253+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-06-19T17:00:01.578950+00:00",
+      "strategy": "butterfly_iwm",
+      "_strategy": "butterfly_iwm"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-06-19T17:00:01.463505+00:00",
+      "strategy": "butterfly_qqq",
+      "_strategy": "butterfly_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-06-19T17:00:01.416463+00:00",
+      "strategy": "bearcall_qqq",
+      "_strategy": "bearcall_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-06-19T17:00:01.400439+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-06-19T17:00:01.400358+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T16:45:03.786958+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
       "action": "open_failed",
       "reason": "no signal across pool",
       "ts": "2026-06-19T16:30:05.687955+00:00",
@@ -848,159 +937,6 @@
       "ts": "2026-06-19T14:00:02.553113+00:00",
       "strategy": "volhedge",
       "_strategy": "volhedge"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "SPY",
-      "underlying_price": 746.94,
-      "entry_spot": 746.94,
-      "expiration": "2026-06-22",
-      "dte_target": 3,
-      "k_short": 744.0,
-      "k_long": 739.0,
-      "strikes": {
-        "sp": 744.0,
-        "lp": 739.0
-      },
-      "net_credit": 0.73,
-      "max_loss_per_contract": 427.0,
-      "real_money_collateral_required": 427.0,
-      "meets_credit_threshold": true,
-      "cost": 427.0,
-      "contracts": 1,
-      "open_ts": "2026-06-19T14:00:01.991827+00:00",
-      "ts": "2026-06-19T14:00:01.992227+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "QQQ",
-      "underlying_price": 739.78,
-      "entry_spot": 739.78,
-      "expiration": "2026-06-23",
-      "dte_target": 4,
-      "strikes": {
-        "sc": 740.0,
-        "lc": 734.0,
-        "sp": 731.0
-      },
-      "k_high": 740.0,
-      "k_mid": 734.0,
-      "k_low": 731.0,
-      "upper_wing": 6.0,
-      "lower_wing": 3.0,
-      "net_debit": 1.4,
-      "net_credit": -1.4,
-      "max_loss_per_contract": 140.5,
-      "real_money_collateral_required": 140.5,
-      "meets_credit_threshold": true,
-      "cost": 140.5,
-      "contracts": 1,
-      "open_ts": "2026-06-19T14:00:01.686924+00:00",
-      "ts": "2026-06-19T14:00:01.687233+00:00",
-      "strategy": "bwb_agy",
-      "_strategy": "bwb_agy"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ATM call",
-      "ts": "2026-06-19T14:00:01.524688+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ~0.30-delta short call",
-      "ts": "2026-06-19T14:00:01.357330+00:00",
-      "strategy": "mini_bcs",
-      "_strategy": "mini_bcs"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "QQQ",
-      "underlying_price": 739.78,
-      "entry_spot": 739.78,
-      "expiration": "2026-06-22",
-      "dte_target": 2,
-      "strikes": {
-        "sc": 737.0,
-        "lc": 722.0,
-        "sp": 712.0
-      },
-      "k_high": 737.0,
-      "k_mid": 722.0,
-      "k_low": 712.0,
-      "upper_wing": 15.0,
-      "lower_wing": 10.0,
-      "net_debit": 2.31,
-      "net_credit": -2.31,
-      "max_loss_per_contract": 230.5,
-      "real_money_collateral_required": 230.5,
-      "meets_credit_threshold": true,
-      "cost": 230.5,
-      "contracts": 1,
-      "open_ts": "2026-06-19T14:00:01.353878+00:00",
-      "ts": "2026-06-19T14:00:01.354159+00:00",
-      "strategy": "bwb_dali",
-      "_strategy": "bwb_dali"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ~0.30-delta short call",
-      "ts": "2026-06-19T14:00:01.269210+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-06-19T14:00:01.123886+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ATM call",
-      "ts": "2026-06-19T14:00:01.082639+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_credit_threshold=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 746.94,
-      "entry_spot": 746.94,
-      "expiration": "2026-06-22",
-      "dte_target": 0,
-      "k_high": 746.0,
-      "k_mid": 743.0,
-      "k_low": 741.0,
-      "upper_wing": 3.0,
-      "lower_wing": 2.0,
-      "net_debit": 0.4,
-      "net_credit": -0.4,
-      "max_loss_per_contract": 40.0,
-      "real_money_collateral_required": 40.0,
-      "meets_credit_threshold": false,
-      "ts": "2026-06-19T14:00:01.071454+00:00",
-      "strategy": "bwb_ia10",
-      "_strategy": "bwb_ia10"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ATM call",
-      "ts": "2026-06-19T14:00:01.028932+00:00",
-      "strategy": "butterfly_iwm",
-      "_strategy": "butterfly_iwm"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ~0.30-delta short call",
-      "ts": "2026-06-19T14:00:00.995211+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
     }
   ],
   "chart_data": {
