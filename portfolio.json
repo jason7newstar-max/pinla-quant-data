@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T17:10:06.176032+00:00",
+  "as_of": "2026-06-19T17:40:04.787845+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -604,6 +604,20 @@
   ],
   "events": [
     {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T17:30:04.327802+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T17:15:03.846999+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
       "action": "monitor",
       "close": false,
       "reason": "holding \u00b7 pnl -0.2%",
@@ -919,29 +933,11 @@
       "ts": "2026-06-19T14:45:03.770932+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-19T14:30:03.768152+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "hold \u00b7 DTE 21 \u00b7 pnl -78%",
-      "current_mid": 0.29,
-      "pnl_per_contract": -101.5,
-      "pnl_pct": -0.781,
-      "ts": "2026-06-19T14:00:02.553113+00:00",
-      "strategy": "volhedge",
-      "_strategy": "volhedge"
     }
   ],
   "chart_data": {
-    "SPY": [],
-    "QQQ": []
+    "QQQ": [],
+    "SPY": []
   },
   "equity_curves": {
     "lottery": [
