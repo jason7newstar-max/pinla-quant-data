@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T14:25:05.111882+00:00",
+  "as_of": "2026-06-19T14:40:04.786775+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -604,6 +604,13 @@
   ],
   "events": [
     {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T14:30:03.768152+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
       "action": "monitor",
       "close": false,
       "reason": "hold \u00b7 DTE 21 \u00b7 pnl -78%",
@@ -1138,40 +1145,11 @@
       "ts": "2026-06-18T18:00:10.116434+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 744.8,
-      "entry_spot": 744.82,
-      "expiration": "2026-06-22",
-      "dte_target": 3,
-      "k_short": 739.0,
-      "k_long": 734.0,
-      "strikes": {
-        "sp": 739.0,
-        "lp": 734.0
-      },
-      "net_credit": 0.81,
-      "max_loss_per_contract": 419.5,
-      "real_money_collateral_required": 419.5,
-      "meets_credit_threshold": true,
-      "cost": 419.5,
-      "contracts": 1,
-      "open_ts": "2026-06-18T14:00:07.177761+00:00",
-      "close_reason": "TP +53%",
-      "pnl_dollar": 43.0,
-      "pnl_pct": 0.531,
-      "proceeds": 462.5,
-      "close_ts": "2026-06-18T18:00:09.892069+00:00",
-      "ts": "2026-06-18T18:00:09.892377+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
     }
   ],
   "chart_data": {
-    "SPY": [],
-    "QQQ": []
+    "QQQ": [],
+    "SPY": []
   },
   "equity_curves": {
     "lottery": [
