@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T19:10:05.941531+00:00",
+  "as_of": "2026-06-19T19:40:06.751901+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -606,6 +606,57 @@
     {
       "action": "monitor",
       "close": false,
+      "reason": "hold \u00b7 DTE 21 \u00b7 pnl -78%",
+      "current_mid": 0.29,
+      "pnl_per_contract": -101.5,
+      "pnl_pct": -0.781,
+      "ts": "2026-06-19T19:30:09.549648+00:00",
+      "strategy": "volhedge",
+      "_strategy": "volhedge"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -0.2%",
+      "close_cost": 2.31,
+      "pnl_per_contract": -0.5,
+      "pnl_pct": -0.002,
+      "ts": "2026-06-19T19:30:04.932114+00:00",
+      "strategy": "bwb_dali",
+      "_strategy": "bwb_dali"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.4%",
+      "close_cost": 1.4,
+      "pnl_per_contract": 0.5,
+      "pnl_pct": 0.004,
+      "ts": "2026-06-19T19:30:03.855936+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.0%",
+      "close_cost": 0.73,
+      "pnl_per_contract": 0.0,
+      "pnl_pct": 0.0,
+      "ts": "2026-06-19T19:30:03.350306+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T19:15:04.310473+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "monitor",
+      "close": false,
       "reason": "holding \u00b7 pnl +0.4%",
       "close_cost": 1.4,
       "pnl_per_contract": 0.5,
@@ -883,46 +934,11 @@
       "ts": "2026-06-19T17:00:01.400439+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "could not find ATM call",
-      "ts": "2026-06-19T17:00:01.400358+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-19T16:45:03.786958+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-19T16:30:05.687955+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-19T16:15:04.053694+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal across pool",
-      "ts": "2026-06-19T16:00:05.640995+00:00",
-      "strategy": "snapback",
-      "_strategy": "snapback"
     }
   ],
   "chart_data": {
-    "QQQ": [],
-    "SPY": []
+    "SPY": [],
+    "QQQ": []
   },
   "equity_curves": {
     "lottery": [
