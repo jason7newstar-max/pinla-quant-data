@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-19T18:10:04.722173+00:00",
+  "as_of": "2026-06-19T18:40:05.377252+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -604,6 +604,20 @@
   ],
   "events": [
     {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T18:30:05.903784+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
+      "ts": "2026-06-19T18:15:04.013342+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
       "action": "monitor",
       "close": false,
       "reason": "holding \u00b7 pnl +0.0%",
@@ -904,33 +918,11 @@
       "ts": "2026-06-19T15:15:03.991359+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +0.4%",
-      "close_cost": 1.4,
-      "pnl_per_contract": 0.5,
-      "pnl_pct": 0.004,
-      "ts": "2026-06-19T15:00:05.563456+00:00",
-      "strategy": "bwb_agy",
-      "_strategy": "bwb_agy"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -0.2%",
-      "close_cost": 2.31,
-      "pnl_per_contract": -0.5,
-      "pnl_pct": -0.002,
-      "ts": "2026-06-19T15:00:04.743540+00:00",
-      "strategy": "bwb_dali",
-      "_strategy": "bwb_dali"
     }
   ],
   "chart_data": {
-    "QQQ": [],
-    "SPY": []
+    "SPY": [],
+    "QQQ": []
   },
   "equity_curves": {
     "lottery": [
