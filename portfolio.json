@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-30T14:55:10.565148+00:00",
+  "as_of": "2026-06-30T15:10:11.590949+00:00",
   "market_open": true,
   "spy": {
     "last": null,
@@ -601,6 +601,13 @@
     {
       "action": "open_failed",
       "reason": "no signal across pool",
+      "ts": "2026-06-30T15:00:13.916505+00:00",
+      "strategy": "snapback",
+      "_strategy": "snapback"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal across pool",
       "ts": "2026-06-30T14:45:17.071973+00:00",
       "strategy": "snapback",
       "_strategy": "snapback"
@@ -1139,21 +1146,14 @@
       "ts": "2026-06-29T18:00:10.143016+00:00",
       "strategy": "butterfly_qqq",
       "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $461.0 > cash $200.0",
-      "ts": "2026-06-29T18:00:10.017930+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
     }
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1782802509678&endDate=1782831309678'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1782803410874&endDate=1782832210874'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     },
     "QQQ": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1782802509678&endDate=1782831309678'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1782803410874&endDate=1782832210874'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
