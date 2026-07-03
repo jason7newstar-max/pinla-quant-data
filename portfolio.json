@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-03T16:40:07.724761+00:00",
+  "as_of": "2026-07-03T17:10:03.239807+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -612,6 +612,63 @@
       "close_cost": 1.47,
       "pnl_per_contract": -0.5,
       "pnl_pct": -0.003,
+      "ts": "2026-07-03T17:00:01.673164+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.7%",
+      "close_cost": 0.71,
+      "pnl_per_contract": 0.5,
+      "pnl_pct": 0.007,
+      "ts": "2026-07-03T17:00:01.451479+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-07-03T17:00:01.036825+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-07-03T17:00:01.014538+00:00",
+      "strategy": "bearcall_qqq",
+      "_strategy": "bearcall_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-07-03T17:00:00.985982+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-07-03T17:00:00.951699+00:00",
+      "strategy": "butterfly_qqq",
+      "_strategy": "butterfly_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-07-03T17:00:00.922747+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -0.3%",
+      "close_cost": 1.47,
+      "pnl_per_contract": -0.5,
+      "pnl_pct": -0.003,
       "ts": "2026-07-03T16:00:01.399710+00:00",
       "strategy": "bwb_agy",
       "_strategy": "bwb_agy"
@@ -980,84 +1037,6 @@
       "ts": "2026-07-02T19:00:09.150914+00:00",
       "strategy": "bearcall_qqq",
       "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $276.0 > cash $125.0",
-      "ts": "2026-07-02T19:00:09.045172+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-07-02T19:00:08.987801+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 740.19,
-      "expiration": "2026-07-02",
-      "atm_strike": 740.0,
-      "strikes": {
-        "sc": 740.0,
-        "lc": 745.0,
-        "sp": 740.0,
-        "lp": 735.0
-      },
-      "net_credit": 2.07,
-      "max_loss_per_contract": 293.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 293.0,
-      "cost": 293.0,
-      "contracts": 1,
-      "open_ts": "2026-07-02T18:00:06.355196+00:00",
-      "close_reason": "defensive short delta (sc_delta=0.90 sp_delta=0.11)",
-      "pnl_dollar": -100.0,
-      "pnl_pct": -0.483,
-      "proceeds": 193.0,
-      "close_ts": "2026-07-02T19:00:07.600592+00:00",
-      "ts": "2026-07-02T19:00:07.601985+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "defensive short delta (sc_delta=0.90 sp_delta=0.11)",
-      "close_cost": 3.07,
-      "pnl_per_contract": -100.0,
-      "pnl_pct": -0.483,
-      "ts": "2026-07-02T19:00:07.600383+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $228.5 > cash $125.0",
-      "ts": "2026-07-02T18:00:06.942689+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +121.8%",
-      "close_cost": 2.95,
-      "pnl_per_contract": 162.0,
-      "pnl_pct": 1.218,
-      "ts": "2026-07-02T18:00:06.591266+00:00",
-      "strategy": "bwb_agy",
-      "_strategy": "bwb_agy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $462.0 > cash $200.0",
-      "ts": "2026-07-02T18:00:06.574054+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
     }
   ],
   "chart_data": {
