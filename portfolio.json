@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-03T16:10:04.168256+00:00",
+  "as_of": "2026-07-03T16:40:07.724761+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -1061,8 +1061,8 @@
     }
   ],
   "chart_data": {
-    "QQQ": [],
-    "SPY": []
+    "SPY": [],
+    "QQQ": []
   },
   "equity_curves": {
     "lottery": [
