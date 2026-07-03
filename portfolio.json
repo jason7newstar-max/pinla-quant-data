@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-03T14:55:07.559579+00:00",
+  "as_of": "2026-07-03T15:10:06.847285+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -374,10 +374,10 @@
       "closed_trades_today": 0,
       "wins": 2,
       "win_rate": 0.2,
-      "today_pnl": 0.0,
+      "today_pnl": -0.5,
       "cumulative_pnl": 82.0,
-      "portfolio_value": 1082.0,
-      "roi_pct": 0.082
+      "portfolio_value": 1081.5,
+      "roi_pct": 0.0815
     },
     "bwb_dali": {
       "name": "bwb_dali",
@@ -459,10 +459,10 @@
       "closed_trades_today": 0,
       "wins": 6,
       "win_rate": 0.667,
-      "today_pnl": 0.0,
+      "today_pnl": 0.5,
       "cumulative_pnl": 153.0,
-      "portfolio_value": 1153.0,
-      "roi_pct": 0.153
+      "portfolio_value": 1153.5,
+      "roi_pct": 0.1535
     },
     "mini_bcs": {
       "name": "mini_bcs",
@@ -530,13 +530,13 @@
     },
     {
       "name": "karen_bps",
-      "roi_pct": 0.153,
-      "portfolio_value": 1153.0
+      "roi_pct": 0.1535,
+      "portfolio_value": 1153.5
     },
     {
       "name": "bwb_agy",
-      "roi_pct": 0.082,
-      "portfolio_value": 1082.0
+      "roi_pct": 0.0815,
+      "portfolio_value": 1081.5
     },
     {
       "name": "bearcall_spy",
@@ -605,6 +605,85 @@
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -0.3%",
+      "close_cost": 1.47,
+      "pnl_per_contract": -0.5,
+      "pnl_pct": -0.003,
+      "ts": "2026-07-03T15:00:04.732071+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "skip_open",
+      "reason": "meets_credit_threshold=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 745.7383,
+      "entry_spot": 745.7383,
+      "expiration": "2026-07-06",
+      "dte_target": 0,
+      "k_high": 745.0,
+      "k_mid": 742.0,
+      "k_low": 740.0,
+      "upper_wing": 3.0,
+      "lower_wing": 2.0,
+      "net_debit": 0.63,
+      "net_credit": -0.63,
+      "max_loss_per_contract": 63.0,
+      "real_money_collateral_required": 63.0,
+      "meets_credit_threshold": false,
+      "ts": "2026-07-03T15:00:03.212960+00:00",
+      "strategy": "bwb_ia10",
+      "_strategy": "bwb_ia10"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.7%",
+      "close_cost": 0.71,
+      "pnl_per_contract": 0.5,
+      "pnl_pct": 0.007,
+      "ts": "2026-07-03T15:00:02.723269+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-07-03T15:00:02.633539+00:00",
+      "strategy": "butterfly_qqq",
+      "_strategy": "butterfly_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-07-03T15:00:02.582075+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-07-03T15:00:02.575888+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-07-03T15:00:02.575856+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-07-03T15:00:02.575617+00:00",
+      "strategy": "bearcall_qqq",
+      "_strategy": "bearcall_qqq"
+    },
     {
       "action": "open",
       "underlying_symbol": "QQQ",
@@ -1044,107 +1123,6 @@
       "ts": "2026-07-02T17:00:04.998654+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +126.7%",
-      "close_cost": 3.02,
-      "pnl_per_contract": 168.5,
-      "pnl_pct": 1.267,
-      "ts": "2026-07-02T17:00:04.713790+00:00",
-      "strategy": "bwb_agy",
-      "_strategy": "bwb_agy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $195.5 > cash $125.0",
-      "ts": "2026-07-02T17:00:02.815547+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $411.5 > cash $200.0",
-      "ts": "2026-07-02T17:00:02.645107+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $451.0 > cash $200.0",
-      "ts": "2026-07-02T17:00:02.227125+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 744.71,
-      "expiration": "2026-07-02",
-      "atm_strike": 745.0,
-      "strikes": {
-        "sc": 745.0,
-        "lc": 750.0,
-        "sp": 745.0,
-        "lp": 740.0
-      },
-      "net_credit": 2.45,
-      "max_loss_per_contract": 255.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 255.0,
-      "cost": 255.0,
-      "contracts": 1,
-      "open_ts": "2026-07-02T16:00:09.696994+00:00",
-      "close_reason": "defensive short delta (sc_delta=0.18 sp_delta=0.82)",
-      "pnl_dollar": -39.0,
-      "pnl_pct": -0.159,
-      "proceeds": 216.0,
-      "close_ts": "2026-07-02T17:00:01.508088+00:00",
-      "ts": "2026-07-02T17:00:01.509258+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "defensive short delta (sc_delta=0.18 sp_delta=0.82)",
-      "close_cost": 2.84,
-      "pnl_per_contract": -39.0,
-      "pnl_pct": -0.159,
-      "ts": "2026-07-02T17:00:01.507901+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $420.0 > cash $200.0",
-      "ts": "2026-07-02T16:00:10.028500+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "open",
-      "underlying_symbol": "SPY",
-      "underlying_price": 744.71,
-      "expiration": "2026-07-02",
-      "atm_strike": 745.0,
-      "strikes": {
-        "sc": 745.0,
-        "lc": 750.0,
-        "sp": 745.0,
-        "lp": 740.0
-      },
-      "net_credit": 2.45,
-      "max_loss_per_contract": 255.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 255.0,
-      "cost": 255.0,
-      "contracts": 1,
-      "open_ts": "2026-07-02T16:00:09.696994+00:00",
-      "ts": "2026-07-02T16:00:09.699887+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
     }
   ],
   "chart_data": {
