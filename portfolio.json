@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-03T13:55:07.465829+00:00",
+  "as_of": "2026-07-03T14:10:05.949344+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -191,15 +191,15 @@
     "mode": "live"
   },
   "risk_dial": {
-    "ts": "2026-07-02T19:00:09.220457+00:00",
+    "ts": "2026-07-03T14:00:03.973101+00:00",
     "active": true,
-    "senate_consensus": "bull",
-    "senate_strength": 1.0,
-    "senate_dispersion": 0.0,
-    "size_mult": 1.0,
-    "combined_value": 6206,
+    "senate_consensus": "chop",
+    "senate_strength": 0.566,
+    "senate_dispersion": 0.429,
+    "size_mult": 0.743,
+    "combined_value": 6366,
     "peak": 7750,
-    "drawdown_pct": -19.93,
+    "drawdown_pct": -17.86,
     "halt": false,
     "open_count": 3,
     "exposure_cap": 8,
@@ -344,13 +344,37 @@
     "bwb_agy": {
       "name": "bwb_agy",
       "starting_capital": 1000.0,
-      "cash": 1082.0,
-      "open_position": null,
+      "cash": 935.5,
+      "open_position": {
+        "underlying_symbol": "QQQ",
+        "underlying_price": 714.185,
+        "entry_spot": 714.185,
+        "expiration": "2026-07-07",
+        "dte_target": 4,
+        "strikes": {
+          "sc": 714.0,
+          "lc": 708.0,
+          "sp": 705.0
+        },
+        "k_high": 714.0,
+        "k_mid": 708.0,
+        "k_low": 705.0,
+        "upper_wing": 6.0,
+        "lower_wing": 3.0,
+        "net_debit": 1.47,
+        "net_credit": -1.47,
+        "max_loss_per_contract": 146.5,
+        "real_money_collateral_required": 146.5,
+        "meets_credit_threshold": true,
+        "cost": 146.5,
+        "contracts": 1,
+        "open_ts": "2026-07-03T14:00:03.973369+00:00"
+      },
       "closed_trades_total": 10,
       "closed_trades_today": 0,
       "wins": 2,
       "win_rate": 0.2,
-      "today_pnl": 0,
+      "today_pnl": 0.0,
       "cumulative_pnl": 82.0,
       "portfolio_value": 1082.0,
       "roi_pct": 0.082
@@ -410,13 +434,32 @@
     "karen_bps": {
       "name": "karen_bps",
       "starting_capital": 1000.0,
-      "cash": 1153.0,
-      "open_position": null,
+      "cash": 723.5,
+      "open_position": {
+        "underlying_symbol": "SPY",
+        "underlying_price": 745.7383,
+        "entry_spot": 745.7383,
+        "expiration": "2026-07-06",
+        "dte_target": 3,
+        "k_short": 741.0,
+        "k_long": 736.0,
+        "strikes": {
+          "sp": 741.0,
+          "lp": 736.0
+        },
+        "net_credit": 0.71,
+        "max_loss_per_contract": 429.5,
+        "real_money_collateral_required": 429.5,
+        "meets_credit_threshold": true,
+        "cost": 429.5,
+        "contracts": 1,
+        "open_ts": "2026-07-03T14:00:02.246000+00:00"
+      },
       "closed_trades_total": 9,
       "closed_trades_today": 0,
       "wins": 6,
       "win_rate": 0.667,
-      "today_pnl": 0,
+      "today_pnl": 0.0,
       "cumulative_pnl": 153.0,
       "portfolio_value": 1153.0,
       "roi_pct": 0.153
@@ -458,10 +501,10 @@
       "closed_trades_today": 0,
       "wins": 0,
       "win_rate": null,
-      "today_pnl": -125.5,
+      "today_pnl": -127.5,
       "cumulative_pnl": 0,
-      "portfolio_value": 74.5,
-      "roi_pct": -0.6275
+      "portfolio_value": 72.5,
+      "roi_pct": -0.6375
     },
     "ic_hifreq": {
       "name": "ic_hifreq",
@@ -547,8 +590,8 @@
     },
     {
       "name": "volhedge",
-      "roi_pct": -0.6275,
-      "portfolio_value": 74.5
+      "roi_pct": -0.6375,
+      "portfolio_value": 72.5
     },
     {
       "name": "butterfly_iwm",
@@ -562,6 +605,159 @@
     }
   ],
   "events": [
+    {
+      "action": "open",
+      "underlying_symbol": "QQQ",
+      "underlying_price": 714.185,
+      "entry_spot": 714.185,
+      "expiration": "2026-07-07",
+      "dte_target": 4,
+      "strikes": {
+        "sc": 714.0,
+        "lc": 708.0,
+        "sp": 705.0
+      },
+      "k_high": 714.0,
+      "k_mid": 708.0,
+      "k_low": 705.0,
+      "upper_wing": 6.0,
+      "lower_wing": 3.0,
+      "net_debit": 1.47,
+      "net_credit": -1.47,
+      "max_loss_per_contract": 146.5,
+      "real_money_collateral_required": 146.5,
+      "meets_credit_threshold": true,
+      "cost": 146.5,
+      "contracts": 1,
+      "open_ts": "2026-07-03T14:00:03.973369+00:00",
+      "ts": "2026-07-03T14:00:03.973852+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "skip_open",
+      "reason": "cost $101.0 > cash $73.00",
+      "ts": "2026-07-03T14:00:03.965542+00:00",
+      "strategy": "volhedge",
+      "_strategy": "volhedge"
+    },
+    {
+      "action": "close",
+      "symbol": "SPY",
+      "side": "put",
+      "strike": 635.0,
+      "delta": -0.049,
+      "iv_at_open": 30.02,
+      "expiration": "2026-07-10",
+      "dte_at_open": 29,
+      "entry_price": 1.3,
+      "contracts": 1,
+      "total_cost": 130.0,
+      "cost": 130.0,
+      "underlying_at_open": 729.74,
+      "open_ts": "2026-06-11T14:00:03.282825+00:00",
+      "close_price": 0.03,
+      "close_proceeds": 3.0,
+      "pnl_dollar": -127.0,
+      "pnl_pct": -0.977,
+      "close_reason": "roll \u00b7 DTE 7 \u2264 7",
+      "close_ts": "2026-07-03T14:00:02.705995+00:00",
+      "ts": "2026-07-03T14:00:02.706004+00:00",
+      "strategy": "volhedge",
+      "_strategy": "volhedge"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "roll \u00b7 DTE 7 \u2264 7",
+      "current_mid": 0.03,
+      "pnl_per_contract": -127.5,
+      "pnl_pct": -0.981,
+      "ts": "2026-07-03T14:00:02.705714+00:00",
+      "strategy": "volhedge",
+      "_strategy": "volhedge"
+    },
+    {
+      "action": "open",
+      "underlying_symbol": "SPY",
+      "underlying_price": 745.7383,
+      "entry_spot": 745.7383,
+      "expiration": "2026-07-06",
+      "dte_target": 3,
+      "k_short": 741.0,
+      "k_long": 736.0,
+      "strikes": {
+        "sp": 741.0,
+        "lp": 736.0
+      },
+      "net_credit": 0.71,
+      "max_loss_per_contract": 429.5,
+      "real_money_collateral_required": 429.5,
+      "meets_credit_threshold": true,
+      "cost": 429.5,
+      "contracts": 1,
+      "open_ts": "2026-07-03T14:00:02.246000+00:00",
+      "ts": "2026-07-03T14:00:02.246831+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "skip_open",
+      "reason": "meets_credit_threshold=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 745.7383,
+      "entry_spot": 745.7383,
+      "expiration": "2026-07-06",
+      "dte_target": 0,
+      "k_high": 745.0,
+      "k_mid": 742.0,
+      "k_low": 740.0,
+      "upper_wing": 3.0,
+      "lower_wing": 2.0,
+      "net_debit": 0.63,
+      "net_credit": -0.63,
+      "max_loss_per_contract": 63.0,
+      "real_money_collateral_required": 63.0,
+      "meets_credit_threshold": false,
+      "ts": "2026-07-03T14:00:01.689620+00:00",
+      "strategy": "bwb_ia10",
+      "_strategy": "bwb_ia10"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-07-03T14:00:01.557179+00:00",
+      "strategy": "butterfly_qqq",
+      "_strategy": "butterfly_qqq"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-07-03T14:00:01.544671+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-07-03T14:00:01.516649+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-07-03T14:00:01.475312+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-07-03T14:00:01.253218+00:00",
+      "strategy": "bearcall_qqq",
+      "_strategy": "bearcall_qqq"
+    },
     {
       "action": "open_attempt_failed",
       "reason": "could not find short legs at target delta",
@@ -949,112 +1145,6 @@
       "ts": "2026-07-02T16:00:09.699887+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +127.1%",
-      "close_cost": 3.02,
-      "pnl_per_contract": 169.0,
-      "pnl_pct": 1.271,
-      "ts": "2026-07-02T16:00:09.077909+00:00",
-      "strategy": "bwb_agy",
-      "_strategy": "bwb_agy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $179.0 > cash $125.0",
-      "ts": "2026-07-02T16:00:07.927257+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-07-02T16:00:06.778034+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $419.5 > cash $200.0",
-      "ts": "2026-07-02T16:00:06.489062+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -47.7%",
-      "close_cost": 0.96,
-      "pnl_per_contract": -31.0,
-      "pnl_pct": -0.477,
-      "ts": "2026-07-02T16:00:04.284888+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_credit_threshold=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 747.43,
-      "entry_spot": 747.43,
-      "expiration": "2026-07-02",
-      "dte_target": 0,
-      "k_high": 746.0,
-      "k_mid": 743.0,
-      "k_low": 741.0,
-      "upper_wing": 3.0,
-      "lower_wing": 2.0,
-      "net_debit": 0.41,
-      "net_credit": -0.41,
-      "max_loss_per_contract": 41.0,
-      "real_money_collateral_required": 41.0,
-      "meets_credit_threshold": false,
-      "ts": "2026-07-02T15:00:08.153072+00:00",
-      "strategy": "bwb_ia10",
-      "_strategy": "bwb_ia10"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +147.4%",
-      "close_cost": 3.29,
-      "pnl_per_contract": 196.0,
-      "pnl_pct": 1.474,
-      "ts": "2026-07-02T15:00:07.947955+00:00",
-      "strategy": "bwb_agy",
-      "_strategy": "bwb_agy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $450.0 > cash $200.0",
-      "ts": "2026-07-02T15:00:06.752674+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-07-02T15:00:06.688120+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "skip_open",
-      "reason": "cost $410.5 > cash $200.0",
-      "ts": "2026-07-02T15:00:06.611262+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl 7.7%",
-      "close_cost": 0.6,
-      "pnl_per_contract": 5.0,
-      "pnl_pct": 0.077,
-      "ts": "2026-07-02T15:00:05.487576+00:00",
-      "_strategy": "ic"
     }
   ],
   "chart_data": {
