@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-24T14:55:07.294983+00:00",
+  "as_of": "2026-07-24T15:10:05.255172+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 739.05,
-    "bid": 739.05,
-    "ask": 739.07,
-    "volume": 10121514,
-    "mark": 739.05,
-    "change_pct": 0.11785743,
+    "last": 739.66,
+    "bid": 739.66,
+    "ask": 739.67,
+    "volume": 11965481,
+    "mark": 739.66,
+    "change_pct": 0.2004931,
     "close": 738.18
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 686.0,
-    "bid": 685.99,
-    "ask": 686.03,
-    "volume": 12784802,
-    "mark": 686.0,
-    "change_pct": -0.86132146,
+    "last": 686.08,
+    "bid": 686.07,
+    "ask": 686.1,
+    "volume": 14067264,
+    "mark": 686.08,
+    "change_pct": -0.8497601,
     "close": 691.96
   },
   "senate": {
@@ -212,7 +212,7 @@
     "mode": "live"
   },
   "risk_dial": {
-    "ts": "2026-07-24T14:00:04.152004+00:00",
+    "ts": "2026-07-24T15:00:05.418499+00:00",
     "active": true,
     "senate_consensus": "bear",
     "senate_strength": 0.81,
@@ -485,29 +485,7 @@
       "roi_pct": -0.3233
     }
   },
-  "ic": {
-    "action": "open",
-    "underlying_price_at_open": 739.53,
-    "expiration": "2026-07-24",
-    "strikes": {
-      "sc": 744.0,
-      "lc": 749.0,
-      "sp": 735.0,
-      "lp": 730.0
-    },
-    "net_credit": 0.58,
-    "max_loss_per_contract": 442.0,
-    "contracts": 1,
-    "open_ts": "2026-07-24T13:35:04.312884+00:00",
-    "ts": "2026-07-24T13:35:04.312895+00:00",
-    "mtm": {
-      "close": false,
-      "reason": "holding \u00b7 pnl 48.3%",
-      "close_cost": 0.3,
-      "pnl_per_contract": 28.0,
-      "pnl_pct": 0.483
-    }
-  },
+  "ic": {},
   "leaderboard": [
     {
       "name": "karen_bps",
@@ -591,6 +569,98 @@
     }
   ],
   "events": [
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:05.418737+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:05.138258+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:05.126478+00:00",
+      "strategy": "bwb_agy",
+      "_strategy": "bwb_agy"
+    },
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:04.987132+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:04.980731+00:00",
+      "strategy": "butterfly_qqq",
+      "_strategy": "butterfly_qqq"
+    },
+    {
+      "action": "close",
+      "reason": "50% profit target hit (50.0%)",
+      "close_cost": 0.29,
+      "pnl_per_contract": 29.0,
+      "pnl_pct": 0.5,
+      "open_position": {
+        "action": "open",
+        "underlying_price_at_open": 739.53,
+        "expiration": "2026-07-24",
+        "strikes": {
+          "sc": 744.0,
+          "lc": 749.0,
+          "sp": 735.0,
+          "lp": 730.0
+        },
+        "net_credit": 0.58,
+        "max_loss_per_contract": 442.0,
+        "contracts": 1,
+        "open_ts": "2026-07-24T13:35:04.312884+00:00",
+        "ts": "2026-07-24T13:35:04.312895+00:00"
+      },
+      "close_ts": "2026-07-24T15:00:04.619397+00:00",
+      "ts": "2026-07-24T15:00:04.619405+00:00",
+      "_strategy": "ic"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "50% profit target hit (50.0%)",
+      "close_cost": 0.29,
+      "pnl_per_contract": 29.0,
+      "pnl_pct": 0.5,
+      "ts": "2026-07-24T15:00:04.619183+00:00",
+      "_strategy": "ic"
+    },
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:04.575315+00:00",
+      "strategy": "bwb_ia10",
+      "_strategy": "bwb_ia10"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-07-24T15:00:04.487878+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "skip_open",
+      "reason": "coop:drawdown-halt (-22%)",
+      "ts": "2026-07-24T15:00:04.394273+00:00",
+      "strategy": "bearcall_qqq",
+      "_strategy": "bearcall_qqq"
+    },
     {
       "action": "skip_open",
       "reason": "coop:drawdown-halt (-22%)",
@@ -848,77 +918,6 @@
       "action": "skip_open",
       "reason": "coop:drawdown-halt (-22%)",
       "ts": "2026-07-23T17:00:01.339619+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T17:00:01.261020+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T16:00:02.248347+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T16:00:01.768981+00:00",
-      "strategy": "butterfly_qqq",
-      "_strategy": "butterfly_qqq"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "legs not found in chain",
-      "error": true,
-      "ts": "2026-07-23T16:00:01.364253+00:00",
-      "_strategy": "ic"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T16:00:01.357011+00:00",
-      "strategy": "bearcall_qqq",
-      "_strategy": "bearcall_qqq"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T16:00:01.155167+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T16:00:01.143677+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T15:00:08.749739+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T15:00:07.715998+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "skip_open",
-      "reason": "coop:drawdown-halt (-22%)",
-      "ts": "2026-07-23T15:00:07.497625+00:00",
       "strategy": "bearcall_qqq",
       "_strategy": "bearcall_qqq"
     }
@@ -2808,10 +2807,130 @@
       {
         "t": 1784904900000,
         "o": 685.89,
-        "h": 686.09,
+        "h": 686.585,
         "l": 685.84,
-        "c": 686.09,
-        "v": 7707
+        "c": 686.51,
+        "v": 64387
+      },
+      {
+        "t": 1784904960000,
+        "o": 686.5,
+        "h": 686.7,
+        "l": 686.2581,
+        "c": 686.68,
+        "v": 41400
+      },
+      {
+        "t": 1784905020000,
+        "o": 686.72,
+        "h": 687.61,
+        "l": 686.72,
+        "c": 687.43,
+        "v": 123956
+      },
+      {
+        "t": 1784905080000,
+        "o": 687.41,
+        "h": 688.01,
+        "l": 687.08,
+        "c": 688.0,
+        "v": 61159
+      },
+      {
+        "t": 1784905140000,
+        "o": 688.005,
+        "h": 688.539,
+        "l": 688.0,
+        "c": 688.28,
+        "v": 96088
+      },
+      {
+        "t": 1784905200000,
+        "o": 688.3,
+        "h": 688.68,
+        "l": 687.83,
+        "c": 688.675,
+        "v": 147733
+      },
+      {
+        "t": 1784905260000,
+        "o": 688.68,
+        "h": 688.94,
+        "l": 687.79,
+        "c": 687.81,
+        "v": 177640
+      },
+      {
+        "t": 1784905320000,
+        "o": 687.78,
+        "h": 687.94,
+        "l": 687.45,
+        "c": 687.8296,
+        "v": 52993
+      },
+      {
+        "t": 1784905380000,
+        "o": 687.82,
+        "h": 687.955,
+        "l": 687.35,
+        "c": 687.4995,
+        "v": 43020
+      },
+      {
+        "t": 1784905440000,
+        "o": 687.5,
+        "h": 687.62,
+        "l": 687.13,
+        "c": 687.18,
+        "v": 42862
+      },
+      {
+        "t": 1784905500000,
+        "o": 687.17,
+        "h": 687.51,
+        "l": 687.11,
+        "c": 687.27,
+        "v": 44988
+      },
+      {
+        "t": 1784905560000,
+        "o": 687.25,
+        "h": 687.48,
+        "l": 686.73,
+        "c": 686.74,
+        "v": 57512
+      },
+      {
+        "t": 1784905620000,
+        "o": 686.69,
+        "h": 687.01,
+        "l": 686.41,
+        "c": 686.98,
+        "v": 75329
+      },
+      {
+        "t": 1784905680000,
+        "o": 686.975,
+        "h": 687.5681,
+        "l": 686.955,
+        "c": 687.04,
+        "v": 79547
+      },
+      {
+        "t": 1784905740000,
+        "o": 687.09,
+        "h": 687.35,
+        "l": 686.13,
+        "c": 686.15,
+        "v": 36337
+      },
+      {
+        "t": 1784905800000,
+        "o": 686.18,
+        "h": 686.19,
+        "l": 685.975,
+        "c": 686.17,
+        "v": 9487
       }
     ],
     "SPY": [
@@ -4650,10 +4769,130 @@
       {
         "t": 1784904900000,
         "o": 739.01,
-        "h": 739.1495,
+        "h": 739.44,
         "l": 739.01,
-        "c": 739.1399,
-        "v": 5609
+        "c": 739.385,
+        "v": 48836
+      },
+      {
+        "t": 1784904960000,
+        "o": 739.37,
+        "h": 739.525,
+        "l": 739.2501,
+        "c": 739.5115,
+        "v": 52595
+      },
+      {
+        "t": 1784905020000,
+        "o": 739.54,
+        "h": 740.12,
+        "l": 739.53,
+        "c": 740.04,
+        "v": 120388
+      },
+      {
+        "t": 1784905080000,
+        "o": 740.04,
+        "h": 740.425,
+        "l": 739.84,
+        "c": 740.425,
+        "v": 76216
+      },
+      {
+        "t": 1784905140000,
+        "o": 740.4225,
+        "h": 740.7,
+        "l": 740.41,
+        "c": 740.59,
+        "v": 114675
+      },
+      {
+        "t": 1784905200000,
+        "o": 740.59,
+        "h": 740.87,
+        "l": 740.33,
+        "c": 740.86,
+        "v": 132562
+      },
+      {
+        "t": 1784905260000,
+        "o": 740.86,
+        "h": 740.96,
+        "l": 740.42,
+        "c": 740.48,
+        "v": 82040
+      },
+      {
+        "t": 1784905320000,
+        "o": 740.46,
+        "h": 740.54,
+        "l": 740.25,
+        "c": 740.49,
+        "v": 47160
+      },
+      {
+        "t": 1784905380000,
+        "o": 740.48,
+        "h": 740.5651,
+        "l": 740.29,
+        "c": 740.39,
+        "v": 41583
+      },
+      {
+        "t": 1784905440000,
+        "o": 740.4,
+        "h": 740.47,
+        "l": 740.21,
+        "c": 740.24,
+        "v": 50460
+      },
+      {
+        "t": 1784905500000,
+        "o": 740.23,
+        "h": 740.49,
+        "l": 740.215,
+        "c": 740.41,
+        "v": 43991
+      },
+      {
+        "t": 1784905560000,
+        "o": 740.39,
+        "h": 740.535,
+        "l": 740.09,
+        "c": 740.1,
+        "v": 59628
+      },
+      {
+        "t": 1784905620000,
+        "o": 740.09,
+        "h": 740.23,
+        "l": 739.84,
+        "c": 740.221,
+        "v": 41034
+      },
+      {
+        "t": 1784905680000,
+        "o": 740.23,
+        "h": 740.64,
+        "l": 740.17,
+        "c": 740.25,
+        "v": 83092
+      },
+      {
+        "t": 1784905740000,
+        "o": 740.25,
+        "h": 740.34,
+        "l": 739.66,
+        "c": 739.6999,
+        "v": 53057
+      },
+      {
+        "t": 1784905800000,
+        "o": 739.69,
+        "h": 739.7299,
+        "l": 739.58,
+        "c": 739.7299,
+        "v": 17811
       }
     ]
   },
