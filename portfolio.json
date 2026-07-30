@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30T16:10:05.878751+00:00",
+  "as_of": "2026-07-30T16:40:06.154774+00:00",
   "market_open": true,
   "spy": {
     "last": null,
@@ -893,11 +893,11 @@
     }
   ],
   "chart_data": {
-    "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1785399005551&endDate=1785427805551'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
-    },
     "QQQ": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1785399005551&endDate=1785427805551'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1785400805783&endDate=1785429605783'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+    },
+    "SPY": {
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1785400805783&endDate=1785429605783'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
