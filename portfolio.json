@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-26T20:10:02.426094+00:00",
-  "market_open": false,
+  "as_of": "2026-08-27T13:40:06.929082+00:00",
+  "market_open": true,
   "spy": {
     "last": null,
     "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
@@ -159,51 +159,51 @@
     "mode": "live"
   },
   "sentiment": {
-    "date": "2026-08-26",
-    "ts": "2026-08-26T13:25:02.012495+00:00",
+    "date": "2026-08-27",
+    "ts": "2026-08-27T13:25:01.378103+00:00",
     "raw": {
       "fear_greed": {
         "err": "HTTP Error 418: Unknown Error"
       },
       "stocktwits_trending": [
         "NVDA",
-        "INTU",
-        "META",
-        "SMMT",
-        "CRML",
-        "IWM",
-        "KSS",
-        "SMTC",
-        "ZM",
-        "DKS",
-        "DIA",
-        "ZS"
+        "INFQ",
+        "WEN",
+        "CRM",
+        "CRWD",
+        "CSIQ",
+        "SOL.X",
+        "OKTA",
+        "PURR",
+        "RVMD",
+        "SNPS",
+        "HPQ"
       ],
       "wsb_hot": [
         "err:HTTP Error 403: Blocked"
       ]
     },
     "report": {
-      "mood": 62,
+      "mood": 78,
       "intensity": 71,
       "crowded": [
         "NVDA",
-        "INTU",
-        "META",
-        "SMMT",
-        "CRML",
-        "IWM",
-        "KSS",
-        "SMTC",
-        "ZM",
-        "DKS",
-        "DIA",
-        "ZS"
+        "INFQ",
+        "WEN",
+        "CRM",
+        "CRWD",
+        "CSIQ",
+        "SOL.X",
+        "OKTA",
+        "PURR",
+        "RVMD",
+        "SNPS",
+        "HPQ"
       ],
       "divergence": false,
-      "summary": "Retail chatter leans bullish, focusing on tech and consumer names, with moderate enthusiasm."
+      "summary": "Retail buzz heavily bullish on tech and AI names, indicating strong optimism."
     },
-    "zone": "elevated",
+    "zone": "extreme",
     "mode": "live"
   },
   "risk_dial": {
@@ -904,10 +904,10 @@
   ],
   "chart_data": {
     "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1787746202062&endDate=1787775002062'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1787809205885&endDate=1787838005885'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     },
     "QQQ": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1787746202062&endDate=1787775002062'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1787809205885&endDate=1787838005885'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     }
   },
   "equity_curves": {
