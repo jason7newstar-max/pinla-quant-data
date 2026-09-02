@@ -1,0 +1,72 @@
+[
+ {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 1000.0,
+  "price": 1215.5,
+  "src": "paper"
+ },
+ {
+  "sym": "BWB·AGY",
+  "shares": 1,
+  "cost": 1000.0,
+  "price": 994.0,
+  "src": "paper"
+ },
+ {
+  "sym": "BWB·IA10",
+  "shares": 1,
+  "cost": 1000.0,
+  "price": 963.0,
+  "src": "paper"
+ },
+ {
+  "sym": "BFLY·SPY",
+  "shares": 1,
+  "cost": 700.0,
+  "price": 729.0,
+  "src": "paper"
+ },
+ {
+  "sym": "MINI·BCS",
+  "shares": 1,
+  "cost": 1000.0,
+  "price": 590.0,
+  "src": "paper"
+ },
+ {
+  "sym": "BWB·DALI",
+  "shares": 1,
+  "cost": 1000.0,
+  "price": 344.0,
+  "src": "paper"
+ },
+ {
+  "sym": "IC·HIFREQ",
+  "shares": 1,
+  "cost": 300.0,
+  "price": 203.0,
+  "src": "paper"
+ },
+ {
+  "sym": "BC·QQQ",
+  "shares": 1,
+  "cost": 200.0,
+  "price": 200.0,
+  "src": "paper"
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 200.0,
+  "price": 200.0,
+  "src": "paper"
+ },
+ {
+  "sym": "CALENDAR",
+  "shares": 1,
+  "cost": 400.0,
+  "price": 182.0,
+  "src": "paper"
+ }
+]
