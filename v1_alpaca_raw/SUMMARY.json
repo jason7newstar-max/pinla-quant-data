@@ -1,0 +1,23 @@
+{
+ "archived_at": "2026-09-02T17:38",
+ "source": "https://oneten-quant.vercel.app/api/alpaca?endpoint=<alpaca path> (Karen's proxy)",
+ "account": "PA3XFZ4PHI1K",
+ "portfolio_history_points": 110,
+ "span": [
+  "2026-03-27",
+  "2026-09-02"
+ ],
+ "equity_first_last": [
+  100000,
+  12813.87
+ ],
+ "base_value": 100000,
+ "orders": 2560,
+ "activities": 4746,
+ "positions": 9,
+ "fills": 2290,
+ "activities_span": [
+  "2026-03-30",
+  "2026-09-02"
+ ]
+}
