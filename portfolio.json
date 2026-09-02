@@ -1,334 +1,445 @@
 {
-  "as_of": "2026-09-01T20:10:02.195557+00:00",
-  "market_open": false,
+  "as_of": "2026-09-02T13:40:24.097824+00:00",
+  "market_open": true,
   "spy": {
-    "last": null,
-    "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/SPY/quotes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+    "symbol": "SPY",
+    "last": 762.4261,
+    "bid": 762.43,
+    "ask": 762.45,
+    "volume": 1943190,
+    "mark": 762.43,
+    "change_pct": 0.08481451337657156,
+    "close": 761.78
   },
   "qqq": {
-    "last": null
+    "symbol": "QQQ",
+    "last": 706.7388,
+    "bid": 706.71,
+    "ask": 706.74,
+    "volume": 2662260,
+    "mark": 706.7388,
+    "change_pct": -0.12735289130066377,
+    "close": 707.64
   },
   "senate": {
-    "date": "2026-07-29",
-    "ts": "2026-07-29T13:26:21.924357+00:00",
-    "brief": "Date: 2026-07-29 (US market open).\nSPY $740.45 (-0.06% today, -1.0% 5d) \u2014 below 5d-MA, below 10d-MA, at 26% of 10d range\nQQQ $675.32 (-0.03% today, -4.7% 5d) \u2014 below 5d-MA, below 10d-MA, at 13% of 10d range\nIWM $292.74 (-0.21% today, -1.1% 5d) \u2014 above 5d-MA, below 10d-MA, at 34% of 10d range\nVIX 18.7 (rising vs 5d)\nRegime: broad downtrend (all 3 below 10d-MA); tech lagging; VIX elevated & rising.\nCalendar: FOMC decision TODAY (2026-07-29).",
+    "date": "2026-09-02",
+    "ts": "2026-09-02T13:26:24.537861+00:00",
+    "brief": "Date: 2026-09-02 (US market open).\nSPY $762.24 (+0.06% today, -0.5% 5d) \u2014 below 5d-MA, below 10d-MA, at 17% of 10d range\nQQQ $706.67 (-0.14% today, -0.4% 5d) \u2014 below 5d-MA, below 10d-MA, at 19% of 10d range\nIWM $291.19 (+0.21% today, -2.9% 5d) \u2014 below 5d-MA, below 10d-MA, at 9% of 10d range\nVIX 16.1 (rising vs 5d)\nRegime: broad downtrend (all 3 below 10d-MA); small-caps lagging (narrow); near 10d lows; VIX elevated & rising.\nCalendar: next FOMC 2026-09-16 (14d away).",
     "votes": [
       {
         "direction": "bear",
         "confidence": 70,
-        "reason": "broad downtrend, VIX rising",
-        "seat": "Llama-70B#1",
-        "provider": "groq",
-        "ok": true
-      },
-      {
-        "direction": "bear",
-        "confidence": 60,
-        "reason": "Broad downtrend, VIX rising",
-        "seat": "Llama-70B#2",
-        "provider": "groq",
-        "ok": true
-      },
-      {
-        "direction": "bear",
-        "confidence": 60,
-        "reason": "Broad downtrend, VIX rising",
-        "seat": "Llama-70B#3",
+        "reason": "Broad downtrend, all caps below 10d-MA, VIX rising, near 10d lows",
+        "seat": "GPT-OSS-120B#1",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "bear",
         "confidence": 70,
-        "reason": "FOMC decision today with broad downtrend, elevated VIX, and weak technicals",
-        "seat": "Llama-8B",
+        "reason": "Broad downtrend, all indices below 10\u2011day MA, VIX rising, small\u2011caps lagging",
+        "seat": "GPT-OSS-120B#2",
         "provider": "groq",
         "ok": true
       },
       {
-        "seat": "Llama4-Scout",
+        "direction": "bear",
+        "confidence": 70,
+        "reason": "Broad downtrend, near 10\u2011day lows, VIX rising, FOMC uncertainty",
+        "seat": "GPT-OSS-120B#3",
         "provider": "groq",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found"
+        "ok": true
+      },
+      {
+        "direction": "bear",
+        "confidence": 70,
+        "reason": "Downtrend, all indices below 10d-MA, VIX rising, upcoming FOMC adds uncertainty",
+        "seat": "GPT-OSS-20B",
+        "provider": "groq",
+        "ok": true
       },
       {
         "direction": "bear",
         "confidence": 75,
-        "reason": "FOMC day in downtrend, VIX rising, tech leading declines.",
-        "seat": "DeepSeek",
+        "reason": "Price below MAs, rising VIX, and weak small caps signal continued downtrend.",
+        "seat": "Qwen3.6-27B",
+        "provider": "groq",
+        "ok": true
+      },
+      {
+        "direction": "bear",
+        "confidence": 70,
+        "reason": "Broad downtrend with all indices near 10d lows, rising VIX, and small-caps leading weakness.",
+        "seat": "DeepSeek-V4P",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 75,
-        "reason": "Broad downtrend, tech lagging, VIX rising into FOMC decision.",
-        "seat": "Qwen-Max",
+        "confidence": 68,
+        "reason": "Broad downtrend, below key MAs, small-cap weakness, rising VIX near lows favor downside.",
+        "seat": "Qwen3.8-Max",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 75,
-        "reason": "FOMC risk, tech weakness, VIX rising in downtrend.",
+        "confidence": 60,
+        "reason": "Downtrend continues, VIX rising, near 10d lows.",
         "seat": "Mistral",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 65,
-        "reason": "FOMC day in broad downtrend with rising VIX and tech lagging",
-        "seat": "Grok",
-        "provider": "openrouter",
-        "ok": true
-      },
-      {
-        "direction": "chop",
-        "confidence": 75,
-        "reason": "FOMC day with elevated VIX and oversold tech traps directional bets.",
-        "seat": "GLM",
+        "confidence": 62,
+        "reason": "Broad downtrend below 10d-MAs, near lows, VIX rising",
+        "seat": "Grok-4.6",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 80,
-        "reason": "Broad downtrend, tech lagging, rising VIX, and FOMC uncertainty favor downside.",
-        "seat": "Gemini-Flash",
+        "confidence": 62,
+        "reason": "Downtrend intact, VIX rising, breadth narrow; near 10d lows but no catalyst to reverse drift.",
+        "seat": "GLM-5.3",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
+        "direction": "bear",
+        "confidence": 65,
+        "reason": "Broad downtrend across indices below key moving averages with rising VIX signals continued short-term downside pressure.",
+        "seat": "Gemini-3.7F",
+        "provider": "openrouter",
+        "ok": true
+      },
+      {
+        "direction": "bear",
         "confidence": 75,
-        "reason": "Broad downtrend and rising VIX signal weakness, but today's FOMC decision will likely drive choppy, volatile price action.",
+        "reason": "Broad downtrend, all indices below short-term MAs near 10-day lows, and rising VIX signal continued near-term weakness.",
         "seat": "Gemini3-Pro",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 62,
-        "reason": "Broad downtrend, QQQ weakness, rising VIX, and FOMC event risk favor defensive downside.",
-        "seat": "GPT-5.5",
+        "confidence": 67,
+        "reason": "Broad downtrend, small-cap weakness, and rising VIX outweigh near-term oversold positioning.",
+        "seat": "GPT-5.6-Terra",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 55,
-        "reason": "Broad downtrend, tech weakness, rising VIX into FOMC risk favor continued downside pressure.",
+        "confidence": 62,
+        "reason": "All indices below 5d/10d MAs near 10d lows, rising VIX, small-caps lagging confirm downtrend continuation.",
         "seat": "Fable-5",
         "provider": "openrouter",
         "ok": true
       },
       {
+        "direction": "bear",
+        "confidence": 68,
+        "reason": "Broad downtrend, small-caps lagging, VIX rising, all indices near 10d lows.",
         "seat": "MiniMax-M3",
         "provider": "openrouter",
-        "ok": false,
-        "error": "Expecting value: line 1 column 1 (char 0)"
+        "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 70,
-        "reason": "Tech-led downtrend, rising VIX, FOMC event risk favors downside continuation",
+        "confidence": 75,
+        "reason": "Broad downtrend confirmed; small-cap weakness signals risk-off; VIX rising near lows",
         "seat": "Nemotron-Ult",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 62,
-        "reason": "Downtrend and rising VIX are bearish, but FOMC decision today creates binary event risk and likely range-bound volatility.",
+        "direction": "bear",
+        "confidence": 65,
+        "reason": "All indices below MAs breaking near 10d lows with rising VIX; small-cap weakness indicates poor breadth",
         "seat": "Kimi-K3",
+        "provider": "openrouter",
+        "ok": true
+      },
+      {
+        "seat": "GLM-5.2-free",
+        "provider": "openrouter",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "direction": "bear",
+        "confidence": 72,
+        "reason": "All indices below MAs near 10d lows, VIX rising, narrow leadership signals downside risk.",
+        "seat": "MiniMax-M3-f",
         "provider": "openrouter",
         "ok": true
       }
     ],
-    "seats_ok": 15,
-    "seats_total": 17,
+    "seats_ok": 18,
+    "seats_total": 19,
     "tally": {
       "bull": 0,
-      "bear": 12,
-      "chop": 3
+      "bear": 18,
+      "chop": 0
     },
     "consensus": "bear",
-    "strength": 0.794,
-    "dispersion": 0.2,
+    "strength": 1.0,
+    "dispersion": 0.0,
     "mode": "live"
   },
   "sentiment": {
-    "date": "2026-09-01",
-    "ts": "2026-09-01T13:25:04.632006+00:00",
+    "date": "2026-09-02",
+    "ts": "2026-09-02T13:25:02.340123+00:00",
     "raw": {
       "fear_greed": {
-        "err": "HTTP Error 418: Unknown Error"
+        "score": 31.2571428571429,
+        "rating": "fear",
+        "put_call_options": {
+          "score": 44,
+          "rating": "fear"
+        },
+        "market_volatility_vix": {
+          "score": 50,
+          "rating": "neutral"
+        },
+        "stock_price_momentum": {
+          "score": null,
+          "rating": null
+        },
+        "safe_haven_demand": {
+          "score": 28,
+          "rating": "fear"
+        }
       },
       "stocktwits_trending": [
-        "AMZN",
-        "FRVO",
-        "GOOG",
+        "FCEL",
+        "DELL",
+        "SLS",
+        "CRDO",
+        "GTLB",
+        "MDB",
+        "AAPL",
+        "PANW",
+        "NZDUSD",
         "SOFI",
-        "QQQ",
-        "TSLA",
-        "PL",
-        "JEPQ",
-        "DJT",
-        "CVX",
-        "SPY",
-        "SCO"
+        "GOOG",
+        "XAUUSD"
       ],
-      "wsb_hot": [
-        "err:HTTP Error 403: Blocked"
-      ]
+      "wsb": {
+        "tradestie": [
+          {
+            "t": "RKLX",
+            "s": "Bullish",
+            "n": 16
+          },
+          {
+            "t": "SPY",
+            "s": "Bullish",
+            "n": 15
+          },
+          {
+            "t": "AI",
+            "s": "Bullish",
+            "n": 14
+          },
+          {
+            "t": "ASTS",
+            "s": "Bullish",
+            "n": 11
+          },
+          {
+            "t": "NBIS",
+            "s": "Bullish",
+            "n": 8
+          },
+          {
+            "t": "VOO",
+            "s": "Bullish",
+            "n": 7
+          },
+          {
+            "t": "TACO",
+            "s": "Bearish",
+            "n": 6
+          },
+          {
+            "t": "SPCX",
+            "s": "Bullish",
+            "n": 6
+          },
+          {
+            "t": "USO",
+            "s": "Bearish",
+            "n": 6
+          },
+          {
+            "t": "VCX",
+            "s": "Bearish",
+            "n": 6
+          },
+          {
+            "t": "AVGO",
+            "s": "Bearish",
+            "n": 5
+          },
+          {
+            "t": "MU",
+            "s": "Bearish",
+            "n": 5
+          },
+          {
+            "t": "RKLB",
+            "s": "Bullish",
+            "n": 5
+          },
+          {
+            "t": "AMZN",
+            "s": "Bearish",
+            "n": 4
+          },
+          {
+            "t": "META",
+            "s": "Bullish",
+            "n": 4
+          }
+        ],
+        "apewisdom": [
+          {
+            "t": "SPY",
+            "m": 323,
+            "r": 1
+          },
+          {
+            "t": "MU",
+            "m": 135,
+            "r": 2
+          },
+          {
+            "t": "DELL",
+            "m": 126,
+            "r": 3
+          },
+          {
+            "t": "AVGO",
+            "m": 94,
+            "r": 4
+          },
+          {
+            "t": "AAPL",
+            "m": 82,
+            "r": 5
+          },
+          {
+            "t": "ASTS",
+            "m": 77,
+            "r": 6
+          },
+          {
+            "t": "NVDA",
+            "m": 76,
+            "r": 7
+          },
+          {
+            "t": "SNDK",
+            "m": 67,
+            "r": 8
+          },
+          {
+            "t": "AM",
+            "m": 61,
+            "r": 9
+          },
+          {
+            "t": "META",
+            "m": 60,
+            "r": 10
+          },
+          {
+            "t": "QQQ",
+            "m": 55,
+            "r": 11
+          },
+          {
+            "t": "USO",
+            "m": 53,
+            "r": 12
+          },
+          {
+            "t": "GOOGL",
+            "m": 44,
+            "r": 13
+          },
+          {
+            "t": "CRDO",
+            "m": 38,
+            "r": 14
+          },
+          {
+            "t": "DTE",
+            "m": 38,
+            "r": 15
+          }
+        ]
+      }
     },
     "report": {
-      "mood": 30,
-      "intensity": 55,
+      "mood": -38,
+      "intensity": 71,
       "crowded": [
-        "AMZN",
-        "FRVO",
-        "GOOG",
-        "SOFI",
-        "QQQ",
-        "TSLA",
-        "PL",
-        "JEPQ",
-        "DJT",
-        "CVX",
         "SPY",
-        "SCO"
+        "MU",
+        "DELL",
+        "AVGO",
+        "AAPL",
+        "ASTS",
+        "NVDA",
+        "SNDK",
+        "AM",
+        "META",
+        "QQQ",
+        "USO",
+        "GOOGL",
+        "CRDO",
+        "DTE"
       ],
-      "divergence": false,
-      "summary": "Retail chatter leans mildly bullish across tech, growth, and broad market symbols."
+      "divergence": true,
+      "summary": "Retail sentiment skews fearful despite neutral market signals, indicating potential contrarian buying opportunities."
     },
     "zone": "neutral",
     "mode": "live"
   },
   "risk_dial": {
-    "ts": "2026-07-29T19:00:06.470960+00:00",
+    "ts": "2026-09-02T09:14:08.551574+00:00",
     "active": true,
     "senate_consensus": "bear",
-    "senate_strength": 0.794,
-    "senate_dispersion": 0.2,
-    "size_mult": 0.88,
-    "combined_value": 6036,
-    "peak": 7750,
-    "drawdown_pct": -22.11,
-    "halt": true,
-    "open_count": 1,
+    "senate_strength": 1.0,
+    "senate_dispersion": 0.0,
+    "size_mult": 1.0,
+    "combined_value": 100000,
+    "peak": 100000,
+    "drawdown_pct": 0.0,
+    "halt": false,
+    "open_count": 0,
     "exposure_cap": 8,
     "exposure_full": false,
-    "sentiment_mood": -50,
+    "sentiment_mood": -17,
     "sentiment_contrarian": false
   },
   "live_account": {
-    "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/trader/v1/accounts/accountNumbers'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+    "account_type": "CASH",
+    "account_number": "5WJ20816",
+    "cash": 0.0,
+    "settled_funds": 0.0,
+    "option_buying_power": 0.0,
+    "total_value": 0.0
   },
   "strategies": {
     "lottery": {
       "name": null,
-      "starting_capital": 200.0,
-      "cash": 122.0,
-      "open_position": null,
-      "closed_trades_total": 5,
-      "closed_trades_today": 0,
-      "wins": 1,
-      "win_rate": 0.2,
-      "today_pnl": 0,
-      "cumulative_pnl": -78.0,
-      "portfolio_value": 122.0,
-      "roi_pct": -0.39
-    },
-    "bounce": {
-      "name": "bounce",
-      "starting_capital": 100,
-      "cash": 75.5,
-      "open_position": null,
-      "closed_trades_total": 9,
-      "closed_trades_today": 0,
-      "wins": 2,
-      "win_rate": 0.222,
-      "today_pnl": 0,
-      "cumulative_pnl": -24.5,
-      "portfolio_value": 75.5,
-      "roi_pct": -0.245
-    },
-    "snapback": {
-      "name": "snapback",
-      "starting_capital": 50,
-      "cash": 4.0,
-      "open_position": null,
-      "closed_trades_total": 26,
-      "closed_trades_today": 0,
-      "wins": 5,
-      "win_rate": 0.192,
-      "today_pnl": 0,
-      "cumulative_pnl": -46.0,
-      "portfolio_value": 4.0,
-      "roi_pct": -0.92
-    },
-    "calendar": {
-      "name": "calendar",
-      "starting_capital": 400,
-      "cash": 182.0,
-      "open_position": null,
-      "closed_trades_total": 7,
-      "closed_trades_today": 0,
-      "wins": 3,
-      "win_rate": 0.429,
-      "today_pnl": 0,
-      "cumulative_pnl": -218.0,
-      "portfolio_value": 182.0,
-      "roi_pct": -0.545
-    },
-    "butterfly": {
-      "name": "butterfly",
-      "starting_capital": 700,
-      "cash": 729.0,
-      "open_position": null,
-      "closed_trades_total": 64,
-      "closed_trades_today": 0,
-      "wins": 38,
-      "win_rate": 0.594,
-      "today_pnl": 0,
-      "cumulative_pnl": 29.0,
-      "portfolio_value": 729.0,
-      "roi_pct": 0.0414
-    },
-    "butterfly_qqq": {
-      "name": "butterfly_qqq",
-      "starting_capital": 200.0,
-      "cash": 125.0,
-      "open_position": null,
-      "closed_trades_total": 25,
-      "closed_trades_today": 0,
-      "wins": 12,
-      "win_rate": 0.48,
-      "today_pnl": 0,
-      "cumulative_pnl": -75.0,
-      "portfolio_value": 125.0,
-      "roi_pct": -0.375
-    },
-    "butterfly_iwm": {
-      "name": "butterfly_iwm",
-      "starting_capital": 200.0,
-      "cash": 18.5,
-      "open_position": null,
-      "closed_trades_total": 11,
-      "closed_trades_today": 0,
-      "wins": 2,
-      "win_rate": 0.182,
-      "today_pnl": 0,
-      "cumulative_pnl": -181.5,
-      "portfolio_value": 18.5,
-      "roi_pct": -0.9075
-    },
-    "bearcall_spy": {
-      "name": "bearcall_spy",
-      "starting_capital": 200.0,
-      "cash": 200.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
@@ -336,13 +447,111 @@
       "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200.0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "bounce": {
+      "name": "bounce",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "snapback": {
+      "name": "snapback",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "calendar": {
+      "name": "calendar",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "butterfly": {
+      "name": "butterfly",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "butterfly_qqq": {
+      "name": "butterfly_qqq",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "butterfly_iwm": {
+      "name": "butterfly_iwm",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
+    },
+    "bearcall_spy": {
+      "name": "bearcall_spy",
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
       "roi_pct": 0.0
     },
     "bearcall_qqq": {
       "name": "bearcall_qqq",
-      "starting_capital": 200.0,
-      "cash": 200.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
@@ -350,216 +559,205 @@
       "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200.0,
+      "portfolio_value": 6250.0,
       "roi_pct": 0.0
     },
     "bwb_agy": {
       "name": "bwb_agy",
-      "starting_capital": 1000.0,
-      "cash": 994.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
-      "closed_trades_total": 12,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
-      "wins": 2,
-      "win_rate": 0.167,
+      "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
-      "cumulative_pnl": -6.0,
-      "portfolio_value": 994.0,
-      "roi_pct": -0.006
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     },
     "bwb_dali": {
       "name": "bwb_dali",
-      "starting_capital": 1000.0,
-      "cash": 143.5,
-      "open_position": {
-        "underlying_symbol": "QQQ",
-        "underlying_price": 730.28,
-        "entry_spot": 730.28,
-        "expiration": "2026-07-02",
-        "dte_target": 2,
-        "strikes": {
-          "sc": 727.0,
-          "lc": 712.0,
-          "sp": 702.0
-        },
-        "k_high": 727.0,
-        "k_mid": 712.0,
-        "k_low": 702.0,
-        "upper_wing": 15.0,
-        "lower_wing": 10.0,
-        "net_debit": 2.0,
-        "net_credit": -2.0,
-        "max_loss_per_contract": 200.5,
-        "real_money_collateral_required": 200.5,
-        "meets_credit_threshold": true,
-        "cost": 200.5,
-        "contracts": 1,
-        "open_ts": "2026-07-01T14:00:11.844730+00:00"
-      },
-      "closed_trades_total": 7,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
+      "open_position": null,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
-      "wins": 2,
-      "win_rate": 0.286,
-      "today_pnl": 44.0,
-      "cumulative_pnl": -656.0,
-      "portfolio_value": 388.0,
-      "roi_pct": -0.612
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": 0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     },
     "bwb_ia10": {
       "name": "bwb_ia10",
-      "starting_capital": 1000.0,
-      "cash": 963.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
-      "closed_trades_total": 3,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
-      "wins": 1,
-      "win_rate": 0.333,
+      "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
-      "cumulative_pnl": -37.0,
-      "portfolio_value": 963.0,
-      "roi_pct": -0.037
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     },
     "karen_bps": {
       "name": "karen_bps",
-      "starting_capital": 1000.0,
-      "cash": 1215.5,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
-      "closed_trades_total": 11,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
-      "wins": 7,
-      "win_rate": 0.636,
+      "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
-      "cumulative_pnl": 215.5,
-      "portfolio_value": 1215.5,
-      "roi_pct": 0.2155
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     },
     "mini_bcs": {
       "name": "mini_bcs",
-      "starting_capital": 1000.0,
-      "cash": 590.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
-      "closed_trades_total": 12,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
-      "wins": 4,
-      "win_rate": 0.333,
+      "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
-      "cumulative_pnl": -410.0,
-      "portfolio_value": 590.0,
-      "roi_pct": -0.41
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     },
     "volhedge": {
       "name": "volhedge",
-      "starting_capital": 200.0,
-      "cash": 71.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
-      "closed_trades_total": 1,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
-      "win_rate": 0.0,
+      "win_rate": null,
       "today_pnl": 0,
-      "cumulative_pnl": -129.0,
-      "portfolio_value": 71.0,
-      "roi_pct": -0.645
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     },
     "ic_hifreq": {
       "name": "ic_hifreq",
-      "starting_capital": 300.0,
-      "cash": 203.0,
+      "starting_capital": 6250.0,
+      "cash": 6250.0,
       "open_position": null,
-      "closed_trades_total": 3,
+      "closed_trades_total": 0,
       "closed_trades_today": 0,
-      "wins": 1,
-      "win_rate": 0.333,
+      "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
-      "cumulative_pnl": -97.0,
-      "portfolio_value": 203.0,
-      "roi_pct": -0.3233
+      "cumulative_pnl": 0,
+      "portfolio_value": 6250.0,
+      "roi_pct": 0.0
     }
   },
   "ic": {},
   "leaderboard": [
     {
-      "name": "karen_bps",
-      "roi_pct": 0.2155,
-      "portfolio_value": 1215.5
+      "name": "lottery",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "bounce",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "snapback",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "calendar",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
     },
     {
       "name": "butterfly",
-      "roi_pct": 0.0414,
-      "portfolio_value": 729.0
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "butterfly_qqq",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "butterfly_iwm",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
     },
     {
       "name": "bearcall_spy",
       "roi_pct": 0.0,
-      "portfolio_value": 200.0
+      "portfolio_value": 6250.0
     },
     {
       "name": "bearcall_qqq",
       "roi_pct": 0.0,
-      "portfolio_value": 200.0
+      "portfolio_value": 6250.0
     },
     {
       "name": "bwb_agy",
-      "roi_pct": -0.006,
-      "portfolio_value": 994.0
-    },
-    {
-      "name": "bwb_ia10",
-      "roi_pct": -0.037,
-      "portfolio_value": 963.0
-    },
-    {
-      "name": "bounce",
-      "roi_pct": -0.245,
-      "portfolio_value": 75.5
-    },
-    {
-      "name": "ic_hifreq",
-      "roi_pct": -0.3233,
-      "portfolio_value": 203.0
-    },
-    {
-      "name": "butterfly_qqq",
-      "roi_pct": -0.375,
-      "portfolio_value": 125.0
-    },
-    {
-      "name": "lottery",
-      "roi_pct": -0.39,
-      "portfolio_value": 122.0
-    },
-    {
-      "name": "mini_bcs",
-      "roi_pct": -0.41,
-      "portfolio_value": 590.0
-    },
-    {
-      "name": "calendar",
-      "roi_pct": -0.545,
-      "portfolio_value": 182.0
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
     },
     {
       "name": "bwb_dali",
-      "roi_pct": -0.612,
-      "portfolio_value": 388.0
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "bwb_ia10",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "karen_bps",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
+    },
+    {
+      "name": "mini_bcs",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
     },
     {
       "name": "volhedge",
-      "roi_pct": -0.645,
-      "portfolio_value": 71.0
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
     },
     {
-      "name": "butterfly_iwm",
-      "roi_pct": -0.9075,
-      "portfolio_value": 18.5
-    },
-    {
-      "name": "snapback",
-      "roi_pct": -0.92,
-      "portfolio_value": 4.0
+      "name": "ic_hifreq",
+      "roi_pct": 0.0,
+      "portfolio_value": 6250.0
     }
   ],
   "events": [
+    {
+      "action": "skip_open",
+      "reason": "net_credit 0.43 < threshold 0.50",
+      "underlying": 762.275,
+      "strikes": {
+        "sc": 766.0,
+        "lc": 771.0,
+        "sp": 758.0,
+        "lp": 753.0
+      },
+      "ts": "2026-09-02T13:35:07.203745+00:00",
+      "_strategy": "ic"
+    },
     {
       "action": "skip_open",
       "reason": "cost $123.0 > cash $71.00",
@@ -878,917 +1076,195 @@
       "ts": "2026-07-29T14:00:01.938648+00:00",
       "strategy": "bwb_agy",
       "_strategy": "bwb_agy"
-    },
-    {
-      "action": "skip_open",
-      "reason": "meets_credit_threshold=False",
-      "underlying_symbol": "SPY",
-      "underlying_price": 737.5,
-      "entry_spot": 737.5,
-      "expiration": "2026-07-29",
-      "dte_target": 0,
-      "k_high": 737.0,
-      "k_mid": 734.0,
-      "k_low": 732.0,
-      "upper_wing": 3.0,
-      "lower_wing": 2.0,
-      "net_debit": 0.57,
-      "net_credit": -0.57,
-      "max_loss_per_contract": 57.0,
-      "real_money_collateral_required": 57.0,
-      "meets_credit_threshold": false,
-      "ts": "2026-07-29T14:00:01.805908+00:00",
-      "strategy": "bwb_ia10",
-      "_strategy": "bwb_ia10"
     }
   ],
   "chart_data": {
-    "QQQ": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=QQQ&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1788264601917&endDate=1788293401917'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
-    },
-    "SPY": {
-      "error": "Client error '401 Unauthorized' for url 'https://api.schwabapi.com/marketdata/v1/pricehistory?symbol=SPY&periodType=day&period=1&frequencyType=minute&frequency=1&startDate=1788264601917&endDate=1788293401917'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
-    }
+    "SPY": [
+      {
+        "t": 1788355800000,
+        "o": 762.45,
+        "h": 762.52,
+        "l": 761.8,
+        "c": 762.005,
+        "v": 137908
+      },
+      {
+        "t": 1788355860000,
+        "o": 762.02,
+        "h": 762.2223,
+        "l": 761.74,
+        "c": 761.88,
+        "v": 60484
+      },
+      {
+        "t": 1788355920000,
+        "o": 761.87,
+        "h": 762.36,
+        "l": 761.86,
+        "c": 762.35,
+        "v": 41982
+      },
+      {
+        "t": 1788355980000,
+        "o": 762.35,
+        "h": 762.39,
+        "l": 762.08,
+        "c": 762.215,
+        "v": 51168
+      },
+      {
+        "t": 1788356040000,
+        "o": 762.21,
+        "h": 762.42,
+        "l": 762.17,
+        "c": 762.39,
+        "v": 31926
+      },
+      {
+        "t": 1788356100000,
+        "o": 762.4,
+        "h": 762.4,
+        "l": 762.0,
+        "c": 762.1499,
+        "v": 38291
+      },
+      {
+        "t": 1788356160000,
+        "o": 762.15,
+        "h": 762.23,
+        "l": 761.8401,
+        "c": 761.845,
+        "v": 33546
+      },
+      {
+        "t": 1788356220000,
+        "o": 761.84,
+        "h": 762.1766,
+        "l": 761.73,
+        "c": 762.015,
+        "v": 32035
+      },
+      {
+        "t": 1788356280000,
+        "o": 762.0,
+        "h": 762.33,
+        "l": 761.95,
+        "c": 762.19,
+        "v": 31605
+      },
+      {
+        "t": 1788356340000,
+        "o": 762.195,
+        "h": 762.47,
+        "l": 762.07,
+        "c": 762.46,
+        "v": 23569
+      },
+      {
+        "t": 1788356400000,
+        "o": 762.49,
+        "h": 762.49,
+        "l": 762.275,
+        "c": 762.38,
+        "v": 23615
+      }
+    ]
   },
   "equity_curves": {
     "lottery": [
       {
         "t": null,
-        "v": 200.0
-      },
-      {
-        "t": "2026-05-18T19:30:03.870112+00:00",
-        "v": 180.0
-      },
-      {
-        "t": "2026-05-19T16:30:05.067595+00:00",
-        "v": 154.0
-      },
-      {
-        "t": "2026-05-20T19:30:03.631636+00:00",
-        "v": 166.0
-      },
-      {
-        "t": "2026-05-21T19:30:07.463028+00:00",
-        "v": 142.0
-      },
-      {
-        "t": "2026-05-22T16:30:08.395433+00:00",
-        "v": 122.0
+        "v": 6250.0
       }
     ],
     "bounce": [
       {
         "t": null,
-        "v": 100
-      },
-      {
-        "t": "2026-06-09T19:00:08.771049+00:00",
-        "v": 133.5
-      },
-      {
-        "t": "2026-06-10T17:00:03.509631+00:00",
-        "v": 123.0
-      },
-      {
-        "t": "2026-06-10T19:00:08.457434+00:00",
-        "v": 114.5
-      },
-      {
-        "t": "2026-06-16T19:30:07.896760+00:00",
-        "v": 113.0
-      },
-      {
-        "t": "2026-06-17T19:35:53.136823+00:00",
-        "v": 103.5
-      },
-      {
-        "t": "2026-06-23T18:00:04.612963+00:00",
-        "v": 95.0
-      },
-      {
-        "t": "2026-06-23T19:30:04.196252+00:00",
-        "v": 96.5
-      },
-      {
-        "t": "2026-06-26T18:00:15.209856+00:00",
-        "v": 83.0
-      },
-      {
-        "t": "2026-07-02T18:00:04.812328+00:00",
-        "v": 75.5
+        "v": 6250.0
       }
     ],
     "snapback": [
       {
         "t": null,
-        "v": 50
-      },
-      {
-        "t": "2026-05-22T18:30:03.983669+00:00",
-        "v": 47.5
-      },
-      {
-        "t": "2026-05-29T15:15:04.984027+00:00",
-        "v": 60.5
-      },
-      {
-        "t": "2026-05-29T16:15:05.683637+00:00",
-        "v": 67.0
-      },
-      {
-        "t": "2026-05-29T19:30:21.630759+00:00",
-        "v": 65.5
-      },
-      {
-        "t": "2026-06-01T16:15:06.227282+00:00",
-        "v": 59.0
-      },
-      {
-        "t": "2026-06-01T17:45:06.267593+00:00",
-        "v": 53.5
-      },
-      {
-        "t": "2026-06-01T18:45:01.710833+00:00",
-        "v": 51.0
-      },
-      {
-        "t": "2026-06-08T15:00:06.942487+00:00",
-        "v": 44.5
-      },
-      {
-        "t": "2026-06-08T17:15:06.746162+00:00",
-        "v": 41.0
-      },
-      {
-        "t": "2026-06-08T18:15:07.239451+00:00",
-        "v": 27.5
-      },
-      {
-        "t": "2026-06-10T17:00:02.503580+00:00",
-        "v": 20.0
-      },
-      {
-        "t": "2026-06-10T19:00:08.739462+00:00",
-        "v": 41.5
-      },
-      {
-        "t": "2026-06-10T19:30:07.840406+00:00",
-        "v": 38.0
-      },
-      {
-        "t": "2026-06-12T15:30:07.866852+00:00",
-        "v": 32.5
-      },
-      {
-        "t": "2026-06-12T17:45:02.967083+00:00",
-        "v": 28.0
-      },
-      {
-        "t": "2026-06-15T16:00:08.826080+00:00",
-        "v": 21.5
-      },
-      {
-        "t": "2026-06-17T18:30:01.612691+00:00",
-        "v": 19.0
-      },
-      {
-        "t": "2026-06-17T19:00:08.037558+00:00",
-        "v": 33.0
-      },
-      {
-        "t": "2026-06-18T16:30:05.860883+00:00",
-        "v": 27.5
-      },
-      {
-        "t": "2026-06-18T19:30:09.250441+00:00",
-        "v": 28.0
-      },
-      {
-        "t": "2026-06-24T15:15:08.064404+00:00",
-        "v": 19.5
-      },
-      {
-        "t": "2026-06-24T17:30:09.779614+00:00",
-        "v": 14.0
-      },
-      {
-        "t": "2026-06-26T19:00:09.538750+00:00",
-        "v": 10.5
-      },
-      {
-        "t": "2026-06-29T18:30:07.239428+00:00",
-        "v": 8.0
-      },
-      {
-        "t": "2026-07-01T17:15:07.064667+00:00",
-        "v": 5.5
-      },
-      {
-        "t": "2026-07-01T19:30:08.852205+00:00",
-        "v": 4.0
+        "v": 6250.0
       }
     ],
     "calendar": [
       {
         "t": null,
-        "v": 400
-      },
-      {
-        "t": "2026-05-28T19:30:07.996034+00:00",
-        "v": 397.0
-      },
-      {
-        "t": "2026-05-29T19:30:24.632158+00:00",
-        "v": 425.0
-      },
-      {
-        "t": "2026-06-01T19:30:07.073872+00:00",
-        "v": 369.5
-      },
-      {
-        "t": "2026-06-02T19:30:14.017377+00:00",
-        "v": 383.0
-      },
-      {
-        "t": "2026-06-08T18:00:13.669633+00:00",
-        "v": 442.5
-      },
-      {
-        "t": "2026-06-09T16:00:04.819705+00:00",
-        "v": 274.5
-      },
-      {
-        "t": "2026-06-10T19:30:08.327079+00:00",
-        "v": 182.0
+        "v": 6250.0
       }
     ],
     "butterfly": [
       {
         "t": null,
-        "v": 700
-      },
-      {
-        "t": "2026-05-19T15:00:04.633664+00:00",
-        "v": 724.0
-      },
-      {
-        "t": "2026-05-20T15:00:05.977871+00:00",
-        "v": 685.0
-      },
-      {
-        "t": "2026-05-21T15:00:08.470998+00:00",
-        "v": 718.0
-      },
-      {
-        "t": "2026-05-22T15:00:12.806791+00:00",
-        "v": 755.0
-      },
-      {
-        "t": "2026-05-27T15:00:07.572686+00:00",
-        "v": 784.0
-      },
-      {
-        "t": "2026-05-28T19:30:07.540964+00:00",
-        "v": 779.5
-      },
-      {
-        "t": "2026-05-29T15:00:08.488352+00:00",
-        "v": 757.5
-      },
-      {
-        "t": "2026-05-29T17:00:04.357808+00:00",
-        "v": 767.5
-      },
-      {
-        "t": "2026-05-29T19:00:10.582878+00:00",
-        "v": 804.0
-      },
-      {
-        "t": "2026-06-01T15:00:02.364454+00:00",
-        "v": 844.5
-      },
-      {
-        "t": "2026-06-01T17:00:01.523821+00:00",
-        "v": 841.0
-      },
-      {
-        "t": "2026-06-01T19:00:04.648818+00:00",
-        "v": 869.0
-      },
-      {
-        "t": "2026-06-02T15:00:05.117810+00:00",
-        "v": 841.5
-      },
-      {
-        "t": "2026-06-02T17:00:08.799620+00:00",
-        "v": 869.5
-      },
-      {
-        "t": "2026-06-02T19:00:06.096003+00:00",
-        "v": 899.5
-      },
-      {
-        "t": "2026-06-08T15:00:06.958084+00:00",
-        "v": 865.0
-      },
-      {
-        "t": "2026-06-08T17:00:02.717186+00:00",
-        "v": 889.0
-      },
-      {
-        "t": "2026-06-08T19:00:08.903006+00:00",
-        "v": 936.0
-      },
-      {
-        "t": "2026-06-09T15:00:07.726529+00:00",
-        "v": 826.5
-      },
-      {
-        "t": "2026-06-09T17:00:04.453195+00:00",
-        "v": 823.0
-      },
-      {
-        "t": "2026-06-09T19:00:09.365670+00:00",
-        "v": 762.0
-      },
-      {
-        "t": "2026-06-10T15:00:08.498490+00:00",
-        "v": 762.0
-      },
-      {
-        "t": "2026-06-10T17:00:02.675240+00:00",
-        "v": 803.5
-      },
-      {
-        "t": "2026-06-10T19:00:07.666010+00:00",
-        "v": 739.0
-      },
-      {
-        "t": "2026-06-11T15:00:05.747398+00:00",
-        "v": 741.0
-      },
-      {
-        "t": "2026-06-11T17:00:03.391471+00:00",
-        "v": 766.0
-      },
-      {
-        "t": "2026-06-11T19:00:07.099225+00:00",
-        "v": 812.0
-      },
-      {
-        "t": "2026-06-12T15:00:03.830913+00:00",
-        "v": 775.0
-      },
-      {
-        "t": "2026-06-12T17:00:02.046572+00:00",
-        "v": 795.0
-      },
-      {
-        "t": "2026-06-12T19:00:11.697231+00:00",
-        "v": 835.0
-      },
-      {
-        "t": "2026-06-15T15:00:08.753212+00:00",
-        "v": 838.0
-      },
-      {
-        "t": "2026-06-15T17:00:05.727884+00:00",
-        "v": 864.0
-      },
-      {
-        "t": "2026-06-15T19:00:15.047707+00:00",
-        "v": 895.0
-      },
-      {
-        "t": "2026-06-16T15:00:07.291159+00:00",
-        "v": 902.0
-      },
-      {
-        "t": "2026-06-16T17:00:09.747913+00:00",
-        "v": 930.0
-      },
-      {
-        "t": "2026-06-16T19:00:09.001129+00:00",
-        "v": 954.0
-      },
-      {
-        "t": "2026-06-17T15:00:06.987912+00:00",
-        "v": 954.0
-      },
-      {
-        "t": "2026-06-17T17:00:01.938447+00:00",
-        "v": 957.0
-      },
-      {
-        "t": "2026-06-17T19:00:06.686415+00:00",
-        "v": 932.5
-      },
-      {
-        "t": "2026-06-18T15:00:07.337050+00:00",
-        "v": 945.5
-      },
-      {
-        "t": "2026-06-18T17:00:02.988326+00:00",
-        "v": 983.5
-      },
-      {
-        "t": "2026-06-18T19:00:05.479277+00:00",
-        "v": 1004.5
-      },
-      {
-        "t": "2026-06-23T16:00:05.482451+00:00",
-        "v": 1045.0
-      },
-      {
-        "t": "2026-06-23T18:00:05.834624+00:00",
-        "v": 1054.5
-      },
-      {
-        "t": "2026-06-23T19:30:04.196105+00:00",
-        "v": 1061.0
-      },
-      {
-        "t": "2026-06-24T15:00:08.248800+00:00",
-        "v": 1013.0
-      },
-      {
-        "t": "2026-06-24T17:00:04.124491+00:00",
-        "v": 995.5
-      },
-      {
-        "t": "2026-06-24T19:00:10.149152+00:00",
-        "v": 1030.0
-      },
-      {
-        "t": "2026-06-25T15:00:05.416281+00:00",
-        "v": 977.0
-      },
-      {
-        "t": "2026-06-25T17:00:04.662440+00:00",
-        "v": 1000.0
-      },
-      {
-        "t": "2026-06-25T19:00:05.308379+00:00",
-        "v": 1025.0
-      },
-      {
-        "t": "2026-06-26T15:00:09.581190+00:00",
-        "v": 1022.0
-      },
-      {
-        "t": "2026-06-26T17:00:03.295138+00:00",
-        "v": 1068.5
-      },
-      {
-        "t": "2026-06-26T19:00:16.515207+00:00",
-        "v": 1011.5
-      },
-      {
-        "t": "2026-06-29T15:00:09.211723+00:00",
-        "v": 1038.5
-      },
-      {
-        "t": "2026-06-29T17:00:03.008158+00:00",
-        "v": 1070.5
-      },
-      {
-        "t": "2026-06-29T19:00:08.264878+00:00",
-        "v": 1087.0
-      },
-      {
-        "t": "2026-07-01T19:30:08.167814+00:00",
-        "v": 1087.0
-      },
-      {
-        "t": "2026-07-02T15:00:04.599814+00:00",
-        "v": 1006.0
-      },
-      {
-        "t": "2026-07-02T17:00:01.508088+00:00",
-        "v": 967.0
-      },
-      {
-        "t": "2026-07-02T19:00:07.600592+00:00",
-        "v": 867.0
-      },
-      {
-        "t": "2026-07-06T15:00:06.646790+00:00",
-        "v": 831.0
-      },
-      {
-        "t": "2026-07-06T17:00:02.044209+00:00",
-        "v": 827.0
-      },
-      {
-        "t": "2026-07-06T19:00:09.881983+00:00",
-        "v": 729.0
+        "v": 6250.0
       }
     ],
     "butterfly_qqq": [
       {
         "t": null,
-        "v": 200.0
-      },
-      {
-        "t": "2026-06-11T15:00:05.382628+00:00",
-        "v": 190.0
-      },
-      {
-        "t": "2026-06-11T17:00:02.270832+00:00",
-        "v": 207.5
-      },
-      {
-        "t": "2026-06-11T19:00:07.199942+00:00",
-        "v": 249.5
-      },
-      {
-        "t": "2026-06-12T15:00:03.632086+00:00",
-        "v": 227.5
-      },
-      {
-        "t": "2026-06-12T17:00:02.463776+00:00",
-        "v": 192.5
-      },
-      {
-        "t": "2026-06-15T15:00:08.580315+00:00",
-        "v": 202.0
-      },
-      {
-        "t": "2026-06-16T15:00:07.669855+00:00",
-        "v": 158.0
-      },
-      {
-        "t": "2026-06-17T15:00:07.269331+00:00",
-        "v": 164.0
-      },
-      {
-        "t": "2026-06-17T17:00:02.054426+00:00",
-        "v": 174.0
-      },
-      {
-        "t": "2026-06-17T19:00:06.760006+00:00",
-        "v": 212.0
-      },
-      {
-        "t": "2026-06-18T15:00:09.113452+00:00",
-        "v": 194.5
-      },
-      {
-        "t": "2026-06-23T16:00:05.483862+00:00",
-        "v": 231.0
-      },
-      {
-        "t": "2026-06-23T18:00:05.085409+00:00",
-        "v": 200.5
-      },
-      {
-        "t": "2026-06-24T15:00:08.330229+00:00",
-        "v": 182.5
-      },
-      {
-        "t": "2026-06-24T17:00:03.101584+00:00",
-        "v": 177.0
-      },
-      {
-        "t": "2026-06-24T19:00:09.966867+00:00",
-        "v": 191.0
-      },
-      {
-        "t": "2026-06-25T15:00:05.730826+00:00",
-        "v": 168.5
-      },
-      {
-        "t": "2026-06-25T17:00:05.668936+00:00",
-        "v": 177.5
-      },
-      {
-        "t": "2026-06-26T15:00:08.973392+00:00",
-        "v": 188.0
-      },
-      {
-        "t": "2026-06-26T17:00:04.527170+00:00",
-        "v": 233.5
-      },
-      {
-        "t": "2026-06-26T19:30:12.462499+00:00",
-        "v": 273.0
-      },
-      {
-        "t": "2026-06-29T15:00:09.212504+00:00",
-        "v": 268.5
-      },
-      {
-        "t": "2026-06-29T17:00:03.340736+00:00",
-        "v": 260.0
-      },
-      {
-        "t": "2026-07-01T19:30:08.770155+00:00",
-        "v": 260.0
-      },
-      {
-        "t": "2026-07-02T15:00:05.011411+00:00",
-        "v": 125.0
+        "v": 6250.0
       }
     ],
     "butterfly_iwm": [
       {
         "t": null,
-        "v": 200.0
-      },
-      {
-        "t": "2026-06-11T15:00:06.156982+00:00",
-        "v": 205.5
-      },
-      {
-        "t": "2026-06-11T18:00:07.333748+00:00",
-        "v": 167.5
-      },
-      {
-        "t": "2026-06-11T19:30:07.636906+00:00",
-        "v": 141.0
-      },
-      {
-        "t": "2026-06-12T15:00:03.533355+00:00",
-        "v": 124.5
-      },
-      {
-        "t": "2026-06-12T17:00:02.050436+00:00",
-        "v": 126.0
-      },
-      {
-        "t": "2026-06-12T19:00:10.897387+00:00",
-        "v": 125.0
-      },
-      {
-        "t": "2026-06-15T15:00:07.272393+00:00",
-        "v": 99.5
-      },
-      {
-        "t": "2026-06-16T15:00:07.677901+00:00",
-        "v": 51.5
-      },
-      {
-        "t": "2026-06-17T15:00:06.413400+00:00",
-        "v": 50.5
-      },
-      {
-        "t": "2026-06-17T17:00:02.249949+00:00",
-        "v": 49.0
-      },
-      {
-        "t": "2026-06-25T15:00:05.327510+00:00",
-        "v": 18.5
+        "v": 6250.0
       }
     ],
     "bearcall_spy": [
       {
         "t": null,
-        "v": 200.0
+        "v": 6250.0
       }
     ],
     "bearcall_qqq": [
       {
         "t": null,
-        "v": 200.0
+        "v": 6250.0
       }
     ],
     "bwb_agy": [
       {
         "t": null,
-        "v": 1000.0
-      },
-      {
-        "t": "2026-06-11T18:00:11.052171+00:00",
-        "v": 961.5
-      },
-      {
-        "t": "2026-06-12T15:00:07.823509+00:00",
-        "v": 923.0
-      },
-      {
-        "t": "2026-06-15T16:00:12.102897+00:00",
-        "v": 884.0
-      },
-      {
-        "t": "2026-06-18T18:00:13.494707+00:00",
-        "v": 766.0
-      },
-      {
-        "t": "2026-06-23T15:00:09.538415+00:00",
-        "v": 1032.5
-      },
-      {
-        "t": "2026-06-24T15:00:09.988603+00:00",
-        "v": 1007.0
-      },
-      {
-        "t": "2026-06-25T15:00:07.271009+00:00",
-        "v": 966.5
-      },
-      {
-        "t": "2026-06-26T16:00:13.874477+00:00",
-        "v": 941.5
-      },
-      {
-        "t": "2026-06-29T15:00:17.209572+00:00",
-        "v": 921.5
-      },
-      {
-        "t": "2026-07-02T19:30:05.203366+00:00",
-        "v": 1082.0
-      },
-      {
-        "t": "2026-07-06T14:00:04.101424+00:00",
-        "v": 994.0
-      },
-      {
-        "t": "2026-07-15T19:30:07.580486+00:00",
-        "v": 994.0
+        "v": 6250.0
       }
     ],
     "bwb_dali": [
       {
         "t": null,
-        "v": 1000.0
-      },
-      {
-        "t": "2026-06-11T19:30:09.067963+00:00",
-        "v": 823.0
-      },
-      {
-        "t": "2026-06-15T14:00:03.926188+00:00",
-        "v": 526.0
-      },
-      {
-        "t": "2026-06-16T19:00:11.204289+00:00",
-        "v": 779.0
-      },
-      {
-        "t": "2026-06-18T19:30:14.131457+00:00",
-        "v": 518.0
-      },
-      {
-        "t": "2026-06-23T19:30:04.445512+00:00",
-        "v": 518.0
-      },
-      {
-        "t": "2026-06-26T19:30:19.913439+00:00",
-        "v": 564.5
-      },
-      {
-        "t": "2026-06-30T14:00:06.211509+00:00",
-        "v": 344.0
+        "v": 6250.0
       }
     ],
     "bwb_ia10": [
       {
         "t": null,
-        "v": 1000.0
-      },
-      {
-        "t": "2026-06-15T19:30:11.123950+00:00",
-        "v": 974.0
-      },
-      {
-        "t": "2026-06-16T16:00:12.283233+00:00",
-        "v": 1000.0
-      },
-      {
-        "t": "2026-07-06T16:00:04.850679+00:00",
-        "v": 963.0
+        "v": 6250.0
       }
     ],
     "karen_bps": [
       {
         "t": null,
-        "v": 1000.0
-      },
-      {
-        "t": "2026-06-11T18:00:08.941986+00:00",
-        "v": 1050.5
-      },
-      {
-        "t": "2026-06-12T15:00:05.361363+00:00",
-        "v": 1101.0
-      },
-      {
-        "t": "2026-06-17T19:00:10.526076+00:00",
-        "v": 996.5
-      },
-      {
-        "t": "2026-06-18T18:00:09.892069+00:00",
-        "v": 1039.5
-      },
-      {
-        "t": "2026-06-23T19:30:06.388940+00:00",
-        "v": 1039.5
-      },
-      {
-        "t": "2026-06-26T16:00:10.949941+00:00",
-        "v": 1119.5
-      },
-      {
-        "t": "2026-06-30T14:00:03.966316+00:00",
-        "v": 1175.0
-      },
-      {
-        "t": "2026-07-01T16:00:04.513859+00:00",
-        "v": 1221.0
-      },
-      {
-        "t": "2026-07-02T15:00:05.048522+00:00",
-        "v": 1153.0
-      },
-      {
-        "t": "2026-07-06T14:00:04.318661+00:00",
-        "v": 1215.5
-      },
-      {
-        "t": "2026-07-15T19:30:07.948238+00:00",
-        "v": 1215.5
+        "v": 6250.0
       }
     ],
     "mini_bcs": [
       {
         "t": null,
-        "v": 1000.0
-      },
-      {
-        "t": "2026-06-11T15:00:05.379864+00:00",
-        "v": 1088.0
-      },
-      {
-        "t": "2026-06-12T15:00:03.267714+00:00",
-        "v": 974.0
-      },
-      {
-        "t": "2026-06-15T16:00:09.205005+00:00",
-        "v": 878.5
-      },
-      {
-        "t": "2026-06-16T15:00:08.673728+00:00",
-        "v": 949.5
-      },
-      {
-        "t": "2026-06-17T19:00:06.689650+00:00",
-        "v": 1036.0
-      },
-      {
-        "t": "2026-06-18T16:00:05.349166+00:00",
-        "v": 958.0
-      },
-      {
-        "t": "2026-06-23T16:00:05.078430+00:00",
-        "v": 1012.0
-      },
-      {
-        "t": "2026-06-24T15:00:08.642570+00:00",
-        "v": 916.5
-      },
-      {
-        "t": "2026-06-25T15:00:05.434539+00:00",
-        "v": 805.0
-      },
-      {
-        "t": "2026-06-26T16:00:10.606565+00:00",
-        "v": 734.5
-      },
-      {
-        "t": "2026-06-29T16:00:10.261601+00:00",
-        "v": 590.0
-      },
-      {
-        "t": "2026-07-01T19:30:09.177261+00:00",
-        "v": 590.0
+        "v": 6250.0
       }
     ],
     "volhedge": [
       {
         "t": null,
-        "v": 200.0
-      },
-      {
-        "t": "2026-07-06T14:45:41.814066+00:00",
-        "v": 71.0
+        "v": 6250.0
       }
     ],
     "ic_hifreq": [
       {
         "t": null,
-        "v": 300.0
-      },
-      {
-        "t": "2026-05-28T15:03:04.544671+00:00",
-        "v": 202.5
-      },
-      {
-        "t": "2026-06-09T18:03:06.793697+00:00",
-        "v": 212.0
-      },
-      {
-        "t": "2026-06-10T16:03:06.873290+00:00",
-        "v": 203.0
+        "v": 6250.0
       }
     ]
   }
