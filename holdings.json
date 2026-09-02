@@ -1,5 +1,145 @@
 [
  {
+  "sym": "BC·QQQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 710.0S 09-02",
+    "kind": "spread",
+    "exp": "2026-09-02",
+    "dte": 0,
+    "strike": 710.0,
+    "qty": 1,
+    "cost": 453.0,
+    "value": 453.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 767.0S 09-02",
+    "kind": "spread",
+    "exp": "2026-09-02",
+    "dte": 0,
+    "strike": 767.0,
+    "qty": 1,
+    "cost": 458.0,
+    "value": 458.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BFLY·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY S 09-02",
+    "kind": "spread",
+    "exp": "2026-09-02",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 287.0,
+    "value": 287.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BFLY·QQQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ S 09-02",
+    "kind": "spread",
+    "exp": "2026-09-02",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 246.0,
+    "value": 246.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BWB·AGY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ P 09-04",
+    "kind": "put",
+    "exp": "2026-09-04",
+    "dte": 2,
+    "strike": null,
+    "qty": 1,
+    "cost": 145.5,
+    "value": 145.5,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BWB·IA10",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY P 09-02",
+    "kind": "put",
+    "exp": "2026-09-02",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 36.0,
+    "value": 36.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY P 09-04",
+    "kind": "put",
+    "exp": "2026-09-04",
+    "dte": 2,
+    "strike": null,
+    "qty": 1,
+    "cost": 417.0,
+    "value": 417.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "VOLHEDGE",
   "shares": 1,
   "cost": 6250.0,
@@ -20,22 +160,6 @@
   ]
  },
  {
-  "sym": "BC·QQQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
   "sym": "BOUNCE",
   "shares": 1,
   "cost": 6250.0,
@@ -45,46 +169,6 @@
  },
  {
   "sym": "BFLY·IWM",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·QQQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BWB·AGY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BWB·DALI",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BWB·IA10",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
