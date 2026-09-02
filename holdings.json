@@ -4,69 +4,79 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BOUNCE",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·IWM",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·SPY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BWB·AGY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BWB·DALI",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BWB·IA10",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "CALENDAR",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
-  "src": "paper"
+  "src": "paper",
+  "moons": []
  }
 ]
