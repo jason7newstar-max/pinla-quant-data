@@ -1,45 +1,5 @@
 [
  {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6073.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 774.0S 09-03",
-    "kind": "spread",
-    "exp": "2026-09-03",
-    "dte": 0,
-    "strike": 774.0,
-    "qty": 1,
-    "cost": 467.0,
-    "value": 467.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "BC·QQQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 5997.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "QQQ 719.0S 09-03",
-    "kind": "spread",
-    "exp": "2026-09-03",
-    "dte": 0,
-    "strike": 719.0,
-    "qty": 1,
-    "cost": 465.0,
-    "value": 465.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BFLY·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -97,6 +57,22 @@
  },
  {
   "sym": "IC·HIFREQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "LOTTERY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "MINI·BCS",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
