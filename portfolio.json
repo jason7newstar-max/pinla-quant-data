@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T15:10:25.477212+00:00",
+  "as_of": "2026-09-07T15:40:26.385330+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -768,6 +768,48 @@
     {
       "action": "open_failed",
       "reason": "could not find ATM call",
+      "ts": "2026-09-07T15:38:55.223585+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T15:38:38.471825+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T15:28:09.748345+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-09-07T15:23:47.677513+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T15:23:29.119082+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T15:13:02.147294+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
       "ts": "2026-09-07T15:08:38.111178+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
@@ -1053,80 +1095,6 @@
       "pnl_per_contract": 29.5,
       "pnl_pct": 0.149,
       "ts": "2026-09-04T16:37:22.952090+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T16:23:26.731643+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +14.6%",
-      "close_cost": 1.69,
-      "pnl_per_contract": 29.0,
-      "pnl_pct": 0.146,
-      "ts": "2026-09-04T16:22:13.881956+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 769.845,
-      "expiration": "2026-09-04",
-      "short_strike": 771.0,
-      "long_strike": 776.0,
-      "strikes": {
-        "sc": 771.0,
-        "lc": 776.0
-      },
-      "net_credit": 0.33,
-      "max_loss_per_contract": 467.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 467.0,
-      "cost": 467.0,
-      "contracts": 1,
-      "open_ts": "2026-09-04T15:51:44.688703+00:00",
-      "close_reason": "stop 2x credit \u00b7 close 0.72 vs credit 0.33",
-      "pnl_dollar": -39.0,
-      "pnl_pct": -1.182,
-      "proceeds": 428.0,
-      "close_ts": "2026-09-04T16:22:09.724029+00:00",
-      "ts": "2026-09-04T16:22:09.724437+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "stop 2x credit \u00b7 close 0.72 vs credit 0.33",
-      "close_cost": 0.72,
-      "pnl_per_contract": -39.0,
-      "pnl_pct": -1.182,
-      "ts": "2026-09-04T16:22:09.723783+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T16:08:03.269985+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -8.6%",
-      "close_cost": 2.15,
-      "pnl_per_contract": -17.0,
-      "pnl_pct": -0.086,
-      "ts": "2026-09-04T16:06:58.090784+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
     }
