@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T16:10:23.098023+00:00",
+  "as_of": "2026-09-07T16:40:23.307320+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -768,6 +768,48 @@
     {
       "action": "open_failed",
       "reason": "could not find ATM call",
+      "ts": "2026-09-07T16:39:30.525851+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T16:39:11.087523+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T16:28:44.910643+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-09-07T16:24:22.272545+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T16:24:01.884516+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T16:13:36.746476+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
       "ts": "2026-09-07T16:09:13.438955+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
@@ -1020,52 +1062,6 @@
       "action": "open_failed",
       "reason": "no signal",
       "ts": "2026-09-04T18:41:14.114318+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T18:26:02.187525+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T18:10:38.816133+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -58.1%",
-      "close_cost": 0.98,
-      "pnl_per_contract": -36.0,
-      "pnl_pct": -0.581,
-      "ts": "2026-09-04T18:00:17.921504+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T17:55:26.924676+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T17:40:07.685499+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T17:24:48.181035+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
     }
