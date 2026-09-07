@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T14:55:28.925310+00:00",
+  "as_of": "2026-09-07T15:10:25.477212+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -768,6 +768,38 @@
     {
       "action": "open_failed",
       "reason": "could not find ATM call",
+      "ts": "2026-09-07T15:08:38.111178+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T15:08:17.743151+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -40.3%",
+      "close_cost": 0.87,
+      "pnl_per_contract": -25.0,
+      "pnl_pct": -0.403,
+      "ts": "2026-09-07T15:00:15.762979+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T14:57:52.762413+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
       "ts": "2026-09-07T14:53:31.907650+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
@@ -1095,46 +1127,6 @@
       "pnl_per_contract": -17.0,
       "pnl_pct": -0.086,
       "ts": "2026-09-04T16:06:58.090784+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -15.2%",
-      "close_cost": 0.38,
-      "pnl_per_contract": -5.0,
-      "pnl_pct": -0.152,
-      "ts": "2026-09-04T16:06:57.149130+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -45.2%",
-      "close_cost": 0.9,
-      "pnl_per_contract": -28.0,
-      "pnl_pct": -0.452,
-      "ts": "2026-09-04T16:00:18.040192+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T15:52:44.923981+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -20.2%",
-      "close_cost": 2.38,
-      "pnl_per_contract": -40.0,
-      "pnl_pct": -0.202,
-      "ts": "2026-09-04T15:51:50.902965+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
     }
