@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T13:55:24.886519+00:00",
+  "as_of": "2026-09-07T14:10:25.453226+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -633,10 +633,10 @@
       "closed_trades_today": 0,
       "wins": 2,
       "win_rate": 1.0,
-      "today_pnl": -44.0,
+      "today_pnl": -50.0,
       "cumulative_pnl": 99.0,
-      "portfolio_value": 6305.0,
-      "roi_pct": 0.0088
+      "portfolio_value": 6299.0,
+      "roi_pct": 0.0078
     },
     "mini_bcs": {
       "name": "mini_bcs",
@@ -695,8 +695,8 @@
     },
     {
       "name": "karen_bps",
-      "roi_pct": 0.0088,
-      "portfolio_value": 6305.0
+      "roi_pct": 0.0078,
+      "portfolio_value": 6299.0
     },
     {
       "name": "lottery",
@@ -765,6 +765,31 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-09-07T14:08:12.701100+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T14:07:47.553332+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -40.3%",
+      "close_cost": 0.87,
+      "pnl_per_contract": -25.0,
+      "pnl_pct": -0.403,
+      "ts": "2026-09-07T14:00:17.294774+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
     {
       "action": "monitor",
       "close": false,
@@ -1163,39 +1188,6 @@
       "ts": "2026-09-04T15:06:48.882068+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -28.0%",
-      "close_cost": 2.54,
-      "pnl_per_contract": -55.5,
-      "pnl_pct": -0.28,
-      "ts": "2026-09-04T15:06:19.607726+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +31.5%",
-      "close_cost": 0.37,
-      "pnl_per_contract": 17.0,
-      "pnl_pct": 0.315,
-      "ts": "2026-09-04T15:06:11.368897+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -64.5%",
-      "close_cost": 1.02,
-      "pnl_per_contract": -40.0,
-      "pnl_pct": -0.645,
-      "ts": "2026-09-04T15:00:22.949536+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
     }
   ],
   "chart_data": {
