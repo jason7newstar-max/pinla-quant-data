@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T14:10:25.453226+00:00",
+  "as_of": "2026-09-07T14:25:25.483172+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -768,6 +768,27 @@
     {
       "action": "open_failed",
       "reason": "could not find ATM call",
+      "ts": "2026-09-07T14:23:17.671337+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T14:22:51.173990+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T14:12:32.327539+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
       "ts": "2026-09-07T14:08:12.701100+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
@@ -1157,35 +1178,6 @@
       "action": "open_failed",
       "reason": "no signal",
       "ts": "2026-09-04T15:22:13.243289+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -31.6%",
-      "close_cost": 2.6,
-      "pnl_per_contract": -62.5,
-      "pnl_pct": -0.316,
-      "ts": "2026-09-04T15:21:32.020654+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +48.1%",
-      "close_cost": 0.28,
-      "pnl_per_contract": 26.0,
-      "pnl_pct": 0.481,
-      "ts": "2026-09-04T15:21:20.680846+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T15:06:48.882068+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
     }
