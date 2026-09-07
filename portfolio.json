@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T15:40:26.385330+00:00",
+  "as_of": "2026-09-07T16:10:23.098023+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
@@ -768,6 +768,59 @@
     {
       "action": "open_failed",
       "reason": "could not find ATM call",
+      "ts": "2026-09-07T16:09:13.438955+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T16:08:55.512928+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -40.3%",
+      "close_cost": 0.87,
+      "pnl_per_contract": -25.0,
+      "pnl_pct": -0.403,
+      "ts": "2026-09-07T16:00:15.184769+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T15:58:30.914107+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
+      "ts": "2026-09-07T15:54:02.625475+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ~0.30-delta short call",
+      "ts": "2026-09-07T15:53:47.243845+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-07T15:43:18.851294+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open_failed",
+      "reason": "could not find ATM call",
       "ts": "2026-09-07T15:38:55.223585+00:00",
       "strategy": "butterfly",
       "_strategy": "butterfly"
@@ -1015,88 +1068,6 @@
       "ts": "2026-09-04T17:24:48.181035+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T17:09:30.579389+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -20.2%",
-      "close_cost": 0.74,
-      "pnl_per_contract": -12.5,
-      "pnl_pct": -0.202,
-      "ts": "2026-09-04T17:00:21.278056+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T16:54:10.529618+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 772.03,
-      "expiration": "2026-09-04",
-      "atm_strike": 772.0,
-      "strikes": {
-        "sc": 772.0,
-        "lc": 777.0,
-        "sp": 772.0,
-        "lp": 767.0
-      },
-      "net_credit": 1.98,
-      "max_loss_per_contract": 302.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 302.0,
-      "cost": 302.0,
-      "contracts": 1,
-      "open_ts": "2026-09-04T14:05:36.006065+00:00",
-      "close_reason": "TP +30%",
-      "pnl_dollar": 59.0,
-      "pnl_pct": 0.298,
-      "proceeds": 361.0,
-      "close_ts": "2026-09-04T16:52:33.441005+00:00",
-      "ts": "2026-09-04T16:52:33.441864+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "TP +30%",
-      "close_cost": 1.39,
-      "pnl_per_contract": 59.0,
-      "pnl_pct": 0.298,
-      "ts": "2026-09-04T16:52:33.440752+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-04T16:38:45.521181+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +14.9%",
-      "close_cost": 1.69,
-      "pnl_per_contract": 29.5,
-      "pnl_pct": 0.149,
-      "ts": "2026-09-04T16:37:22.952090+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
     }
   ],
   "chart_data": {
