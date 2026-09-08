@@ -20,26 +20,6 @@
   ]
  },
  {
-  "sym": "KAREN·BPS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6349.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY P 09-09",
-    "kind": "put",
-    "exp": "2026-09-09",
-    "dte": 1,
-    "strike": null,
-    "qty": 2,
-    "cost": 876.0,
-    "value": 876.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -121,6 +101,14 @@
  },
  {
   "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
