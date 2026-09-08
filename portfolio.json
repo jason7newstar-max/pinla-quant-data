@@ -1,35 +1,35 @@
 {
-  "as_of": "2026-09-07T20:10:29.148939+00:00",
-  "market_open": false,
+  "as_of": "2026-09-08T13:40:28.197690+00:00",
+  "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 770.19,
-    "bid": 769.42,
-    "ask": 769.55,
-    "volume": 34054199,
-    "mark": 769.55,
-    "change_pct": -0.3854262322645608,
-    "close": 773.17
+    "last": 768.04,
+    "bid": 768.03,
+    "ask": 768.05,
+    "volume": 2746514,
+    "mark": 768.04,
+    "change_pct": -0.2791518975837249,
+    "close": 770.19
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 717.5,
-    "bid": 717.5,
-    "ask": 717.54,
-    "volume": 32871076,
-    "mark": 717.5,
-    "change_pct": -0.02368776735825088,
-    "close": 717.67
+    "last": 719.13,
+    "bid": 719.08,
+    "ask": 719.11,
+    "volume": 2584308,
+    "mark": 719.11,
+    "change_pct": 0.023645265383325786,
+    "close": 718.96
   },
   "senate": {
-    "date": "2026-09-07",
-    "ts": "2026-09-07T13:26:45.199543+00:00",
-    "brief": "Date: 2026-09-07 (US market open).\nSPY $770.19 (-0.39% today, +0.1% 5d) \u2014 above 5d-MA, above 10d-MA, at 68% of 10d range\nQQQ $717.50 (-0.02% today, +0.4% 5d) \u2014 above 5d-MA, above 10d-MA, at 69% of 10d range\nIWM $296.01 (+0.28% today, +0.1% 5d) \u2014 above 5d-MA, below 10d-MA, at 58% of 10d range\nVIX 15.1 (flat vs 5d)\nRegime: mixed/choppy (2/3 indices above 10d-MA); VIX low & flat.\nCalendar: next FOMC 2026-09-16 (9d away).",
+    "date": "2026-09-08",
+    "ts": "2026-09-08T13:26:37.649317+00:00",
+    "brief": "Date: 2026-09-08 (US market open).\nSPY $769.33 (-0.11% today, +0.1% 5d) \u2014 above 5d-MA, above 10d-MA, at 62% of 10d range\nQQQ $721.23 (+0.32% today, +0.4% 5d) \u2014 above 5d-MA, above 10d-MA, at 86% of 10d range\nIWM $295.49 (-0.18% today, +0.1% 5d) \u2014 above 5d-MA, below 10d-MA, at 53% of 10d range\nVIX 15.3 (rising vs 5d)\nRegime: mixed/choppy (2/3 indices above 10d-MA); VIX low & rising.\nCalendar: next FOMC 2026-09-16 (8d away).",
     "votes": [
       {
         "direction": "chop",
         "confidence": 55,
-        "reason": "Mixed index trends, low VIX, upcoming FOMC create short\u2011term uncertainty",
+        "reason": "Mixed signals, indices near MAs, VIX rising, FOMC uncertainty",
         "seat": "GPT-OSS-120B#1",
         "provider": "groq",
         "ok": true
@@ -37,7 +37,7 @@
       {
         "direction": "chop",
         "confidence": 55,
-        "reason": "Mixed index trends, low VIX, upcoming FOMC adds uncertainty",
+        "reason": "Mixed MA signals, low\u2011rising VIX, upcoming FOMC adds uncertainty",
         "seat": "GPT-OSS-120B#2",
         "provider": "groq",
         "ok": true
@@ -45,7 +45,7 @@
       {
         "direction": "chop",
         "confidence": 65,
-        "reason": "Mixed signals, most indices above MAs, low VIX, upcoming FOMC",
+        "reason": "Mixed signals, indices near MAs, VIX rising, FOMC ahead",
         "seat": "GPT-OSS-120B#3",
         "provider": "groq",
         "ok": true
@@ -53,55 +53,53 @@
       {
         "direction": "chop",
         "confidence": 60,
-        "reason": "Mixed trend, low volatility, FOMC looming\u2014short\u2011term rangebound likely.",
+        "reason": "Mixed momentum, low VIX, upcoming FOMC creates short\u2011term uncertainty",
         "seat": "GPT-OSS-20B",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 85,
-        "reason": "Mixed technicals and low VIX suggest range-bound action ahead of FOMC.",
+        "confidence": 75,
+        "reason": "Mixed technicals, rising VIX, and FOMC risk favor consolidation.",
         "seat": "Qwen3.6-27B",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed signals across indices, low VIX but pre-FOMC drift likely limits conviction moves.",
+        "confidence": 65,
+        "reason": "Mixed signals: QQQ near highs, IWM below 10d-MA, VIX rising into FOMC blackout.",
         "seat": "DeepSeek-V4P",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 65,
-        "reason": "Large caps hold short-term uptrends, but mixed breadth, low flat VIX, and pre-FOMC favor rangebound.",
+        "confidence": 62,
+        "reason": "Tech strength offset by small-cap weakness, rising VIX, and pre-FOMC caution; mixed regime favors chop.",
         "seat": "Qwen3.8-Max",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 80,
-        "reason": "Mixed signals, FOMC looms, low volatility suggests range-bound trade.",
         "seat": "Mistral",
         "provider": "openrouter",
-        "ok": true
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
       },
       {
         "direction": "chop",
-        "confidence": 55,
-        "reason": "Mixed MA signals, low flat VIX, choppy regime; FOMC 9d away.",
+        "confidence": 65,
+        "reason": "Mixed/choppy regime, VIX low but rising, large-caps mixed near FOMC.",
         "seat": "Grok-4.6",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 63,
-        "reason": "Flat 5d momentum, mixed breadth (IWM lags), low flat VIX, FOMC 9d away \u2014 range-bound consolidation likely.",
+        "confidence": 60,
+        "reason": "Mixed breadth, VIX rising from lows, no catalyst for 8 days; range-bound drift despite QQQ strength.",
         "seat": "GLM-5.3",
         "provider": "openrouter",
         "ok": true
@@ -109,15 +107,15 @@
       {
         "direction": "chop",
         "confidence": 65,
-        "reason": "Low VIX and indices consolidating above short-term moving averages suggest continued range-bound trading.",
+        "reason": "Mixed index momentum and rising VIX support short-term sideways consolidation near range highs.",
         "seat": "Gemini-3.7F",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed regime, flat VIX, and approaching FOMC suggest sideways consolidation over the next 1-2 days.",
+        "confidence": 80,
+        "reason": "Mixed moving averages, rising VIX, and impending FOMC meeting suggest range-bound trading for the next 1-2 days.",
         "seat": "Gemini3-Pro",
         "provider": "openrouter",
         "ok": true
@@ -125,31 +123,31 @@
       {
         "direction": "chop",
         "confidence": 68,
-        "reason": "Mixed breadth, low flat VIX, and indices near upper short-term ranges favor consolidation ahead of FOMC.",
+        "reason": "Mixed breadth, rising VIX, and QQQ near range highs favor consolidation ahead of FOMC.",
         "seat": "GPT-5.6-Terra",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed signals, low flat VIX, minor moves, pre-FOMC drift favors range-bound action over trend.",
+        "confidence": 62,
+        "reason": "Mixed breadth, rising VIX, pre-FOMC positioning favors rangebound action despite QQQ strength.",
         "seat": "Fable-5",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 62,
-        "reason": "Mixed index posture, low VIX, FOMC in 9d favors range-bound action.",
+        "confidence": 65,
+        "reason": "Mixed breadth, rising VIX, and looming FOMC suggest range-bound action into next week.",
         "seat": "MiniMax-M3",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 60,
-        "reason": "Mixed breadth, low flat VIX, indices near range highs into FOMC blackout.",
+        "confidence": 65,
+        "reason": "Mixed breadth, QQQ extended, VIX rising into FOMC blackout",
         "seat": "Nemotron-Ult",
         "provider": "openrouter",
         "ok": true
@@ -157,7 +155,7 @@
       {
         "direction": "chop",
         "confidence": 55,
-        "reason": "Mixed index signals, low flat VIX, and pre-FOMC positioning favor range-bound trading.",
+        "reason": "Mixed signals: indices above short MAs but VIX rising pre-FOMC; no clear edge 1-2 days",
         "seat": "Kimi-K3",
         "provider": "openrouter",
         "ok": true
@@ -165,7 +163,7 @@
       {
         "direction": "chop",
         "confidence": 68,
-        "reason": "Mixed breadth, low flat VIX, and indexes mid-to-upper range favor consolidation ahead of FOMC.",
+        "reason": "Mixed breadth, rising low VIX, and QQQ near range highs favor consolidation into FOMC.",
         "seat": "GPT",
         "provider": "codex",
         "ok": true
@@ -177,20 +175,18 @@
         "error": "HTTP Error 404: Not Found"
       },
       {
-        "direction": "chop",
-        "confidence": 62,
-        "reason": "Mixed trend, low flat VIX, and FOMC in 9 days favor range-bound action.",
         "seat": "MiniMax-M3-f",
         "provider": "openrouter",
-        "ok": true
+        "ok": false,
+        "error": "HTTP Error 404: Not Found"
       }
     ],
-    "seats_ok": 19,
+    "seats_ok": 17,
     "seats_total": 20,
     "tally": {
       "bull": 0,
       "bear": 0,
-      "chop": 19
+      "chop": 17
     },
     "consensus": "chop",
     "strength": 1.0,
@@ -198,8 +194,8 @@
     "mode": "live"
   },
   "sentiment": {
-    "date": "2026-09-07",
-    "ts": "2026-09-07T13:25:07.039204+00:00",
+    "date": "2026-09-08",
+    "ts": "2026-09-08T13:25:06.305634+00:00",
     "raw": {
       "fear_greed": {
         "score": 41.8571428571429,
@@ -222,171 +218,171 @@
         }
       },
       "stocktwits_trending": [
-        "LTC.X",
-        "XTZ.X",
-        "DOGE.X",
-        "ARB.X",
-        "SGML",
-        "VNDA",
-        "HUBS",
-        "DOT.X",
-        "ZEC.X",
-        "EURJPY",
-        "ONDO.X",
-        "PENGU.X"
+        "IONQ",
+        "ORCL",
+        "RGTI",
+        "SRPT",
+        "MCD",
+        "QCOM",
+        "NTLA",
+        "QBTS",
+        "BCRX",
+        "NVS",
+        "HOOD",
+        "ASML"
       ],
       "wsb": {
         "tradestie": [
           {
-            "t": "AGI",
-            "s": "Bullish",
-            "n": 91
-          },
-          {
             "t": "AI",
             "s": "Bullish",
-            "n": 72
-          },
-          {
-            "t": "WELL",
-            "s": "Bullish",
-            "n": 3
-          },
-          {
-            "t": "NVDA",
-            "s": "Bullish",
-            "n": 3
-          },
-          {
-            "t": "AEHR",
-            "s": "Bullish",
-            "n": 3
-          },
-          {
-            "t": "REIT",
-            "s": "Bearish",
-            "n": 2
-          },
-          {
-            "t": "GPT",
-            "s": "Bullish",
-            "n": 2
-          },
-          {
-            "t": "SB",
-            "s": "Bullish",
-            "n": 2
-          },
-          {
-            "t": "NKE",
-            "s": "Bearish",
-            "n": 2
-          },
-          {
-            "t": "BWET",
-            "s": "Bearish",
-            "n": 2
+            "n": 37
           },
           {
             "t": "MU",
             "s": "Bullish",
-            "n": 2
+            "n": 19
           },
           {
-            "t": "NTR",
+            "t": "SPY",
             "s": "Bearish",
-            "n": 1
+            "n": 15
           },
           {
-            "t": "CLOV",
-            "s": "Bearish",
-            "n": 1
-          },
-          {
-            "t": "WEAT",
-            "s": "Bearish",
-            "n": 1
-          },
-          {
-            "t": "OSS",
+            "t": "AGI",
             "s": "Bullish",
-            "n": 1
+            "n": 9
+          },
+          {
+            "t": "RDDT",
+            "s": "Bullish",
+            "n": 8
+          },
+          {
+            "t": "SNDK",
+            "s": "Bearish",
+            "n": 7
+          },
+          {
+            "t": "NBIS",
+            "s": "Bullish",
+            "n": 6
+          },
+          {
+            "t": "DRAM",
+            "s": "Bullish",
+            "n": 5
+          },
+          {
+            "t": "USO",
+            "s": "Bullish",
+            "n": 5
+          },
+          {
+            "t": "SK",
+            "s": "Bullish",
+            "n": 5
+          },
+          {
+            "t": "APLD",
+            "s": "Bullish",
+            "n": 5
+          },
+          {
+            "t": "TACO",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "AAPL",
+            "s": "Bearish",
+            "n": 4
+          },
+          {
+            "t": "QQQ",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "IREN",
+            "s": "Bullish",
+            "n": 3
           }
         ],
         "apewisdom": [
           {
             "t": "AGI",
-            "m": 183,
+            "m": 237,
             "r": 1
           },
           {
-            "t": "SPY",
-            "m": 33,
+            "t": "MU",
+            "m": 87,
             "r": 2
           },
           {
-            "t": "NOW",
-            "m": 25,
+            "t": "SPY",
+            "m": 76,
             "r": 3
           },
           {
-            "t": "NVDA",
-            "m": 23,
+            "t": "SNDK",
+            "m": 45,
             "r": 4
           },
           {
-            "t": "MU",
-            "m": 22,
+            "t": "NVDA",
+            "m": 43,
             "r": 5
           },
           {
-            "t": "NKE",
-            "m": 18,
+            "t": "BE",
+            "m": 37,
             "r": 6
           },
           {
-            "t": "LULU",
-            "m": 18,
+            "t": "ORCL",
+            "m": 33,
             "r": 7
           },
           {
-            "t": "QQQ",
-            "m": 14,
+            "t": "AAPL",
+            "m": 27,
             "r": 8
           },
           {
-            "t": "AMZN",
-            "m": 13,
+            "t": "NBIS",
+            "m": 27,
             "r": 9
           },
           {
-            "t": "YOU",
-            "m": 13,
+            "t": "TSLA",
+            "m": 23,
             "r": 10
           },
           {
-            "t": "BE",
-            "m": 12,
+            "t": "LULU",
+            "m": 21,
             "r": 11
           },
           {
-            "t": "INTC",
-            "m": 11,
+            "t": "AM",
+            "m": 20,
             "r": 12
           },
           {
             "t": "DTE",
-            "m": 11,
+            "m": 19,
             "r": 13
           },
           {
-            "t": "IT",
-            "m": 10,
+            "t": "QQQ",
+            "m": 19,
             "r": 14
           },
           {
-            "t": "SNDK",
-            "m": 10,
+            "t": "INTC",
+            "m": 15,
             "r": 15
           }
         ]
@@ -394,15 +390,21 @@
     },
     "report": {
       "mood": -16,
-      "intensity": 60,
+      "intensity": 16,
       "crowded": [
-        "AGI",
         "AI",
-        "NVDA",
-        "MU"
+        "MU",
+        "SPY",
+        "AGI",
+        "RDDT",
+        "SNDK",
+        "NBIS",
+        "DRAM",
+        "USO",
+        "QQQ"
       ],
       "divergence": true,
-      "summary": "Retail fear dominates but strong bullish chatter on AI\u2011linked stocks."
+      "summary": "Retail shows mild fear despite strong bullish chatter on AI and tech symbols."
     },
     "zone": "neutral",
     "mode": "live"
@@ -1063,7 +1065,96 @@
     }
   ],
   "chart_data": {
-    "SPY": []
+    "SPY": [
+      {
+        "t": 1788874200000,
+        "o": 769.07,
+        "h": 769.7,
+        "l": 769.06,
+        "c": 769.31,
+        "v": 225204
+      },
+      {
+        "t": 1788874260000,
+        "o": 769.305,
+        "h": 769.48,
+        "l": 768.835,
+        "c": 768.875,
+        "v": 152029
+      },
+      {
+        "t": 1788874320000,
+        "o": 768.87,
+        "h": 769.18,
+        "l": 768.83,
+        "c": 768.93,
+        "v": 112766
+      },
+      {
+        "t": 1788874380000,
+        "o": 768.88,
+        "h": 769.0,
+        "l": 768.68,
+        "c": 768.94,
+        "v": 69822
+      },
+      {
+        "t": 1788874440000,
+        "o": 768.94,
+        "h": 769.03,
+        "l": 768.75,
+        "c": 768.82,
+        "v": 77180
+      },
+      {
+        "t": 1788874500000,
+        "o": 768.82,
+        "h": 768.82,
+        "l": 768.45,
+        "c": 768.48,
+        "v": 97899
+      },
+      {
+        "t": 1788874560000,
+        "o": 768.53,
+        "h": 768.57,
+        "l": 768.295,
+        "c": 768.365,
+        "v": 49827
+      },
+      {
+        "t": 1788874620000,
+        "o": 768.37,
+        "h": 768.51,
+        "l": 768.145,
+        "c": 768.5053,
+        "v": 41229
+      },
+      {
+        "t": 1788874680000,
+        "o": 768.49,
+        "h": 768.69,
+        "l": 768.42,
+        "c": 768.68,
+        "v": 25667
+      },
+      {
+        "t": 1788874740000,
+        "o": 768.68,
+        "h": 768.72,
+        "l": 768.12,
+        "c": 768.15,
+        "v": 35761
+      },
+      {
+        "t": 1788874800000,
+        "o": 768.12,
+        "h": 768.12,
+        "l": 767.91,
+        "c": 767.93,
+        "v": 30864
+      }
+    ]
   },
   "equity_curves": {
     "lottery": [
@@ -1331,7 +1422,7 @@
       "wins": 3
     },
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "pnl": 0.0,
       "equity": 112299.0,
       "trades": 0,
