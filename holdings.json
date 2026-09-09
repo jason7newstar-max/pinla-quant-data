@@ -10,7 +10,7 @@
     "label": "SPY S 10-16",
     "kind": "spread",
     "exp": "2026-10-16",
-    "dte": 38,
+    "dte": 37,
     "strike": null,
     "qty": 1,
     "cost": 379.5,
