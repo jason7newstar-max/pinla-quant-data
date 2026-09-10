@@ -1,25 +1,5 @@
 [
  {
-  "sym": "BFLY·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6534.5,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY S 09-10",
-    "kind": "spread",
-    "exp": "2026-09-10",
-    "dte": 0,
-    "strike": null,
-    "qty": 1,
-    "cost": 249.0,
-    "value": 249.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -35,26 +15,6 @@
     "qty": 1,
     "cost": 379.5,
     "value": 379.5,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6114.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 760.0S 09-10",
-    "kind": "spread",
-    "exp": "2026-09-10",
-    "dte": 0,
-    "strike": 760.0,
-    "qty": 1,
-    "cost": 470.0,
-    "value": 470.0,
     "pnl": 0.0
    }
   ]
@@ -78,6 +38,14 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "BFLY·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6607.5,
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
@@ -121,6 +89,14 @@
  },
  {
   "sym": "CALENDAR",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
