@@ -43,18 +43,18 @@
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
-  "price": 6089.0,
+  "price": 6114.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 761.0S 09-10",
+    "label": "SPY 760.0S 09-10",
     "kind": "spread",
     "exp": "2026-09-10",
     "dte": 0,
-    "strike": 761.0,
+    "strike": 760.0,
     "qty": 1,
-    "cost": 462.0,
-    "value": 462.0,
+    "cost": 470.0,
+    "value": 470.0,
     "pnl": 0.0
    }
   ]
