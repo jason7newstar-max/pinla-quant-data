@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-10T14:40:22.515042+00:00",
+  "as_of": "2026-09-10T14:55:24.297566+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 759.26,
-    "bid": 759.25,
-    "ask": 759.27,
-    "volume": 13944970,
-    "mark": 759.26,
-    "change_pct": -0.41185729275970445,
+    "last": 759.12,
+    "bid": 759.1,
+    "ask": 759.12,
+    "volume": 15193783,
+    "mark": 759.12,
+    "change_pct": -0.43022035676809717,
     "close": 762.4
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 711.74,
-    "bid": 711.71,
-    "ask": 711.74,
-    "volume": 10903028,
-    "mark": 711.74,
-    "change_pct": -0.6379919308679115,
+    "last": 711.235,
+    "bid": 711.22,
+    "ask": 711.25,
+    "volume": 11718184,
+    "mark": 711.235,
+    "change_pct": -0.7084921332942347,
     "close": 716.31
   },
   "senate": {
@@ -520,10 +520,10 @@
       "closed_trades_today": 0,
       "wins": 9,
       "win_rate": 1.0,
-      "today_pnl": -23.5,
+      "today_pnl": -14.5,
       "cumulative_pnl": 284.5,
-      "portfolio_value": 6511.0,
-      "roi_pct": 0.0418
+      "portfolio_value": 6520.0,
+      "roi_pct": 0.0432
     },
     "butterfly_qqq": {
       "name": "butterfly_qqq",
@@ -579,10 +579,10 @@
       "closed_trades_today": 0,
       "wins": 8,
       "win_rate": 0.667,
-      "today_pnl": -52.0,
+      "today_pnl": -37.0,
       "cumulative_pnl": -127.0,
-      "portfolio_value": 6071.0,
-      "roi_pct": -0.0286
+      "portfolio_value": 6086.0,
+      "roi_pct": -0.0262
     },
     "bearcall_qqq": {
       "name": "bearcall_qqq",
@@ -701,8 +701,8 @@
   "leaderboard": [
     {
       "name": "butterfly",
-      "roi_pct": 0.0418,
-      "portfolio_value": 6511.0
+      "roi_pct": 0.0432,
+      "portfolio_value": 6520.0
     },
     {
       "name": "butterfly_qqq",
@@ -766,8 +766,8 @@
     },
     {
       "name": "bearcall_spy",
-      "roi_pct": -0.0286,
-      "portfolio_value": 6071.0
+      "roi_pct": -0.0262,
+      "portfolio_value": 6086.0
     },
     {
       "name": "karen_bps",
@@ -781,6 +781,35 @@
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -56.1%",
+      "close_cost": 1.03,
+      "pnl_per_contract": -37.0,
+      "pnl_pct": -0.561,
+      "ts": "2026-09-10T14:47:14.865159+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -5.8%",
+      "close_cost": 2.65,
+      "pnl_per_contract": -14.5,
+      "pnl_pct": -0.058,
+      "ts": "2026-09-10T14:45:58.453155+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-10T14:44:59.052829+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
     {
       "action": "monitor",
       "close": false,
@@ -1257,35 +1286,6 @@
       "ts": "2026-09-09T17:00:17.539738+00:00",
       "strategy": "karen_bps",
       "_strategy": "karen_bps"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -45.7%",
-      "close_cost": 0.51,
-      "pnl_per_contract": -16.0,
-      "pnl_pct": -0.457,
-      "ts": "2026-09-09T17:00:01.423417+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +8.6%",
-      "close_cost": 1.8,
-      "pnl_per_contract": 17.0,
-      "pnl_pct": 0.086,
-      "ts": "2026-09-09T16:59:50.278631+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-09T16:56:27.980450+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
     }
   ],
   "chart_data": {
@@ -1853,10 +1853,130 @@
       {
         "t": 1789051200000,
         "o": 759.3,
-        "h": 759.3,
-        "l": 759.1,
-        "c": 759.119,
-        "v": 15434
+        "h": 759.395,
+        "l": 759.08,
+        "c": 759.19,
+        "v": 56502
+      },
+      {
+        "t": 1789051260000,
+        "o": 759.21,
+        "h": 759.35,
+        "l": 759.19,
+        "c": 759.2695,
+        "v": 22008
+      },
+      {
+        "t": 1789051320000,
+        "o": 759.24,
+        "h": 759.4,
+        "l": 758.99,
+        "c": 759.0,
+        "v": 23507
+      },
+      {
+        "t": 1789051380000,
+        "o": 758.995,
+        "h": 759.0,
+        "l": 758.74,
+        "c": 758.78,
+        "v": 63202
+      },
+      {
+        "t": 1789051440000,
+        "o": 758.785,
+        "h": 758.8496,
+        "l": 758.67,
+        "c": 758.845,
+        "v": 39388
+      },
+      {
+        "t": 1789051500000,
+        "o": 758.83,
+        "h": 758.83,
+        "l": 758.6,
+        "c": 758.66,
+        "v": 19240
+      },
+      {
+        "t": 1789051560000,
+        "o": 758.6799,
+        "h": 759.04,
+        "l": 758.6799,
+        "c": 758.97,
+        "v": 28001
+      },
+      {
+        "t": 1789051620000,
+        "o": 758.92,
+        "h": 758.92,
+        "l": 758.49,
+        "c": 758.49,
+        "v": 12333
+      },
+      {
+        "t": 1789051680000,
+        "o": 758.49,
+        "h": 758.8094,
+        "l": 758.4305,
+        "c": 758.8094,
+        "v": 55001
+      },
+      {
+        "t": 1789051740000,
+        "o": 758.73,
+        "h": 758.89,
+        "l": 758.66,
+        "c": 758.8,
+        "v": 13684
+      },
+      {
+        "t": 1789051800000,
+        "o": 758.79,
+        "h": 758.7981,
+        "l": 758.5,
+        "c": 758.557,
+        "v": 23431
+      },
+      {
+        "t": 1789051860000,
+        "o": 758.56,
+        "h": 759.0195,
+        "l": 758.56,
+        "c": 759.0195,
+        "v": 35663
+      },
+      {
+        "t": 1789051920000,
+        "o": 759.01,
+        "h": 759.14,
+        "l": 758.88,
+        "c": 758.9801,
+        "v": 38628
+      },
+      {
+        "t": 1789051980000,
+        "o": 759.03,
+        "h": 759.16,
+        "l": 758.895,
+        "c": 759.07,
+        "v": 11584
+      },
+      {
+        "t": 1789052040000,
+        "o": 759.061,
+        "h": 759.18,
+        "l": 758.96,
+        "c": 759.13,
+        "v": 37235
+      },
+      {
+        "t": 1789052100000,
+        "o": 759.19,
+        "h": 759.24,
+        "l": 759.06,
+        "c": 759.11,
+        "v": 13282
       }
     ]
   },
