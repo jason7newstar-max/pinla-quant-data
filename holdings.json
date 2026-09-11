@@ -1,25 +1,5 @@
 [
  {
-  "sym": "BFLY·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6607.5,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY S 09-11",
-    "kind": "spread",
-    "exp": "2026-09-11",
-    "dte": 0,
-    "strike": null,
-    "qty": 1,
-    "cost": 277.0,
-    "value": 277.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -78,6 +58,14 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "BFLY·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6671.5,
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
