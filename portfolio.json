@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-11T15:40:25.338596+00:00",
+  "as_of": "2026-09-11T16:10:12.061589+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 765.97,
-    "bid": 765.98,
-    "ask": 765.99,
-    "volume": 15386553,
-    "mark": 765.98,
-    "change_pct": 1.0741195254872447,
+    "last": 765.95,
+    "bid": 765.93,
+    "ask": 765.95,
+    "volume": 18240508,
+    "mark": 765.95,
+    "change_pct": 1.0714804111740104,
     "close": 757.83
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 717.125,
-    "bid": 717.12,
-    "ask": 717.14,
-    "volume": 13287592,
-    "mark": 717.125,
-    "change_pct": 1.1902242165121484,
+    "last": 716.93,
+    "bid": 716.92,
+    "ask": 716.94,
+    "volume": 14105785,
+    "mark": 716.93,
+    "change_pct": 1.162708659639602,
     "close": 708.69
   },
   "senate": {
@@ -497,34 +497,16 @@
     "butterfly": {
       "name": "butterfly",
       "starting_capital": 6250.0,
-      "cash": 6330.5,
-      "open_position": {
-        "underlying_symbol": "SPY",
-        "underlying_price": 765.63,
-        "expiration": "2026-09-11",
-        "atm_strike": 766.0,
-        "strikes": {
-          "sc": 766.0,
-          "lc": 771.0,
-          "sp": 766.0,
-          "lp": 761.0
-        },
-        "net_credit": 2.23,
-        "max_loss_per_contract": 277.0,
-        "meets_credit_threshold": true,
-        "real_money_collateral_required": 277.0,
-        "cost": 277.0,
-        "contracts": 1,
-        "open_ts": "2026-09-11T14:03:23.037071+00:00"
-      },
-      "closed_trades_total": 10,
-      "closed_trades_today": 0,
-      "wins": 10,
+      "cash": 6671.5,
+      "open_position": null,
+      "closed_trades_total": 11,
+      "closed_trades_today": 1,
+      "wins": 11,
       "win_rate": 1.0,
-      "today_pnl": 51.0,
-      "cumulative_pnl": 357.5,
-      "portfolio_value": 6658.5,
-      "roi_pct": 0.0654
+      "today_pnl": 64.0,
+      "cumulative_pnl": 421.5,
+      "portfolio_value": 6671.5,
+      "roi_pct": 0.0674
     },
     "butterfly_qqq": {
       "name": "butterfly_qqq",
@@ -669,10 +651,10 @@
       "closed_trades_today": 1,
       "wins": 3,
       "win_rate": 0.6,
-      "today_pnl": 105.0,
+      "today_pnl": 145.0,
       "cumulative_pnl": -76.0,
-      "portfolio_value": 6174.0,
-      "roi_pct": -0.0122
+      "portfolio_value": 6214.0,
+      "roi_pct": -0.0058
     },
     "mini_bcs": {
       "name": "mini_bcs",
@@ -721,8 +703,8 @@
   "leaderboard": [
     {
       "name": "butterfly",
-      "roi_pct": 0.0654,
-      "portfolio_value": 6658.5
+      "roi_pct": 0.0674,
+      "portfolio_value": 6671.5
     },
     {
       "name": "butterfly_qqq",
@@ -775,14 +757,14 @@
       "portfolio_value": 6216.0
     },
     {
+      "name": "karen_bps",
+      "roi_pct": -0.0058,
+      "portfolio_value": 6214.0
+    },
+    {
       "name": "bwb_ia10",
       "roi_pct": -0.009,
       "portfolio_value": 6194.0
-    },
-    {
-      "name": "karen_bps",
-      "roi_pct": -0.0122,
-      "portfolio_value": 6174.0
     },
     {
       "name": "bwb_agy",
@@ -801,6 +783,92 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-11T16:09:38.647242+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +0.0%",
+      "close_cost": 0.41,
+      "pnl_per_contract": 0.0,
+      "pnl_pct": 0.0,
+      "ts": "2026-09-11T16:05:40.566588+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +27.8%",
+      "close_cost": 0.52,
+      "pnl_per_contract": 20.0,
+      "pnl_pct": 0.278,
+      "ts": "2026-09-11T16:00:24.031749+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-11T15:54:15.768324+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +7.3%",
+      "close_cost": 0.38,
+      "pnl_per_contract": 3.0,
+      "pnl_pct": 0.073,
+      "ts": "2026-09-11T15:50:34.990296+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "close",
+      "underlying_symbol": "SPY",
+      "underlying_price": 765.63,
+      "expiration": "2026-09-11",
+      "atm_strike": 766.0,
+      "strikes": {
+        "sc": 766.0,
+        "lc": 771.0,
+        "sp": 766.0,
+        "lp": 761.0
+      },
+      "net_credit": 2.23,
+      "max_loss_per_contract": 277.0,
+      "meets_credit_threshold": true,
+      "real_money_collateral_required": 277.0,
+      "cost": 277.0,
+      "contracts": 1,
+      "open_ts": "2026-09-11T14:03:23.037071+00:00",
+      "close_reason": "TP +29%",
+      "pnl_dollar": 64.0,
+      "pnl_pct": 0.287,
+      "proceeds": 341.0,
+      "close_ts": "2026-09-11T15:49:29.104256+00:00",
+      "ts": "2026-09-11T15:49:29.105160+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "monitor",
+      "close": true,
+      "reason": "TP +29%",
+      "close_cost": 1.59,
+      "pnl_per_contract": 64.0,
+      "pnl_pct": 0.287,
+      "ts": "2026-09-11T15:49:29.103951+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
     {
       "action": "open_failed",
       "reason": "no signal",
@@ -1221,108 +1289,6 @@
       "action": "open_failed",
       "reason": "no signal",
       "ts": "2026-09-10T18:19:49.225090+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-10T18:04:29.044038+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 758.25,
-      "expiration": "2026-09-10",
-      "short_strike": 760.0,
-      "long_strike": 765.0,
-      "strikes": {
-        "sc": 760.0,
-        "lc": 765.0
-      },
-      "net_credit": 0.3,
-      "max_loss_per_contract": 470.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 470.0,
-      "cost": 470.0,
-      "contracts": 1,
-      "open_ts": "2026-09-10T16:33:08.872144+00:00",
-      "close_reason": "TP +57%",
-      "pnl_dollar": 17.0,
-      "pnl_pct": 0.567,
-      "proceeds": 487.0,
-      "close_ts": "2026-09-10T18:04:02.964528+00:00",
-      "ts": "2026-09-10T18:04:02.965012+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "TP +57%",
-      "close_cost": 0.13,
-      "pnl_per_contract": 17.0,
-      "pnl_pct": 0.567,
-      "ts": "2026-09-10T18:04:02.964257+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 757.231,
-      "expiration": "2026-09-10",
-      "atm_strike": 757.0,
-      "strikes": {
-        "sc": 757.0,
-        "lc": 762.0,
-        "sp": 757.0,
-        "lp": 752.0
-      },
-      "net_credit": 2.51,
-      "max_loss_per_contract": 249.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 249.0,
-      "cost": 249.0,
-      "contracts": 1,
-      "open_ts": "2026-09-10T14:00:31.974678+00:00",
-      "close_reason": "TP +29%",
-      "pnl_dollar": 73.0,
-      "pnl_pct": 0.291,
-      "proceeds": 322.0,
-      "close_ts": "2026-09-10T18:03:01.252765+00:00",
-      "ts": "2026-09-10T18:03:01.253182+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "TP +29%",
-      "close_cost": 1.78,
-      "pnl_per_contract": 73.0,
-      "pnl_pct": 0.291,
-      "ts": "2026-09-10T18:03:01.252486+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl -15.3%",
-      "close_cost": 0.83,
-      "pnl_per_contract": -11.0,
-      "pnl_pct": -0.153,
-      "ts": "2026-09-10T18:00:25.530511+00:00",
-      "strategy": "karen_bps",
-      "_strategy": "karen_bps"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-10T17:49:08.972122+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
     }
@@ -2372,10 +2338,250 @@
       {
         "t": 1789141200000,
         "o": 765.9401,
+        "h": 766.015,
+        "l": 765.86,
+        "c": 766.0,
+        "v": 12046
+      },
+      {
+        "t": 1789141260000,
+        "o": 765.99,
+        "h": 766.105,
+        "l": 765.99,
+        "c": 766.06,
+        "v": 12996
+      },
+      {
+        "t": 1789141320000,
+        "o": 766.05,
+        "h": 766.13,
+        "l": 765.98,
+        "c": 766.09,
+        "v": 23262
+      },
+      {
+        "t": 1789141380000,
+        "o": 766.08,
+        "h": 766.26,
+        "l": 766.08,
+        "c": 766.1101,
+        "v": 32630
+      },
+      {
+        "t": 1789141440000,
+        "o": 766.12,
+        "h": 766.19,
+        "l": 766.11,
+        "c": 766.12,
+        "v": 12000
+      },
+      {
+        "t": 1789141500000,
+        "o": 766.12,
+        "h": 766.14,
+        "l": 765.96,
+        "c": 766.02,
+        "v": 22787
+      },
+      {
+        "t": 1789141560000,
+        "o": 766.01,
+        "h": 766.01,
+        "l": 765.87,
+        "c": 765.95,
+        "v": 10739
+      },
+      {
+        "t": 1789141620000,
+        "o": 765.97,
         "h": 765.9899,
+        "l": 765.845,
+        "c": 765.86,
+        "v": 11690
+      },
+      {
+        "t": 1789141680000,
+        "o": 765.85,
+        "h": 765.92,
+        "l": 765.76,
+        "c": 765.79,
+        "v": 26235
+      },
+      {
+        "t": 1789141740000,
+        "o": 765.81,
+        "h": 766.04,
+        "l": 765.81,
+        "c": 765.87,
+        "v": 15671
+      },
+      {
+        "t": 1789141800000,
+        "o": 765.8799,
+        "h": 765.96,
+        "l": 765.815,
+        "c": 765.94,
+        "v": 20499
+      },
+      {
+        "t": 1789141860000,
+        "o": 765.95,
+        "h": 765.9586,
+        "l": 765.79,
+        "c": 765.825,
+        "v": 28788
+      },
+      {
+        "t": 1789141920000,
+        "o": 765.81,
+        "h": 765.82,
+        "l": 765.73,
+        "c": 765.7459,
+        "v": 39043
+      },
+      {
+        "t": 1789141980000,
+        "o": 765.71,
+        "h": 765.7269,
+        "l": 765.49,
+        "c": 765.5,
+        "v": 31801
+      },
+      {
+        "t": 1789142040000,
+        "o": 765.5,
+        "h": 765.56,
+        "l": 765.425,
+        "c": 765.53,
+        "v": 20710
+      },
+      {
+        "t": 1789142100000,
+        "o": 765.54,
+        "h": 765.59,
+        "l": 765.4,
+        "c": 765.41,
+        "v": 22138
+      },
+      {
+        "t": 1789142160000,
+        "o": 765.39,
+        "h": 765.58,
+        "l": 765.382,
+        "c": 765.49,
+        "v": 15841
+      },
+      {
+        "t": 1789142220000,
+        "o": 765.58,
+        "h": 765.8,
+        "l": 765.58,
+        "c": 765.625,
+        "v": 28547
+      },
+      {
+        "t": 1789142280000,
+        "o": 765.67,
+        "h": 765.805,
+        "l": 765.6,
+        "c": 765.8,
+        "v": 52679
+      },
+      {
+        "t": 1789142340000,
+        "o": 765.78,
+        "h": 765.8,
+        "l": 765.7,
+        "c": 765.725,
+        "v": 8944
+      },
+      {
+        "t": 1789142400000,
+        "o": 765.73,
+        "h": 765.93,
+        "l": 765.73,
+        "c": 765.81,
+        "v": 26816
+      },
+      {
+        "t": 1789142460000,
+        "o": 765.81,
+        "h": 766.03,
+        "l": 765.81,
+        "c": 766.0,
+        "v": 21775
+      },
+      {
+        "t": 1789142520000,
+        "o": 765.97,
+        "h": 766.17,
+        "l": 765.93,
+        "c": 766.1605,
+        "v": 12634
+      },
+      {
+        "t": 1789142580000,
+        "o": 766.16,
+        "h": 766.18,
         "l": 765.92,
         "c": 765.92,
-        "v": 4215
+        "v": 9087
+      },
+      {
+        "t": 1789142640000,
+        "o": 765.915,
+        "h": 766.2,
+        "l": 765.91,
+        "c": 766.1401,
+        "v": 9639
+      },
+      {
+        "t": 1789142700000,
+        "o": 766.14,
+        "h": 766.175,
+        "l": 766.09,
+        "c": 766.11,
+        "v": 12821
+      },
+      {
+        "t": 1789142760000,
+        "o": 766.115,
+        "h": 766.1501,
+        "l": 765.99,
+        "c": 766.01,
+        "v": 8852
+      },
+      {
+        "t": 1789142820000,
+        "o": 766.03,
+        "h": 766.04,
+        "l": 765.8,
+        "c": 765.8499,
+        "v": 43122
+      },
+      {
+        "t": 1789142880000,
+        "o": 765.82,
+        "h": 765.865,
+        "l": 765.74,
+        "c": 765.825,
+        "v": 52830
+      },
+      {
+        "t": 1789142940000,
+        "o": 765.825,
+        "h": 765.91,
+        "l": 765.8,
+        "c": 765.9,
+        "v": 10189
+      },
+      {
+        "t": 1789143000000,
+        "o": 765.92,
+        "h": 765.95,
+        "l": 765.9151,
+        "c": 765.95,
+        "v": 775
       }
     ]
   },
@@ -2448,6 +2654,10 @@
       {
         "t": "2026-09-10T18:03:01.252765+00:00",
         "v": 6607.5
+      },
+      {
+        "t": "2026-09-11T15:49:29.104256+00:00",
+        "v": 6671.5
       }
     ],
     "butterfly_qqq": [
@@ -2664,27 +2874,27 @@
   "performance": {
     "since": "2026-09-02",
     "starting_capital": 112500.0,
-    "net_liquidation": 112350.0,
-    "net_pnl": -150.0,
-    "total_return_pct": -0.133,
+    "net_liquidation": 112414.0,
+    "net_pnl": -86.0,
+    "total_return_pct": -0.076,
     "max_drawdown_pct": -0.331,
     "active_days": 7,
     "win_days_pct": 57.1,
-    "sharpe_ann": -2.18,
-    "vol_ann_pct": 2.2,
-    "best_day": 106.0,
+    "sharpe_ann": -1.18,
+    "vol_ann_pct": 2.3,
+    "best_day": 170.0,
     "worst_day": -372.5,
-    "avg_daily_pnl": -21.43,
-    "return_over_maxdd": -0.4,
+    "avg_daily_pnl": -12.29,
+    "return_over_maxdd": -0.23,
     "monthly": [
       {
         "month": "2026-09",
-        "pnl": -150.0,
-        "pct": -0.13
+        "pnl": -86.0,
+        "pct": -0.08
       }
     ],
-    "trades_total": 47,
-    "win_rate_pct": 68.1
+    "trades_total": 48,
+    "win_rate_pct": 68.8
   },
   "daily": [
     {
@@ -2731,13 +2941,32 @@
     },
     {
       "date": "2026-09-11",
-      "pnl": 106.0,
-      "equity": 112350.0,
-      "trades": 3,
-      "wins": 2
+      "pnl": 170.0,
+      "equity": 112414.0,
+      "trades": 4,
+      "wins": 3
     }
   ],
   "trades": [
+    {
+      "strategy": "butterfly",
+      "underlying": "SPY",
+      "kind": "spread",
+      "strike": 766.0,
+      "strikes": {
+        "sc": 766.0,
+        "lc": 771.0,
+        "sp": 766.0,
+        "lp": 761.0
+      },
+      "exp": "2026-09-11",
+      "open_ts": "2026-09-11T14:03:23.037071+00:00",
+      "close_ts": "2026-09-11T15:49:29.104256+00:00",
+      "cost": 277.0,
+      "pnl": 64.0,
+      "pnl_pct": 0.287,
+      "reason": "TP +29%"
+    },
     {
       "strategy": "bearcall_spy",
       "underlying": "SPY",
