@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-15T17:40:30.946614+00:00",
+  "as_of": "2026-09-15T18:10:20.215203+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 757.095,
-    "bid": 757.08,
-    "ask": 757.11,
-    "volume": 18734786,
-    "mark": 757.095,
-    "change_pct": -0.49745032068131223,
+    "last": 757.67,
+    "bid": 757.67,
+    "ask": 757.69,
+    "volume": 19764330,
+    "mark": 757.67,
+    "change_pct": -0.4218799285038425,
     "close": 760.88
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 704.81,
-    "bid": 704.81,
-    "ask": 704.83,
-    "volume": 14453795,
-    "mark": 704.81,
-    "change_pct": -0.6162046307002461,
+    "last": 705.3899,
+    "bid": 705.38,
+    "ask": 705.39,
+    "volume": 15830572,
+    "mark": 705.3899,
+    "change_pct": -0.5344341351983894,
     "close": 709.18
   },
   "senate": {
@@ -408,21 +408,21 @@
     "mode": "live"
   },
   "risk_dial": {
-    "ts": "2026-09-15T15:13:48.890216+00:00",
+    "ts": "2026-09-15T18:00:32.076786+00:00",
     "active": true,
     "senate_consensus": "bear",
     "senate_strength": 0.943,
     "senate_dispersion": 0.062,
     "size_mult": 0.963,
-    "combined_value": 112356,
+    "combined_value": 112441,
     "start_capital": 112500,
     "accounts": 18,
-    "pnl_vs_start": -144,
-    "pnl_vs_start_pct": -0.13,
+    "pnl_vs_start": -59,
+    "pnl_vs_start_pct": -0.05,
     "peak": 112500,
-    "drawdown_pct": -0.13,
+    "drawdown_pct": -0.05,
     "halt": false,
-    "open_count": 2,
+    "open_count": 1,
     "exposure_cap": 8,
     "exposure_full": false,
     "sentiment_mood": -40,
@@ -538,8 +538,25 @@
     "bearcall_spy": {
       "name": "bearcall_spy",
       "starting_capital": 6250.0,
-      "cash": 6204.0,
-      "open_position": null,
+      "cash": 5734.0,
+      "open_position": {
+        "underlying_symbol": "SPY",
+        "underlying_price": 757.36,
+        "expiration": "2026-09-15",
+        "short_strike": 758.0,
+        "long_strike": 763.0,
+        "strikes": {
+          "sc": 758.0,
+          "lc": 763.0
+        },
+        "net_credit": 0.3,
+        "max_loss_per_contract": 470.0,
+        "meets_credit_threshold": true,
+        "real_money_collateral_required": 470.0,
+        "cost": 470.0,
+        "contracts": 1,
+        "open_ts": "2026-09-15T18:00:32.077896+00:00"
+      },
       "closed_trades_total": 23,
       "closed_trades_today": 2,
       "wins": 15,
@@ -746,6 +763,58 @@
     }
   ],
   "events": [
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-15T18:07:46.183457+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "open",
+      "underlying_symbol": "SPY",
+      "underlying_price": 757.36,
+      "expiration": "2026-09-15",
+      "short_strike": 758.0,
+      "long_strike": 763.0,
+      "strikes": {
+        "sc": 758.0,
+        "lc": 763.0
+      },
+      "net_credit": 0.3,
+      "max_loss_per_contract": 470.0,
+      "meets_credit_threshold": true,
+      "real_money_collateral_required": 470.0,
+      "cost": 470.0,
+      "contracts": 1,
+      "open_ts": "2026-09-15T18:00:32.077896+00:00",
+      "ts": "2026-09-15T18:00:32.078625+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "open_failed",
+      "reason": "no signal",
+      "ts": "2026-09-15T17:52:40.284254+00:00",
+      "strategy": "bounce",
+      "_strategy": "bounce"
+    },
+    {
+      "action": "skip_open",
+      "reason": "meets_credit_threshold=False",
+      "underlying_symbol": "SPY",
+      "underlying_price": 757.175,
+      "expiration": "2026-09-15",
+      "short_strike": 758.0,
+      "long_strike": 763.0,
+      "net_credit": 0.28,
+      "max_loss_per_contract": 472.0,
+      "meets_credit_threshold": false,
+      "real_money_collateral_required": 472.0,
+      "ts": "2026-09-15T17:45:18.964120+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
     {
       "action": "open_failed",
       "reason": "no signal",
@@ -1171,46 +1240,6 @@
       "ts": "2026-09-15T14:49:15.524177+00:00",
       "strategy": "bounce",
       "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +0.5%",
-      "close_cost": 2.09,
-      "pnl_per_contract": 1.0,
-      "pnl_pct": 0.005,
-      "ts": "2026-09-15T14:44:40.180653+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +44.7%",
-      "close_cost": 0.21,
-      "pnl_per_contract": 17.0,
-      "pnl_pct": 0.447,
-      "ts": "2026-09-15T14:43:36.182353+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "open_failed",
-      "reason": "no signal",
-      "ts": "2026-09-15T14:33:58.228202+00:00",
-      "strategy": "bounce",
-      "_strategy": "bounce"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +3.8%",
-      "close_cost": 2.02,
-      "pnl_per_contract": 8.0,
-      "pnl_pct": 0.038,
-      "ts": "2026-09-15T14:29:29.677334+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
     }
   ],
   "chart_data": {
@@ -3218,10 +3247,250 @@
       {
         "t": 1789494000000,
         "o": 757.1,
-        "h": 757.11,
+        "h": 757.245,
         "l": 757.03,
+        "c": 757.22,
+        "v": 11952
+      },
+      {
+        "t": 1789494060000,
+        "o": 757.214,
+        "h": 757.214,
+        "l": 757.09,
         "c": 757.1,
-        "v": 6440
+        "v": 24487
+      },
+      {
+        "t": 1789494120000,
+        "o": 757.095,
+        "h": 757.095,
+        "l": 756.94,
+        "c": 756.96,
+        "v": 12597
+      },
+      {
+        "t": 1789494180000,
+        "o": 756.97,
+        "h": 757.13,
+        "l": 756.9,
+        "c": 757.13,
+        "v": 13915
+      },
+      {
+        "t": 1789494240000,
+        "o": 757.125,
+        "h": 757.21,
+        "l": 757.11,
+        "c": 757.13,
+        "v": 19639
+      },
+      {
+        "t": 1789494300000,
+        "o": 757.13,
+        "h": 757.21,
+        "l": 757.13,
+        "c": 757.2,
+        "v": 8230
+      },
+      {
+        "t": 1789494360000,
+        "o": 757.22,
+        "h": 757.27,
+        "l": 757.075,
+        "c": 757.09,
+        "v": 13018
+      },
+      {
+        "t": 1789494420000,
+        "o": 757.11,
+        "h": 757.16,
+        "l": 757.05,
+        "c": 757.05,
+        "v": 6272
+      },
+      {
+        "t": 1789494480000,
+        "o": 757.07,
+        "h": 757.09,
+        "l": 756.9793,
+        "c": 757.03,
+        "v": 8398
+      },
+      {
+        "t": 1789494540000,
+        "o": 757.01,
+        "h": 757.03,
+        "l": 756.93,
+        "c": 756.98,
+        "v": 7280
+      },
+      {
+        "t": 1789494600000,
+        "o": 756.965,
+        "h": 757.04,
+        "l": 756.96,
+        "c": 757.04,
+        "v": 6255
+      },
+      {
+        "t": 1789494660000,
+        "o": 757.05,
+        "h": 757.12,
+        "l": 757.02,
+        "c": 757.085,
+        "v": 8567
+      },
+      {
+        "t": 1789494720000,
+        "o": 757.07,
+        "h": 757.15,
+        "l": 757.04,
+        "c": 757.15,
+        "v": 7341
+      },
+      {
+        "t": 1789494780000,
+        "o": 757.13,
+        "h": 757.225,
+        "l": 757.06,
+        "c": 757.225,
+        "v": 6199
+      },
+      {
+        "t": 1789494840000,
+        "o": 757.21,
+        "h": 757.27,
+        "l": 757.09,
+        "c": 757.27,
+        "v": 7398
+      },
+      {
+        "t": 1789494900000,
+        "o": 757.27,
+        "h": 757.275,
+        "l": 757.14,
+        "c": 757.275,
+        "v": 10928
+      },
+      {
+        "t": 1789494960000,
+        "o": 757.2607,
+        "h": 757.3901,
+        "l": 757.26,
+        "c": 757.37,
+        "v": 7180
+      },
+      {
+        "t": 1789495020000,
+        "o": 757.38,
+        "h": 757.4,
+        "l": 757.32,
+        "c": 757.365,
+        "v": 7546
+      },
+      {
+        "t": 1789495080000,
+        "o": 757.365,
+        "h": 757.37,
+        "l": 757.26,
+        "c": 757.27,
+        "v": 12320
+      },
+      {
+        "t": 1789495140000,
+        "o": 757.339,
+        "h": 757.36,
+        "l": 757.24,
+        "c": 757.27,
+        "v": 9153
+      },
+      {
+        "t": 1789495200000,
+        "o": 757.295,
+        "h": 757.405,
+        "l": 757.1426,
+        "c": 757.18,
+        "v": 9756
+      },
+      {
+        "t": 1789495260000,
+        "o": 757.175,
+        "h": 757.39,
+        "l": 757.15,
+        "c": 757.38,
+        "v": 13761
+      },
+      {
+        "t": 1789495320000,
+        "o": 757.37,
+        "h": 757.5087,
+        "l": 757.32,
+        "c": 757.44,
+        "v": 13104
+      },
+      {
+        "t": 1789495380000,
+        "o": 757.46,
+        "h": 757.5199,
+        "l": 757.41,
+        "c": 757.495,
+        "v": 31567
+      },
+      {
+        "t": 1789495440000,
+        "o": 757.49,
+        "h": 757.5,
+        "l": 757.44,
+        "c": 757.49,
+        "v": 9621
+      },
+      {
+        "t": 1789495500000,
+        "o": 757.505,
+        "h": 757.505,
+        "l": 757.41,
+        "c": 757.47,
+        "v": 11420
+      },
+      {
+        "t": 1789495560000,
+        "o": 757.485,
+        "h": 757.62,
+        "l": 757.47,
+        "c": 757.59,
+        "v": 35642
+      },
+      {
+        "t": 1789495620000,
+        "o": 757.55,
+        "h": 757.58,
+        "l": 757.52,
+        "c": 757.56,
+        "v": 8362
+      },
+      {
+        "t": 1789495680000,
+        "o": 757.54,
+        "h": 757.57,
+        "l": 757.525,
+        "c": 757.5451,
+        "v": 6268
+      },
+      {
+        "t": 1789495740000,
+        "o": 757.57,
+        "h": 757.69,
+        "l": 757.57,
+        "c": 757.67,
+        "v": 15575
+      },
+      {
+        "t": 1789495800000,
+        "o": 757.69,
+        "h": 757.7101,
+        "l": 757.64,
+        "c": 757.64,
+        "v": 5520
       }
     ]
   },
