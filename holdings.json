@@ -48,6 +48,14 @@
   "moons": []
  },
  {
+  "sym": "IC_45DTE_",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
   "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
@@ -65,14 +73,6 @@
  },
  {
   "sym": "MINI·BCS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "SNAPBACK",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
