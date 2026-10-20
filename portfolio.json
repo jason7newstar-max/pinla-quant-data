@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20T13:40:28.503807+00:00",
+  "as_of": "2026-10-20T13:55:24.887996+00:00",
   "market_open": true,
   "spy": {
     "last": null,
@@ -479,17 +479,18 @@
       "roi_pct": 0.0
     },
     "butterfly": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "butterfly",
+      "starting_capital": 200.0,
+      "cash": 200.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "butterfly"
+      "portfolio_value": 200.0,
+      "roi_pct": 0.0
     },
     "butterfly_qqq": {
       "name": "butterfly_qqq",
@@ -520,17 +521,18 @@
       "roi_pct": 0.0
     },
     "bearcall_spy": {
-      "starting_capital": 200,
-      "cash": 200,
+      "name": "bearcall_spy",
+      "starting_capital": 200.0,
+      "cash": 200.0,
       "open_position": null,
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
+      "win_rate": null,
       "today_pnl": 0,
       "cumulative_pnl": 0,
-      "portfolio_value": 200,
-      "roi_pct": 0,
-      "name": "bearcall_spy"
+      "portfolio_value": 200.0,
+      "roi_pct": 0.0
     },
     "bearcall_qqq": {
       "name": "bearcall_qqq",
@@ -673,8 +675,8 @@
     },
     {
       "name": "butterfly",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 200.0
     },
     {
       "name": "butterfly_iwm",
@@ -683,8 +685,8 @@
     },
     {
       "name": "bearcall_spy",
-      "roi_pct": 0,
-      "portfolio_value": 200
+      "roi_pct": 0.0,
+      "portfolio_value": 200.0
     },
     {
       "name": "bwb_dali",
@@ -1171,7 +1173,96 @@
     }
   ],
   "chart_data": {
-    "SPY": []
+    "SPY": [
+      {
+        "t": 1792503000000,
+        "o": 765.87,
+        "h": 765.898,
+        "l": 765.07,
+        "c": 765.52,
+        "v": 136028
+      },
+      {
+        "t": 1792503060000,
+        "o": 765.53,
+        "h": 765.8109,
+        "l": 765.31,
+        "c": 765.33,
+        "v": 116567
+      },
+      {
+        "t": 1792503120000,
+        "o": 765.333,
+        "h": 765.47,
+        "l": 765.1508,
+        "c": 765.39,
+        "v": 47559
+      },
+      {
+        "t": 1792503180000,
+        "o": 765.41,
+        "h": 765.55,
+        "l": 765.28,
+        "c": 765.41,
+        "v": 62468
+      },
+      {
+        "t": 1792503240000,
+        "o": 765.395,
+        "h": 765.749,
+        "l": 765.37,
+        "c": 765.53,
+        "v": 26454
+      },
+      {
+        "t": 1792503300000,
+        "o": 765.52,
+        "h": 765.68,
+        "l": 765.25,
+        "c": 765.47,
+        "v": 32246
+      },
+      {
+        "t": 1792503360000,
+        "o": 765.46,
+        "h": 765.86,
+        "l": 765.31,
+        "c": 765.83,
+        "v": 35937
+      },
+      {
+        "t": 1792503420000,
+        "o": 765.838,
+        "h": 766.15,
+        "l": 765.75,
+        "c": 766.09,
+        "v": 54934
+      },
+      {
+        "t": 1792503480000,
+        "o": 766.07,
+        "h": 766.085,
+        "l": 765.74,
+        "c": 765.93,
+        "v": 35046
+      },
+      {
+        "t": 1792503540000,
+        "o": 765.9,
+        "h": 766.07,
+        "l": 765.7,
+        "c": 765.74,
+        "v": 23006
+      },
+      {
+        "t": 1792503600000,
+        "o": 765.76,
+        "h": 765.78,
+        "l": 765.46,
+        "c": 765.51,
+        "v": 38350
+      }
+    ]
   },
   "equity_curves": {
     "lottery": [
@@ -1198,7 +1289,12 @@
         "v": 6250.0
       }
     ],
-    "butterfly": [],
+    "butterfly": [
+      {
+        "t": null,
+        "v": 200.0
+      }
+    ],
     "butterfly_qqq": [
       {
         "t": null,
@@ -1235,7 +1331,12 @@
         "v": 6250.0
       }
     ],
-    "bearcall_spy": [],
+    "bearcall_spy": [
+      {
+        "t": null,
+        "v": 200.0
+      }
+    ],
     "bearcall_qqq": [
       {
         "t": null,
@@ -1314,7 +1415,7 @@
   },
   "performance": {
     "since": "2026-10-21",
-    "starting_capital": 87500.0,
+    "starting_capital": 94150.0,
     "active_days": 0
   },
   "daily": [],
