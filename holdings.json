@@ -1,45 +1,5 @@
 [
  {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6283.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 768.0S 10-22",
-    "kind": "spread",
-    "exp": "2026-10-22",
-    "dte": 0,
-    "strike": 768.0,
-    "qty": 1,
-    "cost": 425.0,
-    "value": 425.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "KAREN·BPS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY P 10-27",
-    "kind": "put",
-    "exp": "2026-10-27",
-    "dte": 5,
-    "strike": null,
-    "qty": 2,
-    "cost": 850.0,
-    "value": 850.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BFLY·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -60,10 +20,26 @@
   ]
  },
  {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6400.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
   "sym": "BFLY·QQQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6332.0,
   "src": "paper",
   "moons": []
  },
