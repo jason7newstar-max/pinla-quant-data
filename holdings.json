@@ -1,45 +1,5 @@
 [
  {
-  "sym": "KAREN·BPS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6552.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY P 10-30",
-    "kind": "put",
-    "exp": "2026-10-30",
-    "dte": 4,
-    "strike": null,
-    "qty": 2,
-    "cost": 818.0,
-    "value": 818.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6326.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 765.0S 10-26",
-    "kind": "spread",
-    "exp": "2026-10-26",
-    "dte": 0,
-    "strike": 765.0,
-    "qty": 1,
-    "cost": 433.0,
-    "value": 433.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -78,6 +38,14 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6734.0,
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
@@ -121,6 +89,14 @@
  },
  {
   "sym": "IC·HIFREQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "LOTTERY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
