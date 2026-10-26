@@ -20,6 +20,26 @@
   ]
  },
  {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6249.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 769.0S 10-26",
+    "kind": "spread",
+    "exp": "2026-10-26",
+    "dte": 0,
+    "strike": 769.0,
+    "qty": 1,
+    "cost": 467.0,
+    "value": 467.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "BFLY·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -89,14 +109,6 @@
  },
  {
   "sym": "IC·HIFREQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "LOTTERY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
