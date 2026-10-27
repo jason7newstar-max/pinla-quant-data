@@ -20,6 +20,26 @@
   ]
  },
  {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6236.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 770.0S 10-27",
+    "kind": "spread",
+    "exp": "2026-10-27",
+    "dte": 0,
+    "strike": 770.0,
+    "qty": 1,
+    "cost": 436.0,
+    "value": 436.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "KAREN·BPS",
   "shares": 1,
   "cost": 6250.0,
@@ -77,14 +97,6 @@
  },
  {
   "sym": "LOTTERY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "MINI·BCS",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
