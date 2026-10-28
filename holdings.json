@@ -1,5 +1,25 @@
 [
  {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6890.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY P 11-02",
+    "kind": "put",
+    "exp": "2026-11-02",
+    "dte": 5,
+    "strike": null,
+    "qty": 2,
+    "cost": 840.0,
+    "value": 840.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -20,12 +40,64 @@
   ]
  },
  {
-  "sym": "KAREN·BPS",
+  "sym": "IC_0DTE_S",
   "shares": 1,
   "cost": 6250.0,
-  "price": 6890.0,
+  "price": 6248.0,
   "src": "paper",
-  "moons": []
+  "moons": [
+   {
+    "label": "SPY S 10-28",
+    "kind": "spread",
+    "exp": "2026-10-28",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 443.0,
+    "value": 443.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BFLY·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6224.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY S 10-28",
+    "kind": "spread",
+    "exp": "2026-10-28",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 163.0,
+    "value": 163.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6210.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 773.0S 10-28",
+    "kind": "spread",
+    "exp": "2026-10-28",
+    "dte": 0,
+    "strike": 773.0,
+    "qty": 1,
+    "cost": 418.0,
+    "value": 418.0,
+    "pnl": 0.0
+   }
+  ]
  },
  {
   "sym": "BFLY·QQQ",
@@ -61,30 +133,6 @@
  },
  {
   "sym": "CALENDAR",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC·HIFREQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "LOTTERY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "MINI·BCS",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
