@@ -1,5 +1,65 @@
 [
  {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 7050.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY P 11-03",
+    "kind": "put",
+    "exp": "2026-11-03",
+    "dte": 5,
+    "strike": null,
+    "qty": 2,
+    "cost": 849.0,
+    "value": 849.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BFLY·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6311.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY S 10-29",
+    "kind": "spread",
+    "exp": "2026-10-29",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 198.0,
+    "value": 198.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6282.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY S 10-29",
+    "kind": "spread",
+    "exp": "2026-10-29",
+    "dte": 0,
+    "strike": null,
+    "qty": 1,
+    "cost": 441.0,
+    "value": 441.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -20,34 +80,30 @@
   ]
  },
  {
-  "sym": "KAREN·BPS",
+  "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
-  "price": 7050.0,
+  "price": 6235.0,
   "src": "paper",
-  "moons": []
+  "moons": [
+   {
+    "label": "SPY 771.0S 10-29",
+    "kind": "spread",
+    "exp": "2026-10-29",
+    "dte": 0,
+    "strike": 771.0,
+    "qty": 1,
+    "cost": 436.0,
+    "value": 436.0,
+    "pnl": 0.0
+   }
+  ]
  },
  {
   "sym": "BFLY·QQQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6311.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC_0DTE_S",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6282.0,
   "src": "paper",
   "moons": []
  },
@@ -77,14 +133,6 @@
  },
  {
   "sym": "CALENDAR",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
