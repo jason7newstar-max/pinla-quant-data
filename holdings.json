@@ -1,25 +1,5 @@
 [
  {
-  "sym": "KAREN·BPS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 7050.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY P 11-03",
-    "kind": "put",
-    "exp": "2026-11-03",
-    "dte": 5,
-    "strike": null,
-    "qty": 2,
-    "cost": 849.0,
-    "value": 849.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BFLY·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -98,6 +78,14 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 7202.0,
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
