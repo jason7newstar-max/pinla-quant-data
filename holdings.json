@@ -20,26 +20,6 @@
   ]
  },
  {
-  "sym": "IC_0DTE_S",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6282.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY S 10-29",
-    "kind": "spread",
-    "exp": "2026-10-29",
-    "dte": 0,
-    "strike": null,
-    "qty": 1,
-    "cost": 441.0,
-    "value": 441.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -92,6 +72,14 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6316.5,
   "src": "paper",
   "moons": []
  },
