@@ -40,6 +40,26 @@
   ]
  },
  {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6345.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 759.0S 10-30",
+    "kind": "spread",
+    "exp": "2026-10-30",
+    "dte": 0,
+    "strike": 759.0,
+    "qty": 1,
+    "cost": 429.0,
+    "value": 429.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "IC_0DTE_S",
   "shares": 1,
   "cost": 6250.0,
@@ -78,14 +98,6 @@
     "pnl": 0.0
    }
   ]
- },
- {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6345.0,
-  "src": "paper",
-  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
