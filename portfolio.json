@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-30T16:40:15.116891+00:00",
+  "as_of": "2026-10-30T17:10:23.282549+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 757.0863,
-    "bid": 757.09,
-    "ask": 757.12,
-    "volume": 21853676,
-    "mark": 757.105,
-    "change_pct": -1.595312987418109,
+    "last": 755.55,
+    "bid": 755.55,
+    "ask": 755.58,
+    "volume": 24227402,
+    "mark": 755.565,
+    "change_pct": -1.7949984402620436,
     "close": 769.36
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 691.97,
-    "bid": 691.96,
-    "ask": 691.98,
-    "volume": 28796517,
-    "mark": 691.97,
-    "change_pct": -3.2669779405597343,
+    "last": 690.07,
+    "bid": 690.04,
+    "ask": 690.07,
+    "volume": 34824453,
+    "mark": 690.0550000000001,
+    "change_pct": -3.532585903206864,
     "close": 715.34
   },
   "senate": {
@@ -525,10 +525,10 @@
       "closed_trades_today": 0,
       "wins": 4,
       "win_rate": 0.571,
-      "today_pnl": -22.5,
+      "today_pnl": 14.5,
       "cumulative_pnl": 138.0,
-      "portfolio_value": 6365.5,
-      "roi_pct": 0.0185
+      "portfolio_value": 6402.5,
+      "roi_pct": 0.0244
     },
     "butterfly_qqq": {
       "name": "butterfly_qqq",
@@ -584,10 +584,10 @@
       "closed_trades_today": 2,
       "wins": 12,
       "win_rate": 0.667,
-      "today_pnl": 90.0,
+      "today_pnl": 87.0,
       "cumulative_pnl": 95.0,
-      "portfolio_value": 6355.0,
-      "roi_pct": 0.0168
+      "portfolio_value": 6352.0,
+      "roi_pct": 0.0163
     },
     "bearcall_qqq": {
       "name": "bearcall_qqq",
@@ -673,10 +673,10 @@
       "closed_trades_today": 0,
       "wins": 6,
       "win_rate": 1.0,
-      "today_pnl": -49.0,
+      "today_pnl": -48.0,
       "cumulative_pnl": 952.0,
-      "portfolio_value": 7153.0,
-      "roi_pct": 0.1445
+      "portfolio_value": 7154.0,
+      "roi_pct": 0.1446
     },
     "mini_bcs": {
       "name": "mini_bcs",
@@ -725,18 +725,18 @@
   "leaderboard": [
     {
       "name": "karen_bps",
-      "roi_pct": 0.1445,
-      "portfolio_value": 7153.0
+      "roi_pct": 0.1446,
+      "portfolio_value": 7154.0
     },
     {
       "name": "butterfly",
-      "roi_pct": 0.0185,
-      "portfolio_value": 6365.5
+      "roi_pct": 0.0244,
+      "portfolio_value": 6402.5
     },
     {
       "name": "bearcall_spy",
-      "roi_pct": 0.0168,
-      "portfolio_value": 6355.0
+      "roi_pct": 0.0163,
+      "portfolio_value": 6352.0
     },
     {
       "name": "butterfly_qqq",
@@ -805,6 +805,61 @@
     }
   ],
   "events": [
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -26.2%",
+      "close_cost": 3.66,
+      "pnl_per_contract": -76.0,
+      "pnl_pct": -0.262,
+      "ts": "2026-10-30T17:10:14.028674+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl -30.8%",
+      "close_cost": 1.02,
+      "pnl_per_contract": -24.0,
+      "pnl_pct": -0.308,
+      "ts": "2026-10-30T17:00:07.235535+00:00",
+      "strategy": "karen_bps",
+      "_strategy": "karen_bps"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +9.9%",
+      "close_cost": 0.64,
+      "pnl_per_contract": 7.0,
+      "pnl_pct": 0.099,
+      "ts": "2026-10-30T16:56:17.798199+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +5.0%",
+      "close_cost": 2.75,
+      "pnl_per_contract": 14.5,
+      "pnl_pct": 0.05,
+      "ts": "2026-10-30T16:55:06.678234+00:00",
+      "strategy": "butterfly",
+      "_strategy": "butterfly"
+    },
+    {
+      "action": "monitor",
+      "close": false,
+      "reason": "holding \u00b7 pnl +19.7%",
+      "close_cost": 0.57,
+      "pnl_per_contract": 14.0,
+      "pnl_pct": 0.197,
+      "ts": "2026-10-30T16:41:11.016663+00:00",
+      "strategy": "bearcall_spy",
+      "_strategy": "bearcall_spy"
+    },
     {
       "action": "monitor",
       "close": false,
@@ -1320,78 +1375,6 @@
       "proceeds": 472.0,
       "close_ts": "2026-10-29T17:53:51.313464+00:00",
       "ts": "2026-10-29T17:53:51.314456+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "TP +56%",
-      "close_cost": 0.28,
-      "pnl_per_contract": 36.0,
-      "pnl_pct": 0.563,
-      "ts": "2026-10-29T17:53:51.313220+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +48.4%",
-      "close_cost": 0.33,
-      "pnl_per_contract": 31.0,
-      "pnl_pct": 0.484,
-      "ts": "2026-10-29T17:38:43.528210+00:00",
-      "strategy": "bearcall_spy",
-      "_strategy": "bearcall_spy"
-    },
-    {
-      "action": "close",
-      "underlying_symbol": "SPY",
-      "underlying_price": 768.115,
-      "expiration": "2026-10-29",
-      "atm_strike": 768.0,
-      "strikes": {
-        "sc": 768.0,
-        "lc": 773.0,
-        "sp": 768.0,
-        "lp": 763.0
-      },
-      "net_credit": 3.02,
-      "max_loss_per_contract": 198.0,
-      "meets_credit_threshold": true,
-      "real_money_collateral_required": 198.0,
-      "cost": 198.0,
-      "contracts": 1,
-      "open_ts": "2026-10-29T14:07:01.477870+00:00",
-      "close_reason": "TP +25%",
-      "pnl_dollar": 77.0,
-      "pnl_pct": 0.255,
-      "proceeds": 275.0,
-      "close_ts": "2026-10-29T17:38:33.314441+00:00",
-      "ts": "2026-10-29T17:38:33.316328+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": true,
-      "reason": "TP +25%",
-      "close_cost": 2.25,
-      "pnl_per_contract": 77.0,
-      "pnl_pct": 0.255,
-      "ts": "2026-10-29T17:38:33.313247+00:00",
-      "strategy": "butterfly",
-      "_strategy": "butterfly"
-    },
-    {
-      "action": "monitor",
-      "close": false,
-      "reason": "holding \u00b7 pnl +32.8%",
-      "close_cost": 0.43,
-      "pnl_per_contract": 21.0,
-      "pnl_pct": 0.328,
-      "ts": "2026-10-29T17:23:37.272570+00:00",
       "strategy": "bearcall_spy",
       "_strategy": "bearcall_spy"
     }
@@ -2801,10 +2784,250 @@
       {
         "t": 1793377500000,
         "o": 756.9936,
-        "h": 757.0863,
+        "h": 757.19,
         "l": 756.9773,
-        "c": 757.0863,
-        "v": 3389
+        "c": 757.16,
+        "v": 13410
+      },
+      {
+        "t": 1793377560000,
+        "o": 757.1401,
+        "h": 757.16,
+        "l": 757.055,
+        "c": 757.09,
+        "v": 18687
+      },
+      {
+        "t": 1793377620000,
+        "o": 757.0901,
+        "h": 757.38,
+        "l": 757.06,
+        "c": 757.34,
+        "v": 24968
+      },
+      {
+        "t": 1793377680000,
+        "o": 757.33,
+        "h": 757.548,
+        "l": 757.33,
+        "c": 757.53,
+        "v": 24619
+      },
+      {
+        "t": 1793377740000,
+        "o": 757.56,
+        "h": 757.71,
+        "l": 757.522,
+        "c": 757.59,
+        "v": 22875
+      },
+      {
+        "t": 1793377800000,
+        "o": 757.56,
+        "h": 757.56,
+        "l": 757.19,
+        "c": 757.44,
+        "v": 49649
+      },
+      {
+        "t": 1793377860000,
+        "o": 757.43,
+        "h": 757.47,
+        "l": 757.25,
+        "c": 757.26,
+        "v": 16371
+      },
+      {
+        "t": 1793377920000,
+        "o": 757.26,
+        "h": 757.33,
+        "l": 757.165,
+        "c": 757.26,
+        "v": 18459
+      },
+      {
+        "t": 1793377980000,
+        "o": 757.25,
+        "h": 757.2885,
+        "l": 757.12,
+        "c": 757.24,
+        "v": 19925
+      },
+      {
+        "t": 1793378040000,
+        "o": 757.25,
+        "h": 757.47,
+        "l": 757.16,
+        "c": 757.38,
+        "v": 14130
+      },
+      {
+        "t": 1793378100000,
+        "o": 757.33,
+        "h": 757.46,
+        "l": 757.25,
+        "c": 757.25,
+        "v": 12562
+      },
+      {
+        "t": 1793378160000,
+        "o": 757.265,
+        "h": 757.39,
+        "l": 757.09,
+        "c": 757.385,
+        "v": 30096
+      },
+      {
+        "t": 1793378220000,
+        "o": 757.385,
+        "h": 757.4201,
+        "l": 757.24,
+        "c": 757.25,
+        "v": 12272
+      },
+      {
+        "t": 1793378280000,
+        "o": 757.26,
+        "h": 757.32,
+        "l": 757.15,
+        "c": 757.26,
+        "v": 13190
+      },
+      {
+        "t": 1793378340000,
+        "o": 757.25,
+        "h": 757.71,
+        "l": 757.25,
+        "c": 757.7,
+        "v": 32822
+      },
+      {
+        "t": 1793378400000,
+        "o": 757.69,
+        "h": 758.01,
+        "l": 757.55,
+        "c": 757.9001,
+        "v": 27384
+      },
+      {
+        "t": 1793378460000,
+        "o": 757.91,
+        "h": 757.98,
+        "l": 757.67,
+        "c": 757.74,
+        "v": 25874
+      },
+      {
+        "t": 1793378520000,
+        "o": 757.72,
+        "h": 757.7599,
+        "l": 757.56,
+        "c": 757.56,
+        "v": 15377
+      },
+      {
+        "t": 1793378580000,
+        "o": 757.545,
+        "h": 757.66,
+        "l": 757.4715,
+        "c": 757.63,
+        "v": 15358
+      },
+      {
+        "t": 1793378640000,
+        "o": 757.63,
+        "h": 757.64,
+        "l": 757.39,
+        "c": 757.41,
+        "v": 18104
+      },
+      {
+        "t": 1793378700000,
+        "o": 757.36,
+        "h": 757.39,
+        "l": 757.16,
+        "c": 757.1743,
+        "v": 13271
+      },
+      {
+        "t": 1793378760000,
+        "o": 757.19,
+        "h": 757.2,
+        "l": 756.2,
+        "c": 756.213,
+        "v": 84210
+      },
+      {
+        "t": 1793378820000,
+        "o": 756.2,
+        "h": 756.64,
+        "l": 756.18,
+        "c": 756.36,
+        "v": 28900
+      },
+      {
+        "t": 1793378880000,
+        "o": 756.335,
+        "h": 756.41,
+        "l": 756.02,
+        "c": 756.0601,
+        "v": 51038
+      },
+      {
+        "t": 1793378940000,
+        "o": 756.07,
+        "h": 756.3,
+        "l": 755.94,
+        "c": 756.28,
+        "v": 38020
+      },
+      {
+        "t": 1793379000000,
+        "o": 756.25,
+        "h": 756.26,
+        "l": 755.76,
+        "c": 755.78,
+        "v": 55603
+      },
+      {
+        "t": 1793379060000,
+        "o": 755.76,
+        "h": 755.765,
+        "l": 755.5,
+        "c": 755.73,
+        "v": 60984
+      },
+      {
+        "t": 1793379120000,
+        "o": 755.71,
+        "h": 755.94,
+        "l": 755.71,
+        "c": 755.875,
+        "v": 48921
+      },
+      {
+        "t": 1793379180000,
+        "o": 755.88,
+        "h": 756.04,
+        "l": 755.6501,
+        "c": 755.66,
+        "v": 32669
+      },
+      {
+        "t": 1793379240000,
+        "o": 755.65,
+        "h": 755.77,
+        "l": 755.3779,
+        "c": 755.5592,
+        "v": 44655
+      },
+      {
+        "t": 1793379300000,
+        "o": 755.53,
+        "h": 755.62,
+        "l": 755.43,
+        "c": 755.5,
+        "v": 10244
       }
     ]
   },
