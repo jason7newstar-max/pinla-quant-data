@@ -1,5 +1,25 @@
 [
  {
+  "sym": "KAREN·BPS",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 7024.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY P 11-06",
+    "kind": "put",
+    "exp": "2026-11-06",
+    "dte": 4,
+    "strike": null,
+    "qty": 2,
+    "cost": 835.0,
+    "value": 835.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -18,14 +38,6 @@
     "pnl": 0.0
    }
   ]
- },
- {
-  "sym": "KAREN·BPS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 7024.0,
-  "src": "paper",
-  "moons": []
  },
  {
   "sym": "BC·SPY",
