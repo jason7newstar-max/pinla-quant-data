@@ -20,26 +20,6 @@
   ]
  },
  {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6321.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 762.0S 11-02",
-    "kind": "spread",
-    "exp": "2026-11-02",
-    "dte": 0,
-    "strike": 762.0,
-    "qty": 1,
-    "cost": 437.0,
-    "value": 437.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -78,6 +58,14 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6354.0,
+  "src": "paper",
+  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
