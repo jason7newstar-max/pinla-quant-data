@@ -20,21 +20,21 @@
   ]
  },
  {
-  "sym": "BC·SPY",
+  "sym": "IC_0DTE_S",
   "shares": 1,
   "cost": 6250.0,
-  "price": 6533.0,
+  "price": 6282.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 760.0S 11-05",
+    "label": "SPY S 11-05",
     "kind": "spread",
     "exp": "2026-11-05",
     "dte": 0,
-    "strike": 760.0,
+    "strike": null,
     "qty": 1,
-    "cost": 387.0,
-    "value": 387.0,
+    "cost": 444.0,
+    "value": 444.0,
     "pnl": 0.0
    }
   ]
@@ -80,18 +80,18 @@
   ]
  },
  {
-  "sym": "BFLY·QQQ",
+  "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
-  "price": 6342.5,
+  "price": 6606.0,
   "src": "paper",
   "moons": []
  },
  {
-  "sym": "IC_0DTE_S",
+  "sym": "BFLY·QQQ",
   "shares": 1,
   "cost": 6250.0,
-  "price": 6282.0,
+  "price": 6342.5,
   "src": "paper",
   "moons": []
  },
