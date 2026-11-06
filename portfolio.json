@@ -1,59 +1,59 @@
 {
-  "as_of": "2026-11-05T21:10:30.888840+00:00",
-  "market_open": false,
+  "as_of": "2026-11-06T14:40:24.676007+00:00",
+  "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 734.7,
-    "bid": 734.66,
-    "ask": 734.68,
-    "volume": 97250421,
-    "mark": 734.67,
-    "change_pct": -4.187477993244729,
-    "close": 766.81
+    "last": 733.2499,
+    "bid": 734.83,
+    "ask": 734.9,
+    "volume": 2350837,
+    "mark": 734.865,
+    "change_pct": 0.03409276944065827,
+    "close": 733.0
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 649.57,
-    "bid": 649.59,
-    "ask": 649.66,
-    "volume": 112993567,
-    "mark": 649.625,
-    "change_pct": -6.124719994219235,
-    "close": 691.95
+    "last": 647.8,
+    "bid": 658.69,
+    "ask": 658.79,
+    "volume": 5389752,
+    "mark": 658.74,
+    "change_pct": 0.11591067150915696,
+    "close": 647.05
   },
   "senate": {
-    "date": "2026-11-05",
-    "ts": "2026-11-05T14:26:21.803010+00:00",
-    "brief": "Date: 2026-11-05 (US market open).\nSPY $766.64 (-0.02% today, -0.7% 5d) \u2014 above 5d-MA, above 10d-MA, at 71% of 10d range\nQQQ $691.77 (-0.03% today, -4.6% 5d) \u2014 below 5d-MA, below 10d-MA, at 25% of 10d range\nIWM $283.94 (-0.03% today, +1.0% 5d) \u2014 above 5d-MA, above 10d-MA, at 83% of 10d range\nVIX 16.8 (flat vs 5d)\nRegime: mixed/choppy (2/3 indices above 10d-MA); tech lagging; small-caps participating (broad); VIX elevated & flat.\nCalendar: next FOMC 2026-12-09 (34d away).",
+    "date": "2026-11-06",
+    "ts": "2026-11-06T14:26:11.921493+00:00",
+    "brief": "Date: 2026-11-06 (US market open).\nSPY $733.25 (+0.03% today, -4.7% 5d) \u2014 below 5d-MA, below 10d-MA, at 1% of 10d range\nQQQ $647.80 (+0.12% today, -9.4% 5d) \u2014 below 5d-MA, below 10d-MA, at 1% of 10d range\nIWM $271.05 (+0.03% today, -4.6% 5d) \u2014 below 5d-MA, below 10d-MA, at 3% of 10d range\nVIX 26.8 (rising vs 5d)\nRegime: broad downtrend (all 3 below 10d-MA); tech lagging; near 10d lows; VIX high & rising.\nCalendar: next FOMC 2026-12-09 (33d away).",
     "votes": [
       {
-        "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed signals, tech weakness, elevated VIX, no catalyst until Dec FOMC",
+        "direction": "bear",
+        "confidence": 75,
+        "reason": "Broad downtrend, tech lag, near 10\u2011day lows, VIX rising",
         "seat": "GPT-OSS-120B#1",
         "provider": "groq",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed momentum, tech weakness, elevated VIX, no near\u2011term catalyst",
+        "direction": "bear",
+        "confidence": 70,
+        "reason": "Broad downtrend, all indices below 10d-MA, tech lagging, VIX rising",
         "seat": "GPT-OSS-120B#2",
         "provider": "groq",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed signals, tech weakness, VIX flat elevated, no catalyst until FOMC",
+        "direction": "bear",
+        "confidence": 72,
+        "reason": "Broad downtrend, tech lag, VIX rising, near 10\u2011day lows",
         "seat": "GPT-OSS-120B#3",
         "provider": "groq",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed MA signals, tech lag, flat VIX, no clear trend",
+        "direction": "bear",
+        "confidence": 70,
+        "reason": "Broad downtrend, low 10d MAs, rising VIX signals bearish bias",
         "seat": "GPT-OSS-20B",
         "provider": "groq",
         "ok": true
@@ -65,97 +65,97 @@
         "error": "HTTP Error 404: Not Found"
       },
       {
-        "direction": "chop",
-        "confidence": 65,
-        "reason": "Tech-heavy QQQ lagging badly while IWM leads; VIX elevated and flat signals indecision, not conviction.",
+        "direction": "bear",
+        "confidence": 75,
+        "reason": "Strong momentum crash in tech, all indices hugging 10d lows with rising VIX; no catalyst for reversal.",
         "seat": "DeepSeek-V4P",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 55,
-        "reason": "Mixed breadth and flat VIX offset tech weakness; SPY above MAs but lacks momentum.",
+        "direction": "bear",
+        "confidence": 68,
+        "reason": "Broad downtrend, tech weakness, near lows, rising VIX favor further downside despite potential oversold bounce.",
         "seat": "Qwen3.8-Max",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 75,
-        "reason": "Mixed technicals, weak tech, and elevated VIX suggest sideways action.",
+        "direction": "bear",
+        "confidence": 80,
+        "reason": "Broad downtrend, near lows, VIX rising ahead of FOMC.",
         "seat": "Mistral",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 60,
-        "reason": "Mixed choppy regime tech lagging SPY holding MAs VIX flat no near catalysts",
+        "direction": "bear",
+        "confidence": 65,
+        "reason": "Broad downtrend near 10d lows with rising VIX favors continued selling.",
         "seat": "Grok-4.6",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 60,
-        "reason": "Divergent tape: SPY/IWM firm above MAs, QQQ lags hard; VIX flat, no near-term catalyst \u2014 range-bound.",
+        "direction": "bear",
+        "confidence": 70,
+        "reason": "Broad downtrend, all indices below 10d-MA, VIX high and rising; oversold bounce possible but no reversal signal.",
         "seat": "GLM-5.3",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
+        "direction": "bear",
         "confidence": 65,
-        "reason": "Tech weakness offsets small-cap strength amid flat volatility, indicating continued mixed, rangebound price action.",
+        "reason": "Broad multi-day downtrend across all indices reinforced by high and rising VIX.",
         "seat": "Gemini-3.7F",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
+        "direction": "bear",
         "confidence": 75,
-        "reason": "Tech weakness offsets small-cap strength, keeping SPY range-bound amid elevated VIX and mixed moving averages.",
+        "reason": "Strong negative momentum, rising VIX, and lagging tech suggest continued selling pressure despite extreme short-term oversold levels.",
         "seat": "Gemini3-Pro",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
+        "direction": "bear",
         "confidence": 72,
-        "reason": "Mixed breadth: SPY/IWM firm, QQQ weak, and flat elevated VIX signals near-term rangebound rotation.",
+        "reason": "Broad downtrend, tech underperformance, rising VIX, and indices near lows favor continued downside over 1-2 days.",
         "seat": "GPT-5.6-Terra",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 62,
-        "reason": "Rotation from tech into small-caps; mixed index trends and flat VIX favor range-bound action near-term.",
+        "direction": "bear",
+        "confidence": 65,
+        "reason": "Broad downtrend, all below MAs at 10d lows, VIX rising; momentum favors continued downside.",
         "seat": "Fable-5",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 62,
-        "reason": "Mixed breadth, tech lagging, VIX elevated; no clear catalyst until December FOMC.",
+        "direction": "bear",
+        "confidence": 72,
+        "reason": "All indices below MAs, near 10d lows, rising VIX confirms downside momentum.",
         "seat": "MiniMax-M3",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed breadth, tech lagging, VIX elevated flat, no catalyst until FOMC",
+        "direction": "bear",
+        "confidence": 75,
+        "reason": "Downtrend confirmed, tech lagging, near lows, VIX rising",
         "seat": "Nemotron-Ult",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed signals: SPY/IWM above MAs but QQQ lagging; VIX flat elevated, no clear catalyst for 1-2 days",
+        "direction": "bear",
+        "confidence": 75,
+        "reason": "Strong downtrend, tech leading decline, VIX elevated and rising, all indices at 10-day lows with no near-term catalysts.",
         "seat": "Kimi-K3",
         "provider": "openrouter",
         "ok": true
@@ -183,223 +183,245 @@
     "seats_total": 20,
     "tally": {
       "bull": 0,
-      "bear": 0,
-      "chop": 16
+      "bear": 16,
+      "chop": 0
     },
-    "consensus": "chop",
+    "consensus": "bear",
     "strength": 1.0,
     "dispersion": 0.0,
     "mode": "live"
   },
   "sentiment": {
-    "date": "2026-11-05",
-    "ts": "2026-11-05T14:25:06.948043+00:00",
+    "date": "2026-11-06",
+    "ts": "2026-11-06T14:25:07.080169+00:00",
     "raw": {
       "fear_greed": {
-        "score": 34.9714285714286,
-        "rating": "fear",
+        "score": 19.5340040241449,
+        "rating": "extreme fear",
         "put_call_options": {
-          "score": 18.8,
+          "score": 4.6,
           "rating": "extreme fear"
         },
         "market_volatility_vix": {
-          "score": 50,
-          "rating": "neutral"
+          "score": 6.33802816901408,
+          "rating": "extreme fear"
         },
         "stock_price_momentum": {
           "score": null,
           "rating": null
         },
         "safe_haven_demand": {
-          "score": 9.8,
+          "score": 0.6,
           "rating": "extreme fear"
         }
       },
       "stocktwits_trending": [
-        "SOXL",
-        "NVAX",
-        "QCOM",
-        "CELH",
-        "XERS",
-        "IOVA",
-        "ARM",
-        "U",
-        "SNDK",
-        "COHR",
-        "JOBY",
-        "NVDA"
+        "DKNG",
+        "FLY",
+        "ASTS",
+        "WULF",
+        "OKLO",
+        "HIMS",
+        "ABNB",
+        "AKAM",
+        "RIGL",
+        "CAPR",
+        "VST",
+        "SMH"
       ],
       "wsb": {
         "tradestie": [
           {
             "t": "AI",
-            "s": "Bearish",
-            "n": 100
+            "s": "Bullish",
+            "n": 300
+          },
+          {
+            "t": "QQQ",
+            "s": "Bullish",
+            "n": 24
+          },
+          {
+            "t": "SPY",
+            "s": "Bullish",
+            "n": 21
           },
           {
             "t": "MU",
             "s": "Bearish",
-            "n": 37
-          },
-          {
-            "t": "SOXL",
-            "s": "Bullish",
             "n": 18
           },
           {
-            "t": "SNDK",
-            "s": "Bearish",
-            "n": 10
+            "t": "NVDA",
+            "s": "Bullish",
+            "n": 15
           },
           {
-            "t": "NVDA",
+            "t": "SOXL",
+            "s": "Bearish",
+            "n": 12
+          },
+          {
+            "t": "SNDK",
             "s": "Bullish",
             "n": 9
           },
           {
-            "t": "NBIS",
-            "s": "Bullish",
-            "n": 8
-          },
-          {
-            "t": "APP",
-            "s": "Bullish",
+            "t": "RAM",
+            "s": "Bearish",
             "n": 7
           },
           {
-            "t": "VOO",
+            "t": "SCHD",
             "s": "Bullish",
             "n": 6
           },
           {
-            "t": "HTZ",
-            "s": "Bearish",
-            "n": 5
-          },
-          {
-            "t": "SOXX",
-            "s": "Bearish",
-            "n": 5
-          },
-          {
-            "t": "TQQQ",
-            "s": "Bearish",
-            "n": 5
-          },
-          {
-            "t": "QQQ",
-            "s": "Bullish",
-            "n": 5
-          },
-          {
-            "t": "SPY",
-            "s": "Bearish",
-            "n": 4
-          },
-          {
-            "t": "AAPL",
-            "s": "Bullish",
-            "n": 4
-          },
-          {
             "t": "INTC",
+            "s": "Bullish",
+            "n": 6
+          },
+          {
+            "t": "TX",
+            "s": "Bullish",
+            "n": 5
+          },
+          {
+            "t": "VGT",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "IREN",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "BTC",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "DRAM",
             "s": "Bearish",
-            "n": 3
+            "n": 4
           }
         ],
         "apewisdom": [
           {
-            "t": "MU",
-            "m": 358,
+            "t": "SPY",
+            "m": 759,
             "r": 1
           },
           {
-            "t": "NVDA",
-            "m": 136,
+            "t": "MU",
+            "m": 541,
             "r": 2
           },
           {
-            "t": "SPY",
-            "m": 112,
+            "t": "QQQ",
+            "m": 537,
             "r": 3
           },
           {
-            "t": "SNDK",
-            "m": 111,
+            "t": "NVDA",
+            "m": 384,
             "r": 4
           },
           {
-            "t": "SOXL",
-            "m": 109,
+            "t": "SNDK",
+            "m": 212,
             "r": 5
           },
           {
-            "t": "QQQ",
-            "m": 96,
+            "t": "AMD",
+            "m": 205,
             "r": 6
           },
           {
-            "t": "APP",
-            "m": 68,
+            "t": "SOXL",
+            "m": 203,
             "r": 7
           },
           {
-            "t": "AAPL",
-            "m": 61,
+            "t": "IREN",
+            "m": 120,
             "r": 8
           },
           {
-            "t": "MSFT",
-            "m": 57,
+            "t": "DTE",
+            "m": 98,
             "r": 9
           },
           {
-            "t": "AMD",
-            "m": 56,
+            "t": "TSLA",
+            "m": 89,
             "r": 10
           },
           {
-            "t": "TSLA",
-            "m": 51,
+            "t": "AAPL",
+            "m": 87,
             "r": 11
           },
           {
             "t": "NBIS",
-            "m": 42,
+            "m": 85,
             "r": 12
           },
           {
-            "t": "INTC",
-            "m": 40,
+            "t": "GOOG",
+            "m": 83,
             "r": 13
           },
           {
-            "t": "GOOG",
-            "m": 38,
+            "t": "SPCX",
+            "m": 77,
             "r": 14
           },
           {
-            "t": "QCOM",
-            "m": 36,
+            "t": "ET",
+            "m": 71,
             "r": 15
           }
         ]
       }
     },
     "report": {
-      "mood": -35,
-      "intensity": 78,
+      "mood": -78,
+      "intensity": 92,
       "crowded": [
+        "DKNG",
+        "FLY",
+        "ASTS",
+        "WULF",
+        "OKLO",
+        "HIMS",
+        "ABNB",
+        "AKAM",
+        "RIGL",
+        "CAPR",
+        "VST",
+        "SMH",
         "AI",
+        "QQQ",
+        "SPY",
         "MU",
+        "NVDA",
         "SOXL",
         "SNDK",
-        "NVDA"
+        "RAM",
+        "SCHD",
+        "INTC",
+        "TX",
+        "VGT",
+        "IREN",
+        "BTC",
+        "DRAM"
       ],
       "divergence": true,
-      "summary": "Retail in strong fear, heavily betting on AI and semiconductor names despite neutral market signals."
+      "summary": "Retail in extreme fear yet heavily bullish on tech and meme stocks, indicating strong contrarian sentiment."
     },
-    "zone": "neutral",
+    "zone": "extreme",
     "mode": "live"
   },
   "risk_dial": {
@@ -494,10 +516,10 @@
       "cash": 6092.0,
       "open_position": null,
       "closed_trades_total": 12,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 6,
       "win_rate": 0.5,
-      "today_pnl": -137.0,
+      "today_pnl": 0,
       "cumulative_pnl": -158.0,
       "portfolio_value": 6092.0,
       "roi_pct": -0.0253
@@ -536,10 +558,10 @@
       "cash": 6720.5,
       "open_position": null,
       "closed_trades_total": 30,
-      "closed_trades_today": 3,
+      "closed_trades_today": 0,
       "wins": 23,
       "win_rate": 0.767,
-      "today_pnl": 187.5,
+      "today_pnl": 0,
       "cumulative_pnl": 470.5,
       "portfolio_value": 6720.5,
       "roi_pct": 0.0753
@@ -606,10 +628,10 @@
       "cash": 7654.0,
       "open_position": null,
       "closed_trades_total": 11,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 10,
       "win_rate": 0.909,
-      "today_pnl": 154.0,
+      "today_pnl": 0,
       "cumulative_pnl": 1404.0,
       "portfolio_value": 7654.0,
       "roi_pct": 0.2246
@@ -1324,3096 +1346,7 @@
     }
   ],
   "chart_data": {
-    "SPY": [
-      {
-        "t": 1793889000000,
-        "o": 765.47,
-        "h": 765.97,
-        "l": 764.52,
-        "c": 764.57,
-        "v": 143443
-      },
-      {
-        "t": 1793889060000,
-        "o": 764.56,
-        "h": 764.57,
-        "l": 763.46,
-        "c": 763.895,
-        "v": 177664
-      },
-      {
-        "t": 1793889120000,
-        "o": 763.88,
-        "h": 764.28,
-        "l": 763.49,
-        "c": 763.53,
-        "v": 86974
-      },
-      {
-        "t": 1793889180000,
-        "o": 763.52,
-        "h": 763.69,
-        "l": 762.97,
-        "c": 763.2,
-        "v": 120144
-      },
-      {
-        "t": 1793889240000,
-        "o": 763.19,
-        "h": 763.47,
-        "l": 762.28,
-        "c": 762.28,
-        "v": 88827
-      },
-      {
-        "t": 1793889300000,
-        "o": 762.2,
-        "h": 762.65,
-        "l": 762.14,
-        "c": 762.512,
-        "v": 128579
-      },
-      {
-        "t": 1793889360000,
-        "o": 762.52,
-        "h": 762.65,
-        "l": 761.49,
-        "c": 761.68,
-        "v": 116999
-      },
-      {
-        "t": 1793889420000,
-        "o": 761.66,
-        "h": 761.77,
-        "l": 760.96,
-        "c": 761.0924,
-        "v": 112487
-      },
-      {
-        "t": 1793889480000,
-        "o": 761.1,
-        "h": 761.2995,
-        "l": 760.39,
-        "c": 760.51,
-        "v": 105479
-      },
-      {
-        "t": 1793889540000,
-        "o": 760.53,
-        "h": 761.31,
-        "l": 760.48,
-        "c": 760.62,
-        "v": 121145
-      },
-      {
-        "t": 1793889600000,
-        "o": 760.6,
-        "h": 760.695,
-        "l": 759.14,
-        "c": 759.14,
-        "v": 165608
-      },
-      {
-        "t": 1793889660000,
-        "o": 759.1218,
-        "h": 759.27,
-        "l": 758.6437,
-        "c": 758.9,
-        "v": 152362
-      },
-      {
-        "t": 1793889720000,
-        "o": 758.91,
-        "h": 759.05,
-        "l": 758.15,
-        "c": 758.65,
-        "v": 161202
-      },
-      {
-        "t": 1793889780000,
-        "o": 758.64,
-        "h": 759.03,
-        "l": 757.765,
-        "c": 757.78,
-        "v": 140412
-      },
-      {
-        "t": 1793889840000,
-        "o": 757.75,
-        "h": 758.055,
-        "l": 756.9,
-        "c": 756.94,
-        "v": 122801
-      },
-      {
-        "t": 1793889900000,
-        "o": 756.93,
-        "h": 757.34,
-        "l": 756.58,
-        "c": 756.61,
-        "v": 155353
-      },
-      {
-        "t": 1793889960000,
-        "o": 756.58,
-        "h": 757.06,
-        "l": 756.2499,
-        "c": 756.685,
-        "v": 172147
-      },
-      {
-        "t": 1793890020000,
-        "o": 756.69,
-        "h": 756.72,
-        "l": 755.37,
-        "c": 755.47,
-        "v": 156892
-      },
-      {
-        "t": 1793890080000,
-        "o": 755.49,
-        "h": 756.23,
-        "l": 755.47,
-        "c": 756.12,
-        "v": 128644
-      },
-      {
-        "t": 1793890140000,
-        "o": 756.16,
-        "h": 756.29,
-        "l": 755.75,
-        "c": 755.96,
-        "v": 114031
-      },
-      {
-        "t": 1793890200000,
-        "o": 755.92,
-        "h": 757.13,
-        "l": 755.82,
-        "c": 756.12,
-        "v": 173703
-      },
-      {
-        "t": 1793890260000,
-        "o": 756.105,
-        "h": 756.12,
-        "l": 755.06,
-        "c": 755.63,
-        "v": 211956
-      },
-      {
-        "t": 1793890320000,
-        "o": 755.625,
-        "h": 755.69,
-        "l": 755.04,
-        "c": 755.3,
-        "v": 168013
-      },
-      {
-        "t": 1793890380000,
-        "o": 755.3425,
-        "h": 756.06,
-        "l": 755.215,
-        "c": 755.765,
-        "v": 134636
-      },
-      {
-        "t": 1793890440000,
-        "o": 755.76,
-        "h": 755.87,
-        "l": 754.57,
-        "c": 754.595,
-        "v": 131197
-      },
-      {
-        "t": 1793890500000,
-        "o": 754.565,
-        "h": 754.6,
-        "l": 753.935,
-        "c": 754.08,
-        "v": 146499
-      },
-      {
-        "t": 1793890560000,
-        "o": 754.08,
-        "h": 754.3,
-        "l": 753.73,
-        "c": 753.998,
-        "v": 163553
-      },
-      {
-        "t": 1793890620000,
-        "o": 754.02,
-        "h": 754.06,
-        "l": 752.83,
-        "c": 753.005,
-        "v": 154132
-      },
-      {
-        "t": 1793890680000,
-        "o": 752.9999,
-        "h": 754.19,
-        "l": 752.96,
-        "c": 753.68,
-        "v": 244874
-      },
-      {
-        "t": 1793890740000,
-        "o": 753.67,
-        "h": 754.255,
-        "l": 753.42,
-        "c": 754.14,
-        "v": 116455
-      },
-      {
-        "t": 1793890800000,
-        "o": 754.14,
-        "h": 755.0187,
-        "l": 754.08,
-        "c": 754.12,
-        "v": 186001
-      },
-      {
-        "t": 1793890860000,
-        "o": 754.12,
-        "h": 754.16,
-        "l": 752.72,
-        "c": 752.95,
-        "v": 152648
-      },
-      {
-        "t": 1793890920000,
-        "o": 752.865,
-        "h": 753.1703,
-        "l": 752.555,
-        "c": 752.63,
-        "v": 93626
-      },
-      {
-        "t": 1793890980000,
-        "o": 752.63,
-        "h": 753.48,
-        "l": 752.33,
-        "c": 752.43,
-        "v": 132514
-      },
-      {
-        "t": 1793891040000,
-        "o": 752.43,
-        "h": 753.25,
-        "l": 752.18,
-        "c": 752.46,
-        "v": 158111
-      },
-      {
-        "t": 1793891100000,
-        "o": 752.54,
-        "h": 752.74,
-        "l": 751.59,
-        "c": 751.805,
-        "v": 170230
-      },
-      {
-        "t": 1793891160000,
-        "o": 751.78,
-        "h": 752.67,
-        "l": 751.19,
-        "c": 752.435,
-        "v": 130362
-      },
-      {
-        "t": 1793891220000,
-        "o": 752.4999,
-        "h": 753.0,
-        "l": 752.0206,
-        "c": 752.64,
-        "v": 88658
-      },
-      {
-        "t": 1793891280000,
-        "o": 752.63,
-        "h": 752.9095,
-        "l": 752.15,
-        "c": 752.32,
-        "v": 102525
-      },
-      {
-        "t": 1793891340000,
-        "o": 752.35,
-        "h": 752.63,
-        "l": 751.69,
-        "c": 751.89,
-        "v": 135591
-      },
-      {
-        "t": 1793891400000,
-        "o": 751.87,
-        "h": 752.09,
-        "l": 751.05,
-        "c": 751.07,
-        "v": 156901
-      },
-      {
-        "t": 1793891460000,
-        "o": 751.02,
-        "h": 751.06,
-        "l": 750.14,
-        "c": 750.21,
-        "v": 158982
-      },
-      {
-        "t": 1793891520000,
-        "o": 750.21,
-        "h": 750.66,
-        "l": 749.93,
-        "c": 750.38,
-        "v": 171826
-      },
-      {
-        "t": 1793891580000,
-        "o": 750.36,
-        "h": 750.58,
-        "l": 749.72,
-        "c": 750.0,
-        "v": 147588
-      },
-      {
-        "t": 1793891640000,
-        "o": 750.0,
-        "h": 750.3499,
-        "l": 749.62,
-        "c": 750.3499,
-        "v": 109145
-      },
-      {
-        "t": 1793891700000,
-        "o": 750.345,
-        "h": 750.75,
-        "l": 749.86,
-        "c": 750.34,
-        "v": 136425
-      },
-      {
-        "t": 1793891760000,
-        "o": 750.315,
-        "h": 751.67,
-        "l": 750.23,
-        "c": 751.06,
-        "v": 291627
-      },
-      {
-        "t": 1793891820000,
-        "o": 750.99,
-        "h": 751.23,
-        "l": 749.51,
-        "c": 749.6,
-        "v": 150043
-      },
-      {
-        "t": 1793891880000,
-        "o": 749.6,
-        "h": 750.04,
-        "l": 749.3626,
-        "c": 749.845,
-        "v": 112796
-      },
-      {
-        "t": 1793891940000,
-        "o": 749.85,
-        "h": 750.11,
-        "l": 748.81,
-        "c": 748.86,
-        "v": 179518
-      },
-      {
-        "t": 1793892000000,
-        "o": 748.85,
-        "h": 749.51,
-        "l": 748.78,
-        "c": 749.025,
-        "v": 152332
-      },
-      {
-        "t": 1793892060000,
-        "o": 749.03,
-        "h": 749.132,
-        "l": 748.12,
-        "c": 748.49,
-        "v": 125737
-      },
-      {
-        "t": 1793892120000,
-        "o": 748.485,
-        "h": 748.89,
-        "l": 748.18,
-        "c": 748.67,
-        "v": 129521
-      },
-      {
-        "t": 1793892180000,
-        "o": 748.69,
-        "h": 748.74,
-        "l": 748.03,
-        "c": 748.1673,
-        "v": 113868
-      },
-      {
-        "t": 1793892240000,
-        "o": 748.19,
-        "h": 748.27,
-        "l": 747.4712,
-        "c": 747.62,
-        "v": 99193
-      },
-      {
-        "t": 1793892300000,
-        "o": 747.59,
-        "h": 747.67,
-        "l": 746.18,
-        "c": 746.232,
-        "v": 134506
-      },
-      {
-        "t": 1793892360000,
-        "o": 746.25,
-        "h": 746.5,
-        "l": 745.75,
-        "c": 745.81,
-        "v": 138977
-      },
-      {
-        "t": 1793892420000,
-        "o": 745.79,
-        "h": 745.81,
-        "l": 744.73,
-        "c": 745.61,
-        "v": 161729
-      },
-      {
-        "t": 1793892480000,
-        "o": 745.62,
-        "h": 747.12,
-        "l": 745.43,
-        "c": 746.5876,
-        "v": 215986
-      },
-      {
-        "t": 1793892540000,
-        "o": 746.59,
-        "h": 747.61,
-        "l": 746.53,
-        "c": 747.355,
-        "v": 126869
-      },
-      {
-        "t": 1793892600000,
-        "o": 747.3,
-        "h": 747.63,
-        "l": 746.68,
-        "c": 747.47,
-        "v": 167896
-      },
-      {
-        "t": 1793892660000,
-        "o": 747.47,
-        "h": 748.76,
-        "l": 747.43,
-        "c": 748.4101,
-        "v": 152287
-      },
-      {
-        "t": 1793892720000,
-        "o": 748.44,
-        "h": 748.64,
-        "l": 747.77,
-        "c": 747.8,
-        "v": 111752
-      },
-      {
-        "t": 1793892780000,
-        "o": 747.8247,
-        "h": 748.15,
-        "l": 747.29,
-        "c": 747.57,
-        "v": 105269
-      },
-      {
-        "t": 1793892840000,
-        "o": 747.55,
-        "h": 748.325,
-        "l": 747.5,
-        "c": 747.72,
-        "v": 138784
-      },
-      {
-        "t": 1793892900000,
-        "o": 747.69,
-        "h": 748.01,
-        "l": 747.24,
-        "c": 747.99,
-        "v": 107317
-      },
-      {
-        "t": 1793892960000,
-        "o": 747.99,
-        "h": 748.0,
-        "l": 746.47,
-        "c": 746.845,
-        "v": 116717
-      },
-      {
-        "t": 1793893020000,
-        "o": 746.83,
-        "h": 747.57,
-        "l": 746.39,
-        "c": 747.3801,
-        "v": 138142
-      },
-      {
-        "t": 1793893080000,
-        "o": 747.42,
-        "h": 747.5,
-        "l": 746.57,
-        "c": 746.93,
-        "v": 110326
-      },
-      {
-        "t": 1793893140000,
-        "o": 746.91,
-        "h": 747.14,
-        "l": 745.96,
-        "c": 746.11,
-        "v": 150211
-      },
-      {
-        "t": 1793893200000,
-        "o": 746.08,
-        "h": 746.84,
-        "l": 745.83,
-        "c": 746.215,
-        "v": 121191
-      },
-      {
-        "t": 1793893260000,
-        "o": 746.2104,
-        "h": 746.52,
-        "l": 745.675,
-        "c": 745.77,
-        "v": 70908
-      },
-      {
-        "t": 1793893320000,
-        "o": 745.73,
-        "h": 745.98,
-        "l": 744.38,
-        "c": 745.24,
-        "v": 126475
-      },
-      {
-        "t": 1793893380000,
-        "o": 745.28,
-        "h": 746.1,
-        "l": 744.9,
-        "c": 744.94,
-        "v": 103830
-      },
-      {
-        "t": 1793893440000,
-        "o": 744.98,
-        "h": 745.06,
-        "l": 744.37,
-        "c": 744.96,
-        "v": 80105
-      },
-      {
-        "t": 1793893500000,
-        "o": 744.93,
-        "h": 745.11,
-        "l": 743.2,
-        "c": 743.2,
-        "v": 127349
-      },
-      {
-        "t": 1793893560000,
-        "o": 743.21,
-        "h": 743.28,
-        "l": 742.1101,
-        "c": 742.23,
-        "v": 198209
-      },
-      {
-        "t": 1793893620000,
-        "o": 742.225,
-        "h": 742.79,
-        "l": 742.13,
-        "c": 742.182,
-        "v": 153611
-      },
-      {
-        "t": 1793893680000,
-        "o": 742.18,
-        "h": 743.01,
-        "l": 742.02,
-        "c": 742.86,
-        "v": 131336
-      },
-      {
-        "t": 1793893740000,
-        "o": 742.87,
-        "h": 742.91,
-        "l": 741.73,
-        "c": 741.79,
-        "v": 117062
-      },
-      {
-        "t": 1793893800000,
-        "o": 741.71,
-        "h": 741.8,
-        "l": 740.24,
-        "c": 740.8016,
-        "v": 153904
-      },
-      {
-        "t": 1793893860000,
-        "o": 740.775,
-        "h": 740.9,
-        "l": 739.02,
-        "c": 739.04,
-        "v": 216365
-      },
-      {
-        "t": 1793893920000,
-        "o": 739.03,
-        "h": 739.34,
-        "l": 737.89,
-        "c": 738.15,
-        "v": 279097
-      },
-      {
-        "t": 1793893980000,
-        "o": 738.14,
-        "h": 738.49,
-        "l": 737.12,
-        "c": 737.86,
-        "v": 222737
-      },
-      {
-        "t": 1793894040000,
-        "o": 737.81,
-        "h": 739.63,
-        "l": 737.72,
-        "c": 739.38,
-        "v": 244301
-      },
-      {
-        "t": 1793894100000,
-        "o": 739.39,
-        "h": 741.11,
-        "l": 738.85,
-        "c": 741.02,
-        "v": 238191
-      },
-      {
-        "t": 1793894160000,
-        "o": 740.99,
-        "h": 742.67,
-        "l": 740.81,
-        "c": 742.15,
-        "v": 219652
-      },
-      {
-        "t": 1793894220000,
-        "o": 742.13,
-        "h": 742.48,
-        "l": 741.49,
-        "c": 742.3,
-        "v": 111968
-      },
-      {
-        "t": 1793894280000,
-        "o": 742.32,
-        "h": 742.5,
-        "l": 741.64,
-        "c": 742.02,
-        "v": 214070
-      },
-      {
-        "t": 1793894340000,
-        "o": 742.03,
-        "h": 742.67,
-        "l": 741.38,
-        "c": 741.9,
-        "v": 230396
-      },
-      {
-        "t": 1793894400000,
-        "o": 741.9,
-        "h": 742.21,
-        "l": 740.37,
-        "c": 740.47,
-        "v": 148291
-      },
-      {
-        "t": 1793894460000,
-        "o": 740.48,
-        "h": 740.89,
-        "l": 739.73,
-        "c": 740.34,
-        "v": 151635
-      },
-      {
-        "t": 1793894520000,
-        "o": 740.34,
-        "h": 741.13,
-        "l": 740.18,
-        "c": 740.73,
-        "v": 91065
-      },
-      {
-        "t": 1793894580000,
-        "o": 740.67,
-        "h": 741.67,
-        "l": 740.28,
-        "c": 740.46,
-        "v": 152752
-      },
-      {
-        "t": 1793894640000,
-        "o": 740.45,
-        "h": 740.66,
-        "l": 739.51,
-        "c": 739.64,
-        "v": 115432
-      },
-      {
-        "t": 1793894700000,
-        "o": 739.57,
-        "h": 740.02,
-        "l": 738.98,
-        "c": 739.2,
-        "v": 132374
-      },
-      {
-        "t": 1793894760000,
-        "o": 739.17,
-        "h": 740.44,
-        "l": 739.17,
-        "c": 739.68,
-        "v": 143365
-      },
-      {
-        "t": 1793894820000,
-        "o": 739.725,
-        "h": 740.37,
-        "l": 739.11,
-        "c": 739.76,
-        "v": 110203
-      },
-      {
-        "t": 1793894880000,
-        "o": 739.74,
-        "h": 741.1,
-        "l": 739.66,
-        "c": 740.98,
-        "v": 147516
-      },
-      {
-        "t": 1793894940000,
-        "o": 740.98,
-        "h": 742.085,
-        "l": 740.86,
-        "c": 741.9,
-        "v": 174737
-      },
-      {
-        "t": 1793895000000,
-        "o": 741.84,
-        "h": 742.89,
-        "l": 741.71,
-        "c": 742.63,
-        "v": 147054
-      },
-      {
-        "t": 1793895060000,
-        "o": 742.615,
-        "h": 743.21,
-        "l": 742.42,
-        "c": 742.79,
-        "v": 170638
-      },
-      {
-        "t": 1793895120000,
-        "o": 742.9,
-        "h": 743.77,
-        "l": 742.87,
-        "c": 743.715,
-        "v": 144320
-      },
-      {
-        "t": 1793895180000,
-        "o": 743.7,
-        "h": 744.47,
-        "l": 743.68,
-        "c": 744.15,
-        "v": 144152
-      },
-      {
-        "t": 1793895240000,
-        "o": 744.06,
-        "h": 744.75,
-        "l": 744.05,
-        "c": 744.34,
-        "v": 112710
-      },
-      {
-        "t": 1793895300000,
-        "o": 744.37,
-        "h": 745.15,
-        "l": 742.9,
-        "c": 742.9,
-        "v": 141585
-      },
-      {
-        "t": 1793895360000,
-        "o": 742.89,
-        "h": 743.8625,
-        "l": 742.64,
-        "c": 742.79,
-        "v": 160351
-      },
-      {
-        "t": 1793895420000,
-        "o": 742.81,
-        "h": 744.83,
-        "l": 742.45,
-        "c": 744.74,
-        "v": 83914
-      },
-      {
-        "t": 1793895480000,
-        "o": 744.81,
-        "h": 745.19,
-        "l": 744.3,
-        "c": 744.865,
-        "v": 136286
-      },
-      {
-        "t": 1793895540000,
-        "o": 744.84,
-        "h": 744.97,
-        "l": 743.81,
-        "c": 744.04,
-        "v": 130634
-      },
-      {
-        "t": 1793895600000,
-        "o": 744.09,
-        "h": 745.26,
-        "l": 744.0399,
-        "c": 745.17,
-        "v": 119630
-      },
-      {
-        "t": 1793895660000,
-        "o": 745.15,
-        "h": 745.225,
-        "l": 744.28,
-        "c": 744.69,
-        "v": 105584
-      },
-      {
-        "t": 1793895720000,
-        "o": 744.73,
-        "h": 745.61,
-        "l": 744.321,
-        "c": 745.59,
-        "v": 113890
-      },
-      {
-        "t": 1793895780000,
-        "o": 745.58,
-        "h": 745.88,
-        "l": 744.88,
-        "c": 745.08,
-        "v": 117179
-      },
-      {
-        "t": 1793895840000,
-        "o": 745.02,
-        "h": 745.64,
-        "l": 745.02,
-        "c": 745.54,
-        "v": 83047
-      },
-      {
-        "t": 1793895900000,
-        "o": 745.57,
-        "h": 745.91,
-        "l": 744.86,
-        "c": 745.58,
-        "v": 78156
-      },
-      {
-        "t": 1793895960000,
-        "o": 745.53,
-        "h": 746.0,
-        "l": 744.7,
-        "c": 744.76,
-        "v": 132981
-      },
-      {
-        "t": 1793896020000,
-        "o": 744.72,
-        "h": 745.9,
-        "l": 744.72,
-        "c": 745.42,
-        "v": 83583
-      },
-      {
-        "t": 1793896080000,
-        "o": 745.4,
-        "h": 745.83,
-        "l": 745.33,
-        "c": 745.46,
-        "v": 59269
-      },
-      {
-        "t": 1793896140000,
-        "o": 745.46,
-        "h": 745.975,
-        "l": 745.46,
-        "c": 745.8,
-        "v": 125460
-      },
-      {
-        "t": 1793896200000,
-        "o": 745.85,
-        "h": 745.9405,
-        "l": 745.2,
-        "c": 745.24,
-        "v": 88495
-      },
-      {
-        "t": 1793896260000,
-        "o": 745.255,
-        "h": 745.475,
-        "l": 744.445,
-        "c": 745.31,
-        "v": 122509
-      },
-      {
-        "t": 1793896320000,
-        "o": 745.26,
-        "h": 745.26,
-        "l": 743.07,
-        "c": 743.68,
-        "v": 133259
-      },
-      {
-        "t": 1793896380000,
-        "o": 743.64,
-        "h": 744.61,
-        "l": 743.3301,
-        "c": 744.24,
-        "v": 112933
-      },
-      {
-        "t": 1793896440000,
-        "o": 744.25,
-        "h": 744.31,
-        "l": 743.66,
-        "c": 743.97,
-        "v": 73348
-      },
-      {
-        "t": 1793896500000,
-        "o": 743.91,
-        "h": 746.48,
-        "l": 743.86,
-        "c": 745.595,
-        "v": 282258
-      },
-      {
-        "t": 1793896560000,
-        "o": 745.61,
-        "h": 746.2225,
-        "l": 744.7734,
-        "c": 745.11,
-        "v": 144346
-      },
-      {
-        "t": 1793896620000,
-        "o": 745.075,
-        "h": 745.85,
-        "l": 744.65,
-        "c": 745.47,
-        "v": 97954
-      },
-      {
-        "t": 1793896680000,
-        "o": 745.46,
-        "h": 745.47,
-        "l": 744.15,
-        "c": 744.25,
-        "v": 108902
-      },
-      {
-        "t": 1793896740000,
-        "o": 744.26,
-        "h": 745.24,
-        "l": 744.26,
-        "c": 744.63,
-        "v": 73278
-      },
-      {
-        "t": 1793896800000,
-        "o": 744.62,
-        "h": 744.66,
-        "l": 743.87,
-        "c": 744.14,
-        "v": 153125
-      },
-      {
-        "t": 1793896860000,
-        "o": 744.03,
-        "h": 744.305,
-        "l": 743.75,
-        "c": 743.86,
-        "v": 91128
-      },
-      {
-        "t": 1793896920000,
-        "o": 743.87,
-        "h": 744.13,
-        "l": 743.4,
-        "c": 743.44,
-        "v": 76856
-      },
-      {
-        "t": 1793896980000,
-        "o": 743.5499,
-        "h": 743.695,
-        "l": 742.59,
-        "c": 742.99,
-        "v": 103003
-      },
-      {
-        "t": 1793897040000,
-        "o": 743.0,
-        "h": 743.17,
-        "l": 742.3543,
-        "c": 742.45,
-        "v": 82796
-      },
-      {
-        "t": 1793897100000,
-        "o": 742.42,
-        "h": 742.57,
-        "l": 741.87,
-        "c": 742.38,
-        "v": 109496
-      },
-      {
-        "t": 1793897160000,
-        "o": 742.36,
-        "h": 742.86,
-        "l": 742.2599,
-        "c": 742.6502,
-        "v": 63452
-      },
-      {
-        "t": 1793897220000,
-        "o": 742.615,
-        "h": 743.39,
-        "l": 742.58,
-        "c": 743.08,
-        "v": 88570
-      },
-      {
-        "t": 1793897280000,
-        "o": 743.08,
-        "h": 743.101,
-        "l": 742.31,
-        "c": 742.655,
-        "v": 53596
-      },
-      {
-        "t": 1793897340000,
-        "o": 742.68,
-        "h": 742.94,
-        "l": 742.11,
-        "c": 742.15,
-        "v": 42018
-      },
-      {
-        "t": 1793897400000,
-        "o": 742.22,
-        "h": 742.6,
-        "l": 741.89,
-        "c": 742.59,
-        "v": 74562
-      },
-      {
-        "t": 1793897460000,
-        "o": 742.58,
-        "h": 743.03,
-        "l": 742.23,
-        "c": 742.46,
-        "v": 47126
-      },
-      {
-        "t": 1793897520000,
-        "o": 742.46,
-        "h": 742.86,
-        "l": 742.055,
-        "c": 742.06,
-        "v": 42043
-      },
-      {
-        "t": 1793897580000,
-        "o": 742.13,
-        "h": 742.3,
-        "l": 741.4706,
-        "c": 742.2,
-        "v": 83923
-      },
-      {
-        "t": 1793897640000,
-        "o": 742.17,
-        "h": 742.56,
-        "l": 742.02,
-        "c": 742.13,
-        "v": 76018
-      },
-      {
-        "t": 1793897700000,
-        "o": 742.11,
-        "h": 742.66,
-        "l": 741.74,
-        "c": 742.0055,
-        "v": 47456
-      },
-      {
-        "t": 1793897760000,
-        "o": 742.0,
-        "h": 742.04,
-        "l": 741.4299,
-        "c": 741.92,
-        "v": 39135
-      },
-      {
-        "t": 1793897820000,
-        "o": 741.93,
-        "h": 742.52,
-        "l": 741.91,
-        "c": 742.31,
-        "v": 44584
-      },
-      {
-        "t": 1793897880000,
-        "o": 742.29,
-        "h": 742.65,
-        "l": 741.97,
-        "c": 742.12,
-        "v": 35393
-      },
-      {
-        "t": 1793897940000,
-        "o": 742.14,
-        "h": 742.35,
-        "l": 742.0,
-        "c": 742.21,
-        "v": 40711
-      },
-      {
-        "t": 1793898000000,
-        "o": 742.18,
-        "h": 742.18,
-        "l": 741.2603,
-        "c": 741.36,
-        "v": 64390
-      },
-      {
-        "t": 1793898060000,
-        "o": 741.359,
-        "h": 741.43,
-        "l": 740.51,
-        "c": 740.82,
-        "v": 95479
-      },
-      {
-        "t": 1793898120000,
-        "o": 740.79,
-        "h": 741.33,
-        "l": 740.72,
-        "c": 741.0,
-        "v": 54771
-      },
-      {
-        "t": 1793898180000,
-        "o": 741.02,
-        "h": 741.185,
-        "l": 740.23,
-        "c": 740.435,
-        "v": 53721
-      },
-      {
-        "t": 1793898240000,
-        "o": 740.42,
-        "h": 740.88,
-        "l": 740.01,
-        "c": 740.01,
-        "v": 40467
-      },
-      {
-        "t": 1793898300000,
-        "o": 740.03,
-        "h": 740.58,
-        "l": 740.0,
-        "c": 740.16,
-        "v": 62167
-      },
-      {
-        "t": 1793898360000,
-        "o": 740.16,
-        "h": 740.35,
-        "l": 739.73,
-        "c": 740.1,
-        "v": 52066
-      },
-      {
-        "t": 1793898420000,
-        "o": 740.1,
-        "h": 740.47,
-        "l": 740.04,
-        "c": 740.38,
-        "v": 42939
-      },
-      {
-        "t": 1793898480000,
-        "o": 740.35,
-        "h": 741.2,
-        "l": 740.28,
-        "c": 741.06,
-        "v": 74308
-      },
-      {
-        "t": 1793898540000,
-        "o": 741.05,
-        "h": 741.12,
-        "l": 740.5,
-        "c": 740.69,
-        "v": 54211
-      },
-      {
-        "t": 1793898600000,
-        "o": 740.61,
-        "h": 741.305,
-        "l": 740.26,
-        "c": 740.54,
-        "v": 46532
-      },
-      {
-        "t": 1793898660000,
-        "o": 740.56,
-        "h": 740.9,
-        "l": 739.92,
-        "c": 740.37,
-        "v": 78300
-      },
-      {
-        "t": 1793898720000,
-        "o": 740.38,
-        "h": 740.44,
-        "l": 739.85,
-        "c": 740.23,
-        "v": 40953
-      },
-      {
-        "t": 1793898780000,
-        "o": 740.225,
-        "h": 740.66,
-        "l": 740.22,
-        "c": 740.51,
-        "v": 39501
-      },
-      {
-        "t": 1793898840000,
-        "o": 740.61,
-        "h": 741.59,
-        "l": 740.515,
-        "c": 741.1199,
-        "v": 53913
-      },
-      {
-        "t": 1793898900000,
-        "o": 741.12,
-        "h": 741.61,
-        "l": 740.45,
-        "c": 740.455,
-        "v": 61605
-      },
-      {
-        "t": 1793898960000,
-        "o": 740.46,
-        "h": 740.64,
-        "l": 740.06,
-        "c": 740.575,
-        "v": 57397
-      },
-      {
-        "t": 1793899020000,
-        "o": 740.61,
-        "h": 740.91,
-        "l": 740.36,
-        "c": 740.89,
-        "v": 46155
-      },
-      {
-        "t": 1793899080000,
-        "o": 740.86,
-        "h": 741.04,
-        "l": 740.6,
-        "c": 740.68,
-        "v": 36284
-      },
-      {
-        "t": 1793899140000,
-        "o": 740.765,
-        "h": 741.7599,
-        "l": 740.73,
-        "c": 741.43,
-        "v": 42778
-      },
-      {
-        "t": 1793899200000,
-        "o": 741.41,
-        "h": 741.51,
-        "l": 740.63,
-        "c": 740.75,
-        "v": 106417
-      },
-      {
-        "t": 1793899260000,
-        "o": 740.81,
-        "h": 740.92,
-        "l": 740.4,
-        "c": 740.72,
-        "v": 46101
-      },
-      {
-        "t": 1793899320000,
-        "o": 740.685,
-        "h": 740.79,
-        "l": 740.13,
-        "c": 740.35,
-        "v": 41570
-      },
-      {
-        "t": 1793899380000,
-        "o": 740.34,
-        "h": 740.48,
-        "l": 739.89,
-        "c": 740.261,
-        "v": 50835
-      },
-      {
-        "t": 1793899440000,
-        "o": 740.26,
-        "h": 740.55,
-        "l": 740.12,
-        "c": 740.375,
-        "v": 35223
-      },
-      {
-        "t": 1793899500000,
-        "o": 740.35,
-        "h": 740.73,
-        "l": 739.75,
-        "c": 739.962,
-        "v": 42020
-      },
-      {
-        "t": 1793899560000,
-        "o": 739.92,
-        "h": 740.02,
-        "l": 739.155,
-        "c": 739.39,
-        "v": 98393
-      },
-      {
-        "t": 1793899620000,
-        "o": 739.41,
-        "h": 740.1,
-        "l": 739.335,
-        "c": 739.78,
-        "v": 79632
-      },
-      {
-        "t": 1793899680000,
-        "o": 739.8,
-        "h": 740.29,
-        "l": 739.6699,
-        "c": 739.69,
-        "v": 45123
-      },
-      {
-        "t": 1793899740000,
-        "o": 739.51,
-        "h": 739.52,
-        "l": 739.158,
-        "c": 739.4,
-        "v": 50361
-      },
-      {
-        "t": 1793899800000,
-        "o": 739.25,
-        "h": 739.98,
-        "l": 738.96,
-        "c": 739.545,
-        "v": 84901
-      },
-      {
-        "t": 1793899860000,
-        "o": 739.55,
-        "h": 739.61,
-        "l": 738.97,
-        "c": 739.11,
-        "v": 51275
-      },
-      {
-        "t": 1793899920000,
-        "o": 739.09,
-        "h": 739.2,
-        "l": 738.735,
-        "c": 738.765,
-        "v": 36549
-      },
-      {
-        "t": 1793899980000,
-        "o": 738.71,
-        "h": 739.29,
-        "l": 738.6,
-        "c": 739.2,
-        "v": 123583
-      },
-      {
-        "t": 1793900040000,
-        "o": 739.22,
-        "h": 739.65,
-        "l": 739.17,
-        "c": 739.44,
-        "v": 59489
-      },
-      {
-        "t": 1793900100000,
-        "o": 739.415,
-        "h": 739.56,
-        "l": 738.25,
-        "c": 738.3,
-        "v": 55753
-      },
-      {
-        "t": 1793900160000,
-        "o": 738.32,
-        "h": 739.15,
-        "l": 738.21,
-        "c": 738.88,
-        "v": 54772
-      },
-      {
-        "t": 1793900220000,
-        "o": 738.94,
-        "h": 739.031,
-        "l": 738.45,
-        "c": 738.54,
-        "v": 57228
-      },
-      {
-        "t": 1793900280000,
-        "o": 738.64,
-        "h": 738.96,
-        "l": 738.51,
-        "c": 738.625,
-        "v": 50469
-      },
-      {
-        "t": 1793900340000,
-        "o": 738.625,
-        "h": 738.69,
-        "l": 738.0,
-        "c": 738.0355,
-        "v": 62419
-      },
-      {
-        "t": 1793900400000,
-        "o": 738.01,
-        "h": 738.01,
-        "l": 737.27,
-        "c": 737.73,
-        "v": 112946
-      },
-      {
-        "t": 1793900460000,
-        "o": 737.76,
-        "h": 738.23,
-        "l": 737.34,
-        "c": 737.365,
-        "v": 63832
-      },
-      {
-        "t": 1793900520000,
-        "o": 737.38,
-        "h": 737.93,
-        "l": 737.115,
-        "c": 737.78,
-        "v": 76712
-      },
-      {
-        "t": 1793900580000,
-        "o": 737.82,
-        "h": 738.0999,
-        "l": 737.7305,
-        "c": 737.93,
-        "v": 109991
-      },
-      {
-        "t": 1793900640000,
-        "o": 737.91,
-        "h": 738.26,
-        "l": 737.83,
-        "c": 737.89,
-        "v": 66650
-      },
-      {
-        "t": 1793900700000,
-        "o": 737.88,
-        "h": 737.9,
-        "l": 737.12,
-        "c": 737.54,
-        "v": 79580
-      },
-      {
-        "t": 1793900760000,
-        "o": 737.55,
-        "h": 738.1,
-        "l": 737.5125,
-        "c": 737.844,
-        "v": 70281
-      },
-      {
-        "t": 1793900820000,
-        "o": 737.83,
-        "h": 738.71,
-        "l": 737.59,
-        "c": 738.27,
-        "v": 72545
-      },
-      {
-        "t": 1793900880000,
-        "o": 738.38,
-        "h": 738.83,
-        "l": 738.18,
-        "c": 738.71,
-        "v": 68207
-      },
-      {
-        "t": 1793900940000,
-        "o": 738.72,
-        "h": 738.95,
-        "l": 738.2124,
-        "c": 738.57,
-        "v": 78011
-      },
-      {
-        "t": 1793901000000,
-        "o": 738.53,
-        "h": 738.57,
-        "l": 737.785,
-        "c": 737.81,
-        "v": 44635
-      },
-      {
-        "t": 1793901060000,
-        "o": 737.81,
-        "h": 738.64,
-        "l": 737.8005,
-        "c": 737.8005,
-        "v": 54791
-      },
-      {
-        "t": 1793901120000,
-        "o": 737.74,
-        "h": 737.92,
-        "l": 737.335,
-        "c": 737.67,
-        "v": 84728
-      },
-      {
-        "t": 1793901180000,
-        "o": 737.64,
-        "h": 738.0,
-        "l": 737.53,
-        "c": 737.92,
-        "v": 43052
-      },
-      {
-        "t": 1793901240000,
-        "o": 737.925,
-        "h": 738.115,
-        "l": 737.68,
-        "c": 738.0,
-        "v": 46389
-      },
-      {
-        "t": 1793901300000,
-        "o": 738.02,
-        "h": 738.07,
-        "l": 737.46,
-        "c": 737.52,
-        "v": 60053
-      },
-      {
-        "t": 1793901360000,
-        "o": 737.464,
-        "h": 737.76,
-        "l": 737.2701,
-        "c": 737.39,
-        "v": 43111
-      },
-      {
-        "t": 1793901420000,
-        "o": 737.31,
-        "h": 737.35,
-        "l": 736.91,
-        "c": 737.35,
-        "v": 149380
-      },
-      {
-        "t": 1793901480000,
-        "o": 737.34,
-        "h": 737.46,
-        "l": 737.01,
-        "c": 737.055,
-        "v": 55461
-      },
-      {
-        "t": 1793901540000,
-        "o": 737.02,
-        "h": 737.37,
-        "l": 736.89,
-        "c": 737.18,
-        "v": 75106
-      },
-      {
-        "t": 1793901600000,
-        "o": 737.1,
-        "h": 737.13,
-        "l": 735.595,
-        "c": 735.71,
-        "v": 94114
-      },
-      {
-        "t": 1793901660000,
-        "o": 735.65,
-        "h": 735.71,
-        "l": 735.09,
-        "c": 735.63,
-        "v": 100303
-      },
-      {
-        "t": 1793901720000,
-        "o": 735.63,
-        "h": 735.855,
-        "l": 734.78,
-        "c": 734.8,
-        "v": 102412
-      },
-      {
-        "t": 1793901780000,
-        "o": 734.8,
-        "h": 734.85,
-        "l": 734.3,
-        "c": 734.307,
-        "v": 162415
-      },
-      {
-        "t": 1793901840000,
-        "o": 734.31,
-        "h": 735.36,
-        "l": 734.24,
-        "c": 735.2,
-        "v": 163391
-      },
-      {
-        "t": 1793901900000,
-        "o": 735.24,
-        "h": 735.45,
-        "l": 734.83,
-        "c": 734.97,
-        "v": 81456
-      },
-      {
-        "t": 1793901960000,
-        "o": 734.99,
-        "h": 735.67,
-        "l": 734.8,
-        "c": 735.3,
-        "v": 62891
-      },
-      {
-        "t": 1793902020000,
-        "o": 735.335,
-        "h": 735.54,
-        "l": 734.91,
-        "c": 735.025,
-        "v": 107815
-      },
-      {
-        "t": 1793902080000,
-        "o": 735.0,
-        "h": 736.12,
-        "l": 734.652,
-        "c": 735.795,
-        "v": 72223
-      },
-      {
-        "t": 1793902140000,
-        "o": 735.795,
-        "h": 736.72,
-        "l": 735.7892,
-        "c": 736.72,
-        "v": 85259
-      },
-      {
-        "t": 1793902200000,
-        "o": 736.7725,
-        "h": 738.49,
-        "l": 736.72,
-        "c": 737.32,
-        "v": 175645
-      },
-      {
-        "t": 1793902260000,
-        "o": 737.325,
-        "h": 738.62,
-        "l": 737.325,
-        "c": 738.27,
-        "v": 167135
-      },
-      {
-        "t": 1793902320000,
-        "o": 738.265,
-        "h": 738.265,
-        "l": 737.475,
-        "c": 737.7425,
-        "v": 71164
-      },
-      {
-        "t": 1793902380000,
-        "o": 737.69,
-        "h": 737.985,
-        "l": 737.41,
-        "c": 737.79,
-        "v": 77299
-      },
-      {
-        "t": 1793902440000,
-        "o": 737.78,
-        "h": 738.48,
-        "l": 737.78,
-        "c": 738.065,
-        "v": 62221
-      },
-      {
-        "t": 1793902500000,
-        "o": 738.0,
-        "h": 738.14,
-        "l": 737.585,
-        "c": 737.77,
-        "v": 55423
-      },
-      {
-        "t": 1793902560000,
-        "o": 737.685,
-        "h": 737.9,
-        "l": 737.21,
-        "c": 737.44,
-        "v": 58578
-      },
-      {
-        "t": 1793902620000,
-        "o": 737.35,
-        "h": 737.4695,
-        "l": 736.26,
-        "c": 736.34,
-        "v": 90031
-      },
-      {
-        "t": 1793902680000,
-        "o": 736.345,
-        "h": 736.44,
-        "l": 735.95,
-        "c": 736.19,
-        "v": 58584
-      },
-      {
-        "t": 1793902740000,
-        "o": 736.24,
-        "h": 736.79,
-        "l": 736.15,
-        "c": 736.6,
-        "v": 68416
-      },
-      {
-        "t": 1793902800000,
-        "o": 736.63,
-        "h": 736.78,
-        "l": 736.42,
-        "c": 736.42,
-        "v": 33814
-      },
-      {
-        "t": 1793902860000,
-        "o": 736.41,
-        "h": 736.41,
-        "l": 735.44,
-        "c": 735.67,
-        "v": 74680
-      },
-      {
-        "t": 1793902920000,
-        "o": 735.65,
-        "h": 735.97,
-        "l": 735.41,
-        "c": 735.56,
-        "v": 42851
-      },
-      {
-        "t": 1793902980000,
-        "o": 735.54,
-        "h": 735.79,
-        "l": 735.0904,
-        "c": 735.35,
-        "v": 41797
-      },
-      {
-        "t": 1793903040000,
-        "o": 735.32,
-        "h": 735.9899,
-        "l": 735.32,
-        "c": 735.74,
-        "v": 48989
-      },
-      {
-        "t": 1793903100000,
-        "o": 735.72,
-        "h": 736.28,
-        "l": 735.67,
-        "c": 736.01,
-        "v": 65296
-      },
-      {
-        "t": 1793903160000,
-        "o": 736.05,
-        "h": 737.23,
-        "l": 736.05,
-        "c": 737.229,
-        "v": 126494
-      },
-      {
-        "t": 1793903220000,
-        "o": 737.23,
-        "h": 737.53,
-        "l": 736.84,
-        "c": 736.92,
-        "v": 57909
-      },
-      {
-        "t": 1793903280000,
-        "o": 736.945,
-        "h": 737.35,
-        "l": 736.5375,
-        "c": 736.71,
-        "v": 53565
-      },
-      {
-        "t": 1793903340000,
-        "o": 736.74,
-        "h": 737.0,
-        "l": 736.6,
-        "c": 736.61,
-        "v": 45586
-      },
-      {
-        "t": 1793903400000,
-        "o": 736.59,
-        "h": 736.88,
-        "l": 736.06,
-        "c": 736.06,
-        "v": 108725
-      },
-      {
-        "t": 1793903460000,
-        "o": 736.01,
-        "h": 736.52,
-        "l": 735.97,
-        "c": 736.08,
-        "v": 90950
-      },
-      {
-        "t": 1793903520000,
-        "o": 736.12,
-        "h": 736.64,
-        "l": 736.12,
-        "c": 736.33,
-        "v": 102410
-      },
-      {
-        "t": 1793903580000,
-        "o": 736.37,
-        "h": 736.43,
-        "l": 735.66,
-        "c": 736.0,
-        "v": 71205
-      },
-      {
-        "t": 1793903640000,
-        "o": 735.99,
-        "h": 736.08,
-        "l": 735.61,
-        "c": 735.74,
-        "v": 35876
-      },
-      {
-        "t": 1793903700000,
-        "o": 735.78,
-        "h": 735.97,
-        "l": 735.48,
-        "c": 735.545,
-        "v": 86723
-      },
-      {
-        "t": 1793903760000,
-        "o": 735.55,
-        "h": 736.11,
-        "l": 735.54,
-        "c": 735.97,
-        "v": 64808
-      },
-      {
-        "t": 1793903820000,
-        "o": 735.97,
-        "h": 736.2,
-        "l": 735.3308,
-        "c": 735.58,
-        "v": 75715
-      },
-      {
-        "t": 1793903880000,
-        "o": 735.58,
-        "h": 736.72,
-        "l": 735.52,
-        "c": 736.41,
-        "v": 60308
-      },
-      {
-        "t": 1793903940000,
-        "o": 736.4,
-        "h": 736.48,
-        "l": 736.18,
-        "c": 736.45,
-        "v": 34420
-      },
-      {
-        "t": 1793904000000,
-        "o": 736.295,
-        "h": 736.725,
-        "l": 735.14,
-        "c": 735.23,
-        "v": 68520
-      },
-      {
-        "t": 1793904060000,
-        "o": 735.26,
-        "h": 735.51,
-        "l": 735.12,
-        "c": 735.4,
-        "v": 60901
-      },
-      {
-        "t": 1793904120000,
-        "o": 735.38,
-        "h": 736.07,
-        "l": 735.27,
-        "c": 735.8,
-        "v": 44295
-      },
-      {
-        "t": 1793904180000,
-        "o": 735.75,
-        "h": 735.97,
-        "l": 735.54,
-        "c": 735.68,
-        "v": 29401
-      },
-      {
-        "t": 1793904240000,
-        "o": 735.695,
-        "h": 736.2,
-        "l": 735.54,
-        "c": 735.88,
-        "v": 49008
-      },
-      {
-        "t": 1793904300000,
-        "o": 735.75,
-        "h": 736.3199,
-        "l": 735.67,
-        "c": 735.77,
-        "v": 55532
-      },
-      {
-        "t": 1793904360000,
-        "o": 735.76,
-        "h": 735.86,
-        "l": 735.37,
-        "c": 735.8,
-        "v": 73763
-      },
-      {
-        "t": 1793904420000,
-        "o": 735.81,
-        "h": 736.77,
-        "l": 735.81,
-        "c": 736.52,
-        "v": 69929
-      },
-      {
-        "t": 1793904480000,
-        "o": 736.5,
-        "h": 736.7,
-        "l": 735.72,
-        "c": 735.85,
-        "v": 67270
-      },
-      {
-        "t": 1793904540000,
-        "o": 735.77,
-        "h": 736.37,
-        "l": 735.71,
-        "c": 736.1162,
-        "v": 42804
-      },
-      {
-        "t": 1793904600000,
-        "o": 736.02,
-        "h": 736.22,
-        "l": 735.37,
-        "c": 735.52,
-        "v": 38966
-      },
-      {
-        "t": 1793904660000,
-        "o": 735.55,
-        "h": 735.7,
-        "l": 735.13,
-        "c": 735.4915,
-        "v": 62330
-      },
-      {
-        "t": 1793904720000,
-        "o": 735.635,
-        "h": 735.71,
-        "l": 735.21,
-        "c": 735.66,
-        "v": 39984
-      },
-      {
-        "t": 1793904780000,
-        "o": 735.63,
-        "h": 736.381,
-        "l": 735.39,
-        "c": 736.381,
-        "v": 54150
-      },
-      {
-        "t": 1793904840000,
-        "o": 736.37,
-        "h": 736.41,
-        "l": 735.58,
-        "c": 736.19,
-        "v": 38642
-      },
-      {
-        "t": 1793904900000,
-        "o": 736.18,
-        "h": 736.7499,
-        "l": 735.97,
-        "c": 736.18,
-        "v": 58946
-      },
-      {
-        "t": 1793904960000,
-        "o": 736.21,
-        "h": 736.49,
-        "l": 735.825,
-        "c": 736.415,
-        "v": 53796
-      },
-      {
-        "t": 1793905020000,
-        "o": 736.41,
-        "h": 736.77,
-        "l": 736.13,
-        "c": 736.41,
-        "v": 58285
-      },
-      {
-        "t": 1793905080000,
-        "o": 736.39,
-        "h": 736.8,
-        "l": 736.24,
-        "c": 736.44,
-        "v": 70722
-      },
-      {
-        "t": 1793905140000,
-        "o": 736.49,
-        "h": 736.99,
-        "l": 736.18,
-        "c": 736.94,
-        "v": 54701
-      },
-      {
-        "t": 1793905200000,
-        "o": 736.94,
-        "h": 736.94,
-        "l": 735.75,
-        "c": 735.99,
-        "v": 199076
-      },
-      {
-        "t": 1793905260000,
-        "o": 735.985,
-        "h": 736.42,
-        "l": 735.27,
-        "c": 735.36,
-        "v": 229234
-      },
-      {
-        "t": 1793905320000,
-        "o": 735.35,
-        "h": 735.6,
-        "l": 735.17,
-        "c": 735.47,
-        "v": 87523
-      },
-      {
-        "t": 1793905380000,
-        "o": 735.5,
-        "h": 735.73,
-        "l": 734.92,
-        "c": 735.1,
-        "v": 82998
-      },
-      {
-        "t": 1793905440000,
-        "o": 735.12,
-        "h": 735.3,
-        "l": 734.525,
-        "c": 734.6,
-        "v": 140344
-      },
-      {
-        "t": 1793905500000,
-        "o": 734.59,
-        "h": 734.67,
-        "l": 734.26,
-        "c": 734.59,
-        "v": 92701
-      },
-      {
-        "t": 1793905560000,
-        "o": 734.62,
-        "h": 734.77,
-        "l": 733.95,
-        "c": 734.5,
-        "v": 113859
-      },
-      {
-        "t": 1793905620000,
-        "o": 734.421,
-        "h": 735.52,
-        "l": 734.36,
-        "c": 735.36,
-        "v": 127627
-      },
-      {
-        "t": 1793905680000,
-        "o": 735.37,
-        "h": 735.46,
-        "l": 734.41,
-        "c": 734.77,
-        "v": 62355
-      },
-      {
-        "t": 1793905740000,
-        "o": 734.795,
-        "h": 735.99,
-        "l": 734.795,
-        "c": 735.685,
-        "v": 89868
-      },
-      {
-        "t": 1793905800000,
-        "o": 735.67,
-        "h": 735.975,
-        "l": 735.34,
-        "c": 735.84,
-        "v": 58634
-      },
-      {
-        "t": 1793905860000,
-        "o": 735.86,
-        "h": 735.96,
-        "l": 735.5,
-        "c": 735.82,
-        "v": 54695
-      },
-      {
-        "t": 1793905920000,
-        "o": 735.81,
-        "h": 736.57,
-        "l": 735.79,
-        "c": 736.535,
-        "v": 111145
-      },
-      {
-        "t": 1793905980000,
-        "o": 736.57,
-        "h": 737.92,
-        "l": 736.57,
-        "c": 737.84,
-        "v": 133704
-      },
-      {
-        "t": 1793906040000,
-        "o": 737.84,
-        "h": 738.28,
-        "l": 737.59,
-        "c": 738.005,
-        "v": 224908
-      },
-      {
-        "t": 1793906100000,
-        "o": 738.05,
-        "h": 738.61,
-        "l": 737.98,
-        "c": 738.56,
-        "v": 114717
-      },
-      {
-        "t": 1793906160000,
-        "o": 738.54,
-        "h": 738.73,
-        "l": 738.1,
-        "c": 738.67,
-        "v": 81729
-      },
-      {
-        "t": 1793906220000,
-        "o": 738.67,
-        "h": 739.01,
-        "l": 738.315,
-        "c": 738.36,
-        "v": 73126
-      },
-      {
-        "t": 1793906280000,
-        "o": 738.36,
-        "h": 738.43,
-        "l": 737.49,
-        "c": 737.64,
-        "v": 178308
-      },
-      {
-        "t": 1793906340000,
-        "o": 737.625,
-        "h": 737.67,
-        "l": 736.99,
-        "c": 737.19,
-        "v": 98347
-      },
-      {
-        "t": 1793906400000,
-        "o": 737.18,
-        "h": 737.465,
-        "l": 736.68,
-        "c": 737.01,
-        "v": 71419
-      },
-      {
-        "t": 1793906460000,
-        "o": 737.0,
-        "h": 737.13,
-        "l": 736.245,
-        "c": 736.28,
-        "v": 155590
-      },
-      {
-        "t": 1793906520000,
-        "o": 736.28,
-        "h": 736.52,
-        "l": 736.16,
-        "c": 736.35,
-        "v": 62691
-      },
-      {
-        "t": 1793906580000,
-        "o": 736.36,
-        "h": 736.45,
-        "l": 735.99,
-        "c": 735.99,
-        "v": 76105
-      },
-      {
-        "t": 1793906640000,
-        "o": 735.96,
-        "h": 736.06,
-        "l": 735.465,
-        "c": 735.485,
-        "v": 50974
-      },
-      {
-        "t": 1793906700000,
-        "o": 735.57,
-        "h": 735.67,
-        "l": 735.23,
-        "c": 735.23,
-        "v": 42967
-      },
-      {
-        "t": 1793906760000,
-        "o": 735.26,
-        "h": 735.45,
-        "l": 735.215,
-        "c": 735.35,
-        "v": 53173
-      },
-      {
-        "t": 1793906820000,
-        "o": 735.35,
-        "h": 735.54,
-        "l": 735.12,
-        "c": 735.47,
-        "v": 99304
-      },
-      {
-        "t": 1793906880000,
-        "o": 735.528,
-        "h": 735.71,
-        "l": 735.13,
-        "c": 735.6225,
-        "v": 91951
-      },
-      {
-        "t": 1793906940000,
-        "o": 735.615,
-        "h": 735.73,
-        "l": 735.13,
-        "c": 735.53,
-        "v": 71879
-      },
-      {
-        "t": 1793907000000,
-        "o": 735.5,
-        "h": 735.66,
-        "l": 735.26,
-        "c": 735.475,
-        "v": 52444
-      },
-      {
-        "t": 1793907060000,
-        "o": 735.47,
-        "h": 736.208,
-        "l": 735.35,
-        "c": 736.14,
-        "v": 71048
-      },
-      {
-        "t": 1793907120000,
-        "o": 736.19,
-        "h": 736.43,
-        "l": 735.8,
-        "c": 735.95,
-        "v": 79009
-      },
-      {
-        "t": 1793907180000,
-        "o": 736.0,
-        "h": 736.61,
-        "l": 735.995,
-        "c": 736.045,
-        "v": 70581
-      },
-      {
-        "t": 1793907240000,
-        "o": 736.04,
-        "h": 736.7,
-        "l": 735.9,
-        "c": 736.5301,
-        "v": 56267
-      },
-      {
-        "t": 1793907300000,
-        "o": 736.5,
-        "h": 736.57,
-        "l": 736.04,
-        "c": 736.315,
-        "v": 56630
-      },
-      {
-        "t": 1793907360000,
-        "o": 736.29,
-        "h": 736.72,
-        "l": 736.115,
-        "c": 736.48,
-        "v": 42975
-      },
-      {
-        "t": 1793907420000,
-        "o": 736.44,
-        "h": 736.69,
-        "l": 736.34,
-        "c": 736.62,
-        "v": 34969
-      },
-      {
-        "t": 1793907480000,
-        "o": 736.57,
-        "h": 736.85,
-        "l": 736.23,
-        "c": 736.3399,
-        "v": 65306
-      },
-      {
-        "t": 1793907540000,
-        "o": 736.34,
-        "h": 737.27,
-        "l": 736.34,
-        "c": 737.27,
-        "v": 63809
-      },
-      {
-        "t": 1793907600000,
-        "o": 737.27,
-        "h": 737.47,
-        "l": 736.91,
-        "c": 737.47,
-        "v": 42573
-      },
-      {
-        "t": 1793907660000,
-        "o": 737.46,
-        "h": 738.91,
-        "l": 737.36,
-        "c": 738.5,
-        "v": 310214
-      },
-      {
-        "t": 1793907720000,
-        "o": 738.58,
-        "h": 738.66,
-        "l": 737.73,
-        "c": 738.38,
-        "v": 95215
-      },
-      {
-        "t": 1793907780000,
-        "o": 738.33,
-        "h": 738.98,
-        "l": 738.14,
-        "c": 738.8,
-        "v": 94406
-      },
-      {
-        "t": 1793907840000,
-        "o": 738.82,
-        "h": 738.89,
-        "l": 738.17,
-        "c": 738.75,
-        "v": 95196
-      },
-      {
-        "t": 1793907900000,
-        "o": 738.76,
-        "h": 739.285,
-        "l": 738.76,
-        "c": 739.285,
-        "v": 138096
-      },
-      {
-        "t": 1793907960000,
-        "o": 739.24,
-        "h": 739.26,
-        "l": 738.53,
-        "c": 739.18,
-        "v": 87916
-      },
-      {
-        "t": 1793908020000,
-        "o": 739.18,
-        "h": 739.64,
-        "l": 738.87,
-        "c": 739.21,
-        "v": 84112
-      },
-      {
-        "t": 1793908080000,
-        "o": 739.18,
-        "h": 740.52,
-        "l": 739.14,
-        "c": 740.45,
-        "v": 96090
-      },
-      {
-        "t": 1793908140000,
-        "o": 740.45,
-        "h": 740.45,
-        "l": 739.41,
-        "c": 739.545,
-        "v": 97171
-      },
-      {
-        "t": 1793908200000,
-        "o": 739.57,
-        "h": 740.05,
-        "l": 739.5,
-        "c": 739.98,
-        "v": 87392
-      },
-      {
-        "t": 1793908260000,
-        "o": 739.988,
-        "h": 740.4,
-        "l": 739.88,
-        "c": 740.35,
-        "v": 74371
-      },
-      {
-        "t": 1793908320000,
-        "o": 740.34,
-        "h": 740.76,
-        "l": 740.13,
-        "c": 740.2701,
-        "v": 75761
-      },
-      {
-        "t": 1793908380000,
-        "o": 740.31,
-        "h": 740.85,
-        "l": 740.3,
-        "c": 740.4501,
-        "v": 68292
-      },
-      {
-        "t": 1793908440000,
-        "o": 740.46,
-        "h": 740.63,
-        "l": 739.75,
-        "c": 740.02,
-        "v": 110534
-      },
-      {
-        "t": 1793908500000,
-        "o": 740.03,
-        "h": 740.03,
-        "l": 739.195,
-        "c": 739.21,
-        "v": 97690
-      },
-      {
-        "t": 1793908560000,
-        "o": 739.23,
-        "h": 739.618,
-        "l": 739.0,
-        "c": 739.618,
-        "v": 90132
-      },
-      {
-        "t": 1793908620000,
-        "o": 739.5301,
-        "h": 739.92,
-        "l": 739.4,
-        "c": 739.81,
-        "v": 55447
-      },
-      {
-        "t": 1793908680000,
-        "o": 739.82,
-        "h": 739.84,
-        "l": 739.38,
-        "c": 739.42,
-        "v": 94037
-      },
-      {
-        "t": 1793908740000,
-        "o": 739.42,
-        "h": 739.925,
-        "l": 739.28,
-        "c": 739.84,
-        "v": 130817
-      },
-      {
-        "t": 1793908800000,
-        "o": 739.77,
-        "h": 739.8,
-        "l": 738.57,
-        "c": 738.82,
-        "v": 92008
-      },
-      {
-        "t": 1793908860000,
-        "o": 738.82,
-        "h": 738.865,
-        "l": 738.04,
-        "c": 738.13,
-        "v": 97593
-      },
-      {
-        "t": 1793908920000,
-        "o": 738.13,
-        "h": 738.48,
-        "l": 737.86,
-        "c": 737.88,
-        "v": 72236
-      },
-      {
-        "t": 1793908980000,
-        "o": 737.91,
-        "h": 738.09,
-        "l": 737.605,
-        "c": 737.64,
-        "v": 68667
-      },
-      {
-        "t": 1793909040000,
-        "o": 737.68,
-        "h": 737.89,
-        "l": 737.39,
-        "c": 737.405,
-        "v": 73262
-      },
-      {
-        "t": 1793909100000,
-        "o": 737.37,
-        "h": 737.5,
-        "l": 737.05,
-        "c": 737.08,
-        "v": 71713
-      },
-      {
-        "t": 1793909160000,
-        "o": 737.06,
-        "h": 737.31,
-        "l": 736.9,
-        "c": 737.19,
-        "v": 52860
-      },
-      {
-        "t": 1793909220000,
-        "o": 737.21,
-        "h": 737.38,
-        "l": 736.57,
-        "c": 736.64,
-        "v": 56862
-      },
-      {
-        "t": 1793909280000,
-        "o": 736.63,
-        "h": 736.72,
-        "l": 735.67,
-        "c": 735.73,
-        "v": 88416
-      },
-      {
-        "t": 1793909340000,
-        "o": 735.7284,
-        "h": 735.79,
-        "l": 735.34,
-        "c": 735.49,
-        "v": 127332
-      },
-      {
-        "t": 1793909400000,
-        "o": 735.47,
-        "h": 735.89,
-        "l": 735.145,
-        "c": 735.25,
-        "v": 80865
-      },
-      {
-        "t": 1793909460000,
-        "o": 735.25,
-        "h": 735.3,
-        "l": 734.715,
-        "c": 734.72,
-        "v": 69275
-      },
-      {
-        "t": 1793909520000,
-        "o": 734.73,
-        "h": 735.24,
-        "l": 734.73,
-        "c": 734.935,
-        "v": 99863
-      },
-      {
-        "t": 1793909580000,
-        "o": 734.96,
-        "h": 735.86,
-        "l": 734.93,
-        "c": 735.61,
-        "v": 112183
-      },
-      {
-        "t": 1793909640000,
-        "o": 735.61,
-        "h": 736.15,
-        "l": 735.54,
-        "c": 735.9076,
-        "v": 114043
-      },
-      {
-        "t": 1793909700000,
-        "o": 735.86,
-        "h": 736.05,
-        "l": 735.4,
-        "c": 735.58,
-        "v": 95665
-      },
-      {
-        "t": 1793909760000,
-        "o": 735.57,
-        "h": 735.89,
-        "l": 735.55,
-        "c": 735.78,
-        "v": 57923
-      },
-      {
-        "t": 1793909820000,
-        "o": 735.78,
-        "h": 735.91,
-        "l": 735.101,
-        "c": 735.101,
-        "v": 69175
-      },
-      {
-        "t": 1793909880000,
-        "o": 735.13,
-        "h": 735.775,
-        "l": 735.06,
-        "c": 735.75,
-        "v": 61315
-      },
-      {
-        "t": 1793909940000,
-        "o": 735.72,
-        "h": 736.48,
-        "l": 735.64,
-        "c": 736.15,
-        "v": 111154
-      },
-      {
-        "t": 1793910000000,
-        "o": 736.14,
-        "h": 736.7299,
-        "l": 736.04,
-        "c": 736.12,
-        "v": 126073
-      },
-      {
-        "t": 1793910060000,
-        "o": 736.165,
-        "h": 736.3,
-        "l": 735.81,
-        "c": 736.1,
-        "v": 88883
-      },
-      {
-        "t": 1793910120000,
-        "o": 736.09,
-        "h": 736.45,
-        "l": 735.59,
-        "c": 736.0,
-        "v": 141674
-      },
-      {
-        "t": 1793910180000,
-        "o": 735.99,
-        "h": 736.15,
-        "l": 735.73,
-        "c": 735.79,
-        "v": 81983
-      },
-      {
-        "t": 1793910240000,
-        "o": 735.77,
-        "h": 736.67,
-        "l": 735.76,
-        "c": 736.23,
-        "v": 112204
-      },
-      {
-        "t": 1793910300000,
-        "o": 736.2199,
-        "h": 736.3,
-        "l": 735.52,
-        "c": 735.81,
-        "v": 88548
-      },
-      {
-        "t": 1793910360000,
-        "o": 735.81,
-        "h": 735.8799,
-        "l": 735.51,
-        "c": 735.6699,
-        "v": 74330
-      },
-      {
-        "t": 1793910420000,
-        "o": 735.7,
-        "h": 736.23,
-        "l": 735.62,
-        "c": 736.18,
-        "v": 147839
-      },
-      {
-        "t": 1793910480000,
-        "o": 736.185,
-        "h": 736.23,
-        "l": 735.27,
-        "c": 735.44,
-        "v": 148187
-      },
-      {
-        "t": 1793910540000,
-        "o": 735.43,
-        "h": 735.46,
-        "l": 734.84,
-        "c": 735.21,
-        "v": 162942
-      },
-      {
-        "t": 1793910600000,
-        "o": 735.17,
-        "h": 735.1899,
-        "l": 733.52,
-        "c": 733.59,
-        "v": 193947
-      },
-      {
-        "t": 1793910660000,
-        "o": 733.63,
-        "h": 734.2,
-        "l": 733.37,
-        "c": 733.99,
-        "v": 131648
-      },
-      {
-        "t": 1793910720000,
-        "o": 733.995,
-        "h": 734.89,
-        "l": 733.72,
-        "c": 734.8,
-        "v": 115202
-      },
-      {
-        "t": 1793910780000,
-        "o": 734.84,
-        "h": 736.51,
-        "l": 734.82,
-        "c": 736.31,
-        "v": 198992
-      },
-      {
-        "t": 1793910840000,
-        "o": 736.31,
-        "h": 736.46,
-        "l": 735.55,
-        "c": 735.74,
-        "v": 143698
-      },
-      {
-        "t": 1793910900000,
-        "o": 735.685,
-        "h": 735.8,
-        "l": 734.71,
-        "c": 734.94,
-        "v": 148198
-      },
-      {
-        "t": 1793910960000,
-        "o": 734.9675,
-        "h": 735.34,
-        "l": 734.91,
-        "c": 735.1399,
-        "v": 193590
-      },
-      {
-        "t": 1793911020000,
-        "o": 735.13,
-        "h": 735.16,
-        "l": 734.09,
-        "c": 734.1,
-        "v": 277645
-      },
-      {
-        "t": 1793911080000,
-        "o": 734.12,
-        "h": 734.55,
-        "l": 733.935,
-        "c": 734.42,
-        "v": 213345
-      },
-      {
-        "t": 1793911140000,
-        "o": 734.39,
-        "h": 734.69,
-        "l": 734.25,
-        "c": 734.665,
-        "v": 105894
-      },
-      {
-        "t": 1793911200000,
-        "o": 734.68,
-        "h": 735.02,
-        "l": 734.43,
-        "c": 735.01,
-        "v": 162407
-      },
-      {
-        "t": 1793911260000,
-        "o": 734.995,
-        "h": 735.045,
-        "l": 734.4,
-        "c": 734.8,
-        "v": 129538
-      },
-      {
-        "t": 1793911320000,
-        "o": 734.84,
-        "h": 734.86,
-        "l": 734.04,
-        "c": 734.34,
-        "v": 103327
-      },
-      {
-        "t": 1793911380000,
-        "o": 734.35,
-        "h": 734.92,
-        "l": 734.35,
-        "c": 734.615,
-        "v": 134474
-      },
-      {
-        "t": 1793911440000,
-        "o": 734.5126,
-        "h": 734.63,
-        "l": 734.16,
-        "c": 734.41,
-        "v": 130553
-      },
-      {
-        "t": 1793911500000,
-        "o": 734.47,
-        "h": 734.77,
-        "l": 734.07,
-        "c": 734.52,
-        "v": 133330
-      },
-      {
-        "t": 1793911560000,
-        "o": 734.48,
-        "h": 734.915,
-        "l": 734.02,
-        "c": 734.91,
-        "v": 134412
-      },
-      {
-        "t": 1793911620000,
-        "o": 734.91,
-        "h": 735.77,
-        "l": 734.88,
-        "c": 735.56,
-        "v": 186324
-      },
-      {
-        "t": 1793911680000,
-        "o": 735.57,
-        "h": 735.71,
-        "l": 734.95,
-        "c": 734.97,
-        "v": 129802
-      },
-      {
-        "t": 1793911740000,
-        "o": 734.925,
-        "h": 735.11,
-        "l": 734.44,
-        "c": 734.83,
-        "v": 163208
-      },
-      {
-        "t": 1793911800000,
-        "o": 734.88,
-        "h": 736.09,
-        "l": 734.4,
-        "c": 734.6799,
-        "v": 246484
-      },
-      {
-        "t": 1793911860000,
-        "o": 734.68,
-        "h": 735.44,
-        "l": 734.45,
-        "c": 735.33,
-        "v": 219916
-      },
-      {
-        "t": 1793911920000,
-        "o": 735.35,
-        "h": 736.4,
-        "l": 735.35,
-        "c": 735.87,
-        "v": 264437
-      },
-      {
-        "t": 1793911980000,
-        "o": 735.845,
-        "h": 736.34,
-        "l": 735.66,
-        "c": 736.3,
-        "v": 348689
-      },
-      {
-        "t": 1793912040000,
-        "o": 736.2775,
-        "h": 736.39,
-        "l": 735.62,
-        "c": 735.72,
-        "v": 341901
-      },
-      {
-        "t": 1793912100000,
-        "o": 735.76,
-        "h": 735.91,
-        "l": 734.55,
-        "c": 734.78,
-        "v": 270441
-      }
-    ]
+    "SPY": []
   },
   "equity_curves": {
     "lottery": [
@@ -4789,12 +1722,12 @@
     "total_return_pct": 1.497,
     "max_drawdown_pct": -0.451,
     "active_days": 12,
-    "win_days_pct": 75.0,
-    "sharpe_ann": 9.86,
-    "vol_ann_pct": 3.2,
+    "win_days_pct": 69.2,
+    "sharpe_ann": 9.33,
+    "vol_ann_pct": 3.1,
     "best_day": 521.0,
     "worst_day": -311.0,
-    "avg_daily_pnl": 140.33,
+    "avg_daily_pnl": 129.54,
     "return_over_maxdd": 3.32,
     "monthly": [
       {
@@ -4895,6 +1828,13 @@
       "equity": 114184.0,
       "trades": 6,
       "wins": 4
+    },
+    {
+      "date": "2026-11-06",
+      "pnl": 0.0,
+      "equity": 114184.0,
+      "trades": 0,
+      "wins": 0
     }
   ],
   "trades": [
