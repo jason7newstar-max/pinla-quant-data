@@ -1,25 +1,5 @@
 [
  {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6831.5,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 753.0S 11-09",
-    "kind": "spread",
-    "exp": "2026-11-09",
-    "dte": 0,
-    "strike": 753.0,
-    "qty": 1,
-    "cost": 464.0,
-    "value": 464.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BFLY·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -44,6 +24,14 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 7972.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6794.5,
   "src": "paper",
   "moons": []
  },
