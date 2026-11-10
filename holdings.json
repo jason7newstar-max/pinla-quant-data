@@ -10,7 +10,7 @@
     "label": "SPY S 12-24",
     "kind": "spread",
     "exp": "2026-12-24",
-    "dte": 45,
+    "dte": 44,
     "strike": null,
     "qty": 1,
     "cost": 374.0,
@@ -18,14 +18,6 @@
     "pnl": 0.0
    }
   ]
- },
- {
-  "sym": "KAREN·BPS",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 7972.0,
-  "src": "paper",
-  "moons": []
  },
  {
   "sym": "BC·SPY",
@@ -85,6 +77,14 @@
  },
  {
   "sym": "IC·HIFREQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "LOTTERY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
