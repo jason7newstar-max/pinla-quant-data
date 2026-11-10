@@ -1,5 +1,25 @@
 [
  {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6755.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 750.0S 11-10",
+    "kind": "spread",
+    "exp": "2026-11-10",
+    "dte": 0,
+    "strike": 750.0,
+    "qty": 1,
+    "cost": 429.0,
+    "value": 429.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "IC_45DTE_",
   "shares": 1,
   "cost": 6250.0,
@@ -78,14 +98,6 @@
     "pnl": 0.0
    }
   ]
- },
- {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6755.0,
-  "src": "paper",
-  "moons": []
  },
  {
   "sym": "BFLY·QQQ",
