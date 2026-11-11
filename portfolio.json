@@ -1,23 +1,23 @@
 {
-  "as_of": "2026-11-11T04:09:37.956168+00:00",
+  "as_of": "2026-11-11T04:10:05.093016+00:00",
   "market_open": false,
   "spy": {
     "symbol": "SPY",
     "last": 749.98,
-    "bid": 754.38,
-    "ask": 754.45,
-    "volume": 12022,
-    "mark": 754.415,
+    "bid": 754.37,
+    "ask": 754.44,
+    "volume": 12023,
+    "mark": 754.405,
     "change_pct": 0.008000853424373148,
     "close": 749.92
   },
   "qqq": {
     "symbol": "QQQ",
     "last": 674.81,
-    "bid": 683.39,
-    "ask": 683.49,
-    "volume": 49093,
-    "mark": 683.44,
+    "bid": 683.41,
+    "ask": 683.51,
+    "volume": 49193,
+    "mark": 683.46,
     "change_pct": 0.007410042089032327,
     "close": 674.76
   },
@@ -1460,14 +1460,6 @@
   "chart_data": {
     "SPY": [
       {
-        "t": 1794341400000,
-        "o": 748.42,
-        "h": 748.81,
-        "l": 748.37,
-        "c": 748.77,
-        "v": 16260
-      },
-      {
         "t": 1794341460000,
         "o": 748.76,
         "h": 748.89,
@@ -2272,11 +2264,39 @@
     ]
   },
   "performance": {
-    "since": "2026-11-11",
+    "since": "2026-11-10",
     "starting_capital": 12000.0,
-    "active_days": 0
+    "net_liquidation": 12000.0,
+    "net_pnl": 0.0,
+    "total_return_pct": 0.0,
+    "max_drawdown_pct": 0.0,
+    "active_days": 1,
+    "win_days_pct": 0.0,
+    "sharpe_ann": 0.0,
+    "vol_ann_pct": 0.0,
+    "best_day": 0.0,
+    "worst_day": 0.0,
+    "avg_daily_pnl": 0.0,
+    "return_over_maxdd": null,
+    "monthly": [
+      {
+        "month": "2026-11",
+        "pnl": 0.0,
+        "pct": 0.0
+      }
+    ],
+    "trades_total": 0,
+    "win_rate_pct": 0.0
   },
-  "daily": [],
+  "daily": [
+    {
+      "date": "2026-11-10",
+      "pnl": 0.0,
+      "equity": 12000.0,
+      "trades": 0,
+      "wins": 0
+    }
+  ],
   "trades": [],
   "legacy": {
     "period": "2026-05 \u2192 2026-07",
