@@ -1,43 +1,43 @@
 {
-  "as_of": "2026-11-11T04:10:05.093016+00:00",
-  "market_open": false,
+  "as_of": "2026-11-11T14:40:30.474189+00:00",
+  "market_open": true,
   "spy": {
     "symbol": "SPY",
     "last": 749.98,
-    "bid": 754.37,
-    "ask": 754.44,
-    "volume": 12023,
-    "mark": 754.405,
+    "bid": 757.06,
+    "ask": 757.11,
+    "volume": 1028426,
+    "mark": 757.085,
     "change_pct": 0.008000853424373148,
     "close": 749.92
   },
   "qqq": {
     "symbol": "QQQ",
     "last": 674.81,
-    "bid": 683.41,
-    "ask": 683.51,
-    "volume": 49193,
-    "mark": 683.46,
+    "bid": 687.85,
+    "ask": 687.88,
+    "volume": 2288645,
+    "mark": 687.865,
     "change_pct": 0.007410042089032327,
     "close": 674.76
   },
   "senate": {
-    "date": "2026-11-10",
-    "ts": "2026-11-10T14:26:13.031455+00:00",
-    "brief": "Date: 2026-11-10 (US market open).\nSPY $752.64 (-0.01% today, +0.1% 5d) \u2014 above 5d-MA, below 10d-MA, at 49% of 10d range\nQQQ $678.78 (-0.08% today, -0.3% 5d) \u2014 above 5d-MA, below 10d-MA, at 40% of 10d range\nIWM $282.48 (-0.01% today, +1.2% 5d) \u2014 above 5d-MA, above 10d-MA, at 77% of 10d range\nVIX 21.0 (flat vs 5d)\nRegime: mixed/choppy (1/3 indices above 10d-MA); small-caps participating (broad); VIX elevated & flat.\nCalendar: next FOMC 2026-12-09 (29d away).",
+    "date": "2026-11-11",
+    "ts": "2026-11-11T14:26:19.986939+00:00",
+    "brief": "Date: 2026-11-11 (US market open).\nSPY $749.98 (+0.01% today, -0.6% 5d) \u2014 above 5d-MA, below 10d-MA, at 42% of 10d range\nQQQ $674.81 (+0.01% today, -1.5% 5d) \u2014 above 5d-MA, below 10d-MA, at 35% of 10d range\nIWM $280.56 (-0.01% today, +0.3% 5d) \u2014 above 5d-MA, above 10d-MA, at 65% of 10d range\nVIX 18.3 (rising vs 5d)\nRegime: mixed/choppy (1/3 indices above 10d-MA); tech lagging; small-caps participating (broad); VIX elevated & rising.\nCalendar: next FOMC 2026-12-09 (28d away).",
     "votes": [
       {
         "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed regime, near\u2011term flatness, VIX elevated, limited catalyst before FOMC",
+        "confidence": 55,
+        "reason": "Mixed regime, tech lagging, VIX rising, no catalyst until FOMC",
         "seat": "GPT-OSS-120B#1",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 55,
-        "reason": "Mixed signals, modest gains, elevated VIX, upcoming FOMC",
+        "confidence": 70,
+        "reason": "Mixed regime, tech lagging, VIX rising, limited catalyst before FOMC",
         "seat": "GPT-OSS-120B#2",
         "provider": "groq",
         "ok": true
@@ -45,15 +45,15 @@
       {
         "direction": "chop",
         "confidence": 55,
-        "reason": "Mixed signals, modest SPY/QQQ weakness, elevated VIX, no imminent policy catalyst",
+        "reason": "Mixed regime, tech lagging, VIX rising, no near\u2011term catalyst",
         "seat": "GPT-OSS-120B#3",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 60,
-        "reason": "Mixed MA signals, flat VIX, no clear bias",
+        "confidence": 55,
+        "reason": "Mixed MA signals, rising VIX, tech lagging, no clear trend",
         "seat": "GPT-OSS-20B",
         "provider": "groq",
         "ok": true
@@ -66,40 +66,40 @@
       },
       {
         "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed signals: small-caps strong but SPY/QQQ below 10d-MA, VIX elevated flat, no catalyst until FOMC.",
+        "confidence": 75,
+        "reason": "Mixed technicals with tech lagging, small-caps leading, VIX rising, and FOMC distant.",
         "seat": "DeepSeek-V4P",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 65,
-        "reason": "Mixed large-cap momentum, below 10-day MAs, elevated flat VIX, and distant FOMC favor short-term chop.",
+        "confidence": 55,
+        "reason": "Mixed large-cap trend, below 10-day MAs, rising VIX, small-cap breadth insufficient for clear upside.",
         "seat": "Qwen3.8-Max",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed regime with VIX elevated; no clear catalyst before FOMC",
+        "confidence": 60,
+        "reason": "Mixed regime, VIX rising, tech lagging, mixed index positioning",
         "seat": "Mistral",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed choppy regime, large-caps below 10d-MA, VIX elevated flat, no near catalyst",
+        "confidence": 62,
+        "reason": "Mixed choppy regime, tech lagging below 10d-MA, VIX rising; large-caps range-bound.",
         "seat": "Grok-4.6",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 70,
-        "reason": "Mixed index alignment, elevated flat VIX, no near-term catalysts; range-bound drift likely.",
+        "confidence": 55,
+        "reason": "Mixed signals: tech lagging below 10d-MA, small-caps broad, VIX rising; no FOMC catalyst near.",
         "seat": "GLM-5.3",
         "provider": "openrouter",
         "ok": true
@@ -107,23 +107,23 @@
       {
         "direction": "chop",
         "confidence": 65,
-        "reason": "Large caps compressed between 5d and 10d moving averages with elevated VIX signaling ongoing consolidation.",
+        "reason": "Large-caps trapped between 5d and 10d moving averages with rising VIX signaling continued short-term consolidation.",
         "seat": "Gemini-3.7F",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 75,
-        "reason": "Elevated VIX and mixed moving averages signal continued near-term consolidation for large-caps despite small-cap strength.",
+        "confidence": 80,
+        "reason": "Large-caps are trapped between 5d and 10d MAs with tech lagging and VIX rising, signaling continued chop.",
         "seat": "Gemini3-Pro",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 74,
-        "reason": "Mixed index trends, elevated flat VIX, and range-bound large caps favor near-term choppiness.",
+        "confidence": 72,
+        "reason": "Mixed breadth, tech lagging, rising VIX, and indices split around short-term trend levels favor choppy trading.",
         "seat": "GPT-5.6-Terra",
         "provider": "openrouter",
         "ok": true
@@ -131,15 +131,15 @@
       {
         "direction": "chop",
         "confidence": 62,
-        "reason": "Mixed regime: large-caps below 10d-MA, small-caps leading, VIX elevated-flat, no near catalyst\u2014range-bound likely.",
+        "reason": "Mixed regime, tech lagging, small-caps firm, rising VIX suggests range-bound churn near-term.",
         "seat": "Fable-5",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "chop",
-        "confidence": 74,
-        "reason": "Large-caps lack trend confirmation, small-caps participate, and elevated flat VIX signals range-bound volatility.",
+        "confidence": 78,
+        "reason": "Mixed momentum, lagging tech, rising VIX, and distant FOMC favor range-bound trading.",
         "seat": "MiniMax-M3",
         "provider": "openrouter",
         "ok": true
@@ -147,7 +147,7 @@
       {
         "direction": "chop",
         "confidence": 65,
-        "reason": "Mixed internals, VIX elevated, no catalyst until Dec FOMC",
+        "reason": "Mixed breadth, tech lagging, rising VIX, no catalysts near-term",
         "seat": "Nemotron-Ult",
         "provider": "openrouter",
         "ok": true
@@ -155,7 +155,7 @@
       {
         "direction": "chop",
         "confidence": 70,
-        "reason": "Mixed index signals, elevated flat VIX, and no near-term catalyst suggest continued range-bound trading.",
+        "reason": "Mixed signals: SPY/QQQ below 10d-MA, VIX rising, but small-caps strong; no clear trend.",
         "seat": "Kimi-K3",
         "provider": "openrouter",
         "ok": true
@@ -192,15 +192,15 @@
     "mode": "live"
   },
   "sentiment": {
-    "date": "2026-11-10",
-    "ts": "2026-11-10T14:25:05.370471+00:00",
+    "date": "2026-11-11",
+    "ts": "2026-11-11T14:25:02.732596+00:00",
     "raw": {
       "fear_greed": {
-        "score": 30.8857142857143,
+        "score": 36.5142857142857,
         "rating": "fear",
         "put_call_options": {
-          "score": 1,
-          "rating": "extreme fear"
+          "score": 34.8,
+          "rating": "fear"
         },
         "market_volatility_vix": {
           "score": 50,
@@ -211,98 +211,98 @@
           "rating": null
         },
         "safe_haven_demand": {
-          "score": 5.4,
+          "score": 10.6,
           "rating": "extreme fear"
         }
       },
       "stocktwits_trending": [
-        "TTD",
-        "BTC.X",
-        "QBTS",
-        "SECZ",
-        "SE",
+        "RUM",
+        "ZEC.X",
+        "RGTI",
+        "CAPR",
         "NVDA",
-        "BTDR",
-        "APPS",
-        "ETH.X",
-        "LEGN",
-        "VG",
-        "SPY"
+        "CMPS",
+        "KURA",
+        "USDCHF",
+        "NLST",
+        "NN",
+        "TAO.X",
+        "AMPX"
       ],
       "wsb": {
         "tradestie": [
           {
+            "t": "NVDA",
+            "s": "Bullish",
+            "n": 76
+          },
+          {
             "t": "AI",
             "s": "Bullish",
-            "n": 84
+            "n": 64
           },
           {
-            "t": "NVDA",
-            "s": "Bearish",
-            "n": 43
-          },
-          {
-            "t": "SPY",
+            "t": "CRWV",
             "s": "Bullish",
             "n": 18
           },
           {
-            "t": "AMD",
+            "t": "QQQ",
+            "s": "Bullish",
+            "n": 18
+          },
+          {
+            "t": "NBIS",
+            "s": "Bullish",
+            "n": 13
+          },
+          {
+            "t": "SPY",
             "s": "Bearish",
-            "n": 9
+            "n": 12
+          },
+          {
+            "t": "AMD",
+            "s": "Bullish",
+            "n": 10
           },
           {
             "t": "MU",
             "s": "Bearish",
-            "n": 9
+            "n": 7
           },
           {
-            "t": "QQQ",
+            "t": "SOXL",
             "s": "Bullish",
-            "n": 8
+            "n": 6
           },
           {
-            "t": "BTC",
+            "t": "PUMP",
             "s": "Bearish",
             "n": 6
           },
           {
-            "t": "SNDK",
+            "t": "YOU",
             "s": "Bullish",
             "n": 5
           },
           {
-            "t": "CIA",
+            "t": "UK",
             "s": "Bullish",
             "n": 4
-          },
-          {
-            "t": "GOOG",
-            "s": "Bullish",
-            "n": 4
-          },
-          {
-            "t": "OPEN",
-            "s": "Bearish",
-            "n": 4
-          },
-          {
-            "t": "TTD",
-            "s": "Bearish",
-            "n": 3
           },
           {
             "t": "SPCX",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "AAPL",
             "s": "Bearish",
             "n": 3
           },
           {
-            "t": "AVGO",
-            "s": "Bullish",
-            "n": 3
-          },
-          {
-            "t": "SMCI",
+            "t": "ON",
             "s": "Bearish",
             "n": 3
           }
@@ -310,98 +310,106 @@
         "apewisdom": [
           {
             "t": "NVDA",
-            "m": 818,
+            "m": 1339,
             "r": 1
           },
           {
-            "t": "SPY",
-            "m": 367,
+            "t": "CRWV",
+            "m": 411,
             "r": 2
           },
           {
-            "t": "QQQ",
-            "m": 176,
+            "t": "SPY",
+            "m": 249,
             "r": 3
           },
           {
             "t": "AMD",
-            "m": 151,
+            "m": 224,
             "r": 4
           },
           {
-            "t": "RKLB",
-            "m": 112,
+            "t": "QQQ",
+            "m": 189,
             "r": 5
           },
           {
             "t": "MU",
-            "m": 84,
+            "m": 117,
             "r": 6
           },
           {
-            "t": "ASTS",
-            "m": 80,
+            "t": "NBIS",
+            "m": 112,
             "r": 7
           },
           {
-            "t": "DTE",
-            "m": 65,
+            "t": "MSFT",
+            "m": 97,
             "r": 8
           },
           {
-            "t": "GOOG",
-            "m": 58,
+            "t": "SPCX",
+            "m": 70,
             "r": 9
           },
           {
-            "t": "GOOGL",
-            "m": 48,
+            "t": "GOOG",
+            "m": 66,
             "r": 10
           },
           {
-            "t": "TTD",
-            "m": 44,
+            "t": "ASTS",
+            "m": 62,
             "r": 11
           },
           {
-            "t": "ET",
-            "m": 44,
+            "t": "SOXL",
+            "m": 48,
             "r": 12
           },
           {
-            "t": "SNDK",
-            "m": 41,
+            "t": "GOOGL",
+            "m": 46,
             "r": 13
           },
           {
-            "t": "AAPL",
-            "m": 37,
+            "t": "ET",
+            "m": 45,
             "r": 14
           },
           {
-            "t": "TSLA",
-            "m": 37,
+            "t": "RKLB",
+            "m": 44,
             "r": 15
           }
         ]
       }
     },
     "report": {
-      "mood": -38,
-      "intensity": 38,
+      "mood": -62,
+      "intensity": 78,
       "crowded": [
         "NVDA",
-        "SPY",
-        "QQQ",
         "AI",
-        "TTD",
-        "BTC",
-        "AMD"
+        "CRWV",
+        "QQQ",
+        "NBIS",
+        "SPY",
+        "AMD",
+        "MU",
+        "SOXL",
+        "PUMP",
+        "YOU",
+        "UK",
+        "SPCX",
+        "AAPL",
+        "ON"
       ],
-      "divergence": false,
-      "summary": "Retail sentiment skewed fearful, moderate intensity, focused on NVDA, SPY, AI and crypto\u2011related tickers."
+      "divergence": true,
+      "summary": "Retail fear dominates, yet bullish chatter on tech/AI tickers clashes with market anxiety."
     },
-    "zone": "neutral",
+    "zone": "elevated",
     "mode": "live"
   },
   "risk_dial": {
@@ -580,10 +588,10 @@
       "cash": 6118.5,
       "open_position": null,
       "closed_trades_total": 15,
-      "closed_trades_today": 1,
+      "closed_trades_today": 0,
       "wins": 8,
       "win_rate": 0.533,
-      "today_pnl": 94.5,
+      "today_pnl": 0,
       "cumulative_pnl": -131.5,
       "portfolio_value": 6118.5,
       "roi_pct": -0.021
@@ -622,10 +630,10 @@
       "cash": 6794.0,
       "open_position": null,
       "closed_trades_total": 39,
-      "closed_trades_today": 3,
+      "closed_trades_today": 0,
       "wins": 29,
       "win_rate": 0.744,
-      "today_pnl": -0.5,
+      "today_pnl": 0,
       "cumulative_pnl": 544.0,
       "portfolio_value": 6794.0,
       "roi_pct": 0.087
@@ -1458,400 +1466,7 @@
     }
   ],
   "chart_data": {
-    "SPY": [
-      {
-        "t": 1794341460000,
-        "o": 748.76,
-        "h": 748.89,
-        "l": 748.59,
-        "c": 748.88,
-        "v": 32101
-      },
-      {
-        "t": 1794341520000,
-        "o": 748.92,
-        "h": 748.95,
-        "l": 748.7,
-        "c": 748.809,
-        "v": 44236
-      },
-      {
-        "t": 1794341580000,
-        "o": 748.81,
-        "h": 748.94,
-        "l": 748.73,
-        "c": 748.8,
-        "v": 24296
-      },
-      {
-        "t": 1794341640000,
-        "o": 748.795,
-        "h": 748.95,
-        "l": 748.66,
-        "c": 748.94,
-        "v": 19769
-      },
-      {
-        "t": 1794341700000,
-        "o": 748.96,
-        "h": 749.0,
-        "l": 748.76,
-        "c": 748.84,
-        "v": 36591
-      },
-      {
-        "t": 1794341760000,
-        "o": 748.82,
-        "h": 748.855,
-        "l": 748.69,
-        "c": 748.69,
-        "v": 20888
-      },
-      {
-        "t": 1794341820000,
-        "o": 748.71,
-        "h": 748.93,
-        "l": 748.71,
-        "c": 748.905,
-        "v": 48196
-      },
-      {
-        "t": 1794341880000,
-        "o": 748.89,
-        "h": 749.03,
-        "l": 748.79,
-        "c": 749.015,
-        "v": 24929
-      },
-      {
-        "t": 1794341940000,
-        "o": 749.01,
-        "h": 749.14,
-        "l": 748.935,
-        "c": 749.095,
-        "v": 19973
-      },
-      {
-        "t": 1794342000000,
-        "o": 749.13,
-        "h": 749.23,
-        "l": 749.02,
-        "c": 749.18,
-        "v": 28306
-      },
-      {
-        "t": 1794342060000,
-        "o": 749.16,
-        "h": 749.28,
-        "l": 749.09,
-        "c": 749.215,
-        "v": 19421
-      },
-      {
-        "t": 1794342120000,
-        "o": 749.1899,
-        "h": 749.68,
-        "l": 749.1,
-        "c": 749.48,
-        "v": 37055
-      },
-      {
-        "t": 1794342180000,
-        "o": 749.49,
-        "h": 749.565,
-        "l": 749.305,
-        "c": 749.305,
-        "v": 53344
-      },
-      {
-        "t": 1794342240000,
-        "o": 749.32,
-        "h": 749.42,
-        "l": 749.25,
-        "c": 749.38,
-        "v": 56169
-      },
-      {
-        "t": 1794342300000,
-        "o": 749.365,
-        "h": 749.43,
-        "l": 749.23,
-        "c": 749.39,
-        "v": 28303
-      },
-      {
-        "t": 1794342360000,
-        "o": 749.38,
-        "h": 749.39,
-        "l": 749.24,
-        "c": 749.32,
-        "v": 25243
-      },
-      {
-        "t": 1794342420000,
-        "o": 749.31,
-        "h": 749.5,
-        "l": 749.29,
-        "c": 749.4,
-        "v": 22834
-      },
-      {
-        "t": 1794342480000,
-        "o": 749.4,
-        "h": 749.56,
-        "l": 749.4,
-        "c": 749.52,
-        "v": 18302
-      },
-      {
-        "t": 1794342540000,
-        "o": 749.48,
-        "h": 749.48,
-        "l": 749.27,
-        "c": 749.41,
-        "v": 19939
-      },
-      {
-        "t": 1794342600000,
-        "o": 749.38,
-        "h": 749.38,
-        "l": 749.05,
-        "c": 749.23,
-        "v": 102497
-      },
-      {
-        "t": 1794342660000,
-        "o": 749.21,
-        "h": 749.28,
-        "l": 749.06,
-        "c": 749.235,
-        "v": 27598
-      },
-      {
-        "t": 1794342720000,
-        "o": 749.24,
-        "h": 749.34,
-        "l": 749.16,
-        "c": 749.22,
-        "v": 57519
-      },
-      {
-        "t": 1794342780000,
-        "o": 749.22,
-        "h": 749.31,
-        "l": 749.095,
-        "c": 749.285,
-        "v": 14112
-      },
-      {
-        "t": 1794342840000,
-        "o": 749.25,
-        "h": 749.3897,
-        "l": 749.15,
-        "c": 749.36,
-        "v": 24218
-      },
-      {
-        "t": 1794342900000,
-        "o": 749.37,
-        "h": 749.47,
-        "l": 749.24,
-        "c": 749.47,
-        "v": 28030
-      },
-      {
-        "t": 1794342960000,
-        "o": 749.44,
-        "h": 749.53,
-        "l": 749.36,
-        "c": 749.51,
-        "v": 25996
-      },
-      {
-        "t": 1794343020000,
-        "o": 749.5,
-        "h": 749.52,
-        "l": 749.27,
-        "c": 749.3,
-        "v": 41583
-      },
-      {
-        "t": 1794343080000,
-        "o": 749.33,
-        "h": 749.39,
-        "l": 749.2,
-        "c": 749.23,
-        "v": 22202
-      },
-      {
-        "t": 1794343140000,
-        "o": 749.2156,
-        "h": 749.335,
-        "l": 749.1812,
-        "c": 749.3,
-        "v": 25370
-      },
-      {
-        "t": 1794343200000,
-        "o": 749.3,
-        "h": 749.38,
-        "l": 749.2,
-        "c": 749.31,
-        "v": 48830
-      },
-      {
-        "t": 1794343260000,
-        "o": 749.32,
-        "h": 749.34,
-        "l": 749.2,
-        "c": 749.22,
-        "v": 25201
-      },
-      {
-        "t": 1794343320000,
-        "o": 749.235,
-        "h": 749.39,
-        "l": 749.22,
-        "c": 749.32,
-        "v": 21849
-      },
-      {
-        "t": 1794343380000,
-        "o": 749.35,
-        "h": 749.51,
-        "l": 749.3,
-        "c": 749.39,
-        "v": 27762
-      },
-      {
-        "t": 1794343440000,
-        "o": 749.39,
-        "h": 749.45,
-        "l": 749.26,
-        "c": 749.26,
-        "v": 41950
-      },
-      {
-        "t": 1794343500000,
-        "o": 749.26,
-        "h": 749.43,
-        "l": 749.21,
-        "c": 749.33,
-        "v": 76152
-      },
-      {
-        "t": 1794343560000,
-        "o": 749.32,
-        "h": 749.65,
-        "l": 749.311,
-        "c": 749.6,
-        "v": 81996
-      },
-      {
-        "t": 1794343620000,
-        "o": 749.61,
-        "h": 749.95,
-        "l": 749.61,
-        "c": 749.775,
-        "v": 130680
-      },
-      {
-        "t": 1794343680000,
-        "o": 749.77,
-        "h": 750.05,
-        "l": 749.76,
-        "c": 749.96,
-        "v": 77857
-      },
-      {
-        "t": 1794343740000,
-        "o": 749.97,
-        "h": 750.288,
-        "l": 749.97,
-        "c": 750.24,
-        "v": 47446
-      },
-      {
-        "t": 1794343800000,
-        "o": 750.24,
-        "h": 750.92,
-        "l": 750.08,
-        "c": 750.73,
-        "v": 130364
-      },
-      {
-        "t": 1794343860000,
-        "o": 750.72,
-        "h": 751.29,
-        "l": 750.72,
-        "c": 751.18,
-        "v": 94454
-      },
-      {
-        "t": 1794343920000,
-        "o": 751.17,
-        "h": 751.425,
-        "l": 750.86,
-        "c": 750.99,
-        "v": 103820
-      },
-      {
-        "t": 1794343980000,
-        "o": 750.95,
-        "h": 751.03,
-        "l": 750.66,
-        "c": 750.6999,
-        "v": 113698
-      },
-      {
-        "t": 1794344040000,
-        "o": 750.71,
-        "h": 750.74,
-        "l": 750.44,
-        "c": 750.46,
-        "v": 95439
-      },
-      {
-        "t": 1794344100000,
-        "o": 750.47,
-        "h": 750.77,
-        "l": 750.07,
-        "c": 750.35,
-        "v": 235747
-      },
-      {
-        "t": 1794344160000,
-        "o": 750.32,
-        "h": 750.42,
-        "l": 750.05,
-        "c": 750.21,
-        "v": 97414
-      },
-      {
-        "t": 1794344220000,
-        "o": 750.22,
-        "h": 750.31,
-        "l": 750.1,
-        "c": 750.3,
-        "v": 78309
-      },
-      {
-        "t": 1794344280000,
-        "o": 750.295,
-        "h": 750.41,
-        "l": 749.8,
-        "c": 749.88,
-        "v": 159685
-      },
-      {
-        "t": 1794344340000,
-        "o": 749.89,
-        "h": 750.16,
-        "l": 749.74,
-        "c": 749.96,
-        "v": 324780
-      }
-    ]
+    "SPY": []
   },
   "equity_curves": {
     "match_far": [
@@ -2290,7 +1905,7 @@
   },
   "daily": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "pnl": 0.0,
       "equity": 12000.0,
       "trades": 0,
