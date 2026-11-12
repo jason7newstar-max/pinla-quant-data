@@ -40,6 +40,46 @@
   ]
  },
  {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2137.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 759.0C 11-12",
+    "kind": "call",
+    "exp": "2026-11-12",
+    "dte": 0,
+    "strike": 759.0,
+    "qty": 2,
+    "cost": 106.0,
+    "value": 106.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1714.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 759.0C 11-12",
+    "kind": "call",
+    "exp": "2026-11-12",
+    "dte": 0,
+    "strike": 759.0,
+    "qty": 3,
+    "cost": 162.0,
+    "value": 162.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -81,22 +121,6 @@
  },
  {
   "sym": "BWB·DALI",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "CALENDAR",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
