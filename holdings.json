@@ -40,26 +40,6 @@
   ]
  },
  {
-  "sym": "MATCH_FAR",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2827.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 742.0P 11-13",
-    "kind": "put",
-    "exp": "2026-11-13",
-    "dte": 0,
-    "strike": 742.0,
-    "qty": 11,
-    "cost": 286.0,
-    "value": 286.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -75,26 +55,6 @@
     "qty": 2,
     "cost": 90.0,
     "value": 90.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_NEA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2116.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 750.0P 11-13",
-    "kind": "put",
-    "exp": "2026-11-13",
-    "dte": 0,
-    "strike": 750.0,
-    "qty": 2,
-    "cost": 188.0,
-    "value": 188.0,
     "pnl": 0.0
    }
   ]
@@ -145,6 +105,22 @@
  },
  {
   "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BFLY·IWM",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BWB·DALI",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
