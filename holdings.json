@@ -40,46 +40,6 @@
   ]
  },
  {
-  "sym": "MATCH_RID",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2243.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 754.0P 11-13",
-    "kind": "put",
-    "exp": "2026-11-13",
-    "dte": 0,
-    "strike": 754.0,
-    "qty": 2,
-    "cost": 90.0,
-    "value": 90.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_RID",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1585.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 754.0P 11-13",
-    "kind": "put",
-    "exp": "2026-11-13",
-    "dte": 0,
-    "strike": 754.0,
-    "qty": 3,
-    "cost": 153.0,
-    "value": 153.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -121,6 +81,22 @@
  },
  {
   "sym": "BWB·DALI",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "CALENDAR",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
