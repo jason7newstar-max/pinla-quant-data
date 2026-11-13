@@ -60,26 +60,6 @@
   ]
  },
  {
-  "sym": "MATCH_TRA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2305.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 753.0P 11-13",
-    "kind": "put",
-    "exp": "2026-11-13",
-    "dte": 0,
-    "strike": 753.0,
-    "qty": 3,
-    "cost": 228.0,
-    "value": 228.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -95,26 +75,6 @@
     "qty": 2,
     "cost": 90.0,
     "value": 90.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_TRA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2045.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 753.0P 11-13",
-    "kind": "put",
-    "exp": "2026-11-13",
-    "dte": 0,
-    "strike": 753.0,
-    "qty": 2,
-    "cost": 176.0,
-    "value": 176.0,
     "pnl": 0.0
    }
   ]
@@ -172,6 +132,22 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6311.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
