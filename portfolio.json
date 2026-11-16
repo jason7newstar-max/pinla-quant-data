@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-16T17:41:00.065088+00:00",
+  "as_of": "2026-11-16T18:10:59.257368+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 743.68,
-    "bid": 743.65,
-    "ask": 743.67,
-    "volume": 18913380,
-    "mark": 743.66,
-    "change_pct": -1.4170765009213058,
+    "last": 743.24,
+    "bid": 743.23,
+    "ask": 743.26,
+    "volume": 21425243,
+    "mark": 743.245,
+    "change_pct": -1.4754033166748406,
     "close": 754.37
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 665.27,
-    "bid": 665.26,
-    "ask": 665.29,
-    "volume": 18935269,
-    "mark": 665.275,
-    "change_pct": -2.1503478503875635,
+    "last": 665.2,
+    "bid": 665.16,
+    "ask": 665.2,
+    "volume": 20360489,
+    "mark": 665.1800000000001,
+    "change_pct": -2.1606436335289447,
     "close": 679.89
   },
   "senate": {
@@ -453,18 +453,18 @@
         "expiration": "2026-11-16",
         "open_ts": "2026-11-16T16:04:34.854886+00:00",
         "peak_bid": 0.24,
-        "current_mid": 0.14,
-        "unrealized_pnl_dollar": -102.0,
-        "unrealized_pnl_pct": -0.3
+        "current_mid": 0.11,
+        "unrealized_pnl_dollar": -144.5,
+        "unrealized_pnl_pct": -0.425
       },
       "closed_trades_total": 10,
       "closed_trades_today": 1,
       "wins": 5,
       "win_rate": 0.5,
-      "today_pnl": -354.0,
+      "today_pnl": -405.0,
       "cumulative_pnl": 1433.0,
-      "portfolio_value": 3331.0,
-      "roi_pct": 0.6655
+      "portfolio_value": 3280.0,
+      "roi_pct": 0.64
     },
     "match_near": {
       "name": null,
@@ -868,8 +868,8 @@
   "leaderboard": [
     {
       "name": "match_far",
-      "roi_pct": 0.6655,
-      "portfolio_value": 3331.0
+      "roi_pct": 0.64,
+      "portfolio_value": 3280.0
     },
     {
       "name": "match_trail30",
@@ -997,84 +997,84 @@
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
+      "exit_price": 0.02,
+      "ask": 0.03,
+      "pnl_pct": -0.962,
+      "reason": "holding -96%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:10:24.981014+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
       "peak_bid": 0.95,
-      "ts": "2026-11-16T17:40:53.913874+00:00",
+      "ts": "2026-11-16T18:10:18.925602+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
       "peak_bid": 0.95,
-      "ts": "2026-11-16T17:40:53.913598+00:00",
+      "ts": "2026-11-16T18:10:18.924991+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.04,
-      "ask": 0.05,
-      "pnl_pct": -0.925,
-      "reason": "holding -92%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:40:52.964823+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.16,
-      "ask": 0.17,
-      "pnl_pct": -0.2,
-      "reason": "holding -20%",
+      "exit_price": 0.12,
+      "ask": 0.13,
+      "pnl_pct": -0.4,
+      "reason": "holding -40%",
       "peak_bid": 0.24,
-      "ts": "2026-11-16T17:40:44.969074+00:00",
+      "ts": "2026-11-16T18:09:59.986308+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.04,
-      "ask": 0.05,
-      "pnl_pct": -0.925,
-      "reason": "holding -92%",
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
       "peak_bid": 0.67,
-      "ts": "2026-11-16T17:39:52.957176+00:00",
+      "ts": "2026-11-16T18:09:23.993843+00:00",
       "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
       "peak_bid": 0.95,
-      "ts": "2026-11-16T17:39:52.883338+00:00",
+      "ts": "2026-11-16T18:09:17.990686+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
       "peak_bid": 0.95,
-      "ts": "2026-11-16T17:39:52.883060+00:00",
+      "ts": "2026-11-16T18:09:17.990222+00:00",
       "_strategy": "match_ride"
     },
     {
@@ -1086,200 +1086,20 @@
       "pnl_pct": -0.3,
       "reason": "holding -30%",
       "peak_bid": 0.24,
-      "ts": "2026-11-16T17:39:43.977698+00:00",
+      "ts": "2026-11-16T18:08:58.986723+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.04,
-      "ask": 0.05,
-      "pnl_pct": -0.925,
-      "reason": "holding -92%",
+      "exit_price": 0.02,
+      "ask": 0.03,
+      "pnl_pct": -0.962,
+      "reason": "holding -96%",
       "peak_bid": 0.67,
-      "ts": "2026-11-16T17:38:51.967278+00:00",
+      "ts": "2026-11-16T18:08:23.983334+00:00",
       "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:38:51.966847+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:38:51.966536+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.15,
-      "ask": 0.16,
-      "pnl_pct": -0.25,
-      "reason": "holding -25%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:38:42.977694+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:37:51.965985+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.07,
-      "ask": 0.08,
-      "pnl_pct": -0.863,
-      "reason": "holding -86%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:37:51.965654+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.04,
-      "ask": 0.05,
-      "pnl_pct": -0.925,
-      "reason": "holding -92%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:37:50.999720+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.15,
-      "ask": 0.16,
-      "pnl_pct": -0.25,
-      "reason": "holding -25%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:37:42.866084+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:36:51.955244+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.03,
-      "ask": 0.04,
-      "pnl_pct": -0.943,
-      "reason": "holding -94%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:36:50.974692+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:36:50.929250+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.14,
-      "ask": 0.15,
-      "pnl_pct": -0.3,
-      "reason": "holding -30%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:36:41.974601+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:35:51.891816+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.03,
-      "ask": 0.04,
-      "pnl_pct": -0.943,
-      "reason": "holding -94%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:35:49.977848+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:35:49.905562+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.12,
-      "ask": 0.13,
-      "pnl_pct": -0.4,
-      "reason": "holding -40%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:35:40.983119+00:00",
-      "_strategy": "match_far"
     },
     {
       "action": "monitor",
@@ -1290,7 +1110,7 @@
       "pnl_pct": -0.902,
       "reason": "holding -90%",
       "peak_bid": 0.95,
-      "ts": "2026-11-16T17:34:50.987817+00:00",
+      "ts": "2026-11-16T18:08:17.882024+00:00",
       "_strategy": "match_ridehalf"
     },
     {
@@ -1302,164 +1122,8 @@
       "pnl_pct": -0.902,
       "reason": "holding -90%",
       "peak_bid": 0.95,
-      "ts": "2026-11-16T17:34:47.992375+00:00",
+      "ts": "2026-11-16T18:08:17.881458+00:00",
       "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.03,
-      "ask": 0.04,
-      "pnl_pct": -0.943,
-      "reason": "holding -94%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:34:46.930729+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.12,
-      "ask": 0.13,
-      "pnl_pct": -0.4,
-      "reason": "holding -40%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:34:39.993883+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.05,
-      "ask": 0.07,
-      "pnl_pct": -0.902,
-      "reason": "holding -90%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:33:50.920997+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:33:47.984739+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.03,
-      "ask": 0.04,
-      "pnl_pct": -0.943,
-      "reason": "holding -94%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:33:46.926351+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.12,
-      "ask": 0.13,
-      "pnl_pct": -0.4,
-      "reason": "holding -40%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:33:38.995010+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:32:50.893227+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.06,
-      "ask": 0.07,
-      "pnl_pct": -0.882,
-      "reason": "holding -88%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:32:47.950305+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.03,
-      "ask": 0.04,
-      "pnl_pct": -0.943,
-      "reason": "holding -94%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:32:44.995314+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.13,
-      "ask": 0.14,
-      "pnl_pct": -0.35,
-      "reason": "holding -35%",
-      "peak_bid": 0.24,
-      "ts": "2026-11-16T17:32:37.993865+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.05,
-      "ask": 0.06,
-      "pnl_pct": -0.902,
-      "reason": "holding -90%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:31:50.005930+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.05,
-      "ask": 0.06,
-      "pnl_pct": -0.902,
-      "reason": "holding -90%",
-      "peak_bid": 0.95,
-      "ts": "2026-11-16T17:31:47.007428+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.03,
-      "ask": 0.04,
-      "pnl_pct": -0.943,
-      "reason": "holding -94%",
-      "peak_bid": 0.67,
-      "ts": "2026-11-16T17:31:43.006258+00:00",
-      "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
@@ -1470,7 +1134,343 @@
       "pnl_pct": -0.45,
       "reason": "holding -45%",
       "peak_bid": 0.24,
-      "ts": "2026-11-16T17:31:36.997702+00:00",
+      "ts": "2026-11-16T18:07:58.952367+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.02,
+      "ask": 0.03,
+      "pnl_pct": -0.962,
+      "reason": "holding -96%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:07:22.990303+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:07:15.990346+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:07:15.990041+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.13,
+      "ask": 0.14,
+      "pnl_pct": -0.35,
+      "reason": "holding -35%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:06:57.929038+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:06:21.004381+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:06:15.006514+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:06:15.006137+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.14,
+      "ask": 0.15,
+      "pnl_pct": -0.3,
+      "reason": "holding -30%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:05:57.924791+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:05:20.004960+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:05:12.995014+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:05:12.994747+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.14,
+      "ask": 0.15,
+      "pnl_pct": -0.3,
+      "reason": "holding -30%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:04:57.923132+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:04:17.006434+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:04:12.969188+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:04:12.968927+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.14,
+      "ask": 0.15,
+      "pnl_pct": -0.3,
+      "reason": "holding -30%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:03:57.009944+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:03:15.013334+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.07,
+      "ask": 0.08,
+      "pnl_pct": -0.863,
+      "reason": "holding -86%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:03:12.014165+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.07,
+      "ask": 0.08,
+      "pnl_pct": -0.863,
+      "reason": "holding -86%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:03:12.013633+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.2,
+      "ask": 0.21,
+      "pnl_pct": 0.0,
+      "reason": "holding +0%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:02:56.991855+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:02:14.017524+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.06,
+      "ask": 0.07,
+      "pnl_pct": -0.882,
+      "reason": "holding -88%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:02:11.921581+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.06,
+      "ask": 0.07,
+      "pnl_pct": -0.882,
+      "reason": "holding -88%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:02:11.921091+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.17,
+      "ask": 0.18,
+      "pnl_pct": -0.15,
+      "reason": "holding -15%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:01:56.988790+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:01:11.019518+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.05,
+      "ask": 0.06,
+      "pnl_pct": -0.902,
+      "reason": "holding -90%",
+      "peak_bid": 0.95,
+      "ts": "2026-11-16T18:01:11.019184+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.03,
+      "ask": 0.04,
+      "pnl_pct": -0.943,
+      "reason": "holding -94%",
+      "peak_bid": 0.67,
+      "ts": "2026-11-16T18:01:09.919523+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.15,
+      "ask": 0.16,
+      "pnl_pct": -0.25,
+      "reason": "holding -25%",
+      "peak_bid": 0.24,
+      "ts": "2026-11-16T18:00:56.016217+00:00",
       "_strategy": "match_far"
     }
   ],
@@ -2880,9 +2880,249 @@
         "t": 1794849900000,
         "o": 743.655,
         "h": 743.7,
-        "l": 743.62,
-        "c": 743.63,
-        "v": 14767
+        "l": 743.325,
+        "c": 743.44,
+        "v": 47668
+      },
+      {
+        "t": 1794849960000,
+        "o": 743.44,
+        "h": 743.44,
+        "l": 743.18,
+        "c": 743.21,
+        "v": 42420
+      },
+      {
+        "t": 1794850020000,
+        "o": 743.22,
+        "h": 743.725,
+        "l": 743.22,
+        "c": 743.67,
+        "v": 45061
+      },
+      {
+        "t": 1794850080000,
+        "o": 743.645,
+        "h": 743.67,
+        "l": 743.49,
+        "c": 743.53,
+        "v": 33229
+      },
+      {
+        "t": 1794850140000,
+        "o": 743.53,
+        "h": 743.64,
+        "l": 743.48,
+        "c": 743.52,
+        "v": 33346
+      },
+      {
+        "t": 1794850200000,
+        "o": 743.53,
+        "h": 743.5415,
+        "l": 743.23,
+        "c": 743.26,
+        "v": 34529
+      },
+      {
+        "t": 1794850260000,
+        "o": 743.24,
+        "h": 743.39,
+        "l": 743.185,
+        "c": 743.29,
+        "v": 26276
+      },
+      {
+        "t": 1794850320000,
+        "o": 743.3,
+        "h": 743.64,
+        "l": 743.22,
+        "c": 743.64,
+        "v": 32583
+      },
+      {
+        "t": 1794850380000,
+        "o": 743.64,
+        "h": 743.73,
+        "l": 743.27,
+        "c": 743.31,
+        "v": 32305
+      },
+      {
+        "t": 1794850440000,
+        "o": 743.3495,
+        "h": 743.43,
+        "l": 743.17,
+        "c": 743.17,
+        "v": 24557
+      },
+      {
+        "t": 1794850500000,
+        "o": 743.1679,
+        "h": 743.385,
+        "l": 743.1679,
+        "c": 743.31,
+        "v": 22805
+      },
+      {
+        "t": 1794850560000,
+        "o": 743.31,
+        "h": 743.55,
+        "l": 743.28,
+        "c": 743.38,
+        "v": 26697
+      },
+      {
+        "t": 1794850620000,
+        "o": 743.35,
+        "h": 743.47,
+        "l": 743.1,
+        "c": 743.21,
+        "v": 30786
+      },
+      {
+        "t": 1794850680000,
+        "o": 743.24,
+        "h": 743.3,
+        "l": 742.935,
+        "c": 743.0099,
+        "v": 43674
+      },
+      {
+        "t": 1794850740000,
+        "o": 743.01,
+        "h": 743.43,
+        "l": 743.01,
+        "c": 743.2,
+        "v": 36346
+      },
+      {
+        "t": 1794850800000,
+        "o": 743.2,
+        "h": 743.295,
+        "l": 743.03,
+        "c": 743.04,
+        "v": 32461
+      },
+      {
+        "t": 1794850860000,
+        "o": 743.05,
+        "h": 743.85,
+        "l": 743.0456,
+        "c": 743.678,
+        "v": 37128
+      },
+      {
+        "t": 1794850920000,
+        "o": 743.69,
+        "h": 743.75,
+        "l": 743.495,
+        "c": 743.515,
+        "v": 37180
+      },
+      {
+        "t": 1794850980000,
+        "o": 743.51,
+        "h": 743.58,
+        "l": 743.2875,
+        "c": 743.37,
+        "v": 18313
+      },
+      {
+        "t": 1794851040000,
+        "o": 743.4,
+        "h": 743.42,
+        "l": 743.24,
+        "c": 743.3026,
+        "v": 19697
+      },
+      {
+        "t": 1794851100000,
+        "o": 743.3,
+        "h": 743.3,
+        "l": 743.02,
+        "c": 743.025,
+        "v": 18532
+      },
+      {
+        "t": 1794851160000,
+        "o": 743.045,
+        "h": 743.11,
+        "l": 742.755,
+        "c": 742.83,
+        "v": 22943
+      },
+      {
+        "t": 1794851220000,
+        "o": 742.81,
+        "h": 743.33,
+        "l": 742.81,
+        "c": 743.265,
+        "v": 27406
+      },
+      {
+        "t": 1794851280000,
+        "o": 743.2885,
+        "h": 743.43,
+        "l": 743.19,
+        "c": 743.36,
+        "v": 22876
+      },
+      {
+        "t": 1794851340000,
+        "o": 743.355,
+        "h": 743.5,
+        "l": 743.2601,
+        "c": 743.5,
+        "v": 20501
+      },
+      {
+        "t": 1794851400000,
+        "o": 743.48,
+        "h": 743.57,
+        "l": 743.36,
+        "c": 743.45,
+        "v": 21990
+      },
+      {
+        "t": 1794851460000,
+        "o": 743.44,
+        "h": 743.78,
+        "l": 743.435,
+        "c": 743.6801,
+        "v": 33271
+      },
+      {
+        "t": 1794851520000,
+        "o": 743.69,
+        "h": 743.71,
+        "l": 743.17,
+        "c": 743.26,
+        "v": 23926
+      },
+      {
+        "t": 1794851580000,
+        "o": 743.265,
+        "h": 743.6,
+        "l": 743.25,
+        "c": 743.55,
+        "v": 22148
+      },
+      {
+        "t": 1794851640000,
+        "o": 743.58,
+        "h": 743.66,
+        "l": 743.3,
+        "c": 743.41,
+        "v": 21156
+      },
+      {
+        "t": 1794851700000,
+        "o": 743.365,
+        "h": 743.42,
+        "l": 743.11,
+        "c": 743.14,
+        "v": 11459
       }
     ],
     "TSLA": [
@@ -4290,9 +4530,249 @@
         "t": 1794849900000,
         "o": 378.64,
         "h": 378.74,
-        "l": 378.53,
-        "c": 378.55,
-        "v": 19443
+        "l": 378.22,
+        "c": 378.4,
+        "v": 29380
+      },
+      {
+        "t": 1794849960000,
+        "o": 378.325,
+        "h": 378.325,
+        "l": 378.02,
+        "c": 378.15,
+        "v": 42926
+      },
+      {
+        "t": 1794850020000,
+        "o": 378.04,
+        "h": 378.87,
+        "l": 378.04,
+        "c": 378.77,
+        "v": 33487
+      },
+      {
+        "t": 1794850080000,
+        "o": 378.745,
+        "h": 378.7699,
+        "l": 378.55,
+        "c": 378.61,
+        "v": 20244
+      },
+      {
+        "t": 1794850140000,
+        "o": 378.6,
+        "h": 378.71,
+        "l": 378.4605,
+        "c": 378.49,
+        "v": 12098
+      },
+      {
+        "t": 1794850200000,
+        "o": 378.46,
+        "h": 378.53,
+        "l": 378.27,
+        "c": 378.295,
+        "v": 17445
+      },
+      {
+        "t": 1794850260000,
+        "o": 378.295,
+        "h": 378.56,
+        "l": 378.28,
+        "c": 378.28,
+        "v": 20614
+      },
+      {
+        "t": 1794850320000,
+        "o": 378.295,
+        "h": 379.06,
+        "l": 378.225,
+        "c": 379.02,
+        "v": 42103
+      },
+      {
+        "t": 1794850380000,
+        "o": 379.05,
+        "h": 379.06,
+        "l": 378.81,
+        "c": 378.901,
+        "v": 19462
+      },
+      {
+        "t": 1794850440000,
+        "o": 378.865,
+        "h": 379.0499,
+        "l": 378.8,
+        "c": 378.89,
+        "v": 17153
+      },
+      {
+        "t": 1794850500000,
+        "o": 378.85,
+        "h": 379.04,
+        "l": 378.79,
+        "c": 378.84,
+        "v": 20014
+      },
+      {
+        "t": 1794850560000,
+        "o": 378.857,
+        "h": 379.05,
+        "l": 378.76,
+        "c": 378.89,
+        "v": 23706
+      },
+      {
+        "t": 1794850620000,
+        "o": 378.84,
+        "h": 378.94,
+        "l": 378.495,
+        "c": 378.68,
+        "v": 18276
+      },
+      {
+        "t": 1794850680000,
+        "o": 378.63,
+        "h": 378.7,
+        "l": 378.3605,
+        "c": 378.51,
+        "v": 19408
+      },
+      {
+        "t": 1794850740000,
+        "o": 378.55,
+        "h": 378.88,
+        "l": 378.55,
+        "c": 378.69,
+        "v": 16410
+      },
+      {
+        "t": 1794850800000,
+        "o": 378.74,
+        "h": 378.81,
+        "l": 378.5,
+        "c": 378.575,
+        "v": 12518
+      },
+      {
+        "t": 1794850860000,
+        "o": 378.54,
+        "h": 379.4899,
+        "l": 378.54,
+        "c": 379.295,
+        "v": 37186
+      },
+      {
+        "t": 1794850920000,
+        "o": 379.295,
+        "h": 379.35,
+        "l": 379.13,
+        "c": 379.225,
+        "v": 19772
+      },
+      {
+        "t": 1794850980000,
+        "o": 379.2,
+        "h": 379.4,
+        "l": 379.14,
+        "c": 379.35,
+        "v": 16904
+      },
+      {
+        "t": 1794851040000,
+        "o": 379.3589,
+        "h": 379.43,
+        "l": 379.27,
+        "c": 379.3886,
+        "v": 20371
+      },
+      {
+        "t": 1794851100000,
+        "o": 379.38,
+        "h": 379.47,
+        "l": 379.262,
+        "c": 379.405,
+        "v": 20444
+      },
+      {
+        "t": 1794851160000,
+        "o": 379.42,
+        "h": 379.47,
+        "l": 379.16,
+        "c": 379.268,
+        "v": 22691
+      },
+      {
+        "t": 1794851220000,
+        "o": 379.3016,
+        "h": 379.78,
+        "l": 379.3016,
+        "c": 379.71,
+        "v": 30860
+      },
+      {
+        "t": 1794851280000,
+        "o": 379.71,
+        "h": 379.78,
+        "l": 379.64,
+        "c": 379.7,
+        "v": 10378
+      },
+      {
+        "t": 1794851340000,
+        "o": 379.7,
+        "h": 379.94,
+        "l": 379.658,
+        "c": 379.875,
+        "v": 16559
+      },
+      {
+        "t": 1794851400000,
+        "o": 379.875,
+        "h": 379.97,
+        "l": 379.72,
+        "c": 379.89,
+        "v": 20073
+      },
+      {
+        "t": 1794851460000,
+        "o": 379.8901,
+        "h": 380.284,
+        "l": 379.89,
+        "c": 380.15,
+        "v": 25329
+      },
+      {
+        "t": 1794851520000,
+        "o": 380.12,
+        "h": 380.26,
+        "l": 380.0,
+        "c": 380.0495,
+        "v": 14602
+      },
+      {
+        "t": 1794851580000,
+        "o": 380.08,
+        "h": 380.41,
+        "l": 380.04,
+        "c": 380.355,
+        "v": 18258
+      },
+      {
+        "t": 1794851640000,
+        "o": 380.38,
+        "h": 380.6834,
+        "l": 380.06,
+        "c": 380.105,
+        "v": 34592
+      },
+      {
+        "t": 1794851700000,
+        "o": 380.0758,
+        "h": 380.18,
+        "l": 379.46,
+        "c": 379.56,
+        "v": 27233
       }
     ],
     "QQQ": [
@@ -5703,6 +6183,246 @@
         "l": 664.71,
         "c": 665.0,
         "v": 31151
+      },
+      {
+        "t": 1794849960000,
+        "o": 664.84,
+        "h": 664.9,
+        "l": 664.576,
+        "c": 664.6894,
+        "v": 25085
+      },
+      {
+        "t": 1794850020000,
+        "o": 664.7,
+        "h": 665.392,
+        "l": 664.6853,
+        "c": 665.31,
+        "v": 21374
+      },
+      {
+        "t": 1794850080000,
+        "o": 665.24,
+        "h": 665.33,
+        "l": 665.05,
+        "c": 665.12,
+        "v": 28478
+      },
+      {
+        "t": 1794850140000,
+        "o": 665.149,
+        "h": 665.2895,
+        "l": 665.02,
+        "c": 665.07,
+        "v": 10792
+      },
+      {
+        "t": 1794850200000,
+        "o": 665.01,
+        "h": 665.2688,
+        "l": 664.775,
+        "c": 664.83,
+        "v": 18050
+      },
+      {
+        "t": 1794850260000,
+        "o": 664.82,
+        "h": 665.04,
+        "l": 664.79,
+        "c": 664.92,
+        "v": 15404
+      },
+      {
+        "t": 1794850320000,
+        "o": 664.945,
+        "h": 665.39,
+        "l": 664.7737,
+        "c": 665.33,
+        "v": 18302
+      },
+      {
+        "t": 1794850380000,
+        "o": 665.45,
+        "h": 665.54,
+        "l": 665.01,
+        "c": 665.02,
+        "v": 14969
+      },
+      {
+        "t": 1794850440000,
+        "o": 665.06,
+        "h": 665.23,
+        "l": 664.9689,
+        "c": 664.976,
+        "v": 14715
+      },
+      {
+        "t": 1794850500000,
+        "o": 664.97,
+        "h": 665.3,
+        "l": 664.97,
+        "c": 665.18,
+        "v": 12567
+      },
+      {
+        "t": 1794850560000,
+        "o": 665.16,
+        "h": 665.51,
+        "l": 665.16,
+        "c": 665.3,
+        "v": 19672
+      },
+      {
+        "t": 1794850620000,
+        "o": 665.28,
+        "h": 665.468,
+        "l": 664.94,
+        "c": 665.0351,
+        "v": 17433
+      },
+      {
+        "t": 1794850680000,
+        "o": 665.03,
+        "h": 665.17,
+        "l": 664.63,
+        "c": 664.74,
+        "v": 37246
+      },
+      {
+        "t": 1794850740000,
+        "o": 664.78,
+        "h": 665.31,
+        "l": 664.77,
+        "c": 664.97,
+        "v": 41911
+      },
+      {
+        "t": 1794850800000,
+        "o": 664.955,
+        "h": 665.095,
+        "l": 664.81,
+        "c": 664.89,
+        "v": 23343
+      },
+      {
+        "t": 1794850860000,
+        "o": 664.8375,
+        "h": 665.95,
+        "l": 664.8375,
+        "c": 665.71,
+        "v": 32047
+      },
+      {
+        "t": 1794850920000,
+        "o": 665.71,
+        "h": 665.79,
+        "l": 665.45,
+        "c": 665.46,
+        "v": 17660
+      },
+      {
+        "t": 1794850980000,
+        "o": 665.42,
+        "h": 665.56,
+        "l": 665.12,
+        "c": 665.44,
+        "v": 14406
+      },
+      {
+        "t": 1794851040000,
+        "o": 665.4,
+        "h": 665.5,
+        "l": 665.19,
+        "c": 665.3,
+        "v": 11657
+      },
+      {
+        "t": 1794851100000,
+        "o": 665.22,
+        "h": 665.24,
+        "l": 664.92,
+        "c": 665.02,
+        "v": 20311
+      },
+      {
+        "t": 1794851160000,
+        "o": 664.99,
+        "h": 665.085,
+        "l": 664.64,
+        "c": 664.725,
+        "v": 11920
+      },
+      {
+        "t": 1794851220000,
+        "o": 664.72,
+        "h": 665.37,
+        "l": 664.72,
+        "c": 665.27,
+        "v": 18379
+      },
+      {
+        "t": 1794851280000,
+        "o": 665.29,
+        "h": 665.55,
+        "l": 665.18,
+        "c": 665.46,
+        "v": 16321
+      },
+      {
+        "t": 1794851340000,
+        "o": 665.47,
+        "h": 665.66,
+        "l": 665.35,
+        "c": 665.66,
+        "v": 34585
+      },
+      {
+        "t": 1794851400000,
+        "o": 665.61,
+        "h": 665.74,
+        "l": 665.42,
+        "c": 665.55,
+        "v": 17645
+      },
+      {
+        "t": 1794851460000,
+        "o": 665.52,
+        "h": 665.95,
+        "l": 665.49,
+        "c": 665.76,
+        "v": 26455
+      },
+      {
+        "t": 1794851520000,
+        "o": 665.79,
+        "h": 665.8099,
+        "l": 665.13,
+        "c": 665.245,
+        "v": 23996
+      },
+      {
+        "t": 1794851580000,
+        "o": 665.28,
+        "h": 665.71,
+        "l": 665.22,
+        "c": 665.64,
+        "v": 17612
+      },
+      {
+        "t": 1794851640000,
+        "o": 665.68,
+        "h": 665.78,
+        "l": 665.31,
+        "c": 665.46,
+        "v": 13740
+      },
+      {
+        "t": 1794851700000,
+        "o": 665.4,
+        "h": 665.45,
+        "l": 664.8,
+        "c": 664.94,
+        "v": 24202
       }
     ]
   },
