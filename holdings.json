@@ -100,6 +100,26 @@
   ]
  },
  {
+  "sym": "MATCH_ORB",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1870.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 377.5P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 377.5,
+    "qty": 2,
+    "cost": 148.0,
+    "value": 148.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "MATCH_LAD",
   "shares": 1,
   "cost": 2000.0,
@@ -140,14 +160,6 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6311.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BOUNCE",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
