@@ -40,6 +40,126 @@
   ]
  },
  {
+  "sym": "MATCH_FAR",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 3325.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 652.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 652.0,
+    "qty": 9,
+    "cost": 360.0,
+    "value": 360.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2400.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 655.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 655.0,
+    "qty": 3,
+    "cost": 153.0,
+    "value": 153.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_NEA",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2341.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 661.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 661.0,
+    "qty": 1,
+    "cost": 151.0,
+    "value": 151.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1891.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 655.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 655.0,
+    "qty": 3,
+    "cost": 153.0,
+    "value": 153.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_FIL",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1859.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 661.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 661.0,
+    "qty": 1,
+    "cost": 141.0,
+    "value": 141.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_LAD",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1523.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 653.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 653.0,
+    "qty": 9,
+    "cost": 477.0,
+    "value": 477.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -52,54 +172,6 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC_0DTE_S",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6311.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BOUNCE",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·IWM",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BWB·DALI",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "CALENDAR",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC·HIFREQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
