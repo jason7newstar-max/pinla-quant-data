@@ -83,18 +83,18 @@
   "sym": "MATCH_NEA",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2341.0,
+  "price": 2283.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 661.0P 11-16",
+    "label": "QQQ 664.0P 11-16",
     "kind": "put",
     "exp": "2026-11-16",
     "dte": 0,
-    "strike": 661.0,
+    "strike": 664.0,
     "qty": 1,
-    "cost": 151.0,
-    "value": 151.0,
+    "cost": 133.0,
+    "value": 133.0,
     "pnl": 0.0
    }
   ]
@@ -120,21 +120,41 @@
   ]
  },
  {
-  "sym": "MATCH_FIL",
+  "sym": "MATCH_ORB",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1859.0,
+  "price": 1890.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 661.0P 11-16",
+    "label": "TSLA 375.0P 11-16",
     "kind": "put",
     "exp": "2026-11-16",
     "dte": 0,
-    "strike": 661.0,
+    "strike": 375.0,
     "qty": 1,
-    "cost": 141.0,
-    "value": 141.0,
+    "cost": 110.0,
+    "value": 110.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_FIL",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1789.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 664.0P 11-16",
+    "kind": "put",
+    "exp": "2026-11-16",
+    "dte": 0,
+    "strike": 664.0,
+    "qty": 1,
+    "cost": 140.0,
+    "value": 140.0,
     "pnl": 0.0
    }
   ]
@@ -164,14 +184,6 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6794.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·QQQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6342.5,
   "src": "paper",
   "moons": []
  }
