@@ -43,18 +43,18 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 3093.0,
+  "price": 3750.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 738.0P 11-16",
+    "label": "SPY 734.0P 11-16",
     "kind": "put",
     "exp": "2026-11-16",
     "dte": 0,
-    "strike": 738.0,
-    "qty": 17,
-    "cost": 340.0,
-    "value": 340.0,
+    "strike": 734.0,
+    "qty": 20,
+    "cost": 380.0,
+    "value": 380.0,
     "pnl": 0.0
    }
   ]
