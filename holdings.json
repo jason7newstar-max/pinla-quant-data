@@ -43,18 +43,18 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 3325.0,
+  "price": 3093.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 652.0P 11-16",
+    "label": "SPY 738.0P 11-16",
     "kind": "put",
     "exp": "2026-11-16",
     "dte": 0,
-    "strike": 652.0,
-    "qty": 9,
-    "cost": 360.0,
-    "value": 360.0,
+    "strike": 738.0,
+    "qty": 17,
+    "cost": 340.0,
+    "value": 340.0,
     "pnl": 0.0
    }
   ]
@@ -75,66 +75,6 @@
     "qty": 3,
     "cost": 153.0,
     "value": 153.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_NEA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2370.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 741.0P 11-16",
-    "kind": "put",
-    "exp": "2026-11-16",
-    "dte": 0,
-    "strike": 741.0,
-    "qty": 2,
-    "cost": 180.0,
-    "value": 180.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_FIL",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1954.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 741.0P 11-16",
-    "kind": "put",
-    "exp": "2026-11-16",
-    "dte": 0,
-    "strike": 741.0,
-    "qty": 1,
-    "cost": 115.0,
-    "value": 115.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1924.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 744.0P 11-16",
-    "kind": "put",
-    "exp": "2026-11-16",
-    "dte": 0,
-    "strike": 744.0,
-    "qty": 1,
-    "cost": 188.0,
-    "value": 188.0,
     "pnl": 0.0
    }
   ]
@@ -184,6 +124,30 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6794.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BFLY·QQQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6342.5,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6311.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
