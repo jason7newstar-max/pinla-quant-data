@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-17T15:41:47.195496+00:00",
+  "as_of": "2026-11-17T15:56:40.216099+00:00",
   "market_open": true,
   "spy": {
     "last": null,
@@ -1003,74 +1003,26 @@
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:41:08.151842+00:00",
+      "ts": "2026-11-17T15:56:12.844156+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:40:51.824501+00:00",
+      "ts": "2026-11-17T15:55:40.564745+00:00",
       "_strategy": "match_trail30"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:40:08.322220+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:39:27.025159+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:39:08.952950+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:38:28.241259+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:38:24.565365+00:00",
-      "_strategy": "match_near"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:38:19.558001+00:00",
+      "ts": "2026-11-17T15:55:28.182033+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:37:54.213692+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:37:47.722646+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:37:30.225986+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:37:19.405635+00:00",
-      "_strategy": "match_ladder"
+      "ts": "2026-11-17T15:55:22.131621+00:00",
+      "_strategy": "match_near"
     },
     {
       "action": "no_signal",
@@ -1092,104 +1044,98 @@
           "error": ""
         }
       ],
-      "ts": "2026-11-17T15:36:52.984382+00:00",
+      "ts": "2026-11-17T15:55:19.104891+00:00",
       "_strategy": "match_orb"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:36:50.080595+00:00",
+      "ts": "2026-11-17T15:55:15.461012+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:36:10.028863+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:35:51.895558+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:35:12.950517+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:34:28.223265+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:34:12.952296+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:33:33.821514+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:32:46.177426+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:32:46.094484+00:00",
-      "_strategy": "match_near"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:32:35.896336+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:32:32.122970+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:32:14.157437+00:00",
+      "ts": "2026-11-17T15:54:54.909482+00:00",
       "_strategy": "match_filt"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:31:52.756536+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:31:43.212140+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:31:02.419726+00:00",
+      "ts": "2026-11-17T15:54:29.135553+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:30:56.088162+00:00",
+      "ts": "2026-11-17T15:54:25.339662+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:54:01.416415+00:00",
       "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:53:38.530500+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:52:51.829024+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:52:18.996272+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:51:58.491362+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:51:11.719165+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:50:43.057548+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:50:15.525814+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:49:46.923977+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:49:44.102409+00:00",
+      "_strategy": "match_near"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:49:31.653113+00:00",
+      "_strategy": "match_ride"
     },
     {
       "action": "no_signal",
@@ -1211,68 +1157,139 @@
           "error": ""
         }
       ],
-      "ts": "2026-11-17T15:30:44.508902+00:00",
+      "ts": "2026-11-17T15:49:12.206625+00:00",
       "_strategy": "match_orb"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:30:09.406751+00:00",
-      "_strategy": "match_ridehalf"
+      "ts": "2026-11-17T15:49:11.840299+00:00",
+      "_strategy": "match_filt"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:29:21.638743+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:29:16.833158+00:00",
+      "ts": "2026-11-17T15:49:03.763665+00:00",
       "_strategy": "match_trail30"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:28:31.570446+00:00",
+      "ts": "2026-11-17T15:48:44.536485+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:48:35.597014+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:27:45.498631+00:00",
+      "ts": "2026-11-17T15:47:48.995097+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:27:39.899175+00:00",
+      "ts": "2026-11-17T15:47:26.800239+00:00",
       "_strategy": "match_trail30"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:27:05.281052+00:00",
-      "_strategy": "match_near"
+      "ts": "2026-11-17T15:46:56.233347+00:00",
+      "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:26:58.965870+00:00",
+      "ts": "2026-11-17T15:46:09.050539+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:45:45.483044+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:45:12.964627+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:44:27.607750+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:44:08.364561+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:44:03.109224+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:26:50.191922+00:00",
-      "_strategy": "match_ridehalf"
+      "ts": "2026-11-17T15:44:02.894254+00:00",
+      "_strategy": "match_near"
     },
     {
       "action": "monitor_error",
       "error": "",
-      "ts": "2026-11-17T15:26:34.736872+00:00",
+      "ts": "2026-11-17T15:43:31.028000+00:00",
       "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:43:30.307525+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "no_signal",
+      "scanned": [
+        {
+          "symbol": "SPY",
+          "error": ""
+        },
+        {
+          "symbol": "QQQ",
+          "error": ""
+        },
+        {
+          "symbol": "TSLA",
+          "error": ""
+        },
+        {
+          "symbol": "NVDA",
+          "error": ""
+        }
+      ],
+      "ts": "2026-11-17T15:43:03.722430+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:43:00.889005+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:42:46.658772+00:00",
+      "_strategy": "match_ride"
     }
   ],
   "chart_data": {
