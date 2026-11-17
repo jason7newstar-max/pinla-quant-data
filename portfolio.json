@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-17T15:26:48.541132+00:00",
+  "as_of": "2026-11-17T15:41:47.195496+00:00",
   "market_open": true,
   "spy": {
     "last": null,
@@ -1003,293 +1003,276 @@
     {
       "action": "monitor_error",
       "error": "",
+      "ts": "2026-11-17T15:41:08.151842+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:40:51.824501+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:40:08.322220+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:39:27.025159+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:39:08.952950+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:38:28.241259+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:38:24.565365+00:00",
+      "_strategy": "match_near"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:38:19.558001+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:37:54.213692+00:00",
+      "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:37:47.722646+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:37:30.225986+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:37:19.405635+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "no_signal",
+      "scanned": [
+        {
+          "symbol": "SPY",
+          "error": ""
+        },
+        {
+          "symbol": "QQQ",
+          "error": ""
+        },
+        {
+          "symbol": "TSLA",
+          "error": ""
+        },
+        {
+          "symbol": "NVDA",
+          "error": ""
+        }
+      ],
+      "ts": "2026-11-17T15:36:52.984382+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:36:50.080595+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:36:10.028863+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:35:51.895558+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:35:12.950517+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:34:28.223265+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:34:12.952296+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:33:33.821514+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:32:46.177426+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:32:46.094484+00:00",
+      "_strategy": "match_near"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:32:35.896336+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:32:32.122970+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:32:14.157437+00:00",
+      "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:31:52.756536+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:31:43.212140+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:31:02.419726+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:30:56.088162+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "no_signal",
+      "scanned": [
+        {
+          "symbol": "SPY",
+          "error": ""
+        },
+        {
+          "symbol": "QQQ",
+          "error": ""
+        },
+        {
+          "symbol": "TSLA",
+          "error": ""
+        },
+        {
+          "symbol": "NVDA",
+          "error": ""
+        }
+      ],
+      "ts": "2026-11-17T15:30:44.508902+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:30:09.406751+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:29:21.638743+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:29:16.833158+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:28:31.570446+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:27:45.498631+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:27:39.899175+00:00",
+      "_strategy": "match_trail30"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:27:05.281052+00:00",
+      "_strategy": "match_near"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:26:58.965870+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
+      "ts": "2026-11-17T15:26:50.191922+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor_error",
+      "error": "",
       "ts": "2026-11-17T15:26:34.736872+00:00",
       "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:26:07.448804+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:26:06.012412+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:26:01.764610+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:25:07.639181+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "no_signal",
-      "scanned": [
-        {
-          "symbol": "SPY",
-          "error": ""
-        },
-        {
-          "symbol": "QQQ",
-          "error": ""
-        },
-        {
-          "symbol": "TSLA",
-          "error": ""
-        },
-        {
-          "symbol": "NVDA",
-          "error": ""
-        }
-      ],
-      "ts": "2026-11-17T15:24:38.535112+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:24:27.784838+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:24:24.531233+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:23:29.688127+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:22:48.465862+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:22:46.547177+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:21:46.674444+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:21:29.240007+00:00",
-      "_strategy": "match_near"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:21:20.239739+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:21:08.560157+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:21:06.448076+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:20:53.291227+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:20:23.170806+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:20:05.271745+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:19:31.721908+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:19:27.186608+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "no_signal",
-      "scanned": [
-        {
-          "symbol": "SPY",
-          "error": ""
-        },
-        {
-          "symbol": "QQQ",
-          "error": ""
-        },
-        {
-          "symbol": "TSLA",
-          "error": ""
-        },
-        {
-          "symbol": "NVDA",
-          "error": ""
-        }
-      ],
-      "ts": "2026-11-17T15:18:28.790349+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:18:23.416075+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:17:48.335560+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:17:46.155635+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:16:42.076945+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:16:11.410239+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:16:05.637898+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:15:51.257011+00:00",
-      "_strategy": "match_near"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:15:43.231435+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:15:10.774491+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:15:04.098437+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:14:39.330282+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:14:30.269114+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:14:29.246337+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:13:23.151872+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:12:50.615091+00:00",
-      "_strategy": "match_trail30"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:12:46.367319+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "no_signal",
-      "scanned": [
-        {
-          "symbol": "SPY",
-          "error": ""
-        },
-        {
-          "symbol": "QQQ",
-          "error": ""
-        },
-        {
-          "symbol": "TSLA",
-          "error": ""
-        },
-        {
-          "symbol": "NVDA",
-          "error": ""
-        }
-      ],
-      "ts": "2026-11-17T15:12:16.922370+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor_error",
-      "error": "",
-      "ts": "2026-11-17T15:11:46.926654+00:00",
-      "_strategy": "match_ridehalf"
     }
   ],
   "chart_data": {
