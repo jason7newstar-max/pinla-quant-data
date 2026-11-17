@@ -83,38 +83,18 @@
   "sym": "MATCH_TRA",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2259.0,
+  "price": 2325.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 733.0P 11-17",
+    "label": "QQQ 654.0P 11-17",
     "kind": "put",
     "exp": "2026-11-17",
     "dte": 0,
-    "strike": 733.0,
-    "qty": 2,
-    "cost": 236.0,
-    "value": 236.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_TRA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2238.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 733.0P 11-17",
-    "kind": "put",
-    "exp": "2026-11-17",
-    "dte": 0,
-    "strike": 733.0,
+    "strike": 654.0,
     "qty": 1,
-    "cost": 122.0,
-    "value": 122.0,
+    "cost": 126.0,
+    "value": 126.0,
     "pnl": 0.0
    }
   ]
@@ -135,26 +115,6 @@
     "qty": 4,
     "cost": 196.0,
     "value": 196.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "PAPER_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1980.25,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "QQQ S",
-    "kind": "spread",
-    "exp": null,
-    "dte": null,
-    "strike": null,
-    "qty": 1,
-    "cost": 66081.0,
-    "value": 66081.0,
     "pnl": 0.0
    }
   ]
@@ -198,5 +158,33 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "MATCH_LAD",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1052.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 728.0P 11-17",
+    "kind": "put",
+    "exp": "2026-11-17",
+    "dte": 0,
+    "strike": 728.0,
+    "qty": 10,
+    "cost": 480.0,
+    "value": 480.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6794.0,
+  "src": "paper",
+  "moons": []
  }
 ]
