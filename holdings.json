@@ -60,21 +60,21 @@
   ]
  },
  {
-  "sym": "MATCH_TRA",
+  "sym": "MATCH_LAD",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2767.0,
+  "price": 3161.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 725.0P 11-17",
+    "label": "SPY 721.0P 11-17",
     "kind": "put",
     "exp": "2026-11-17",
     "dte": 0,
-    "strike": 725.0,
-    "qty": 1,
-    "cost": 149.0,
-    "value": 149.0,
+    "strike": 721.0,
+    "qty": 9,
+    "cost": 477.0,
+    "value": 477.0,
     "pnl": 0.0
    }
   ]
@@ -100,41 +100,21 @@
   ]
  },
  {
-  "sym": "MATCH_LAD",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2614.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 728.0P 11-17",
-    "kind": "put",
-    "exp": "2026-11-17",
-    "dte": 0,
-    "strike": 728.0,
-    "qty": 4,
-    "cost": 192.0,
-    "value": 192.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_NEA",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2554.0,
+  "price": 2468.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 723.0P 11-17",
+    "label": "SPY 726.0P 11-17",
     "kind": "put",
     "exp": "2026-11-17",
     "dte": 0,
-    "strike": 723.0,
+    "strike": 726.0,
     "qty": 2,
-    "cost": 260.0,
-    "value": 260.0,
+    "cost": 216.0,
+    "value": 216.0,
     "pnl": 0.0
    }
   ]
@@ -143,18 +123,18 @@
   "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2239.0,
+  "price": 2162.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 723.0P 11-17",
+    "label": "SPY 727.0P 11-17",
     "kind": "put",
     "exp": "2026-11-17",
     "dte": 0,
-    "strike": 723.0,
+    "strike": 727.0,
     "qty": 1,
-    "cost": 126.0,
-    "value": 126.0,
+    "cost": 139.0,
+    "value": 139.0,
     "pnl": 0.0
    }
   ]
@@ -163,18 +143,18 @@
   "sym": "MATCH_ORB",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1796.0,
+  "price": 1762.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 723.0P 11-17",
+    "label": "SPY 726.0P 11-17",
     "kind": "put",
     "exp": "2026-11-17",
     "dte": 0,
-    "strike": 723.0,
+    "strike": 726.0,
     "qty": 1,
-    "cost": 146.0,
-    "value": 146.0,
+    "cost": 107.0,
+    "value": 107.0,
     "pnl": 0.0
    }
   ]
@@ -198,5 +178,13 @@
     "pnl": 0.0
    }
   ]
+ },
+ {
+  "sym": "BC·SPY",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6794.0,
+  "src": "paper",
+  "moons": []
  }
 ]
