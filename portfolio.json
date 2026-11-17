@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-17T17:40:41.878909+00:00",
+  "as_of": "2026-11-17T18:10:41.421120+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 733.8499,
-    "bid": 733.78,
-    "ask": 733.83,
-    "volume": 32882450,
-    "mark": 733.8050000000001,
-    "change_pct": -0.8243935401040607,
+    "last": 731.53,
+    "bid": 731.5,
+    "ask": 731.53,
+    "volume": 34916550,
+    "mark": 731.515,
+    "change_pct": -1.1379147239678455,
     "close": 739.95
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 656.36,
-    "bid": 656.34,
-    "ask": 656.42,
-    "volume": 28851311,
-    "mark": 656.38,
-    "change_pct": -0.8145069890441989,
+    "last": 653.94,
+    "bid": 653.92,
+    "ask": 653.97,
+    "volume": 30889407,
+    "mark": 653.9449999999999,
+    "change_pct": -1.1802040045334259,
     "close": 661.75
   },
   "senate": {
@@ -451,18 +451,18 @@
         "expiration": "2026-11-17",
         "open_ts": "2026-11-17T17:16:48.776808+00:00",
         "peak_bid": 0.29,
-        "current_mid": 0.1,
-        "unrealized_pnl_dollar": -230.0,
-        "unrealized_pnl_pct": -0.548
+        "current_mid": 0.11,
+        "unrealized_pnl_dollar": -210.0,
+        "unrealized_pnl_pct": -0.5
       },
       "closed_trades_total": 14,
       "closed_trades_today": 2,
       "wins": 7,
       "win_rate": 0.5,
-      "today_pnl": 901.0,
+      "today_pnl": 921.0,
       "cumulative_pnl": 2971.0,
-      "portfolio_value": 4751.0,
-      "roi_pct": 1.3755
+      "portfolio_value": 4771.0,
+      "roi_pct": 1.3855
     },
     "match_near": {
       "name": null,
@@ -522,18 +522,18 @@
         "expiration": "2026-11-17",
         "open_ts": "2026-11-17T14:50:52.451621+00:00",
         "peak_bid": 3.69,
-        "current_mid": 0.72,
-        "unrealized_pnl_dollar": 94.0,
-        "unrealized_pnl_pct": 0.48
+        "current_mid": 0.94,
+        "unrealized_pnl_dollar": 182.0,
+        "unrealized_pnl_pct": 0.929
       },
       "closed_trades_total": 4,
       "closed_trades_today": 0,
       "wins": 1,
       "win_rate": 0.25,
-      "today_pnl": 92.0,
+      "today_pnl": 180.0,
       "cumulative_pnl": -103.0,
-      "portfolio_value": 1989.0,
-      "roi_pct": -0.0055
+      "portfolio_value": 2077.0,
+      "roi_pct": 0.0385
     },
     "match_ridehalf": {
       "name": null,
@@ -552,18 +552,18 @@
         "open_ts": "2026-11-17T14:45:28.521860+00:00",
         "peak_bid": 3.69,
         "scaled": true,
-        "current_mid": 0.72,
-        "unrealized_pnl_dollar": 47.0,
-        "unrealized_pnl_pct": 0.48
+        "current_mid": 0.94,
+        "unrealized_pnl_dollar": 91.0,
+        "unrealized_pnl_pct": 0.929
       },
       "closed_trades_total": 8,
       "closed_trades_today": 1,
       "wins": 5,
       "win_rate": 0.625,
-      "today_pnl": 410.0,
+      "today_pnl": 454.0,
       "cumulative_pnl": 770.0,
-      "portfolio_value": 2816.0,
-      "roi_pct": 0.408
+      "portfolio_value": 2860.0,
+      "roi_pct": 0.43
     },
     "match_orb": {
       "name": null,
@@ -580,19 +580,19 @@
         "underlying_at_open": 733.53,
         "expiration": "2026-11-17",
         "open_ts": "2026-11-17T17:37:15.867274+00:00",
-        "peak_bid": 1.27,
-        "current_mid": 1.21,
-        "unrealized_pnl_dollar": 13.5,
-        "unrealized_pnl_pct": 0.126
+        "peak_bid": 1.73,
+        "current_mid": 1.56,
+        "unrealized_pnl_dollar": 48.5,
+        "unrealized_pnl_pct": 0.453
       },
       "closed_trades_total": 5,
       "closed_trades_today": 2,
       "wins": 1,
       "win_rate": 0.2,
-      "today_pnl": -113.0,
+      "today_pnl": -78.0,
       "cumulative_pnl": -185.0,
-      "portfolio_value": 1829.0,
-      "roi_pct": -0.0855
+      "portfolio_value": 1864.0,
+      "roi_pct": -0.068
     },
     "match_filt": {
       "name": null,
@@ -624,18 +624,18 @@
         "expiration": "2026-11-17",
         "open_ts": "2026-11-17T16:15:36.319504+00:00",
         "peak_bid": 0.63,
-        "current_mid": 0.15,
-        "unrealized_pnl_dollar": -346.5,
-        "unrealized_pnl_pct": -0.726
+        "current_mid": 0.17,
+        "unrealized_pnl_dollar": -328.5,
+        "unrealized_pnl_pct": -0.689
       },
       "closed_trades_total": 6,
       "closed_trades_today": 5,
       "wins": 5,
       "win_rate": 0.833,
-      "today_pnl": 1764.0,
+      "today_pnl": 1782.0,
       "cumulative_pnl": 1638.0,
-      "portfolio_value": 3296.0,
-      "roi_pct": 0.648
+      "portfolio_value": 3314.0,
+      "roi_pct": 0.657
     },
     "lottery": {
       "name": null,
@@ -885,13 +885,13 @@
   "leaderboard": [
     {
       "name": "match_far",
-      "roi_pct": 1.3755,
-      "portfolio_value": 4751.0
+      "roi_pct": 1.3855,
+      "portfolio_value": 4771.0
     },
     {
       "name": "match_ladder",
-      "roi_pct": 0.648,
-      "portfolio_value": 3296.0
+      "roi_pct": 0.657,
+      "portfolio_value": 3314.0
     },
     {
       "name": "match_trail30",
@@ -900,8 +900,8 @@
     },
     {
       "name": "match_ridehalf",
-      "roi_pct": 0.408,
-      "portfolio_value": 2816.0
+      "roi_pct": 0.43,
+      "portfolio_value": 2860.0
     },
     {
       "name": "match_near",
@@ -922,6 +922,11 @@
       "name": "bearcall_spy",
       "roi_pct": 0.087,
       "portfolio_value": 6794.0
+    },
+    {
+      "name": "match_ride",
+      "roi_pct": 0.0385,
+      "portfolio_value": 2077.0
     },
     {
       "name": "butterfly_qqq",
@@ -974,11 +979,6 @@
       "portfolio_value": 6216.0
     },
     {
-      "name": "match_ride",
-      "roi_pct": -0.0055,
-      "portfolio_value": 1989.0
-    },
-    {
       "name": "bwb_ia10",
       "roi_pct": -0.009,
       "portfolio_value": 6194.0
@@ -1005,8 +1005,8 @@
     },
     {
       "name": "match_orb",
-      "roi_pct": -0.0855,
-      "portfolio_value": 1829.0
+      "roi_pct": -0.068,
+      "portfolio_value": 1864.0
     }
   ],
   "events": [
@@ -1014,85 +1014,37 @@
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.69,
-      "ask": 0.7,
-      "pnl_pct": 0.408,
-      "reason": "holding +41%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:40:32.210883+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.69,
-      "ask": 0.7,
-      "pnl_pct": 0.408,
-      "reason": "holding +41%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:40:27.120912+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.13,
-      "ask": 0.14,
-      "pnl_pct": -0.755,
-      "reason": "holding -75%",
-      "peak_bid": 0.63,
-      "ts": "2026-11-17T17:40:26.221153+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.18,
-      "ask": 1.19,
-      "pnl_pct": 0.103,
-      "reason": "holding +10%",
-      "peak_bid": 1.27,
-      "ts": "2026-11-17T17:40:19.222020+00:00",
+      "exit_price": 1.56,
+      "ask": 1.57,
+      "pnl_pct": 0.458,
+      "reason": "holding +46%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:10:37.270467+00:00",
       "_strategy": "match_orb"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.09,
-      "ask": 0.1,
-      "pnl_pct": -0.571,
-      "reason": "holding -57%",
+      "exit_price": 0.11,
+      "ask": 0.12,
+      "pnl_pct": -0.476,
+      "reason": "holding -48%",
       "peak_bid": 0.29,
-      "ts": "2026-11-17T17:40:10.225766+00:00",
+      "ts": "2026-11-17T18:10:31.268724+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.7,
-      "ask": 0.71,
-      "pnl_pct": 0.429,
-      "reason": "holding +43%",
+      "exit_price": 0.81,
+      "ask": 0.82,
+      "pnl_pct": 0.653,
+      "reason": "holding +65%",
       "peak_bid": 3.69,
-      "ts": "2026-11-17T17:39:32.208247+00:00",
+      "ts": "2026-11-17T18:09:50.270453+00:00",
       "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.69,
-      "ask": 0.7,
-      "pnl_pct": 0.408,
-      "reason": "holding +41%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:39:26.168518+00:00",
-      "_strategy": "match_ride"
     },
     {
       "action": "monitor",
@@ -1103,251 +1055,32 @@
       "pnl_pct": -0.736,
       "reason": "holding -74%",
       "peak_bid": 0.63,
-      "ts": "2026-11-17T17:39:25.656434+00:00",
+      "ts": "2026-11-17T18:09:48.213066+00:00",
       "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 1.14,
-      "ask": 1.15,
-      "pnl_pct": 0.065,
-      "reason": "holding +7%",
-      "peak_bid": 1.27,
-      "ts": "2026-11-17T17:39:18.727634+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.1,
-      "ask": 0.11,
-      "pnl_pct": -0.524,
-      "reason": "holding -52%",
-      "peak_bid": 0.29,
-      "ts": "2026-11-17T17:39:08.231646+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.69,
-      "ask": 0.69,
-      "pnl_pct": 0.408,
-      "reason": "holding +41%",
+      "exit_price": 0.84,
+      "ask": 0.85,
+      "pnl_pct": 0.714,
+      "reason": "holding +71%",
       "peak_bid": 3.69,
-      "ts": "2026-11-17T17:38:32.136412+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.65,
-      "ask": 0.66,
-      "pnl_pct": 0.327,
-      "reason": "holding +33%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:38:26.164683+00:00",
+      "ts": "2026-11-17T18:09:47.185729+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.13,
-      "ask": 0.14,
-      "pnl_pct": -0.755,
-      "reason": "holding -75%",
-      "peak_bid": 0.63,
-      "ts": "2026-11-17T17:38:25.243749+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.07,
-      "ask": 1.08,
-      "pnl_pct": 0.0,
-      "reason": "holding +0%",
-      "peak_bid": 1.16,
-      "ts": "2026-11-17T17:38:18.236333+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.09,
-      "ask": 0.1,
-      "pnl_pct": -0.571,
-      "reason": "holding -57%",
-      "peak_bid": 0.29,
-      "ts": "2026-11-17T17:38:07.240755+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.64,
-      "ask": 0.65,
-      "pnl_pct": 0.306,
-      "reason": "holding +31%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:37:31.641997+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.63,
-      "ask": 0.64,
-      "pnl_pct": 0.286,
+      "exit_price": 1.38,
+      "ask": 1.39,
+      "pnl_pct": 0.29,
       "reason": "holding +29%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:37:25.743028+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.13,
-      "ask": 0.14,
-      "pnl_pct": -0.755,
-      "reason": "holding -75%",
-      "peak_bid": 0.63,
-      "ts": "2026-11-17T17:37:25.238979+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.02,
-      "ask": 1.03,
-      "pnl_pct": -0.047,
-      "reason": "holding -5%",
-      "peak_bid": 1.07,
-      "ts": "2026-11-17T17:37:17.265863+00:00",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:09:36.277843+00:00",
       "_strategy": "match_orb"
-    },
-    {
-      "action": "open",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 730.0,
-      "delta": -0.261,
-      "entry_price": 1.07,
-      "contracts": 1,
-      "total_cost": 107.0,
-      "underlying_at_open": 733.53,
-      "expiration": "2026-11-17",
-      "open_ts": "2026-11-17T17:37:15.867274+00:00",
-      "ts": "2026-11-17T17:37:15.867664+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.09,
-      "ask": 0.1,
-      "pnl_pct": -0.571,
-      "reason": "holding -57%",
-      "peak_bid": 0.29,
-      "ts": "2026-11-17T17:37:05.636460+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.67,
-      "ask": 0.68,
-      "pnl_pct": 0.367,
-      "reason": "holding +37%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:36:31.242417+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.64,
-      "ask": 0.65,
-      "pnl_pct": 0.306,
-      "reason": "holding +31%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:36:25.239123+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.13,
-      "ask": 0.14,
-      "pnl_pct": -0.755,
-      "reason": "holding -75%",
-      "peak_bid": 0.63,
-      "ts": "2026-11-17T17:36:24.239064+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.09,
-      "ask": 0.1,
-      "pnl_pct": -0.571,
-      "reason": "holding -57%",
-      "peak_bid": 0.29,
-      "ts": "2026-11-17T17:36:05.271607+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.68,
-      "ask": 0.69,
-      "pnl_pct": 0.388,
-      "reason": "holding +39%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:35:30.251251+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.7,
-      "ask": 0.72,
-      "pnl_pct": 0.429,
-      "reason": "holding +43%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:35:24.243432+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.14,
-      "ask": 0.15,
-      "pnl_pct": -0.736,
-      "reason": "holding -74%",
-      "peak_bid": 0.63,
-      "ts": "2026-11-17T17:35:24.209206+00:00",
-      "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
@@ -1358,92 +1091,116 @@
       "pnl_pct": -0.524,
       "reason": "holding -52%",
       "peak_bid": 0.29,
-      "ts": "2026-11-17T17:35:05.249654+00:00",
+      "ts": "2026-11-17T18:09:31.215377+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.74,
-      "ask": 0.75,
-      "pnl_pct": 0.51,
-      "reason": "holding +51%",
+      "exit_price": 0.85,
+      "ask": 0.86,
+      "pnl_pct": 0.735,
+      "reason": "holding +73%",
       "peak_bid": 3.69,
-      "ts": "2026-11-17T17:34:29.251382+00:00",
+      "ts": "2026-11-17T18:08:49.286055+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.7,
-      "ask": 0.72,
-      "pnl_pct": 0.429,
-      "reason": "holding +43%",
-      "peak_bid": 3.69,
-      "ts": "2026-11-17T17:34:24.205940+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.14,
-      "ask": 0.15,
-      "pnl_pct": -0.736,
-      "reason": "holding -74%",
+      "exit_price": 0.15,
+      "ask": 0.16,
+      "pnl_pct": -0.717,
+      "reason": "holding -72%",
       "peak_bid": 0.63,
-      "ts": "2026-11-17T17:34:23.245666+00:00",
+      "ts": "2026-11-17T18:08:47.290653+00:00",
       "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.1,
-      "ask": 0.11,
-      "pnl_pct": -0.524,
-      "reason": "holding -52%",
+      "exit_price": 0.88,
+      "ask": 0.86,
+      "pnl_pct": 0.796,
+      "reason": "holding +80%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:08:46.288214+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.51,
+      "ask": 1.52,
+      "pnl_pct": 0.411,
+      "reason": "holding +41%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:08:35.278774+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.11,
+      "ask": 0.12,
+      "pnl_pct": -0.476,
+      "reason": "holding -48%",
       "peak_bid": 0.29,
-      "ts": "2026-11-17T17:34:04.257815+00:00",
+      "ts": "2026-11-17T18:08:30.278012+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.83,
-      "ask": 0.84,
-      "pnl_pct": 0.694,
-      "reason": "holding +69%",
+      "exit_price": 0.97,
+      "ask": 0.98,
+      "pnl_pct": 0.98,
+      "reason": "holding +98%",
       "peak_bid": 3.69,
-      "ts": "2026-11-17T17:33:29.166389+00:00",
+      "ts": "2026-11-17T18:07:49.183869+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.83,
-      "ask": 0.84,
-      "pnl_pct": 0.694,
-      "reason": "holding +69%",
+      "exit_price": 0.17,
+      "ask": 0.18,
+      "pnl_pct": -0.679,
+      "reason": "holding -68%",
+      "peak_bid": 0.63,
+      "ts": "2026-11-17T18:07:46.283654+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.97,
+      "ask": 0.98,
+      "pnl_pct": 0.98,
+      "reason": "holding +98%",
       "peak_bid": 3.69,
-      "ts": "2026-11-17T17:33:23.691156+00:00",
+      "ts": "2026-11-17T18:07:46.282874+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.16,
-      "ask": 0.17,
-      "pnl_pct": -0.698,
-      "reason": "holding -70%",
-      "peak_bid": 0.63,
-      "ts": "2026-11-17T17:33:22.667250+00:00",
-      "_strategy": "match_ladder"
+      "exit_price": 1.58,
+      "ask": 1.59,
+      "pnl_pct": 0.477,
+      "reason": "holding +48%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:07:35.201222+00:00",
+      "_strategy": "match_orb"
     },
     {
       "action": "monitor",
@@ -1454,1467 +1211,287 @@
       "pnl_pct": -0.429,
       "reason": "holding -43%",
       "peak_bid": 0.29,
-      "ts": "2026-11-17T17:33:04.253743+00:00",
+      "ts": "2026-11-17T18:07:29.289965+00:00",
       "_strategy": "match_far"
-    },
-    {
-      "action": "close",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 726.0,
-      "delta": -0.248,
-      "entry_price": 1.07,
-      "contracts": 1,
-      "total_cost": 107.0,
-      "underlying_at_open": 732.19,
-      "expiration": "2026-11-17",
-      "open_ts": "2026-11-17T16:17:10.315431+00:00",
-      "peak_bid": 1.68,
-      "close_price": 0.53,
-      "close_proceeds": 53.0,
-      "pnl_dollar": -54.0,
-      "pnl_pct": -0.505,
-      "close_reason": "SL -50%",
-      "close_ts": "2026-11-17T17:32:34.257545+00:00",
-      "ts": "2026-11-17T17:32:34.257847+00:00",
-      "_strategy": "match_orb"
     },
     {
       "action": "monitor",
       "src": "stream",
-      "close": true,
-      "exit_price": 0.53,
-      "ask": 0.54,
-      "pnl_pct": -0.505,
-      "reason": "SL -50%",
-      "peak_bid": 1.68,
-      "ts": "2026-11-17T17:32:34.257443+00:00",
+      "close": false,
+      "exit_price": 0.97,
+      "ask": 0.98,
+      "pnl_pct": 0.98,
+      "reason": "holding +98%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:06:48.291409+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.18,
+      "ask": 0.19,
+      "pnl_pct": -0.66,
+      "reason": "holding -66%",
+      "peak_bid": 0.63,
+      "ts": "2026-11-17T18:06:46.256286+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.0,
+      "ask": 1.01,
+      "pnl_pct": 1.041,
+      "reason": "holding +104%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:06:45.295851+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.62,
+      "ask": 1.64,
+      "pnl_pct": 0.514,
+      "reason": "holding +51%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:06:34.294731+00:00",
       "_strategy": "match_orb"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.88,
-      "ask": 0.89,
-      "pnl_pct": 0.796,
-      "reason": "holding +80%",
+      "exit_price": 0.12,
+      "ask": 0.13,
+      "pnl_pct": -0.429,
+      "reason": "holding -43%",
+      "peak_bid": 0.29,
+      "ts": "2026-11-17T18:06:28.292365+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.03,
+      "ask": 1.04,
+      "pnl_pct": 1.102,
+      "reason": "holding +110%",
       "peak_bid": 3.69,
-      "ts": "2026-11-17T17:32:28.194071+00:00",
+      "ts": "2026-11-17T18:05:48.290313+00:00",
       "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.18,
+      "ask": 0.19,
+      "pnl_pct": -0.66,
+      "reason": "holding -66%",
+      "peak_bid": 0.63,
+      "ts": "2026-11-17T18:05:45.293031+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.05,
+      "ask": 1.06,
+      "pnl_pct": 1.143,
+      "reason": "holding +114%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:05:45.292352+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.68,
+      "ask": 1.69,
+      "pnl_pct": 0.57,
+      "reason": "holding +57%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:05:33.306317+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.12,
+      "ask": 0.13,
+      "pnl_pct": -0.429,
+      "reason": "holding -43%",
+      "peak_bid": 0.29,
+      "ts": "2026-11-17T18:05:27.313593+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.0,
+      "ask": 1.01,
+      "pnl_pct": 1.041,
+      "reason": "holding +104%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:04:47.294996+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.18,
+      "ask": 0.19,
+      "pnl_pct": -0.66,
+      "reason": "holding -66%",
+      "peak_bid": 0.63,
+      "ts": "2026-11-17T18:04:44.307629+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.0,
+      "ask": 1.01,
+      "pnl_pct": 1.041,
+      "reason": "holding +104%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:04:44.306939+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.68,
+      "ask": 1.69,
+      "pnl_pct": 0.57,
+      "reason": "holding +57%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:04:33.293703+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.12,
+      "ask": 0.13,
+      "pnl_pct": -0.429,
+      "reason": "holding -43%",
+      "peak_bid": 0.29,
+      "ts": "2026-11-17T18:04:26.309063+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.06,
+      "ask": 1.07,
+      "pnl_pct": 1.163,
+      "reason": "holding +116%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:03:46.296837+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.18,
+      "ask": 0.19,
+      "pnl_pct": -0.66,
+      "reason": "holding -66%",
+      "peak_bid": 0.63,
+      "ts": "2026-11-17T18:03:44.302886+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.04,
+      "ask": 1.05,
+      "pnl_pct": 1.122,
+      "reason": "holding +112%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:03:43.295182+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.65,
+      "ask": 1.66,
+      "pnl_pct": 0.542,
+      "reason": "holding +54%",
+      "peak_bid": 1.73,
+      "ts": "2026-11-17T18:03:32.269572+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.12,
+      "ask": 0.13,
+      "pnl_pct": -0.429,
+      "reason": "holding -43%",
+      "peak_bid": 0.29,
+      "ts": "2026-11-17T18:03:26.167386+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.94,
+      "ask": 0.95,
+      "pnl_pct": 0.918,
+      "reason": "holding +92%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:02:46.277359+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.17,
+      "ask": 0.18,
+      "pnl_pct": -0.679,
+      "reason": "holding -68%",
+      "peak_bid": 0.63,
+      "ts": "2026-11-17T18:02:44.281452+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.92,
+      "ask": 0.93,
+      "pnl_pct": 0.878,
+      "reason": "holding +88%",
+      "peak_bid": 3.69,
+      "ts": "2026-11-17T18:02:43.277620+00:00",
+      "_strategy": "match_ride"
     }
   ],
   "chart_data": {
-    "QQQ": [
-      {
-        "t": 1794925800000,
-        "o": 663.06,
-        "h": 663.17,
-        "l": 661.67,
-        "c": 662.27,
-        "v": 238603
-      },
-      {
-        "t": 1794925860000,
-        "o": 662.2458,
-        "h": 662.68,
-        "l": 661.785,
-        "c": 662.01,
-        "v": 70378
-      },
-      {
-        "t": 1794925920000,
-        "o": 662.03,
-        "h": 662.65,
-        "l": 661.71,
-        "c": 662.02,
-        "v": 97503
-      },
-      {
-        "t": 1794925980000,
-        "o": 661.97,
-        "h": 662.79,
-        "l": 661.675,
-        "c": 661.88,
-        "v": 67067
-      },
-      {
-        "t": 1794926040000,
-        "o": 661.87,
-        "h": 662.11,
-        "l": 660.83,
-        "c": 660.86,
-        "v": 79984
-      },
-      {
-        "t": 1794926100000,
-        "o": 660.81,
-        "h": 661.67,
-        "l": 660.71,
-        "c": 661.57,
-        "v": 88185
-      },
-      {
-        "t": 1794926160000,
-        "o": 661.63,
-        "h": 661.68,
-        "l": 660.03,
-        "c": 660.05,
-        "v": 91656
-      },
-      {
-        "t": 1794926220000,
-        "o": 660.02,
-        "h": 661.79,
-        "l": 659.8,
-        "c": 661.45,
-        "v": 229706
-      },
-      {
-        "t": 1794926280000,
-        "o": 661.38,
-        "h": 662.05,
-        "l": 660.74,
-        "c": 660.9,
-        "v": 61286
-      },
-      {
-        "t": 1794926340000,
-        "o": 660.875,
-        "h": 662.04,
-        "l": 660.81,
-        "c": 661.33,
-        "v": 47300
-      },
-      {
-        "t": 1794926400000,
-        "o": 661.25,
-        "h": 662.1784,
-        "l": 660.95,
-        "c": 661.92,
-        "v": 66989
-      },
-      {
-        "t": 1794926460000,
-        "o": 661.97,
-        "h": 662.76,
-        "l": 661.77,
-        "c": 662.67,
-        "v": 60708
-      },
-      {
-        "t": 1794926520000,
-        "o": 662.708,
-        "h": 663.36,
-        "l": 662.38,
-        "c": 662.42,
-        "v": 89414
-      },
-      {
-        "t": 1794926580000,
-        "o": 662.405,
-        "h": 662.44,
-        "l": 661.06,
-        "c": 661.08,
-        "v": 52571
-      },
-      {
-        "t": 1794926640000,
-        "o": 661.165,
-        "h": 661.46,
-        "l": 660.285,
-        "c": 660.45,
-        "v": 40159
-      },
-      {
-        "t": 1794926700000,
-        "o": 660.45,
-        "h": 661.73,
-        "l": 660.39,
-        "c": 660.58,
-        "v": 58651
-      },
-      {
-        "t": 1794926760000,
-        "o": 660.59,
-        "h": 661.86,
-        "l": 660.33,
-        "c": 661.62,
-        "v": 56948
-      },
-      {
-        "t": 1794926820000,
-        "o": 661.639,
-        "h": 661.68,
-        "l": 660.765,
-        "c": 661.22,
-        "v": 50799
-      },
-      {
-        "t": 1794926880000,
-        "o": 661.2,
-        "h": 661.86,
-        "l": 660.87,
-        "c": 660.935,
-        "v": 53114
-      },
-      {
-        "t": 1794926940000,
-        "o": 660.9694,
-        "h": 662.06,
-        "l": 660.85,
-        "c": 661.42,
-        "v": 50923
-      },
-      {
-        "t": 1794927000000,
-        "o": 661.228,
-        "h": 661.23,
-        "l": 659.88,
-        "c": 661.035,
-        "v": 65412
-      },
-      {
-        "t": 1794927060000,
-        "o": 661.02,
-        "h": 661.16,
-        "l": 660.16,
-        "c": 660.29,
-        "v": 31059
-      },
-      {
-        "t": 1794927120000,
-        "o": 660.265,
-        "h": 660.66,
-        "l": 659.64,
-        "c": 659.77,
-        "v": 69077
-      },
-      {
-        "t": 1794927180000,
-        "o": 659.83,
-        "h": 661.58,
-        "l": 659.82,
-        "c": 661.18,
-        "v": 54052
-      },
-      {
-        "t": 1794927240000,
-        "o": 661.14,
-        "h": 661.2,
-        "l": 660.39,
-        "c": 660.87,
-        "v": 44734
-      },
-      {
-        "t": 1794927300000,
-        "o": 660.7,
-        "h": 661.5099,
-        "l": 659.87,
-        "c": 659.91,
-        "v": 63691
-      },
-      {
-        "t": 1794927360000,
-        "o": 660.0156,
-        "h": 660.89,
-        "l": 659.78,
-        "c": 660.665,
-        "v": 47992
-      },
-      {
-        "t": 1794927420000,
-        "o": 660.67,
-        "h": 661.8,
-        "l": 660.6432,
-        "c": 661.6701,
-        "v": 55982
-      },
-      {
-        "t": 1794927480000,
-        "o": 661.685,
-        "h": 662.3,
-        "l": 661.565,
-        "c": 662.215,
-        "v": 59692
-      },
-      {
-        "t": 1794927540000,
-        "o": 662.1301,
-        "h": 662.54,
-        "l": 661.4,
-        "c": 662.47,
-        "v": 42974
-      },
-      {
-        "t": 1794927600000,
-        "o": 662.51,
-        "h": 662.97,
-        "l": 661.31,
-        "c": 661.43,
-        "v": 61154
-      },
-      {
-        "t": 1794927660000,
-        "o": 661.33,
-        "h": 661.75,
-        "l": 660.81,
-        "c": 660.985,
-        "v": 38256
-      },
-      {
-        "t": 1794927720000,
-        "o": 661.07,
-        "h": 661.65,
-        "l": 660.32,
-        "c": 660.49,
-        "v": 53461
-      },
-      {
-        "t": 1794927780000,
-        "o": 660.435,
-        "h": 661.24,
-        "l": 660.28,
-        "c": 660.87,
-        "v": 26179
-      },
-      {
-        "t": 1794927840000,
-        "o": 660.79,
-        "h": 661.28,
-        "l": 660.4072,
-        "c": 660.91,
-        "v": 36310
-      },
-      {
-        "t": 1794927900000,
-        "o": 660.98,
-        "h": 661.38,
-        "l": 659.56,
-        "c": 659.92,
-        "v": 61470
-      },
-      {
-        "t": 1794927960000,
-        "o": 659.8353,
-        "h": 660.24,
-        "l": 659.32,
-        "c": 659.97,
-        "v": 81580
-      },
-      {
-        "t": 1794928020000,
-        "o": 659.93,
-        "h": 660.3,
-        "l": 659.44,
-        "c": 660.1645,
-        "v": 33038
-      },
-      {
-        "t": 1794928080000,
-        "o": 660.135,
-        "h": 660.68,
-        "l": 659.905,
-        "c": 660.45,
-        "v": 31434
-      },
-      {
-        "t": 1794928140000,
-        "o": 660.39,
-        "h": 660.39,
-        "l": 658.87,
-        "c": 659.11,
-        "v": 47741
-      },
-      {
-        "t": 1794928200000,
-        "o": 659.05,
-        "h": 659.11,
-        "l": 658.42,
-        "c": 658.49,
-        "v": 68803
-      },
-      {
-        "t": 1794928260000,
-        "o": 658.45,
-        "h": 659.9,
-        "l": 658.45,
-        "c": 659.845,
-        "v": 70175
-      },
-      {
-        "t": 1794928320000,
-        "o": 659.89,
-        "h": 660.62,
-        "l": 659.79,
-        "c": 660.04,
-        "v": 52097
-      },
-      {
-        "t": 1794928380000,
-        "o": 659.9855,
-        "h": 660.74,
-        "l": 659.67,
-        "c": 659.75,
-        "v": 43064
-      },
-      {
-        "t": 1794928440000,
-        "o": 659.695,
-        "h": 660.03,
-        "l": 659.16,
-        "c": 659.75,
-        "v": 40856
-      },
-      {
-        "t": 1794928500000,
-        "o": 659.67,
-        "h": 660.08,
-        "l": 659.161,
-        "c": 659.31,
-        "v": 53157
-      },
-      {
-        "t": 1794928560000,
-        "o": 659.3199,
-        "h": 659.48,
-        "l": 658.74,
-        "c": 658.74,
-        "v": 47608
-      },
-      {
-        "t": 1794928620000,
-        "o": 658.73,
-        "h": 659.0,
-        "l": 658.61,
-        "c": 658.85,
-        "v": 36445
-      },
-      {
-        "t": 1794928680000,
-        "o": 658.85,
-        "h": 658.93,
-        "l": 658.19,
-        "c": 658.58,
-        "v": 51207
-      },
-      {
-        "t": 1794928740000,
-        "o": 658.71,
-        "h": 659.42,
-        "l": 658.63,
-        "c": 659.0,
-        "v": 43123
-      },
-      {
-        "t": 1794928800000,
-        "o": 659.07,
-        "h": 659.61,
-        "l": 658.8,
-        "c": 658.97,
-        "v": 44067
-      },
-      {
-        "t": 1794928860000,
-        "o": 658.95,
-        "h": 659.15,
-        "l": 658.34,
-        "c": 658.42,
-        "v": 44614
-      },
-      {
-        "t": 1794928920000,
-        "o": 658.41,
-        "h": 659.235,
-        "l": 658.38,
-        "c": 659.19,
-        "v": 32783
-      },
-      {
-        "t": 1794928980000,
-        "o": 659.19,
-        "h": 659.94,
-        "l": 658.985,
-        "c": 659.86,
-        "v": 48250
-      },
-      {
-        "t": 1794929040000,
-        "o": 659.77,
-        "h": 659.94,
-        "l": 659.2,
-        "c": 659.22,
-        "v": 25206
-      },
-      {
-        "t": 1794929100000,
-        "o": 659.17,
-        "h": 659.79,
-        "l": 658.74,
-        "c": 658.9,
-        "v": 46190
-      },
-      {
-        "t": 1794929160000,
-        "o": 658.89,
-        "h": 660.1,
-        "l": 658.76,
-        "c": 659.55,
-        "v": 49269
-      },
-      {
-        "t": 1794929220000,
-        "o": 659.54,
-        "h": 659.69,
-        "l": 659.23,
-        "c": 659.2715,
-        "v": 34674
-      },
-      {
-        "t": 1794929280000,
-        "o": 659.26,
-        "h": 659.27,
-        "l": 658.56,
-        "c": 658.65,
-        "v": 46497
-      },
-      {
-        "t": 1794929340000,
-        "o": 658.6686,
-        "h": 658.9594,
-        "l": 658.13,
-        "c": 658.42,
-        "v": 52841
-      },
-      {
-        "t": 1794929400000,
-        "o": 658.39,
-        "h": 658.53,
-        "l": 657.57,
-        "c": 657.68,
-        "v": 87978
-      },
-      {
-        "t": 1794929460000,
-        "o": 657.66,
-        "h": 657.7097,
-        "l": 656.8,
-        "c": 656.9,
-        "v": 112654
-      },
-      {
-        "t": 1794929520000,
-        "o": 656.84,
-        "h": 657.6,
-        "l": 656.3201,
-        "c": 656.73,
-        "v": 149830
-      },
-      {
-        "t": 1794929580000,
-        "o": 656.6,
-        "h": 656.6,
-        "l": 655.71,
-        "c": 656.47,
-        "v": 110826
-      },
-      {
-        "t": 1794929640000,
-        "o": 656.58,
-        "h": 656.88,
-        "l": 655.5,
-        "c": 655.5,
-        "v": 92804
-      },
-      {
-        "t": 1794929700000,
-        "o": 655.555,
-        "h": 656.285,
-        "l": 655.34,
-        "c": 655.83,
-        "v": 101818
-      },
-      {
-        "t": 1794929760000,
-        "o": 655.8,
-        "h": 655.82,
-        "l": 655.05,
-        "c": 655.225,
-        "v": 79393
-      },
-      {
-        "t": 1794929820000,
-        "o": 655.18,
-        "h": 655.91,
-        "l": 655.03,
-        "c": 655.32,
-        "v": 117739
-      },
-      {
-        "t": 1794929880000,
-        "o": 655.32,
-        "h": 655.4599,
-        "l": 654.66,
-        "c": 654.9,
-        "v": 69277
-      },
-      {
-        "t": 1794929940000,
-        "o": 654.94,
-        "h": 655.075,
-        "l": 654.56,
-        "c": 654.95,
-        "v": 52441
-      },
-      {
-        "t": 1794930000000,
-        "o": 654.88,
-        "h": 655.1158,
-        "l": 653.08,
-        "c": 653.24,
-        "v": 113541
-      },
-      {
-        "t": 1794930060000,
-        "o": 653.26,
-        "h": 653.4,
-        "l": 651.905,
-        "c": 652.09,
-        "v": 143739
-      },
-      {
-        "t": 1794930120000,
-        "o": 652.11,
-        "h": 652.47,
-        "l": 651.48,
-        "c": 651.63,
-        "v": 85581
-      },
-      {
-        "t": 1794930180000,
-        "o": 651.51,
-        "h": 651.93,
-        "l": 650.765,
-        "c": 650.8,
-        "v": 114316
-      },
-      {
-        "t": 1794930240000,
-        "o": 650.82,
-        "h": 651.84,
-        "l": 650.77,
-        "c": 651.585,
-        "v": 129951
-      },
-      {
-        "t": 1794930300000,
-        "o": 651.62,
-        "h": 651.78,
-        "l": 650.59,
-        "c": 650.8,
-        "v": 119726
-      },
-      {
-        "t": 1794930360000,
-        "o": 650.74,
-        "h": 651.27,
-        "l": 649.865,
-        "c": 649.865,
-        "v": 131951
-      },
-      {
-        "t": 1794930420000,
-        "o": 649.87,
-        "h": 650.0301,
-        "l": 648.68,
-        "c": 648.68,
-        "v": 137051
-      },
-      {
-        "t": 1794930480000,
-        "o": 648.74,
-        "h": 649.77,
-        "l": 648.72,
-        "c": 649.14,
-        "v": 134832
-      },
-      {
-        "t": 1794930540000,
-        "o": 649.05,
-        "h": 649.19,
-        "l": 648.44,
-        "c": 648.938,
-        "v": 132172
-      },
-      {
-        "t": 1794930600000,
-        "o": 648.94,
-        "h": 650.18,
-        "l": 648.87,
-        "c": 649.63,
-        "v": 186441
-      },
-      {
-        "t": 1794930660000,
-        "o": 649.67,
-        "h": 650.0,
-        "l": 647.3,
-        "c": 647.65,
-        "v": 177817
-      },
-      {
-        "t": 1794930720000,
-        "o": 647.615,
-        "h": 648.06,
-        "l": 647.14,
-        "c": 647.26,
-        "v": 102923
-      },
-      {
-        "t": 1794930780000,
-        "o": 647.27,
-        "h": 648.05,
-        "l": 646.9,
-        "c": 647.25,
-        "v": 176989
-      },
-      {
-        "t": 1794930840000,
-        "o": 647.25,
-        "h": 647.8,
-        "l": 646.65,
-        "c": 647.31,
-        "v": 150453
-      },
-      {
-        "t": 1794930900000,
-        "o": 647.25,
-        "h": 648.63,
-        "l": 646.89,
-        "c": 648.62,
-        "v": 190430
-      },
-      {
-        "t": 1794930960000,
-        "o": 648.64,
-        "h": 650.73,
-        "l": 648.54,
-        "c": 650.58,
-        "v": 200304
-      },
-      {
-        "t": 1794931020000,
-        "o": 650.54,
-        "h": 651.85,
-        "l": 650.21,
-        "c": 651.84,
-        "v": 150923
-      },
-      {
-        "t": 1794931080000,
-        "o": 651.8913,
-        "h": 652.6935,
-        "l": 651.58,
-        "c": 652.25,
-        "v": 156299
-      },
-      {
-        "t": 1794931140000,
-        "o": 652.23,
-        "h": 653.39,
-        "l": 651.9,
-        "c": 653.0999,
-        "v": 134733
-      },
-      {
-        "t": 1794931200000,
-        "o": 653.07,
-        "h": 654.5795,
-        "l": 652.9,
-        "c": 653.69,
-        "v": 291120
-      },
-      {
-        "t": 1794931260000,
-        "o": 653.71,
-        "h": 654.67,
-        "l": 653.24,
-        "c": 654.5238,
-        "v": 146018
-      },
-      {
-        "t": 1794931320000,
-        "o": 654.5,
-        "h": 655.36,
-        "l": 654.12,
-        "c": 654.24,
-        "v": 123562
-      },
-      {
-        "t": 1794931380000,
-        "o": 654.25,
-        "h": 654.53,
-        "l": 653.44,
-        "c": 653.81,
-        "v": 87905
-      },
-      {
-        "t": 1794931440000,
-        "o": 653.59,
-        "h": 655.66,
-        "l": 653.355,
-        "c": 654.7588,
-        "v": 125054
-      },
-      {
-        "t": 1794931500000,
-        "o": 654.76,
-        "h": 655.21,
-        "l": 654.22,
-        "c": 654.345,
-        "v": 70614
-      },
-      {
-        "t": 1794931560000,
-        "o": 654.22,
-        "h": 654.88,
-        "l": 653.77,
-        "c": 654.31,
-        "v": 81487
-      },
-      {
-        "t": 1794931620000,
-        "o": 654.3,
-        "h": 655.065,
-        "l": 653.71,
-        "c": 653.7296,
-        "v": 81381
-      },
-      {
-        "t": 1794931680000,
-        "o": 653.66,
-        "h": 655.118,
-        "l": 653.624,
-        "c": 654.99,
-        "v": 54647
-      },
-      {
-        "t": 1794931740000,
-        "o": 655.0487,
-        "h": 656.49,
-        "l": 655.0,
-        "c": 655.67,
-        "v": 125028
-      },
-      {
-        "t": 1794931800000,
-        "o": 655.71,
-        "h": 655.78,
-        "l": 654.525,
-        "c": 655.12,
-        "v": 64861
-      },
-      {
-        "t": 1794931860000,
-        "o": 655.15,
-        "h": 655.42,
-        "l": 654.66,
-        "c": 655.11,
-        "v": 44125
-      },
-      {
-        "t": 1794931920000,
-        "o": 655.07,
-        "h": 655.17,
-        "l": 654.28,
-        "c": 654.28,
-        "v": 85031
-      },
-      {
-        "t": 1794931980000,
-        "o": 654.2,
-        "h": 654.94,
-        "l": 654.09,
-        "c": 654.8151,
-        "v": 50214
-      },
-      {
-        "t": 1794932040000,
-        "o": 654.93,
-        "h": 655.17,
-        "l": 654.5,
-        "c": 654.99,
-        "v": 44827
-      },
-      {
-        "t": 1794932100000,
-        "o": 654.88,
-        "h": 655.45,
-        "l": 654.325,
-        "c": 654.57,
-        "v": 62737
-      },
-      {
-        "t": 1794932160000,
-        "o": 654.6,
-        "h": 654.6,
-        "l": 653.58,
-        "c": 653.5801,
-        "v": 57048
-      },
-      {
-        "t": 1794932220000,
-        "o": 653.67,
-        "h": 654.0765,
-        "l": 653.2501,
-        "c": 653.78,
-        "v": 47708
-      },
-      {
-        "t": 1794932280000,
-        "o": 653.845,
-        "h": 654.45,
-        "l": 653.25,
-        "c": 654.07,
-        "v": 53516
-      },
-      {
-        "t": 1794932340000,
-        "o": 654.13,
-        "h": 654.41,
-        "l": 653.735,
-        "c": 653.89,
-        "v": 33759
-      },
-      {
-        "t": 1794932400000,
-        "o": 654.055,
-        "h": 654.1,
-        "l": 653.028,
-        "c": 653.255,
-        "v": 44046
-      },
-      {
-        "t": 1794932460000,
-        "o": 653.35,
-        "h": 654.8195,
-        "l": 653.35,
-        "c": 653.835,
-        "v": 100100
-      },
-      {
-        "t": 1794932520000,
-        "o": 653.83,
-        "h": 654.01,
-        "l": 652.88,
-        "c": 652.88,
-        "v": 48290
-      },
-      {
-        "t": 1794932580000,
-        "o": 652.9,
-        "h": 653.28,
-        "l": 652.46,
-        "c": 653.23,
-        "v": 48587
-      },
-      {
-        "t": 1794932640000,
-        "o": 653.18,
-        "h": 653.54,
-        "l": 652.956,
-        "c": 653.39,
-        "v": 42054
-      },
-      {
-        "t": 1794932700000,
-        "o": 653.375,
-        "h": 653.64,
-        "l": 653.0,
-        "c": 653.03,
-        "v": 31659
-      },
-      {
-        "t": 1794932760000,
-        "o": 653.02,
-        "h": 653.27,
-        "l": 652.78,
-        "c": 652.91,
-        "v": 29793
-      },
-      {
-        "t": 1794932820000,
-        "o": 652.97,
-        "h": 654.07,
-        "l": 652.93,
-        "c": 653.8999,
-        "v": 49789
-      },
-      {
-        "t": 1794932880000,
-        "o": 653.87,
-        "h": 654.34,
-        "l": 653.625,
-        "c": 654.04,
-        "v": 29304
-      },
-      {
-        "t": 1794932940000,
-        "o": 654.13,
-        "h": 654.57,
-        "l": 653.54,
-        "c": 653.69,
-        "v": 44357
-      },
-      {
-        "t": 1794933000000,
-        "o": 653.56,
-        "h": 653.64,
-        "l": 652.75,
-        "c": 653.02,
-        "v": 52083
-      },
-      {
-        "t": 1794933060000,
-        "o": 653.02,
-        "h": 653.07,
-        "l": 652.35,
-        "c": 652.53,
-        "v": 44708
-      },
-      {
-        "t": 1794933120000,
-        "o": 652.56,
-        "h": 652.83,
-        "l": 652.07,
-        "c": 652.1,
-        "v": 39416
-      },
-      {
-        "t": 1794933180000,
-        "o": 652.11,
-        "h": 652.76,
-        "l": 651.88,
-        "c": 652.76,
-        "v": 49696
-      },
-      {
-        "t": 1794933240000,
-        "o": 652.69,
-        "h": 652.94,
-        "l": 652.45,
-        "c": 652.645,
-        "v": 33651
-      },
-      {
-        "t": 1794933300000,
-        "o": 652.47,
-        "h": 652.74,
-        "l": 651.445,
-        "c": 651.47,
-        "v": 42031
-      },
-      {
-        "t": 1794933360000,
-        "o": 651.49,
-        "h": 652.4799,
-        "l": 651.49,
-        "c": 652.0103,
-        "v": 26487
-      },
-      {
-        "t": 1794933420000,
-        "o": 652.085,
-        "h": 653.12,
-        "l": 652.085,
-        "c": 652.81,
-        "v": 60632
-      },
-      {
-        "t": 1794933480000,
-        "o": 652.82,
-        "h": 653.2,
-        "l": 652.44,
-        "c": 652.95,
-        "v": 47226
-      },
-      {
-        "t": 1794933540000,
-        "o": 652.8,
-        "h": 653.02,
-        "l": 652.48,
-        "c": 652.87,
-        "v": 28091
-      },
-      {
-        "t": 1794933600000,
-        "o": 652.9,
-        "h": 653.03,
-        "l": 652.125,
-        "c": 652.19,
-        "v": 21746
-      },
-      {
-        "t": 1794933660000,
-        "o": 652.14,
-        "h": 652.2,
-        "l": 651.67,
-        "c": 651.94,
-        "v": 25441
-      },
-      {
-        "t": 1794933720000,
-        "o": 652.06,
-        "h": 652.62,
-        "l": 651.85,
-        "c": 652.28,
-        "v": 28642
-      },
-      {
-        "t": 1794933780000,
-        "o": 652.38,
-        "h": 652.39,
-        "l": 651.75,
-        "c": 652.01,
-        "v": 18922
-      },
-      {
-        "t": 1794933840000,
-        "o": 652.01,
-        "h": 652.71,
-        "l": 652.0,
-        "c": 652.52,
-        "v": 41285
-      },
-      {
-        "t": 1794933900000,
-        "o": 652.53,
-        "h": 652.55,
-        "l": 650.8385,
-        "c": 650.87,
-        "v": 55734
-      },
-      {
-        "t": 1794933960000,
-        "o": 650.885,
-        "h": 653.06,
-        "l": 650.68,
-        "c": 652.5099,
-        "v": 93933
-      },
-      {
-        "t": 1794934020000,
-        "o": 652.625,
-        "h": 652.8399,
-        "l": 651.52,
-        "c": 651.5596,
-        "v": 43932
-      },
-      {
-        "t": 1794934080000,
-        "o": 651.4947,
-        "h": 651.89,
-        "l": 651.085,
-        "c": 651.27,
-        "v": 25412
-      },
-      {
-        "t": 1794934140000,
-        "o": 651.28,
-        "h": 651.67,
-        "l": 651.24,
-        "c": 651.41,
-        "v": 24544
-      },
-      {
-        "t": 1794934200000,
-        "o": 651.44,
-        "h": 651.67,
-        "l": 650.82,
-        "c": 650.91,
-        "v": 35209
-      },
-      {
-        "t": 1794934260000,
-        "o": 650.93,
-        "h": 650.95,
-        "l": 650.0,
-        "c": 650.005,
-        "v": 75806
-      },
-      {
-        "t": 1794934320000,
-        "o": 650.0,
-        "h": 650.78,
-        "l": 649.89,
-        "c": 650.4375,
-        "v": 49779
-      },
-      {
-        "t": 1794934380000,
-        "o": 650.31,
-        "h": 650.4172,
-        "l": 649.98,
-        "c": 650.32,
-        "v": 37446
-      },
-      {
-        "t": 1794934440000,
-        "o": 650.4,
-        "h": 650.59,
-        "l": 650.08,
-        "c": 650.33,
-        "v": 31015
-      },
-      {
-        "t": 1794934500000,
-        "o": 650.3,
-        "h": 651.14,
-        "l": 649.902,
-        "c": 651.105,
-        "v": 48577
-      },
-      {
-        "t": 1794934560000,
-        "o": 651.04,
-        "h": 651.77,
-        "l": 650.6801,
-        "c": 650.69,
-        "v": 51540
-      },
-      {
-        "t": 1794934620000,
-        "o": 650.72,
-        "h": 651.4,
-        "l": 650.61,
-        "c": 651.38,
-        "v": 46070
-      },
-      {
-        "t": 1794934680000,
-        "o": 651.3799,
-        "h": 652.905,
-        "l": 650.95,
-        "c": 652.905,
-        "v": 80016
-      },
-      {
-        "t": 1794934740000,
-        "o": 652.835,
-        "h": 653.15,
-        "l": 652.575,
-        "c": 652.9,
-        "v": 40639
-      },
-      {
-        "t": 1794934800000,
-        "o": 652.76,
-        "h": 652.76,
-        "l": 652.01,
-        "c": 652.135,
-        "v": 26767
-      },
-      {
-        "t": 1794934860000,
-        "o": 652.055,
-        "h": 652.58,
-        "l": 651.62,
-        "c": 652.46,
-        "v": 46830
-      },
-      {
-        "t": 1794934920000,
-        "o": 652.42,
-        "h": 652.97,
-        "l": 651.81,
-        "c": 651.865,
-        "v": 31545
-      },
-      {
-        "t": 1794934980000,
-        "o": 651.91,
-        "h": 652.0,
-        "l": 650.8,
-        "c": 650.895,
-        "v": 37228
-      },
-      {
-        "t": 1794935040000,
-        "o": 650.89,
-        "h": 651.02,
-        "l": 650.53,
-        "c": 650.95,
-        "v": 46898
-      },
-      {
-        "t": 1794935100000,
-        "o": 650.92,
-        "h": 655.28,
-        "l": 650.91,
-        "c": 655.22,
-        "v": 240842
-      },
-      {
-        "t": 1794935160000,
-        "o": 655.13,
-        "h": 655.382,
-        "l": 653.48,
-        "c": 655.17,
-        "v": 114429
-      },
-      {
-        "t": 1794935220000,
-        "o": 655.21,
-        "h": 655.77,
-        "l": 654.185,
-        "c": 654.449,
-        "v": 74569
-      },
-      {
-        "t": 1794935280000,
-        "o": 654.49,
-        "h": 654.49,
-        "l": 653.84,
-        "c": 654.26,
-        "v": 56945
-      },
-      {
-        "t": 1794935340000,
-        "o": 654.2199,
-        "h": 654.281,
-        "l": 653.32,
-        "c": 653.32,
-        "v": 38698
-      },
-      {
-        "t": 1794935400000,
-        "o": 653.31,
-        "h": 654.42,
-        "l": 653.132,
-        "c": 654.39,
-        "v": 35876
-      },
-      {
-        "t": 1794935460000,
-        "o": 654.49,
-        "h": 654.765,
-        "l": 653.91,
-        "c": 654.1,
-        "v": 27022
-      },
-      {
-        "t": 1794935520000,
-        "o": 654.1,
-        "h": 654.49,
-        "l": 653.8,
-        "c": 654.23,
-        "v": 42085
-      },
-      {
-        "t": 1794935580000,
-        "o": 654.17,
-        "h": 654.62,
-        "l": 654.0,
-        "c": 654.0,
-        "v": 15334
-      },
-      {
-        "t": 1794935640000,
-        "o": 654.13,
-        "h": 654.27,
-        "l": 653.635,
-        "c": 653.67,
-        "v": 13478
-      },
-      {
-        "t": 1794935700000,
-        "o": 653.65,
-        "h": 654.52,
-        "l": 653.65,
-        "c": 654.52,
-        "v": 27122
-      },
-      {
-        "t": 1794935760000,
-        "o": 654.44,
-        "h": 655.0499,
-        "l": 654.35,
-        "c": 654.94,
-        "v": 38639
-      },
-      {
-        "t": 1794935820000,
-        "o": 654.94,
-        "h": 656.28,
-        "l": 654.94,
-        "c": 656.07,
-        "v": 61483
-      },
-      {
-        "t": 1794935880000,
-        "o": 656.04,
-        "h": 656.84,
-        "l": 655.75,
-        "c": 656.6459,
-        "v": 73547
-      },
-      {
-        "t": 1794935940000,
-        "o": 656.69,
-        "h": 657.24,
-        "l": 656.6306,
-        "c": 656.945,
-        "v": 54991
-      },
-      {
-        "t": 1794936000000,
-        "o": 656.905,
-        "h": 657.36,
-        "l": 656.11,
-        "c": 657.195,
-        "v": 71092
-      },
-      {
-        "t": 1794936060000,
-        "o": 657.15,
-        "h": 657.15,
-        "l": 656.18,
-        "c": 656.5256,
-        "v": 20168
-      },
-      {
-        "t": 1794936120000,
-        "o": 656.4,
-        "h": 656.4,
-        "l": 655.64,
-        "c": 656.14,
-        "v": 55826
-      },
-      {
-        "t": 1794936180000,
-        "o": 656.06,
-        "h": 656.55,
-        "l": 655.8,
-        "c": 655.87,
-        "v": 24403
-      },
-      {
-        "t": 1794936240000,
-        "o": 655.8394,
-        "h": 656.3,
-        "l": 655.8394,
-        "c": 656.13,
-        "v": 26692
-      },
-      {
-        "t": 1794936300000,
-        "o": 656.17,
-        "h": 657.428,
-        "l": 656.17,
-        "c": 657.04,
-        "v": 37224
-      }
-    ],
     "SPY": [
       {
         "t": 1794925800000,
@@ -4321,8 +2898,1898 @@
         "o": 733.61,
         "h": 734.505,
         "l": 733.61,
-        "c": 734.32,
-        "v": 54178
+        "c": 734.39,
+        "v": 63113
+      },
+      {
+        "t": 1794936360000,
+        "o": 734.311,
+        "h": 734.35,
+        "l": 733.72,
+        "c": 733.78,
+        "v": 22630
+      },
+      {
+        "t": 1794936420000,
+        "o": 733.73,
+        "h": 733.74,
+        "l": 733.02,
+        "c": 733.1,
+        "v": 46006
+      },
+      {
+        "t": 1794936480000,
+        "o": 733.03,
+        "h": 733.375,
+        "l": 732.95,
+        "c": 733.24,
+        "v": 43237
+      },
+      {
+        "t": 1794936540000,
+        "o": 733.21,
+        "h": 733.485,
+        "l": 733.05,
+        "c": 733.36,
+        "v": 24253
+      },
+      {
+        "t": 1794936600000,
+        "o": 733.29,
+        "h": 733.35,
+        "l": 733.04,
+        "c": 733.12,
+        "v": 27556
+      },
+      {
+        "t": 1794936660000,
+        "o": 733.13,
+        "h": 733.2038,
+        "l": 732.84,
+        "c": 732.99,
+        "v": 53581
+      },
+      {
+        "t": 1794936720000,
+        "o": 733.02,
+        "h": 733.4063,
+        "l": 732.85,
+        "c": 732.96,
+        "v": 43710
+      },
+      {
+        "t": 1794936780000,
+        "o": 732.95,
+        "h": 733.04,
+        "l": 732.78,
+        "c": 732.92,
+        "v": 25437
+      },
+      {
+        "t": 1794936840000,
+        "o": 732.904,
+        "h": 733.13,
+        "l": 732.5,
+        "c": 732.56,
+        "v": 49086
+      },
+      {
+        "t": 1794936900000,
+        "o": 732.6,
+        "h": 733.17,
+        "l": 732.41,
+        "c": 733.1,
+        "v": 41088
+      },
+      {
+        "t": 1794936960000,
+        "o": 733.13,
+        "h": 733.15,
+        "l": 732.58,
+        "c": 732.74,
+        "v": 32435
+      },
+      {
+        "t": 1794937020000,
+        "o": 732.72,
+        "h": 733.1,
+        "l": 732.52,
+        "c": 732.84,
+        "v": 30662
+      },
+      {
+        "t": 1794937080000,
+        "o": 732.82,
+        "h": 732.91,
+        "l": 732.1,
+        "c": 732.1,
+        "v": 56282
+      },
+      {
+        "t": 1794937140000,
+        "o": 732.11,
+        "h": 732.11,
+        "l": 731.67,
+        "c": 731.69,
+        "v": 49878
+      },
+      {
+        "t": 1794937200000,
+        "o": 731.72,
+        "h": 732.28,
+        "l": 731.68,
+        "c": 732.18,
+        "v": 37046
+      },
+      {
+        "t": 1794937260000,
+        "o": 732.16,
+        "h": 732.34,
+        "l": 731.83,
+        "c": 732.06,
+        "v": 20806
+      },
+      {
+        "t": 1794937320000,
+        "o": 732.1,
+        "h": 732.28,
+        "l": 731.84,
+        "c": 732.18,
+        "v": 22844
+      },
+      {
+        "t": 1794937380000,
+        "o": 732.18,
+        "h": 732.44,
+        "l": 731.99,
+        "c": 732.0,
+        "v": 31354
+      },
+      {
+        "t": 1794937440000,
+        "o": 732.03,
+        "h": 732.72,
+        "l": 732.03,
+        "c": 732.605,
+        "v": 14162
+      },
+      {
+        "t": 1794937500000,
+        "o": 732.655,
+        "h": 732.66,
+        "l": 732.02,
+        "c": 732.02,
+        "v": 23801
+      },
+      {
+        "t": 1794937560000,
+        "o": 732.0,
+        "h": 732.0,
+        "l": 731.58,
+        "c": 731.73,
+        "v": 32069
+      },
+      {
+        "t": 1794937620000,
+        "o": 731.73,
+        "h": 731.755,
+        "l": 731.4,
+        "c": 731.46,
+        "v": 23679
+      },
+      {
+        "t": 1794937680000,
+        "o": 731.54,
+        "h": 731.68,
+        "l": 731.41,
+        "c": 731.6,
+        "v": 20879
+      },
+      {
+        "t": 1794937740000,
+        "o": 731.62,
+        "h": 731.65,
+        "l": 731.41,
+        "c": 731.64,
+        "v": 13957
+      },
+      {
+        "t": 1794937800000,
+        "o": 731.65,
+        "h": 731.8,
+        "l": 731.48,
+        "c": 731.56,
+        "v": 19543
+      },
+      {
+        "t": 1794937860000,
+        "o": 731.58,
+        "h": 731.72,
+        "l": 731.2956,
+        "c": 731.63,
+        "v": 19268
+      },
+      {
+        "t": 1794937920000,
+        "o": 731.58,
+        "h": 732.07,
+        "l": 731.55,
+        "c": 732.008,
+        "v": 28784
+      },
+      {
+        "t": 1794937980000,
+        "o": 732.0,
+        "h": 732.26,
+        "l": 731.84,
+        "c": 732.0506,
+        "v": 19160
+      },
+      {
+        "t": 1794938040000,
+        "o": 732.06,
+        "h": 732.08,
+        "l": 731.51,
+        "c": 731.57,
+        "v": 19429
+      },
+      {
+        "t": 1794938100000,
+        "o": 731.66,
+        "h": 731.66,
+        "l": 731.4,
+        "c": 731.4,
+        "v": 7974
+      }
+    ],
+    "QQQ": [
+      {
+        "t": 1794925800000,
+        "o": 663.06,
+        "h": 663.17,
+        "l": 661.67,
+        "c": 662.27,
+        "v": 238603
+      },
+      {
+        "t": 1794925860000,
+        "o": 662.2458,
+        "h": 662.68,
+        "l": 661.785,
+        "c": 662.01,
+        "v": 70378
+      },
+      {
+        "t": 1794925920000,
+        "o": 662.03,
+        "h": 662.65,
+        "l": 661.71,
+        "c": 662.02,
+        "v": 97503
+      },
+      {
+        "t": 1794925980000,
+        "o": 661.97,
+        "h": 662.79,
+        "l": 661.675,
+        "c": 661.88,
+        "v": 67067
+      },
+      {
+        "t": 1794926040000,
+        "o": 661.87,
+        "h": 662.11,
+        "l": 660.83,
+        "c": 660.86,
+        "v": 79984
+      },
+      {
+        "t": 1794926100000,
+        "o": 660.81,
+        "h": 661.67,
+        "l": 660.71,
+        "c": 661.57,
+        "v": 88185
+      },
+      {
+        "t": 1794926160000,
+        "o": 661.63,
+        "h": 661.68,
+        "l": 660.03,
+        "c": 660.05,
+        "v": 91656
+      },
+      {
+        "t": 1794926220000,
+        "o": 660.02,
+        "h": 661.79,
+        "l": 659.8,
+        "c": 661.45,
+        "v": 229706
+      },
+      {
+        "t": 1794926280000,
+        "o": 661.38,
+        "h": 662.05,
+        "l": 660.74,
+        "c": 660.9,
+        "v": 61286
+      },
+      {
+        "t": 1794926340000,
+        "o": 660.875,
+        "h": 662.04,
+        "l": 660.81,
+        "c": 661.33,
+        "v": 47300
+      },
+      {
+        "t": 1794926400000,
+        "o": 661.25,
+        "h": 662.1784,
+        "l": 660.95,
+        "c": 661.92,
+        "v": 66989
+      },
+      {
+        "t": 1794926460000,
+        "o": 661.97,
+        "h": 662.76,
+        "l": 661.77,
+        "c": 662.67,
+        "v": 60708
+      },
+      {
+        "t": 1794926520000,
+        "o": 662.708,
+        "h": 663.36,
+        "l": 662.38,
+        "c": 662.42,
+        "v": 89414
+      },
+      {
+        "t": 1794926580000,
+        "o": 662.405,
+        "h": 662.44,
+        "l": 661.06,
+        "c": 661.08,
+        "v": 52571
+      },
+      {
+        "t": 1794926640000,
+        "o": 661.165,
+        "h": 661.46,
+        "l": 660.285,
+        "c": 660.45,
+        "v": 40159
+      },
+      {
+        "t": 1794926700000,
+        "o": 660.45,
+        "h": 661.73,
+        "l": 660.39,
+        "c": 660.58,
+        "v": 58651
+      },
+      {
+        "t": 1794926760000,
+        "o": 660.59,
+        "h": 661.86,
+        "l": 660.33,
+        "c": 661.62,
+        "v": 56948
+      },
+      {
+        "t": 1794926820000,
+        "o": 661.639,
+        "h": 661.68,
+        "l": 660.765,
+        "c": 661.22,
+        "v": 50799
+      },
+      {
+        "t": 1794926880000,
+        "o": 661.2,
+        "h": 661.86,
+        "l": 660.87,
+        "c": 660.935,
+        "v": 53114
+      },
+      {
+        "t": 1794926940000,
+        "o": 660.9694,
+        "h": 662.06,
+        "l": 660.85,
+        "c": 661.42,
+        "v": 50923
+      },
+      {
+        "t": 1794927000000,
+        "o": 661.228,
+        "h": 661.23,
+        "l": 659.88,
+        "c": 661.035,
+        "v": 65412
+      },
+      {
+        "t": 1794927060000,
+        "o": 661.02,
+        "h": 661.16,
+        "l": 660.16,
+        "c": 660.29,
+        "v": 31059
+      },
+      {
+        "t": 1794927120000,
+        "o": 660.265,
+        "h": 660.66,
+        "l": 659.64,
+        "c": 659.77,
+        "v": 69077
+      },
+      {
+        "t": 1794927180000,
+        "o": 659.83,
+        "h": 661.58,
+        "l": 659.82,
+        "c": 661.18,
+        "v": 54052
+      },
+      {
+        "t": 1794927240000,
+        "o": 661.14,
+        "h": 661.2,
+        "l": 660.39,
+        "c": 660.87,
+        "v": 44734
+      },
+      {
+        "t": 1794927300000,
+        "o": 660.7,
+        "h": 661.5099,
+        "l": 659.87,
+        "c": 659.91,
+        "v": 63691
+      },
+      {
+        "t": 1794927360000,
+        "o": 660.0156,
+        "h": 660.89,
+        "l": 659.78,
+        "c": 660.665,
+        "v": 47992
+      },
+      {
+        "t": 1794927420000,
+        "o": 660.67,
+        "h": 661.8,
+        "l": 660.6432,
+        "c": 661.6701,
+        "v": 55982
+      },
+      {
+        "t": 1794927480000,
+        "o": 661.685,
+        "h": 662.3,
+        "l": 661.565,
+        "c": 662.215,
+        "v": 59692
+      },
+      {
+        "t": 1794927540000,
+        "o": 662.1301,
+        "h": 662.54,
+        "l": 661.4,
+        "c": 662.47,
+        "v": 42974
+      },
+      {
+        "t": 1794927600000,
+        "o": 662.51,
+        "h": 662.97,
+        "l": 661.31,
+        "c": 661.43,
+        "v": 61154
+      },
+      {
+        "t": 1794927660000,
+        "o": 661.33,
+        "h": 661.75,
+        "l": 660.81,
+        "c": 660.985,
+        "v": 38256
+      },
+      {
+        "t": 1794927720000,
+        "o": 661.07,
+        "h": 661.65,
+        "l": 660.32,
+        "c": 660.49,
+        "v": 53461
+      },
+      {
+        "t": 1794927780000,
+        "o": 660.435,
+        "h": 661.24,
+        "l": 660.28,
+        "c": 660.87,
+        "v": 26179
+      },
+      {
+        "t": 1794927840000,
+        "o": 660.79,
+        "h": 661.28,
+        "l": 660.4072,
+        "c": 660.91,
+        "v": 36310
+      },
+      {
+        "t": 1794927900000,
+        "o": 660.98,
+        "h": 661.38,
+        "l": 659.56,
+        "c": 659.92,
+        "v": 61470
+      },
+      {
+        "t": 1794927960000,
+        "o": 659.8353,
+        "h": 660.24,
+        "l": 659.32,
+        "c": 659.97,
+        "v": 81580
+      },
+      {
+        "t": 1794928020000,
+        "o": 659.93,
+        "h": 660.3,
+        "l": 659.44,
+        "c": 660.1645,
+        "v": 33038
+      },
+      {
+        "t": 1794928080000,
+        "o": 660.135,
+        "h": 660.68,
+        "l": 659.905,
+        "c": 660.45,
+        "v": 31434
+      },
+      {
+        "t": 1794928140000,
+        "o": 660.39,
+        "h": 660.39,
+        "l": 658.87,
+        "c": 659.11,
+        "v": 47741
+      },
+      {
+        "t": 1794928200000,
+        "o": 659.05,
+        "h": 659.11,
+        "l": 658.42,
+        "c": 658.49,
+        "v": 68803
+      },
+      {
+        "t": 1794928260000,
+        "o": 658.45,
+        "h": 659.9,
+        "l": 658.45,
+        "c": 659.845,
+        "v": 70175
+      },
+      {
+        "t": 1794928320000,
+        "o": 659.89,
+        "h": 660.62,
+        "l": 659.79,
+        "c": 660.04,
+        "v": 52097
+      },
+      {
+        "t": 1794928380000,
+        "o": 659.9855,
+        "h": 660.74,
+        "l": 659.67,
+        "c": 659.75,
+        "v": 43064
+      },
+      {
+        "t": 1794928440000,
+        "o": 659.695,
+        "h": 660.03,
+        "l": 659.16,
+        "c": 659.75,
+        "v": 40856
+      },
+      {
+        "t": 1794928500000,
+        "o": 659.67,
+        "h": 660.08,
+        "l": 659.161,
+        "c": 659.31,
+        "v": 53157
+      },
+      {
+        "t": 1794928560000,
+        "o": 659.3199,
+        "h": 659.48,
+        "l": 658.74,
+        "c": 658.74,
+        "v": 47608
+      },
+      {
+        "t": 1794928620000,
+        "o": 658.73,
+        "h": 659.0,
+        "l": 658.61,
+        "c": 658.85,
+        "v": 36445
+      },
+      {
+        "t": 1794928680000,
+        "o": 658.85,
+        "h": 658.93,
+        "l": 658.19,
+        "c": 658.58,
+        "v": 51207
+      },
+      {
+        "t": 1794928740000,
+        "o": 658.71,
+        "h": 659.42,
+        "l": 658.63,
+        "c": 659.0,
+        "v": 43123
+      },
+      {
+        "t": 1794928800000,
+        "o": 659.07,
+        "h": 659.61,
+        "l": 658.8,
+        "c": 658.97,
+        "v": 44067
+      },
+      {
+        "t": 1794928860000,
+        "o": 658.95,
+        "h": 659.15,
+        "l": 658.34,
+        "c": 658.42,
+        "v": 44614
+      },
+      {
+        "t": 1794928920000,
+        "o": 658.41,
+        "h": 659.235,
+        "l": 658.38,
+        "c": 659.19,
+        "v": 32783
+      },
+      {
+        "t": 1794928980000,
+        "o": 659.19,
+        "h": 659.94,
+        "l": 658.985,
+        "c": 659.86,
+        "v": 48250
+      },
+      {
+        "t": 1794929040000,
+        "o": 659.77,
+        "h": 659.94,
+        "l": 659.2,
+        "c": 659.22,
+        "v": 25206
+      },
+      {
+        "t": 1794929100000,
+        "o": 659.17,
+        "h": 659.79,
+        "l": 658.74,
+        "c": 658.9,
+        "v": 46190
+      },
+      {
+        "t": 1794929160000,
+        "o": 658.89,
+        "h": 660.1,
+        "l": 658.76,
+        "c": 659.55,
+        "v": 49269
+      },
+      {
+        "t": 1794929220000,
+        "o": 659.54,
+        "h": 659.69,
+        "l": 659.23,
+        "c": 659.2715,
+        "v": 34674
+      },
+      {
+        "t": 1794929280000,
+        "o": 659.26,
+        "h": 659.27,
+        "l": 658.56,
+        "c": 658.65,
+        "v": 46497
+      },
+      {
+        "t": 1794929340000,
+        "o": 658.6686,
+        "h": 658.9594,
+        "l": 658.13,
+        "c": 658.42,
+        "v": 52841
+      },
+      {
+        "t": 1794929400000,
+        "o": 658.39,
+        "h": 658.53,
+        "l": 657.57,
+        "c": 657.68,
+        "v": 87978
+      },
+      {
+        "t": 1794929460000,
+        "o": 657.66,
+        "h": 657.7097,
+        "l": 656.8,
+        "c": 656.9,
+        "v": 112654
+      },
+      {
+        "t": 1794929520000,
+        "o": 656.84,
+        "h": 657.6,
+        "l": 656.3201,
+        "c": 656.73,
+        "v": 149830
+      },
+      {
+        "t": 1794929580000,
+        "o": 656.6,
+        "h": 656.6,
+        "l": 655.71,
+        "c": 656.47,
+        "v": 110826
+      },
+      {
+        "t": 1794929640000,
+        "o": 656.58,
+        "h": 656.88,
+        "l": 655.5,
+        "c": 655.5,
+        "v": 92804
+      },
+      {
+        "t": 1794929700000,
+        "o": 655.555,
+        "h": 656.285,
+        "l": 655.34,
+        "c": 655.83,
+        "v": 101818
+      },
+      {
+        "t": 1794929760000,
+        "o": 655.8,
+        "h": 655.82,
+        "l": 655.05,
+        "c": 655.225,
+        "v": 79393
+      },
+      {
+        "t": 1794929820000,
+        "o": 655.18,
+        "h": 655.91,
+        "l": 655.03,
+        "c": 655.32,
+        "v": 117739
+      },
+      {
+        "t": 1794929880000,
+        "o": 655.32,
+        "h": 655.4599,
+        "l": 654.66,
+        "c": 654.9,
+        "v": 69277
+      },
+      {
+        "t": 1794929940000,
+        "o": 654.94,
+        "h": 655.075,
+        "l": 654.56,
+        "c": 654.95,
+        "v": 52441
+      },
+      {
+        "t": 1794930000000,
+        "o": 654.88,
+        "h": 655.1158,
+        "l": 653.08,
+        "c": 653.24,
+        "v": 113541
+      },
+      {
+        "t": 1794930060000,
+        "o": 653.26,
+        "h": 653.4,
+        "l": 651.905,
+        "c": 652.09,
+        "v": 143739
+      },
+      {
+        "t": 1794930120000,
+        "o": 652.11,
+        "h": 652.47,
+        "l": 651.48,
+        "c": 651.63,
+        "v": 85581
+      },
+      {
+        "t": 1794930180000,
+        "o": 651.51,
+        "h": 651.93,
+        "l": 650.765,
+        "c": 650.8,
+        "v": 114316
+      },
+      {
+        "t": 1794930240000,
+        "o": 650.82,
+        "h": 651.84,
+        "l": 650.77,
+        "c": 651.585,
+        "v": 129951
+      },
+      {
+        "t": 1794930300000,
+        "o": 651.62,
+        "h": 651.78,
+        "l": 650.59,
+        "c": 650.8,
+        "v": 119726
+      },
+      {
+        "t": 1794930360000,
+        "o": 650.74,
+        "h": 651.27,
+        "l": 649.865,
+        "c": 649.865,
+        "v": 131951
+      },
+      {
+        "t": 1794930420000,
+        "o": 649.87,
+        "h": 650.0301,
+        "l": 648.68,
+        "c": 648.68,
+        "v": 137051
+      },
+      {
+        "t": 1794930480000,
+        "o": 648.74,
+        "h": 649.77,
+        "l": 648.72,
+        "c": 649.14,
+        "v": 134832
+      },
+      {
+        "t": 1794930540000,
+        "o": 649.05,
+        "h": 649.19,
+        "l": 648.44,
+        "c": 648.938,
+        "v": 132172
+      },
+      {
+        "t": 1794930600000,
+        "o": 648.94,
+        "h": 650.18,
+        "l": 648.87,
+        "c": 649.63,
+        "v": 186441
+      },
+      {
+        "t": 1794930660000,
+        "o": 649.67,
+        "h": 650.0,
+        "l": 647.3,
+        "c": 647.65,
+        "v": 177817
+      },
+      {
+        "t": 1794930720000,
+        "o": 647.615,
+        "h": 648.06,
+        "l": 647.14,
+        "c": 647.26,
+        "v": 102923
+      },
+      {
+        "t": 1794930780000,
+        "o": 647.27,
+        "h": 648.05,
+        "l": 646.9,
+        "c": 647.25,
+        "v": 176989
+      },
+      {
+        "t": 1794930840000,
+        "o": 647.25,
+        "h": 647.8,
+        "l": 646.65,
+        "c": 647.31,
+        "v": 150453
+      },
+      {
+        "t": 1794930900000,
+        "o": 647.25,
+        "h": 648.63,
+        "l": 646.89,
+        "c": 648.62,
+        "v": 190430
+      },
+      {
+        "t": 1794930960000,
+        "o": 648.64,
+        "h": 650.73,
+        "l": 648.54,
+        "c": 650.58,
+        "v": 200304
+      },
+      {
+        "t": 1794931020000,
+        "o": 650.54,
+        "h": 651.85,
+        "l": 650.21,
+        "c": 651.84,
+        "v": 150923
+      },
+      {
+        "t": 1794931080000,
+        "o": 651.8913,
+        "h": 652.6935,
+        "l": 651.58,
+        "c": 652.25,
+        "v": 156299
+      },
+      {
+        "t": 1794931140000,
+        "o": 652.23,
+        "h": 653.39,
+        "l": 651.9,
+        "c": 653.0999,
+        "v": 134733
+      },
+      {
+        "t": 1794931200000,
+        "o": 653.07,
+        "h": 654.5795,
+        "l": 652.9,
+        "c": 653.69,
+        "v": 291120
+      },
+      {
+        "t": 1794931260000,
+        "o": 653.71,
+        "h": 654.67,
+        "l": 653.24,
+        "c": 654.5238,
+        "v": 146018
+      },
+      {
+        "t": 1794931320000,
+        "o": 654.5,
+        "h": 655.36,
+        "l": 654.12,
+        "c": 654.24,
+        "v": 123562
+      },
+      {
+        "t": 1794931380000,
+        "o": 654.25,
+        "h": 654.53,
+        "l": 653.44,
+        "c": 653.81,
+        "v": 87905
+      },
+      {
+        "t": 1794931440000,
+        "o": 653.59,
+        "h": 655.66,
+        "l": 653.355,
+        "c": 654.7588,
+        "v": 125054
+      },
+      {
+        "t": 1794931500000,
+        "o": 654.76,
+        "h": 655.21,
+        "l": 654.22,
+        "c": 654.345,
+        "v": 70614
+      },
+      {
+        "t": 1794931560000,
+        "o": 654.22,
+        "h": 654.88,
+        "l": 653.77,
+        "c": 654.31,
+        "v": 81487
+      },
+      {
+        "t": 1794931620000,
+        "o": 654.3,
+        "h": 655.065,
+        "l": 653.71,
+        "c": 653.7296,
+        "v": 81381
+      },
+      {
+        "t": 1794931680000,
+        "o": 653.66,
+        "h": 655.118,
+        "l": 653.624,
+        "c": 654.99,
+        "v": 54647
+      },
+      {
+        "t": 1794931740000,
+        "o": 655.0487,
+        "h": 656.49,
+        "l": 655.0,
+        "c": 655.67,
+        "v": 125028
+      },
+      {
+        "t": 1794931800000,
+        "o": 655.71,
+        "h": 655.78,
+        "l": 654.525,
+        "c": 655.12,
+        "v": 64861
+      },
+      {
+        "t": 1794931860000,
+        "o": 655.15,
+        "h": 655.42,
+        "l": 654.66,
+        "c": 655.11,
+        "v": 44125
+      },
+      {
+        "t": 1794931920000,
+        "o": 655.07,
+        "h": 655.17,
+        "l": 654.28,
+        "c": 654.28,
+        "v": 85031
+      },
+      {
+        "t": 1794931980000,
+        "o": 654.2,
+        "h": 654.94,
+        "l": 654.09,
+        "c": 654.8151,
+        "v": 50214
+      },
+      {
+        "t": 1794932040000,
+        "o": 654.93,
+        "h": 655.17,
+        "l": 654.5,
+        "c": 654.99,
+        "v": 44827
+      },
+      {
+        "t": 1794932100000,
+        "o": 654.88,
+        "h": 655.45,
+        "l": 654.325,
+        "c": 654.57,
+        "v": 62737
+      },
+      {
+        "t": 1794932160000,
+        "o": 654.6,
+        "h": 654.6,
+        "l": 653.58,
+        "c": 653.5801,
+        "v": 57048
+      },
+      {
+        "t": 1794932220000,
+        "o": 653.67,
+        "h": 654.0765,
+        "l": 653.2501,
+        "c": 653.78,
+        "v": 47708
+      },
+      {
+        "t": 1794932280000,
+        "o": 653.845,
+        "h": 654.45,
+        "l": 653.25,
+        "c": 654.07,
+        "v": 53516
+      },
+      {
+        "t": 1794932340000,
+        "o": 654.13,
+        "h": 654.41,
+        "l": 653.735,
+        "c": 653.89,
+        "v": 33759
+      },
+      {
+        "t": 1794932400000,
+        "o": 654.055,
+        "h": 654.1,
+        "l": 653.028,
+        "c": 653.255,
+        "v": 44046
+      },
+      {
+        "t": 1794932460000,
+        "o": 653.35,
+        "h": 654.8195,
+        "l": 653.35,
+        "c": 653.835,
+        "v": 100100
+      },
+      {
+        "t": 1794932520000,
+        "o": 653.83,
+        "h": 654.01,
+        "l": 652.88,
+        "c": 652.88,
+        "v": 48290
+      },
+      {
+        "t": 1794932580000,
+        "o": 652.9,
+        "h": 653.28,
+        "l": 652.46,
+        "c": 653.23,
+        "v": 48587
+      },
+      {
+        "t": 1794932640000,
+        "o": 653.18,
+        "h": 653.54,
+        "l": 652.956,
+        "c": 653.39,
+        "v": 42054
+      },
+      {
+        "t": 1794932700000,
+        "o": 653.375,
+        "h": 653.64,
+        "l": 653.0,
+        "c": 653.03,
+        "v": 31659
+      },
+      {
+        "t": 1794932760000,
+        "o": 653.02,
+        "h": 653.27,
+        "l": 652.78,
+        "c": 652.91,
+        "v": 29793
+      },
+      {
+        "t": 1794932820000,
+        "o": 652.97,
+        "h": 654.07,
+        "l": 652.93,
+        "c": 653.8999,
+        "v": 49789
+      },
+      {
+        "t": 1794932880000,
+        "o": 653.87,
+        "h": 654.34,
+        "l": 653.625,
+        "c": 654.04,
+        "v": 29304
+      },
+      {
+        "t": 1794932940000,
+        "o": 654.13,
+        "h": 654.57,
+        "l": 653.54,
+        "c": 653.69,
+        "v": 44357
+      },
+      {
+        "t": 1794933000000,
+        "o": 653.56,
+        "h": 653.64,
+        "l": 652.75,
+        "c": 653.02,
+        "v": 52083
+      },
+      {
+        "t": 1794933060000,
+        "o": 653.02,
+        "h": 653.07,
+        "l": 652.35,
+        "c": 652.53,
+        "v": 44708
+      },
+      {
+        "t": 1794933120000,
+        "o": 652.56,
+        "h": 652.83,
+        "l": 652.07,
+        "c": 652.1,
+        "v": 39416
+      },
+      {
+        "t": 1794933180000,
+        "o": 652.11,
+        "h": 652.76,
+        "l": 651.88,
+        "c": 652.76,
+        "v": 49696
+      },
+      {
+        "t": 1794933240000,
+        "o": 652.69,
+        "h": 652.94,
+        "l": 652.45,
+        "c": 652.645,
+        "v": 33651
+      },
+      {
+        "t": 1794933300000,
+        "o": 652.47,
+        "h": 652.74,
+        "l": 651.445,
+        "c": 651.47,
+        "v": 42031
+      },
+      {
+        "t": 1794933360000,
+        "o": 651.49,
+        "h": 652.4799,
+        "l": 651.49,
+        "c": 652.0103,
+        "v": 26487
+      },
+      {
+        "t": 1794933420000,
+        "o": 652.085,
+        "h": 653.12,
+        "l": 652.085,
+        "c": 652.81,
+        "v": 60632
+      },
+      {
+        "t": 1794933480000,
+        "o": 652.82,
+        "h": 653.2,
+        "l": 652.44,
+        "c": 652.95,
+        "v": 47226
+      },
+      {
+        "t": 1794933540000,
+        "o": 652.8,
+        "h": 653.02,
+        "l": 652.48,
+        "c": 652.87,
+        "v": 28091
+      },
+      {
+        "t": 1794933600000,
+        "o": 652.9,
+        "h": 653.03,
+        "l": 652.125,
+        "c": 652.19,
+        "v": 21746
+      },
+      {
+        "t": 1794933660000,
+        "o": 652.14,
+        "h": 652.2,
+        "l": 651.67,
+        "c": 651.94,
+        "v": 25441
+      },
+      {
+        "t": 1794933720000,
+        "o": 652.06,
+        "h": 652.62,
+        "l": 651.85,
+        "c": 652.28,
+        "v": 28642
+      },
+      {
+        "t": 1794933780000,
+        "o": 652.38,
+        "h": 652.39,
+        "l": 651.75,
+        "c": 652.01,
+        "v": 18922
+      },
+      {
+        "t": 1794933840000,
+        "o": 652.01,
+        "h": 652.71,
+        "l": 652.0,
+        "c": 652.52,
+        "v": 41285
+      },
+      {
+        "t": 1794933900000,
+        "o": 652.53,
+        "h": 652.55,
+        "l": 650.8385,
+        "c": 650.87,
+        "v": 55734
+      },
+      {
+        "t": 1794933960000,
+        "o": 650.885,
+        "h": 653.06,
+        "l": 650.68,
+        "c": 652.5099,
+        "v": 93933
+      },
+      {
+        "t": 1794934020000,
+        "o": 652.625,
+        "h": 652.8399,
+        "l": 651.52,
+        "c": 651.5596,
+        "v": 43932
+      },
+      {
+        "t": 1794934080000,
+        "o": 651.4947,
+        "h": 651.89,
+        "l": 651.085,
+        "c": 651.27,
+        "v": 25412
+      },
+      {
+        "t": 1794934140000,
+        "o": 651.28,
+        "h": 651.67,
+        "l": 651.24,
+        "c": 651.41,
+        "v": 24544
+      },
+      {
+        "t": 1794934200000,
+        "o": 651.44,
+        "h": 651.67,
+        "l": 650.82,
+        "c": 650.91,
+        "v": 35209
+      },
+      {
+        "t": 1794934260000,
+        "o": 650.93,
+        "h": 650.95,
+        "l": 650.0,
+        "c": 650.005,
+        "v": 75806
+      },
+      {
+        "t": 1794934320000,
+        "o": 650.0,
+        "h": 650.78,
+        "l": 649.89,
+        "c": 650.4375,
+        "v": 49779
+      },
+      {
+        "t": 1794934380000,
+        "o": 650.31,
+        "h": 650.4172,
+        "l": 649.98,
+        "c": 650.32,
+        "v": 37446
+      },
+      {
+        "t": 1794934440000,
+        "o": 650.4,
+        "h": 650.59,
+        "l": 650.08,
+        "c": 650.33,
+        "v": 31015
+      },
+      {
+        "t": 1794934500000,
+        "o": 650.3,
+        "h": 651.14,
+        "l": 649.902,
+        "c": 651.105,
+        "v": 48577
+      },
+      {
+        "t": 1794934560000,
+        "o": 651.04,
+        "h": 651.77,
+        "l": 650.6801,
+        "c": 650.69,
+        "v": 51540
+      },
+      {
+        "t": 1794934620000,
+        "o": 650.72,
+        "h": 651.4,
+        "l": 650.61,
+        "c": 651.38,
+        "v": 46070
+      },
+      {
+        "t": 1794934680000,
+        "o": 651.3799,
+        "h": 652.905,
+        "l": 650.95,
+        "c": 652.905,
+        "v": 80016
+      },
+      {
+        "t": 1794934740000,
+        "o": 652.835,
+        "h": 653.15,
+        "l": 652.575,
+        "c": 652.9,
+        "v": 40639
+      },
+      {
+        "t": 1794934800000,
+        "o": 652.76,
+        "h": 652.76,
+        "l": 652.01,
+        "c": 652.135,
+        "v": 26767
+      },
+      {
+        "t": 1794934860000,
+        "o": 652.055,
+        "h": 652.58,
+        "l": 651.62,
+        "c": 652.46,
+        "v": 46830
+      },
+      {
+        "t": 1794934920000,
+        "o": 652.42,
+        "h": 652.97,
+        "l": 651.81,
+        "c": 651.865,
+        "v": 31545
+      },
+      {
+        "t": 1794934980000,
+        "o": 651.91,
+        "h": 652.0,
+        "l": 650.8,
+        "c": 650.895,
+        "v": 37228
+      },
+      {
+        "t": 1794935040000,
+        "o": 650.89,
+        "h": 651.02,
+        "l": 650.53,
+        "c": 650.95,
+        "v": 46898
+      },
+      {
+        "t": 1794935100000,
+        "o": 650.92,
+        "h": 655.28,
+        "l": 650.91,
+        "c": 655.22,
+        "v": 240842
+      },
+      {
+        "t": 1794935160000,
+        "o": 655.13,
+        "h": 655.382,
+        "l": 653.48,
+        "c": 655.17,
+        "v": 114429
+      },
+      {
+        "t": 1794935220000,
+        "o": 655.21,
+        "h": 655.77,
+        "l": 654.185,
+        "c": 654.449,
+        "v": 74569
+      },
+      {
+        "t": 1794935280000,
+        "o": 654.49,
+        "h": 654.49,
+        "l": 653.84,
+        "c": 654.26,
+        "v": 56945
+      },
+      {
+        "t": 1794935340000,
+        "o": 654.2199,
+        "h": 654.281,
+        "l": 653.32,
+        "c": 653.32,
+        "v": 38698
+      },
+      {
+        "t": 1794935400000,
+        "o": 653.31,
+        "h": 654.42,
+        "l": 653.132,
+        "c": 654.39,
+        "v": 35876
+      },
+      {
+        "t": 1794935460000,
+        "o": 654.49,
+        "h": 654.765,
+        "l": 653.91,
+        "c": 654.1,
+        "v": 27022
+      },
+      {
+        "t": 1794935520000,
+        "o": 654.1,
+        "h": 654.49,
+        "l": 653.8,
+        "c": 654.23,
+        "v": 42085
+      },
+      {
+        "t": 1794935580000,
+        "o": 654.17,
+        "h": 654.62,
+        "l": 654.0,
+        "c": 654.0,
+        "v": 15334
+      },
+      {
+        "t": 1794935640000,
+        "o": 654.13,
+        "h": 654.27,
+        "l": 653.635,
+        "c": 653.67,
+        "v": 13478
+      },
+      {
+        "t": 1794935700000,
+        "o": 653.65,
+        "h": 654.52,
+        "l": 653.65,
+        "c": 654.52,
+        "v": 27122
+      },
+      {
+        "t": 1794935760000,
+        "o": 654.44,
+        "h": 655.0499,
+        "l": 654.35,
+        "c": 654.94,
+        "v": 38639
+      },
+      {
+        "t": 1794935820000,
+        "o": 654.94,
+        "h": 656.28,
+        "l": 654.94,
+        "c": 656.07,
+        "v": 61483
+      },
+      {
+        "t": 1794935880000,
+        "o": 656.04,
+        "h": 656.84,
+        "l": 655.75,
+        "c": 656.6459,
+        "v": 73547
+      },
+      {
+        "t": 1794935940000,
+        "o": 656.69,
+        "h": 657.24,
+        "l": 656.6306,
+        "c": 656.945,
+        "v": 54991
+      },
+      {
+        "t": 1794936000000,
+        "o": 656.905,
+        "h": 657.36,
+        "l": 656.11,
+        "c": 657.195,
+        "v": 71092
+      },
+      {
+        "t": 1794936060000,
+        "o": 657.15,
+        "h": 657.15,
+        "l": 656.18,
+        "c": 656.5256,
+        "v": 20168
+      },
+      {
+        "t": 1794936120000,
+        "o": 656.4,
+        "h": 656.4,
+        "l": 655.64,
+        "c": 656.14,
+        "v": 55826
+      },
+      {
+        "t": 1794936180000,
+        "o": 656.06,
+        "h": 656.55,
+        "l": 655.8,
+        "c": 655.87,
+        "v": 24403
+      },
+      {
+        "t": 1794936240000,
+        "o": 655.8394,
+        "h": 656.3,
+        "l": 655.8394,
+        "c": 656.13,
+        "v": 26692
+      },
+      {
+        "t": 1794936300000,
+        "o": 656.17,
+        "h": 657.428,
+        "l": 656.17,
+        "c": 657.2599,
+        "v": 53078
+      },
+      {
+        "t": 1794936360000,
+        "o": 657.21,
+        "h": 657.215,
+        "l": 656.2533,
+        "c": 656.33,
+        "v": 28524
+      },
+      {
+        "t": 1794936420000,
+        "o": 656.22,
+        "h": 656.29,
+        "l": 655.35,
+        "c": 655.3976,
+        "v": 36803
+      },
+      {
+        "t": 1794936480000,
+        "o": 655.3201,
+        "h": 655.97,
+        "l": 655.26,
+        "c": 655.76,
+        "v": 26794
+      },
+      {
+        "t": 1794936540000,
+        "o": 655.74,
+        "h": 656.1851,
+        "l": 655.485,
+        "c": 656.04,
+        "v": 21188
+      },
+      {
+        "t": 1794936600000,
+        "o": 655.96,
+        "h": 656.255,
+        "l": 655.8,
+        "c": 656.03,
+        "v": 23998
+      },
+      {
+        "t": 1794936660000,
+        "o": 656.03,
+        "h": 656.03,
+        "l": 655.53,
+        "c": 655.75,
+        "v": 10549
+      },
+      {
+        "t": 1794936720000,
+        "o": 655.76,
+        "h": 656.3004,
+        "l": 655.6,
+        "c": 655.77,
+        "v": 11761
+      },
+      {
+        "t": 1794936780000,
+        "o": 655.77,
+        "h": 655.91,
+        "l": 655.4926,
+        "c": 655.69,
+        "v": 13177
+      },
+      {
+        "t": 1794936840000,
+        "o": 655.67,
+        "h": 655.859,
+        "l": 655.03,
+        "c": 655.18,
+        "v": 27633
+      },
+      {
+        "t": 1794936900000,
+        "o": 655.18,
+        "h": 656.06,
+        "l": 654.8938,
+        "c": 655.9,
+        "v": 30869
+      },
+      {
+        "t": 1794936960000,
+        "o": 655.9006,
+        "h": 655.985,
+        "l": 655.26,
+        "c": 655.36,
+        "v": 15556
+      },
+      {
+        "t": 1794937020000,
+        "o": 655.37,
+        "h": 655.9,
+        "l": 655.13,
+        "c": 655.57,
+        "v": 31237
+      },
+      {
+        "t": 1794937080000,
+        "o": 655.57,
+        "h": 655.69,
+        "l": 654.579,
+        "c": 654.5791,
+        "v": 17142
+      },
+      {
+        "t": 1794937140000,
+        "o": 654.55,
+        "h": 654.639,
+        "l": 654.08,
+        "c": 654.115,
+        "v": 47369
+      },
+      {
+        "t": 1794937200000,
+        "o": 654.11,
+        "h": 654.93,
+        "l": 654.11,
+        "c": 654.745,
+        "v": 24440
+      },
+      {
+        "t": 1794937260000,
+        "o": 654.8,
+        "h": 654.889,
+        "l": 654.325,
+        "c": 654.6,
+        "v": 13445
+      },
+      {
+        "t": 1794937320000,
+        "o": 654.67,
+        "h": 654.91,
+        "l": 654.32,
+        "c": 654.75,
+        "v": 15115
+      },
+      {
+        "t": 1794937380000,
+        "o": 654.76,
+        "h": 654.99,
+        "l": 654.2,
+        "c": 654.2301,
+        "v": 24483
+      },
+      {
+        "t": 1794937440000,
+        "o": 654.39,
+        "h": 655.05,
+        "l": 654.39,
+        "c": 654.99,
+        "v": 28117
+      },
+      {
+        "t": 1794937500000,
+        "o": 655.0,
+        "h": 655.015,
+        "l": 654.28,
+        "c": 654.32,
+        "v": 18660
+      },
+      {
+        "t": 1794937560000,
+        "o": 654.2,
+        "h": 654.24,
+        "l": 653.6785,
+        "c": 653.9,
+        "v": 17194
+      },
+      {
+        "t": 1794937620000,
+        "o": 653.84,
+        "h": 653.87,
+        "l": 653.46,
+        "c": 653.595,
+        "v": 17222
+      },
+      {
+        "t": 1794937680000,
+        "o": 653.64,
+        "h": 653.841,
+        "l": 653.47,
+        "c": 653.81,
+        "v": 17189
+      },
+      {
+        "t": 1794937740000,
+        "o": 653.81,
+        "h": 653.89,
+        "l": 653.5,
+        "c": 653.82,
+        "v": 30940
+      },
+      {
+        "t": 1794937800000,
+        "o": 653.8622,
+        "h": 654.1,
+        "l": 653.695,
+        "c": 653.82,
+        "v": 20761
+      },
+      {
+        "t": 1794937860000,
+        "o": 653.88,
+        "h": 654.05,
+        "l": 653.58,
+        "c": 653.99,
+        "v": 13134
+      },
+      {
+        "t": 1794937920000,
+        "o": 653.96,
+        "h": 654.5438,
+        "l": 653.81,
+        "c": 654.49,
+        "v": 49344
+      },
+      {
+        "t": 1794937980000,
+        "o": 654.42,
+        "h": 654.94,
+        "l": 654.24,
+        "c": 654.6532,
+        "v": 27050
+      },
+      {
+        "t": 1794938040000,
+        "o": 654.69,
+        "h": 654.69,
+        "l": 653.96,
+        "c": 654.03,
+        "v": 31169
+      },
+      {
+        "t": 1794938100000,
+        "o": 654.07,
+        "h": 654.2,
+        "l": 653.7702,
+        "c": 654.065,
+        "v": 6644
       }
     ]
   },
