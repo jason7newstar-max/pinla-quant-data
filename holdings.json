@@ -40,6 +40,26 @@
   ]
  },
  {
+  "sym": "MATCH_FAR",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 4209.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 395.0C 11-18",
+    "kind": "call",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 395.0,
+    "qty": 14,
+    "cost": 462.0,
+    "value": 462.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "MATCH_LAD",
   "shares": 1,
   "cost": 2000.0,
@@ -100,26 +120,6 @@
   ]
  },
  {
-  "sym": "PAPER_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1961.36,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "QQQ S",
-    "kind": "spread",
-    "exp": null,
-    "dte": null,
-    "strike": null,
-    "qty": 1,
-    "cost": 65999.5,
-    "value": 65999.5,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RUN",
   "shares": 1,
   "cost": 2000.0,
@@ -135,26 +135,6 @@
     "qty": 1,
     "cost": 180.0,
     "value": 180.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1811.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 724.0P 11-18",
-    "kind": "put",
-    "exp": "2026-11-18",
-    "dte": 0,
-    "strike": 724.0,
-    "qty": 1,
-    "cost": 113.0,
-    "value": 113.0,
     "pnl": 0.0
    }
   ]
@@ -184,6 +164,14 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6794.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BFLY·QQQ",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6342.5,
   "src": "paper",
   "moons": []
  }
