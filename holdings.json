@@ -40,6 +40,66 @@
   ]
  },
  {
+  "sym": "MATCH_LAD",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2711.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 392.5C 11-18",
+    "kind": "call",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 392.5,
+    "qty": 9,
+    "cost": 477.0,
+    "value": 477.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2597.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 392.5C 11-18",
+    "kind": "call",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 392.5,
+    "qty": 3,
+    "cost": 165.0,
+    "value": 165.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_NEA",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2398.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 387.5C 11-18",
+    "kind": "call",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 387.5,
+    "qty": 1,
+    "cost": 178.0,
+    "value": 178.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "PAPER_ORB",
   "shares": 1,
   "cost": 2000.0,
@@ -60,58 +120,70 @@
   ]
  },
  {
+  "sym": "MATCH_RUN",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1820.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 387.5C 11-18",
+    "kind": "call",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 387.5,
+    "qty": 1,
+    "cost": 180.0,
+    "value": 180.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_ORB",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1811.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 724.0P 11-18",
+    "kind": "put",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 724.0,
+    "qty": 1,
+    "cost": 113.0,
+    "value": 113.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1730.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 392.5C 11-18",
+    "kind": "call",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 392.5,
+    "qty": 3,
+    "cost": 171.0,
+    "value": 171.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
   "price": 6794.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·QQQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6342.5,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC_0DTE_S",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6311.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BOUNCE",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·IWM",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BWB·DALI",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "CALENDAR",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
