@@ -100,10 +100,10 @@
   ]
  },
  {
-  "sym": "MATCH_NEA",
+  "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2398.0,
+  "price": 2010.0,
   "src": "paper",
   "moons": [
    {
@@ -113,28 +113,8 @@
     "dte": 0,
     "strike": 387.5,
     "qty": 1,
-    "cost": 178.0,
-    "value": 178.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_RUN",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1820.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "TSLA 387.5C 11-18",
-    "kind": "call",
-    "exp": "2026-11-18",
-    "dte": 0,
-    "strike": 387.5,
-    "qty": 1,
-    "cost": 180.0,
-    "value": 180.0,
+    "cost": 135.0,
+    "value": 135.0,
     "pnl": 0.0
    }
   ]
@@ -155,6 +135,26 @@
     "qty": 3,
     "cost": 171.0,
     "value": 171.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_ORB",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1681.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "NVDA 150.0P 11-18",
+    "kind": "put",
+    "exp": "2026-11-18",
+    "dte": 0,
+    "strike": 150.0,
+    "qty": 3,
+    "cost": 186.0,
+    "value": 186.0,
     "pnl": 0.0
    }
   ]
