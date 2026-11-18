@@ -40,26 +40,6 @@
   ]
  },
  {
-  "sym": "MATCH_FAR",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 4209.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "TSLA 395.0C 11-18",
-    "kind": "call",
-    "exp": "2026-11-18",
-    "dte": 0,
-    "strike": 395.0,
-    "qty": 14,
-    "cost": 462.0,
-    "value": 462.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_LAD",
   "shares": 1,
   "cost": 2000.0,
@@ -95,26 +75,6 @@
     "qty": 3,
     "cost": 165.0,
     "value": 165.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_FIL",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2010.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "TSLA 387.5C 11-18",
-    "kind": "call",
-    "exp": "2026-11-18",
-    "dte": 0,
-    "strike": 387.5,
-    "qty": 1,
-    "cost": 135.0,
-    "value": 135.0,
     "pnl": 0.0
    }
   ]
@@ -172,6 +132,22 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6311.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
