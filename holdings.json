@@ -100,26 +100,6 @@
   ]
  },
  {
-  "sym": "MATCH_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1609.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "NVDA 150.0P 11-18",
-    "kind": "put",
-    "exp": "2026-11-18",
-    "dte": 0,
-    "strike": 150.0,
-    "qty": 5,
-    "cost": 165.0,
-    "value": 165.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -145,6 +125,14 @@
  },
  {
   "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BFLY·IWM",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
