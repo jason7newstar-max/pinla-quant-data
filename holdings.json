@@ -40,21 +40,141 @@
   ]
  },
  {
-  "sym": "PAPER_ORB",
+  "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1942.77,
+  "price": 4240.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ S",
-    "kind": "spread",
-    "exp": null,
-    "dte": null,
-    "strike": null,
+    "label": "SPY 747.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 747.0,
+    "qty": 13,
+    "cost": 455.0,
+    "value": 455.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2417.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 746.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 746.0,
+    "qty": 4,
+    "cost": 180.0,
+    "value": 180.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_NEA",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2352.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 742.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 742.0,
+    "qty": 2,
+    "cost": 254.0,
+    "value": 254.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_LAD",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2216.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 746.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 746.0,
+    "qty": 11,
+    "cost": 495.0,
+    "value": 495.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_FIL",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2120.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 742.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 742.0,
     "qty": 1,
-    "cost": 67454.5,
-    "value": 67454.5,
+    "cost": 125.0,
+    "value": 125.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RUN",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1750.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 742.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 742.0,
+    "qty": 1,
+    "cost": 139.0,
+    "value": 139.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_RID",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1550.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 746.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 746.0,
+    "qty": 4,
+    "cost": 180.0,
+    "value": 180.0,
     "pnl": 0.0
    }
   ]
@@ -64,54 +184,6 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6794.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·QQQ",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6342.5,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "IC_0DTE_S",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6311.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BOUNCE",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BFLY·IWM",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BWB·DALI",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "CALENDAR",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
