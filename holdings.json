@@ -60,6 +60,26 @@
   ]
  },
  {
+  "sym": "MATCH_TRA",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2502.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 741.0C 11-19",
+    "kind": "call",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 741.0,
+    "qty": 2,
+    "cost": 242.0,
+    "value": 242.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -178,13 +198,5 @@
     "pnl": 0.0
    }
   ]
- },
- {
-  "sym": "BC·SPY",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6794.0,
-  "src": "paper",
-  "moons": []
  }
 ]
