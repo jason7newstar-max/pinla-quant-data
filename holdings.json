@@ -100,26 +100,6 @@
   ]
  },
  {
-  "sym": "MATCH_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1796.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 722.0P 11-19",
-    "kind": "put",
-    "exp": "2026-11-19",
-    "dte": 0,
-    "strike": 722.0,
-    "qty": 1,
-    "cost": 133.0,
-    "value": 133.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -160,6 +140,14 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6311.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
