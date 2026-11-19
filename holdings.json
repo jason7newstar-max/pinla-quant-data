@@ -40,66 +40,6 @@
   ]
  },
  {
-  "sym": "MATCH_RID",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2417.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 746.0C 11-19",
-    "kind": "call",
-    "exp": "2026-11-19",
-    "dte": 0,
-    "strike": 746.0,
-    "qty": 4,
-    "cost": 180.0,
-    "value": 180.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_LAD",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2216.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 746.0C 11-19",
-    "kind": "call",
-    "exp": "2026-11-19",
-    "dte": 0,
-    "strike": 746.0,
-    "qty": 11,
-    "cost": 495.0,
-    "value": 495.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_RID",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1550.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 746.0C 11-19",
-    "kind": "call",
-    "exp": "2026-11-19",
-    "dte": 0,
-    "strike": 746.0,
-    "qty": 4,
-    "cost": 180.0,
-    "value": 180.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -133,6 +73,30 @@
  },
  {
   "sym": "BFLY·IWM",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BWB·DALI",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "CALENDAR",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC·HIFREQ",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
