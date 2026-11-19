@@ -43,38 +43,18 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 4240.0,
+  "price": 3936.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 747.0C 11-19",
+    "label": "QQQ 681.0C 11-19",
     "kind": "call",
     "exp": "2026-11-19",
     "dte": 0,
-    "strike": 747.0,
-    "qty": 13,
-    "cost": 455.0,
-    "value": 455.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_TRA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2502.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 741.0C 11-19",
-    "kind": "call",
-    "exp": "2026-11-19",
-    "dte": 0,
-    "strike": 741.0,
-    "qty": 2,
-    "cost": 242.0,
-    "value": 242.0,
+    "strike": 681.0,
+    "qty": 14,
+    "cost": 434.0,
+    "value": 434.0,
     "pnl": 0.0
    }
   ]
@@ -103,18 +83,18 @@
   "sym": "MATCH_NEA",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2352.0,
+  "price": 2273.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 742.0C 11-19",
+    "label": "QQQ 673.0C 11-19",
     "kind": "call",
     "exp": "2026-11-19",
     "dte": 0,
-    "strike": 742.0,
-    "qty": 2,
-    "cost": 254.0,
-    "value": 254.0,
+    "strike": 673.0,
+    "qty": 1,
+    "cost": 139.0,
+    "value": 139.0,
     "pnl": 0.0
    }
   ]
@@ -143,18 +123,38 @@
   "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2120.0,
+  "price": 2030.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 742.0C 11-19",
+    "label": "QQQ 673.0C 11-19",
     "kind": "call",
     "exp": "2026-11-19",
     "dte": 0,
-    "strike": 742.0,
+    "strike": 673.0,
     "qty": 1,
-    "cost": 125.0,
-    "value": 125.0,
+    "cost": 152.0,
+    "value": 152.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_ORB",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1662.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 727.0P 11-19",
+    "kind": "put",
+    "exp": "2026-11-19",
+    "dte": 0,
+    "strike": 727.0,
+    "qty": 1,
+    "cost": 133.0,
+    "value": 133.0,
     "pnl": 0.0
    }
   ]
@@ -163,18 +163,18 @@
   "sym": "MATCH_RUN",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1750.0,
+  "price": 1594.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 742.0C 11-19",
+    "label": "QQQ 673.0C 11-19",
     "kind": "call",
     "exp": "2026-11-19",
     "dte": 0,
-    "strike": 742.0,
+    "strike": 673.0,
     "qty": 1,
-    "cost": 139.0,
-    "value": 139.0,
+    "cost": 153.0,
+    "value": 153.0,
     "pnl": 0.0
    }
   ]
