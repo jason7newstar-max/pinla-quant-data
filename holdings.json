@@ -80,26 +80,6 @@
   ]
  },
  {
-  "sym": "MATCH_CUT",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2109.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 695.0P 11-20",
-    "kind": "put",
-    "exp": "2026-11-20",
-    "dte": 0,
-    "strike": 695.0,
-    "qty": 2,
-    "cost": 186.0,
-    "value": 186.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -148,6 +128,14 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6311.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
