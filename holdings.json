@@ -120,6 +120,26 @@
   ]
  },
  {
+  "sym": "MATCH_BE3",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1836.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 703.0P 11-20",
+    "kind": "put",
+    "exp": "2026-11-20",
+    "dte": 0,
+    "strike": 703.0,
+    "qty": 1,
+    "cost": 164.0,
+    "value": 164.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "MATCH_LAD",
   "shares": 1,
   "cost": 2000.0,
@@ -175,26 +195,6 @@
     "qty": 1,
     "cost": 139.0,
     "value": 139.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_RID",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1365.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 695.0P 11-20",
-    "kind": "put",
-    "exp": "2026-11-20",
-    "dte": 0,
-    "strike": 695.0,
-    "qty": 5,
-    "cost": 185.0,
-    "value": 185.0,
     "pnl": 0.0
    }
   ]
