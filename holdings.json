@@ -100,26 +100,6 @@
   ]
  },
  {
-  "sym": "MATCH_RUN",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1836.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 701.0P 11-20",
-    "kind": "put",
-    "exp": "2026-11-20",
-    "dte": 0,
-    "strike": 701.0,
-    "qty": 1,
-    "cost": 147.0,
-    "value": 147.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -160,6 +140,14 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6342.5,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "IC_0DTE_S",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6311.0,
   "src": "paper",
   "moons": []
  }
