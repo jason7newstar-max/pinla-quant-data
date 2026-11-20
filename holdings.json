@@ -80,6 +80,26 @@
   ]
  },
  {
+  "sym": "MATCH_CUT",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2004.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 701.0P 11-20",
+    "kind": "put",
+    "exp": "2026-11-20",
+    "dte": 0,
+    "strike": 701.0,
+    "qty": 1,
+    "cost": 145.0,
+    "value": 145.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
@@ -100,41 +120,41 @@
   ]
  },
  {
-  "sym": "MATCH_CUT",
+  "sym": "MATCH_BE3",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1855.0,
+  "price": 1888.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 706.0P 11-20",
+    "label": "SPY 702.0P 11-20",
     "kind": "put",
     "exp": "2026-11-20",
     "dte": 0,
-    "strike": 706.0,
+    "strike": 702.0,
     "qty": 1,
-    "cost": 145.0,
-    "value": 145.0,
+    "cost": 112.0,
+    "value": 112.0,
     "pnl": 0.0
    }
   ]
  },
  {
-  "sym": "MATCH_BE3",
+  "sym": "MATCH_ORB",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1836.0,
+  "price": 1756.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 703.0P 11-20",
+    "label": "SPY 701.0P 11-20",
     "kind": "put",
     "exp": "2026-11-20",
     "dte": 0,
-    "strike": 703.0,
+    "strike": 701.0,
     "qty": 1,
-    "cost": 164.0,
-    "value": 164.0,
+    "cost": 160.0,
+    "value": 160.0,
     "pnl": 0.0
    }
   ]
@@ -155,26 +175,6 @@
     "qty": 12,
     "cost": 492.0,
     "value": 492.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_ORB",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1642.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 705.0P 11-20",
-    "kind": "put",
-    "exp": "2026-11-20",
-    "dte": 0,
-    "strike": 705.0,
-    "qty": 1,
-    "cost": 137.0,
-    "value": 137.0,
     "pnl": 0.0
    }
   ]
