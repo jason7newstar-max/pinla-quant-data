@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-20T15:40:43.088150+00:00",
+  "as_of": "2026-11-20T15:55:43.255202+00:00",
   "market_open": true,
   "spy": {
     "symbol": "SPY",
-    "last": 709.627,
-    "bid": 709.6,
-    "ask": 709.64,
-    "volume": 18478927,
-    "mark": 709.62,
-    "change_pct": -0.8720857138866068,
+    "last": 710.0,
+    "bid": 709.97,
+    "ask": 710.01,
+    "volume": 22138359,
+    "mark": 709.99,
+    "change_pct": -0.8199812815175946,
     "close": 715.87
   },
   "qqq": {
     "symbol": "QQQ",
-    "last": 630.9901,
-    "bid": 630.95,
-    "ask": 631.01,
-    "volume": 24611935,
-    "mark": 630.98,
-    "change_pct": -2.178143991070318,
+    "last": 631.37,
+    "bid": 631.34,
+    "ask": 631.42,
+    "volume": 29166596,
+    "mark": 631.38,
+    "change_pct": -2.11924841870271,
     "close": 645.04
   },
   "senate": {
@@ -448,19 +448,19 @@
         "underlying_at_open": 711.54,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:36:37.049138+00:00",
-        "peak_bid": 0.5,
-        "current_mid": 0.48,
-        "unrealized_pnl_dollar": 154.0,
-        "unrealized_pnl_pct": 0.297
+        "peak_bid": 0.62,
+        "current_mid": 0.49,
+        "unrealized_pnl_dollar": 168.0,
+        "unrealized_pnl_pct": 0.324
       },
       "closed_trades_total": 23,
       "closed_trades_today": 2,
       "wins": 10,
       "win_rate": 0.435,
-      "today_pnl": 688.0,
+      "today_pnl": 702.0,
       "cumulative_pnl": 3340.0,
-      "portfolio_value": 5494.0,
-      "roi_pct": 1.747
+      "portfolio_value": 5508.0,
+      "roi_pct": 1.754
     },
     "match_near": {
       "name": null,
@@ -519,7 +519,7 @@
         "underlying_at_open": 712.99,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:01:09.268603+00:00",
-        "peak_bid": 0.5,
+        "peak_bid": 0.62,
         "current_mid": 0.48,
         "unrealized_pnl_dollar": 57.5,
         "unrealized_pnl_pct": 0.311
@@ -548,19 +548,19 @@
         "underlying_at_open": 713.24,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:01:07.547650+00:00",
-        "peak_bid": 0.5,
-        "current_mid": 0.48,
-        "unrealized_pnl_dollar": 57.5,
-        "unrealized_pnl_pct": 0.311
+        "peak_bid": 0.62,
+        "current_mid": 0.51,
+        "unrealized_pnl_dollar": 67.5,
+        "unrealized_pnl_pct": 0.365
       },
       "closed_trades_total": 11,
       "closed_trades_today": 0,
       "wins": 5,
       "win_rate": 0.455,
-      "today_pnl": 55.0,
+      "today_pnl": 70.0,
       "cumulative_pnl": 417.0,
-      "portfolio_value": 2472.0,
-      "roi_pct": 0.236
+      "portfolio_value": 2487.0,
+      "roi_pct": 0.2435
     },
     "match_orb": {
       "name": null,
@@ -577,19 +577,19 @@
         "underlying_at_open": 710.51,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:38:30.403389+00:00",
-        "peak_bid": 1.78,
-        "current_mid": 1.77,
-        "unrealized_pnl_dollar": 40.5,
-        "unrealized_pnl_pct": 0.296
+        "peak_bid": 2.28,
+        "current_mid": 2.13,
+        "unrealized_pnl_dollar": 76.5,
+        "unrealized_pnl_pct": 0.558
       },
       "closed_trades_total": 13,
       "closed_trades_today": 1,
       "wins": 4,
       "win_rate": 0.308,
-      "today_pnl": -43.0,
+      "today_pnl": -7.0,
       "cumulative_pnl": -221.0,
-      "portfolio_value": 1819.0,
-      "roi_pct": -0.0905
+      "portfolio_value": 1855.0,
+      "roi_pct": -0.0725
     },
     "match_filt": {
       "name": null,
@@ -606,19 +606,19 @@
         "underlying_at_open": 709.74,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:39:52.024479+00:00",
-        "peak_bid": 1.48,
-        "current_mid": 1.54,
-        "unrealized_pnl_dollar": 7.5,
-        "unrealized_pnl_pct": 0.051
+        "peak_bid": 2.0,
+        "current_mid": 1.85,
+        "unrealized_pnl_dollar": 38.0,
+        "unrealized_pnl_pct": 0.259
       },
       "closed_trades_total": 14,
       "closed_trades_today": 2,
       "wins": 4,
       "win_rate": 0.286,
-      "today_pnl": 67.0,
+      "today_pnl": 98.0,
       "cumulative_pnl": 102.0,
-      "portfolio_value": 2109.0,
-      "roi_pct": 0.0545
+      "portfolio_value": 2140.0,
+      "roi_pct": 0.07
     },
     "match_ladder": {
       "name": null,
@@ -635,19 +635,19 @@
         "underlying_at_open": 713.58,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:00:23.080796+00:00",
-        "peak_bid": 0.5,
-        "current_mid": 0.49,
-        "unrealized_pnl_dollar": 102.0,
-        "unrealized_pnl_pct": 0.207
+        "peak_bid": 0.62,
+        "current_mid": 0.52,
+        "unrealized_pnl_dollar": 126.0,
+        "unrealized_pnl_pct": 0.256
       },
       "closed_trades_total": 9,
       "closed_trades_today": 0,
       "wins": 5,
       "win_rate": 0.556,
-      "today_pnl": 96.0,
+      "today_pnl": 132.0,
       "cumulative_pnl": 216.0,
-      "portfolio_value": 2312.0,
-      "roi_pct": 0.156
+      "portfolio_value": 2348.0,
+      "roi_pct": 0.174
     },
     "match_runner": {
       "name": null,
@@ -664,19 +664,19 @@
         "underlying_at_open": 642.38,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:15:04.523263+00:00",
-        "peak_bid": 5.35,
-        "current_mid": 5.61,
-        "unrealized_pnl_dollar": 422.0,
-        "unrealized_pnl_pct": 3.036
+        "peak_bid": 5.96,
+        "current_mid": 4.56,
+        "unrealized_pnl_dollar": 317.5,
+        "unrealized_pnl_pct": 2.284
       },
       "closed_trades_total": 7,
       "closed_trades_today": 1,
       "wins": 1,
       "win_rate": 0.143,
-      "today_pnl": 353.0,
+      "today_pnl": 248.0,
       "cumulative_pnl": -400.0,
-      "portfolio_value": 2022.0,
-      "roi_pct": 0.011
+      "portfolio_value": 1917.0,
+      "roi_pct": -0.0415
     },
     "match_early": {
       "starting_capital": 200,
@@ -706,19 +706,48 @@
         "underlying_at_open": 711.47,
         "expiration": "2026-11-20",
         "open_ts": "2026-11-20T15:34:48.103438+00:00",
-        "peak_bid": 2.04,
-        "current_mid": 2.04,
-        "unrealized_pnl_dollar": 58.5,
-        "unrealized_pnl_pct": 0.403
+        "peak_bid": 2.62,
+        "current_mid": 2.33,
+        "unrealized_pnl_dollar": 88.0,
+        "unrealized_pnl_pct": 0.607
       },
       "closed_trades_total": 0,
       "closed_trades_today": 0,
       "wins": 0,
       "win_rate": null,
-      "today_pnl": 59.0,
+      "today_pnl": 88.0,
       "cumulative_pnl": 0,
-      "portfolio_value": 2059.0,
-      "roi_pct": 0.0295
+      "portfolio_value": 2088.0,
+      "roi_pct": 0.044
+    },
+    "match_be30": {
+      "name": null,
+      "starting_capital": 2000.0,
+      "cash": 1836.0,
+      "open_position": {
+        "symbol": "SPY",
+        "side": "put",
+        "strike": 703.0,
+        "delta": -0.264,
+        "entry_price": 1.64,
+        "contracts": 1,
+        "total_cost": 164.0,
+        "underlying_at_open": 710.26,
+        "expiration": "2026-11-20",
+        "open_ts": "2026-11-20T15:44:06.998743+00:00",
+        "peak_bid": 1.75,
+        "current_mid": 1.49,
+        "unrealized_pnl_dollar": -15.0,
+        "unrealized_pnl_pct": -0.091
+      },
+      "closed_trades_total": 0,
+      "closed_trades_today": 0,
+      "wins": 0,
+      "win_rate": null,
+      "today_pnl": -15.0,
+      "cumulative_pnl": 0,
+      "portfolio_value": 1985.0,
+      "roi_pct": -0.0075
     },
     "lottery": {
       "name": null,
@@ -968,8 +997,8 @@
   "leaderboard": [
     {
       "name": "match_far",
-      "roi_pct": 1.747,
-      "portfolio_value": 5494.0
+      "roi_pct": 1.754,
+      "portfolio_value": 5508.0
     },
     {
       "name": "match_trail30",
@@ -983,8 +1012,8 @@
     },
     {
       "name": "match_ridehalf",
-      "roi_pct": 0.236,
-      "portfolio_value": 2472.0
+      "roi_pct": 0.2435,
+      "portfolio_value": 2487.0
     },
     {
       "name": "match_trail10",
@@ -993,8 +1022,8 @@
     },
     {
       "name": "match_ladder",
-      "roi_pct": 0.156,
-      "portfolio_value": 2312.0
+      "roi_pct": 0.174,
+      "portfolio_value": 2348.0
     },
     {
       "name": "bearcall_spy",
@@ -1003,23 +1032,18 @@
     },
     {
       "name": "match_filt",
-      "roi_pct": 0.0545,
-      "portfolio_value": 2109.0
+      "roi_pct": 0.07,
+      "portfolio_value": 2140.0
     },
     {
       "name": "match_cut230",
-      "roi_pct": 0.0295,
-      "portfolio_value": 2059.0
+      "roi_pct": 0.044,
+      "portfolio_value": 2088.0
     },
     {
       "name": "butterfly_qqq",
       "roi_pct": 0.0148,
       "portfolio_value": 6342.5
-    },
-    {
-      "name": "match_runner",
-      "roi_pct": 0.011,
-      "portfolio_value": 2022.0
     },
     {
       "name": "match_early",
@@ -1072,6 +1096,11 @@
       "portfolio_value": 6216.0
     },
     {
+      "name": "match_be30",
+      "roi_pct": -0.0075,
+      "portfolio_value": 1985.0
+    },
+    {
       "name": "bwb_ia10",
       "roi_pct": -0.009,
       "portfolio_value": 6194.0
@@ -1097,9 +1126,14 @@
       "portfolio_value": 6026.0
     },
     {
+      "name": "match_runner",
+      "roi_pct": -0.0415,
+      "portfolio_value": 1917.0
+    },
+    {
       "name": "match_orb",
-      "roi_pct": -0.0905,
-      "portfolio_value": 1819.0
+      "roi_pct": -0.0725,
+      "portfolio_value": 1855.0
     },
     {
       "name": "match_ride",
@@ -1112,317 +1146,265 @@
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 1.66,
-      "ask": 1.67,
-      "pnl_pct": 0.212,
-      "reason": "holding +21%",
-      "peak_bid": 1.78,
-      "ts": "2026-11-20T15:40:33.737980+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.46,
-      "ask": 1.48,
-      "pnl_pct": -0.007,
-      "reason": "holding -1%",
-      "peak_bid": 1.47,
-      "ts": "2026-11-20T15:39:54.776166+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "open",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 704.0,
-      "delta": -0.244,
-      "entry_price": 1.47,
-      "contracts": 1,
-      "total_cost": 147.0,
-      "underlying_at_open": 709.74,
-      "expiration": "2026-11-20",
-      "open_ts": "2026-11-20T15:39:52.024479+00:00",
-      "ts": "2026-11-20T15:39:52.025077+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 5.17,
-      "ask": 5.19,
-      "pnl_pct": 2.719,
-      "reason": "holding +272%",
-      "peak_bid": 5.27,
-      "ts": "2026-11-20T15:39:51.764316+00:00",
-      "_strategy": "match_runner"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.92,
-      "ask": 1.92,
-      "pnl_pct": 0.324,
-      "reason": "holding +32%",
-      "peak_bid": 2.03,
-      "ts": "2026-11-20T15:39:50.857184+00:00",
-      "_strategy": "match_cut230"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.45,
-      "ask": 0.46,
-      "pnl_pct": 0.098,
-      "reason": "holding +10%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:39:49.854528+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.45,
-      "ask": 0.46,
-      "pnl_pct": 0.216,
-      "reason": "holding +22%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:39:49.854014+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.45,
-      "ask": 0.46,
-      "pnl_pct": 0.216,
-      "reason": "holding +22%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:39:49.853168+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.46,
-      "ask": 0.47,
-      "pnl_pct": 0.243,
-      "reason": "holding +24%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:39:42.852549+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.61,
-      "ask": 1.63,
-      "pnl_pct": 0.175,
-      "reason": "holding +18%",
-      "peak_bid": 1.61,
-      "ts": "2026-11-20T15:39:31.854868+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.66,
-      "ask": 1.67,
-      "pnl_pct": 0.145,
-      "reason": "holding +14%",
-      "peak_bid": 2.03,
-      "ts": "2026-11-20T15:38:50.847976+00:00",
-      "_strategy": "match_cut230"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 4.79,
-      "ask": 4.82,
-      "pnl_pct": 2.446,
-      "reason": "holding +245%",
-      "peak_bid": 4.84,
-      "ts": "2026-11-20T15:38:50.847578+00:00",
-      "_strategy": "match_runner"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.36,
-      "ask": 0.37,
-      "pnl_pct": -0.122,
-      "reason": "holding -12%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:38:49.748896+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.36,
-      "ask": 0.37,
-      "pnl_pct": -0.027,
-      "reason": "holding -3%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:38:49.748579+00:00",
-      "_strategy": "match_ridehalf"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.36,
-      "ask": 0.37,
-      "pnl_pct": -0.027,
-      "reason": "holding -3%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:38:49.748222+00:00",
-      "_strategy": "match_ride"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.35,
-      "ask": 0.36,
-      "pnl_pct": -0.054,
+      "exit_price": 1.55,
+      "ask": 1.56,
+      "pnl_pct": -0.055,
       "reason": "holding -5%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:38:42.847675+00:00",
-      "_strategy": "match_far"
+      "peak_bid": 1.75,
+      "ts": "2026-11-20T15:55:17.983793+00:00",
+      "_strategy": "match_be30"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 1.35,
-      "ask": 1.36,
-      "pnl_pct": -0.015,
-      "reason": "holding -1%",
-      "peak_bid": 1.37,
-      "ts": "2026-11-20T15:38:30.874620+00:00",
-      "_strategy": "match_orb"
-    },
-    {
-      "action": "open",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 705.0,
-      "delta": -0.253,
-      "entry_price": 1.37,
-      "contracts": 1,
-      "total_cost": 137.0,
-      "underlying_at_open": 710.51,
-      "expiration": "2026-11-20",
-      "open_ts": "2026-11-20T15:38:30.403389+00:00",
-      "ts": "2026-11-20T15:38:30.403945+00:00",
-      "_strategy": "match_orb"
+      "exit_price": 1.76,
+      "ask": 1.82,
+      "pnl_pct": 0.197,
+      "reason": "holding +20%",
+      "peak_bid": 2.0,
+      "ts": "2026-11-20T15:55:08.981119+00:00",
+      "_strategy": "match_filt"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 2.02,
-      "ask": 2.01,
-      "pnl_pct": 0.393,
-      "reason": "holding +39%",
-      "peak_bid": 2.03,
-      "ts": "2026-11-20T15:37:49.852400+00:00",
-      "_strategy": "match_cut230"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 4.09,
-      "ask": 4.12,
-      "pnl_pct": 1.942,
-      "reason": "holding +194%",
-      "peak_bid": 4.57,
-      "ts": "2026-11-20T15:37:49.753715+00:00",
+      "exit_price": 4.57,
+      "ask": 4.56,
+      "pnl_pct": 2.288,
+      "reason": "holding +229%",
+      "peak_bid": 5.96,
+      "ts": "2026-11-20T15:55:08.880261+00:00",
       "_strategy": "match_runner"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.5,
-      "ask": 0.51,
-      "pnl_pct": 0.22,
-      "reason": "holding +22%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:37:48.852446+00:00",
+      "exit_price": 0.51,
+      "ask": 0.52,
+      "pnl_pct": 0.244,
+      "reason": "holding +24%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:55:07.991235+00:00",
       "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.5,
-      "ask": 0.51,
-      "pnl_pct": 0.351,
-      "reason": "holding +35%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:37:48.851946+00:00",
+      "exit_price": 0.51,
+      "ask": 0.52,
+      "pnl_pct": 0.378,
+      "reason": "holding +38%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:55:07.990797+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.5,
-      "ask": 0.51,
-      "pnl_pct": 0.351,
-      "reason": "holding +35%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:37:48.851350+00:00",
+      "exit_price": 0.51,
+      "ask": 0.52,
+      "pnl_pct": 0.378,
+      "reason": "holding +38%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:55:07.990328+00:00",
       "_strategy": "match_ride"
-    },
-    {
-      "action": "close",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 709.0,
-      "delta": -0.259,
-      "entry_price": 1.5,
-      "contracts": 1,
-      "total_cost": 150.0,
-      "underlying_at_open": 713.795,
-      "expiration": "2026-11-20",
-      "open_ts": "2026-11-20T15:30:15.803626+00:00",
-      "peak_bid": 3.0,
-      "close_price": 3.0,
-      "close_proceeds": 300.0,
-      "pnl_dollar": 150.0,
-      "pnl_pct": 1.0,
-      "close_reason": "TP +100%",
-      "close_ts": "2026-11-20T15:37:47.853740+00:00",
-      "ts": "2026-11-20T15:37:47.854275+00:00",
-      "_strategy": "match_near"
     },
     {
       "action": "monitor",
       "src": "stream",
-      "close": true,
-      "exit_price": 3.0,
-      "ask": 3.01,
-      "pnl_pct": 1.0,
-      "reason": "TP +100%",
-      "peak_bid": 3.0,
-      "ts": "2026-11-20T15:37:47.853615+00:00",
-      "_strategy": "match_near"
+      "close": false,
+      "exit_price": 0.51,
+      "ask": 0.52,
+      "pnl_pct": 0.378,
+      "reason": "holding +38%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:55:07.989818+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 2.13,
+      "ask": 2.14,
+      "pnl_pct": 0.555,
+      "reason": "holding +55%",
+      "peak_bid": 2.28,
+      "ts": "2026-11-20T15:55:06.994500+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 2.43,
+      "ask": 2.44,
+      "pnl_pct": 0.676,
+      "reason": "holding +68%",
+      "peak_bid": 2.62,
+      "ts": "2026-11-20T15:55:04.988605+00:00",
+      "_strategy": "match_cut230"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.41,
+      "ask": 1.44,
+      "pnl_pct": -0.14,
+      "reason": "holding -14%",
+      "peak_bid": 1.75,
+      "ts": "2026-11-20T15:54:16.989734+00:00",
+      "_strategy": "match_be30"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 5.42,
+      "ask": 5.5,
+      "pnl_pct": 2.899,
+      "reason": "holding +290%",
+      "peak_bid": 5.96,
+      "ts": "2026-11-20T15:54:07.986327+00:00",
+      "_strategy": "match_runner"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.55,
+      "ask": 1.57,
+      "pnl_pct": 0.054,
+      "reason": "holding +5%",
+      "peak_bid": 2.0,
+      "ts": "2026-11-20T15:54:07.985390+00:00",
+      "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.43,
+      "ask": 0.44,
+      "pnl_pct": 0.049,
+      "reason": "holding +5%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:54:07.883528+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.43,
+      "ask": 0.44,
+      "pnl_pct": 0.162,
+      "reason": "holding +16%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:54:07.883061+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.43,
+      "ask": 0.44,
+      "pnl_pct": 0.162,
+      "reason": "holding +16%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:54:07.882568+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.43,
+      "ask": 0.44,
+      "pnl_pct": 0.162,
+      "reason": "holding +16%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:54:07.882064+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.79,
+      "ask": 1.78,
+      "pnl_pct": 0.307,
+      "reason": "holding +31%",
+      "peak_bid": 2.28,
+      "ts": "2026-11-20T15:54:06.916199+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 2.05,
+      "ask": 2.05,
+      "pnl_pct": 0.414,
+      "reason": "holding +41%",
+      "peak_bid": 2.62,
+      "ts": "2026-11-20T15:54:04.986895+00:00",
+      "_strategy": "match_cut230"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.5,
+      "ask": 1.52,
+      "pnl_pct": -0.085,
+      "reason": "holding -9%",
+      "peak_bid": 1.75,
+      "ts": "2026-11-20T15:53:15.994201+00:00",
+      "_strategy": "match_be30"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 5.85,
+      "ask": 5.9,
+      "pnl_pct": 3.209,
+      "reason": "holding +321%",
+      "peak_bid": 5.96,
+      "ts": "2026-11-20T15:53:06.993508+00:00",
+      "_strategy": "match_runner"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.76,
+      "ask": 1.77,
+      "pnl_pct": 0.197,
+      "reason": "holding +20%",
+      "peak_bid": 2.0,
+      "ts": "2026-11-20T15:53:06.992539+00:00",
+      "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.49,
+      "ask": 0.5,
+      "pnl_pct": 0.195,
+      "reason": "holding +20%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:53:06.991842+00:00",
+      "_strategy": "match_ladder"
     },
     {
       "action": "monitor",
@@ -1432,189 +1414,212 @@
       "ask": 0.5,
       "pnl_pct": 0.324,
       "reason": "holding +32%",
-      "peak_bid": 0.5,
-      "ts": "2026-11-20T15:37:41.857236+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "close",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 709.0,
-      "delta": -0.259,
-      "entry_price": 1.41,
-      "contracts": 1,
-      "total_cost": 141.0,
-      "underlying_at_open": 713.79,
-      "expiration": "2026-11-20",
-      "open_ts": "2026-11-20T15:29:47.906450+00:00",
-      "peak_bid": 2.83,
-      "close_price": 2.83,
-      "close_proceeds": 283.0,
-      "pnl_dollar": 142.0,
-      "pnl_pct": 1.007,
-      "close_reason": "TP +101%",
-      "close_ts": "2026-11-20T15:37:31.859544+00:00",
-      "ts": "2026-11-20T15:37:31.860207+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": true,
-      "exit_price": 2.83,
-      "ask": 2.84,
-      "pnl_pct": 1.007,
-      "reason": "TP +101%",
-      "peak_bid": 2.83,
-      "ts": "2026-11-20T15:37:31.859375+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 2.35,
-      "ask": 2.39,
-      "pnl_pct": 0.667,
-      "reason": "holding +67%",
-      "peak_bid": 2.45,
-      "ts": "2026-11-20T15:36:48.859545+00:00",
-      "_strategy": "match_filt"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 2.35,
-      "ask": 2.39,
-      "pnl_pct": 0.567,
-      "reason": "holding +57%",
-      "peak_bid": 2.45,
-      "ts": "2026-11-20T15:36:48.859303+00:00",
-      "_strategy": "match_near"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 1.56,
-      "ask": 1.58,
-      "pnl_pct": 0.076,
-      "reason": "holding +8%",
-      "peak_bid": 1.63,
-      "ts": "2026-11-20T15:36:48.858934+00:00",
-      "_strategy": "match_cut230"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 3.97,
-      "ask": 3.98,
-      "pnl_pct": 1.856,
-      "reason": "holding +186%",
-      "peak_bid": 4.57,
-      "ts": "2026-11-20T15:36:48.858496+00:00",
-      "_strategy": "match_runner"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.37,
-      "ask": 0.38,
-      "pnl_pct": -0.098,
-      "reason": "holding -10%",
-      "peak_bid": 0.42,
-      "ts": "2026-11-20T15:36:48.845925+00:00",
-      "_strategy": "match_ladder"
-    },
-    {
-      "action": "monitor",
-      "src": "stream",
-      "close": false,
-      "exit_price": 0.37,
-      "ask": 0.38,
-      "pnl_pct": 0.0,
-      "reason": "holding +0%",
-      "peak_bid": 0.42,
-      "ts": "2026-11-20T15:36:48.845688+00:00",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:53:06.991365+00:00",
       "_strategy": "match_ridehalf"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.37,
-      "ask": 0.38,
-      "pnl_pct": 0.0,
-      "reason": "holding +0%",
-      "peak_bid": 0.42,
-      "ts": "2026-11-20T15:36:48.845400+00:00",
+      "exit_price": 0.49,
+      "ask": 0.5,
+      "pnl_pct": 0.324,
+      "reason": "holding +32%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:53:06.990868+00:00",
       "_strategy": "match_ride"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.36,
-      "ask": 0.37,
-      "pnl_pct": -0.027,
-      "reason": "holding -3%",
-      "peak_bid": 0.37,
-      "ts": "2026-11-20T15:36:40.859906+00:00",
-      "_strategy": "match_far"
-    },
-    {
-      "action": "open",
-      "symbol": "SPY",
-      "side": "put",
-      "strike": 695.0,
-      "delta": -0.07,
-      "entry_price": 0.37,
-      "contracts": 14,
-      "total_cost": 518.0,
-      "underlying_at_open": 711.54,
-      "expiration": "2026-11-20",
-      "open_ts": "2026-11-20T15:36:37.049138+00:00",
-      "ts": "2026-11-20T15:36:37.049808+00:00",
+      "exit_price": 0.49,
+      "ask": 0.5,
+      "pnl_pct": 0.324,
+      "reason": "holding +32%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:53:06.990346+00:00",
       "_strategy": "match_far"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 1.56,
-      "ask": 1.57,
-      "pnl_pct": 0.076,
-      "reason": "holding +8%",
-      "peak_bid": 1.56,
-      "ts": "2026-11-20T15:35:48.008958+00:00",
+      "exit_price": 1.93,
+      "ask": 1.95,
+      "pnl_pct": 0.409,
+      "reason": "holding +41%",
+      "peak_bid": 2.28,
+      "ts": "2026-11-20T15:53:04.993333+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 2.24,
+      "ask": 2.24,
+      "pnl_pct": 0.545,
+      "reason": "holding +54%",
+      "peak_bid": 2.62,
+      "ts": "2026-11-20T15:53:04.893088+00:00",
       "_strategy": "match_cut230"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 3.71,
-      "ask": 3.75,
-      "pnl_pct": 1.669,
-      "reason": "holding +167%",
-      "peak_bid": 4.57,
-      "ts": "2026-11-20T15:35:48.008163+00:00",
+      "exit_price": 1.41,
+      "ask": 1.34,
+      "pnl_pct": -0.14,
+      "reason": "holding -14%",
+      "peak_bid": 1.75,
+      "ts": "2026-11-20T15:52:15.003378+00:00",
+      "_strategy": "match_be30"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 5.28,
+      "ask": 5.33,
+      "pnl_pct": 2.799,
+      "reason": "holding +280%",
+      "peak_bid": 5.88,
+      "ts": "2026-11-20T15:52:05.997567+00:00",
       "_strategy": "match_runner"
     },
     {
       "action": "monitor",
       "src": "stream",
       "close": false,
-      "exit_price": 0.35,
-      "ask": 0.36,
-      "pnl_pct": -0.146,
-      "reason": "holding -15%",
-      "peak_bid": 0.42,
-      "ts": "2026-11-20T15:35:47.985265+00:00",
+      "exit_price": 0.48,
+      "ask": 0.49,
+      "pnl_pct": 0.171,
+      "reason": "holding +17%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:52:05.996703+00:00",
+      "_strategy": "match_ladder"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.48,
+      "ask": 0.49,
+      "pnl_pct": 0.297,
+      "reason": "holding +30%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:52:05.996368+00:00",
+      "_strategy": "match_ridehalf"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.48,
+      "ask": 0.49,
+      "pnl_pct": 0.297,
+      "reason": "holding +30%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:52:05.996003+00:00",
+      "_strategy": "match_ride"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.48,
+      "ask": 0.49,
+      "pnl_pct": 0.297,
+      "reason": "holding +30%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:52:05.995238+00:00",
+      "_strategy": "match_far"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.72,
+      "ask": 1.73,
+      "pnl_pct": 0.17,
+      "reason": "holding +17%",
+      "peak_bid": 2.0,
+      "ts": "2026-11-20T15:52:05.994616+00:00",
+      "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.95,
+      "ask": 1.98,
+      "pnl_pct": 0.423,
+      "reason": "holding +42%",
+      "peak_bid": 2.28,
+      "ts": "2026-11-20T15:52:04.003848+00:00",
+      "_strategy": "match_orb"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 2.26,
+      "ask": 2.28,
+      "pnl_pct": 0.559,
+      "reason": "holding +56%",
+      "peak_bid": 2.62,
+      "ts": "2026-11-20T15:52:04.003426+00:00",
+      "_strategy": "match_cut230"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.46,
+      "ask": 1.47,
+      "pnl_pct": -0.11,
+      "reason": "holding -11%",
+      "peak_bid": 1.75,
+      "ts": "2026-11-20T15:51:13.006316+00:00",
+      "_strategy": "match_be30"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 1.7,
+      "ask": 1.71,
+      "pnl_pct": 0.156,
+      "reason": "holding +16%",
+      "peak_bid": 2.0,
+      "ts": "2026-11-20T15:51:05.901236+00:00",
+      "_strategy": "match_filt"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 5.46,
+      "ask": 5.48,
+      "pnl_pct": 2.928,
+      "reason": "holding +293%",
+      "peak_bid": 5.88,
+      "ts": "2026-11-20T15:51:05.000783+00:00",
+      "_strategy": "match_runner"
+    },
+    {
+      "action": "monitor",
+      "src": "stream",
+      "close": false,
+      "exit_price": 0.49,
+      "ask": 0.5,
+      "pnl_pct": 0.195,
+      "reason": "holding +20%",
+      "peak_bid": 0.62,
+      "ts": "2026-11-20T15:51:05.000360+00:00",
       "_strategy": "match_ladder"
     }
   ],
@@ -2063,10 +2068,130 @@
       {
         "t": 1795188300000,
         "o": 630.97,
-        "h": 631.11,
+        "h": 631.775,
         "l": 630.36,
-        "c": 630.82,
-        "v": 72448
+        "c": 631.7,
+        "v": 166175
+      },
+      {
+        "t": 1795188360000,
+        "o": 631.67,
+        "h": 631.7,
+        "l": 630.28,
+        "c": 630.76,
+        "v": 155561
+      },
+      {
+        "t": 1795188420000,
+        "o": 630.79,
+        "h": 631.25,
+        "l": 629.9138,
+        "c": 630.08,
+        "v": 172011
+      },
+      {
+        "t": 1795188480000,
+        "o": 630.06,
+        "h": 631.95,
+        "l": 630.06,
+        "c": 631.66,
+        "v": 205311
+      },
+      {
+        "t": 1795188540000,
+        "o": 631.63,
+        "h": 632.23,
+        "l": 631.11,
+        "c": 632.228,
+        "v": 152642
+      },
+      {
+        "t": 1795188600000,
+        "o": 632.16,
+        "h": 632.16,
+        "l": 630.68,
+        "c": 630.925,
+        "v": 141238
+      },
+      {
+        "t": 1795188660000,
+        "o": 630.89,
+        "h": 631.41,
+        "l": 630.23,
+        "c": 630.62,
+        "v": 106893
+      },
+      {
+        "t": 1795188720000,
+        "o": 630.62,
+        "h": 631.19,
+        "l": 630.01,
+        "c": 630.04,
+        "v": 82420
+      },
+      {
+        "t": 1795188780000,
+        "o": 630.011,
+        "h": 630.99,
+        "l": 629.54,
+        "c": 630.77,
+        "v": 128683
+      },
+      {
+        "t": 1795188840000,
+        "o": 630.72,
+        "h": 631.25,
+        "l": 630.35,
+        "c": 630.375,
+        "v": 108461
+      },
+      {
+        "t": 1795188900000,
+        "o": 630.58,
+        "h": 631.63,
+        "l": 630.02,
+        "c": 630.45,
+        "v": 136801
+      },
+      {
+        "t": 1795188960000,
+        "o": 630.27,
+        "h": 631.84,
+        "l": 629.96,
+        "c": 630.56,
+        "v": 94071
+      },
+      {
+        "t": 1795189020000,
+        "o": 630.5,
+        "h": 630.54,
+        "l": 629.2,
+        "c": 629.27,
+        "v": 151239
+      },
+      {
+        "t": 1795189080000,
+        "o": 629.32,
+        "h": 630.27,
+        "l": 629.17,
+        "c": 630.03,
+        "v": 92612
+      },
+      {
+        "t": 1795189140000,
+        "o": 630.03,
+        "h": 631.46,
+        "l": 629.75,
+        "c": 631.155,
+        "v": 90948
+      },
+      {
+        "t": 1795189200000,
+        "o": 631.2,
+        "h": 631.71,
+        "l": 630.45,
+        "c": 630.4746,
+        "v": 41102
       }
     ],
     "SPY": [
@@ -2513,10 +2638,130 @@
       {
         "t": 1795188300000,
         "o": 709.67,
-        "h": 709.77,
-        "l": 709.16,
-        "c": 709.2703,
-        "v": 61908
+        "h": 710.2299,
+        "l": 709.15,
+        "c": 710.15,
+        "v": 104264
+      },
+      {
+        "t": 1795188360000,
+        "o": 710.15,
+        "h": 710.15,
+        "l": 709.19,
+        "c": 709.42,
+        "v": 115347
+      },
+      {
+        "t": 1795188420000,
+        "o": 709.42,
+        "h": 709.74,
+        "l": 708.8301,
+        "c": 708.89,
+        "v": 96835
+      },
+      {
+        "t": 1795188480000,
+        "o": 708.88,
+        "h": 710.46,
+        "l": 708.88,
+        "c": 710.28,
+        "v": 124466
+      },
+      {
+        "t": 1795188540000,
+        "o": 710.28,
+        "h": 710.65,
+        "l": 709.865,
+        "c": 710.5,
+        "v": 146780
+      },
+      {
+        "t": 1795188600000,
+        "o": 710.47,
+        "h": 710.4895,
+        "l": 709.42,
+        "c": 709.55,
+        "v": 109579
+      },
+      {
+        "t": 1795188660000,
+        "o": 709.54,
+        "h": 709.86,
+        "l": 709.15,
+        "c": 709.49,
+        "v": 74838
+      },
+      {
+        "t": 1795188720000,
+        "o": 709.48,
+        "h": 709.76,
+        "l": 709.01,
+        "c": 709.06,
+        "v": 75690
+      },
+      {
+        "t": 1795188780000,
+        "o": 709.04,
+        "h": 709.73,
+        "l": 708.65,
+        "c": 709.61,
+        "v": 109097
+      },
+      {
+        "t": 1795188840000,
+        "o": 709.59,
+        "h": 709.95,
+        "l": 709.27,
+        "c": 709.42,
+        "v": 129989
+      },
+      {
+        "t": 1795188900000,
+        "o": 709.42,
+        "h": 710.28,
+        "l": 709.06,
+        "c": 709.34,
+        "v": 84442
+      },
+      {
+        "t": 1795188960000,
+        "o": 709.36,
+        "h": 710.46,
+        "l": 709.01,
+        "c": 709.47,
+        "v": 71521
+      },
+      {
+        "t": 1795189020000,
+        "o": 709.42,
+        "h": 709.42,
+        "l": 708.41,
+        "c": 708.49,
+        "v": 144610
+      },
+      {
+        "t": 1795189080000,
+        "o": 708.51,
+        "h": 709.21,
+        "l": 708.41,
+        "c": 709.09,
+        "v": 106608
+      },
+      {
+        "t": 1795189140000,
+        "o": 709.06,
+        "h": 710.14,
+        "l": 708.9,
+        "c": 709.94,
+        "v": 93594
+      },
+      {
+        "t": 1795189200000,
+        "o": 709.97,
+        "h": 710.34,
+        "l": 708.93,
+        "c": 709.34,
+        "v": 74482
       }
     ]
   },
@@ -3176,6 +3421,12 @@
         "v": 2000.0
       }
     ],
+    "match_be30": [
+      {
+        "t": null,
+        "v": 2000.0
+      }
+    ],
     "lottery": [
       {
         "t": null,
@@ -3551,24 +3802,24 @@
   },
   "performance": {
     "since": "2026-11-10",
-    "starting_capital": 22000.0,
-    "net_liquidation": 26907.0,
+    "starting_capital": 24000.0,
+    "net_liquidation": 28907.0,
     "net_pnl": 4907.0,
-    "total_return_pct": 22.305,
-    "max_drawdown_pct": -9.109,
+    "total_return_pct": 20.446,
+    "max_drawdown_pct": -8.512,
     "active_days": 8,
     "win_days_pct": 50.0,
-    "sharpe_ann": 6.03,
-    "vol_ann_pct": 117.3,
+    "sharpe_ann": 5.98,
+    "vol_ann_pct": 108.4,
     "best_day": 3575.0,
     "worst_day": -1394.0,
     "avg_daily_pnl": 613.38,
-    "return_over_maxdd": 2.45,
+    "return_over_maxdd": 2.4,
     "monthly": [
       {
         "month": "2026-11",
         "pnl": 4907.0,
-        "pct": 22.3
+        "pct": 20.45
       }
     ],
     "trades_total": 147,
@@ -3578,56 +3829,56 @@
     {
       "date": "2026-11-11",
       "pnl": -167.0,
-      "equity": 21833.0,
+      "equity": 23833.0,
       "trades": 15,
       "wins": 4
     },
     {
       "date": "2026-11-12",
       "pnl": 393.0,
-      "equity": 22226.0,
+      "equity": 24226.0,
       "trades": 15,
       "wins": 8
     },
     {
       "date": "2026-11-13",
       "pnl": 3351.0,
-      "equity": 25577.0,
+      "equity": 27577.0,
       "trades": 15,
       "wins": 14
     },
     {
       "date": "2026-11-16",
       "pnl": -619.0,
-      "equity": 24958.0,
+      "equity": 26958.0,
       "trades": 21,
       "wins": 7
     },
     {
       "date": "2026-11-17",
       "pnl": 3575.0,
-      "equity": 28533.0,
+      "equity": 30533.0,
       "trades": 27,
       "wins": 14
     },
     {
       "date": "2026-11-18",
       "pnl": -1205.0,
-      "equity": 27328.0,
+      "equity": 29328.0,
       "trades": 21,
       "wins": 4
     },
     {
       "date": "2026-11-19",
       "pnl": -1394.0,
-      "equity": 25934.0,
+      "equity": 27934.0,
       "trades": 21,
       "wins": 3
     },
     {
       "date": "2026-11-20",
       "pnl": 973.0,
-      "equity": 26907.0,
+      "equity": 28907.0,
       "trades": 12,
       "wins": 5
     }
