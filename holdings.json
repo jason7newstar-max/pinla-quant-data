@@ -43,38 +43,18 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 4080.0,
+  "price": 4822.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 621.0P 11-20",
+    "label": "SPY 695.0P 11-20",
     "kind": "put",
     "exp": "2026-11-20",
     "dte": 0,
-    "strike": 621.0,
-    "qty": 9,
-    "cost": 414.0,
-    "value": 414.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_TRA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2433.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "QQQ 629.0P 11-20",
-    "kind": "put",
-    "exp": "2026-11-20",
-    "dte": 0,
-    "strike": 629.0,
-    "qty": 2,
-    "cost": 190.0,
-    "value": 190.0,
+    "strike": 695.0,
+    "qty": 14,
+    "cost": 518.0,
+    "value": 518.0,
     "pnl": 0.0
    }
   ]
@@ -100,21 +80,41 @@
   ]
  },
  {
-  "sym": "MATCH_NEA",
+  "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2140.0,
+  "price": 1955.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 632.0P 11-20",
+    "label": "SPY 704.0P 11-20",
     "kind": "put",
     "exp": "2026-11-20",
     "dte": 0,
-    "strike": 632.0,
+    "strike": 704.0,
     "qty": 1,
-    "cost": 137.0,
-    "value": 137.0,
+    "cost": 147.0,
+    "value": 147.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_CUT",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1855.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "SPY 706.0P 11-20",
+    "kind": "put",
+    "exp": "2026-11-20",
+    "dte": 0,
+    "strike": 706.0,
+    "qty": 1,
+    "cost": 145.0,
+    "value": 145.0,
     "pnl": 0.0
    }
   ]
@@ -143,18 +143,18 @@
   "sym": "MATCH_ORB",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1697.0,
+  "price": 1642.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 720.0C 11-20",
-    "kind": "call",
+    "label": "SPY 705.0P 11-20",
+    "kind": "put",
     "exp": "2026-11-20",
     "dte": 0,
-    "strike": 720.0,
+    "strike": 705.0,
     "qty": 1,
-    "cost": 165.0,
-    "value": 165.0,
+    "cost": 137.0,
+    "value": 137.0,
     "pnl": 0.0
    }
   ]
