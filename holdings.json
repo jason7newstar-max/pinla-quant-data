@@ -140,26 +140,6 @@
   ]
  },
  {
-  "sym": "MATCH_TRA",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 2745.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 725.0C 11-23",
-    "kind": "call",
-    "exp": "2026-11-23",
-    "dte": 0,
-    "strike": 725.0,
-    "qty": 1,
-    "cost": 175.0,
-    "value": 175.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_NEA",
   "shares": 1,
   "cost": 2000.0,
@@ -195,6 +175,26 @@
     "qty": 1,
     "cost": 116.0,
     "value": 116.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_CUT",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1980.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 655.0C 11-23",
+    "kind": "call",
+    "exp": "2026-11-23",
+    "dte": 0,
+    "strike": 655.0,
+    "qty": 1,
+    "cost": 219.0,
+    "value": 219.0,
     "pnl": 0.0
    }
   ]
