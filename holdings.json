@@ -43,27 +43,7 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 5371.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 734.0C 11-23",
-    "kind": "call",
-    "exp": "2026-11-23",
-    "dte": 0,
-    "strike": 734.0,
-    "qty": 17,
-    "cost": 561.0,
-    "value": 561.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_TEA",
-  "shares": 1,
-  "cost": 5000.0,
-  "price": 4848.5,
+  "price": 5004.0,
   "src": "paper",
   "moons": [
    {
@@ -72,9 +52,9 @@
     "exp": "2026-11-23",
     "dte": 0,
     "strike": 730.0,
-    "qty": 6,
-    "cost": 579.0,
-    "value": 579.0,
+    "qty": 20,
+    "cost": 520.0,
+    "value": 520.0,
     "pnl": 0.0
    }
   ]
@@ -140,63 +120,35 @@
   ]
  },
  {
-  "sym": "MATCH_NEA",
+  "sym": "BC·SPY",
   "shares": 1,
-  "cost": 2000.0,
-  "price": 2448.0,
+  "cost": 6250.0,
+  "price": 6794.0,
   "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 728.0C 11-23",
-    "kind": "call",
-    "exp": "2026-11-23",
-    "dte": 0,
-    "strike": 728.0,
-    "qty": 2,
-    "cost": 234.0,
-    "value": 234.0,
-    "pnl": 0.0
-   }
-  ]
+  "moons": []
  },
  {
-  "sym": "MATCH_CUT",
+  "sym": "BFLY·QQQ",
   "shares": 1,
-  "cost": 2000.0,
-  "price": 2191.0,
+  "cost": 6250.0,
+  "price": 6342.5,
   "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 728.0C 11-23",
-    "kind": "call",
-    "exp": "2026-11-23",
-    "dte": 0,
-    "strike": 728.0,
-    "qty": 1,
-    "cost": 141.0,
-    "value": 141.0,
-    "pnl": 0.0
-   }
-  ]
+  "moons": []
  },
  {
-  "sym": "MATCH_FIL",
+  "sym": "IC_0DTE_S",
   "shares": 1,
-  "cost": 2000.0,
-  "price": 2173.0,
+  "cost": 6250.0,
+  "price": 6311.0,
   "src": "paper",
-  "moons": [
-   {
-    "label": "SPY 729.0C 11-23",
-    "kind": "call",
-    "exp": "2026-11-23",
-    "dte": 0,
-    "strike": 729.0,
-    "qty": 1,
-    "cost": 125.0,
-    "value": 125.0,
-    "pnl": 0.0
-   }
-  ]
+  "moons": []
+ },
+ {
+  "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
  }
 ]
