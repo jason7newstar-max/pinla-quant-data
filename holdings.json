@@ -120,6 +120,26 @@
   ]
  },
  {
+  "sym": "MATCH_ORB",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1737.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "TSLA 395.0C 11-23",
+    "kind": "call",
+    "exp": "2026-11-23",
+    "dte": 0,
+    "strike": 395.0,
+    "qty": 3,
+    "cost": 180.0,
+    "value": 180.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -140,14 +160,6 @@
   "shares": 1,
   "cost": 6250.0,
   "price": 6311.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "BOUNCE",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
   "src": "paper",
   "moons": []
  }
