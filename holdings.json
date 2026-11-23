@@ -83,18 +83,18 @@
   "sym": "MATCH_LAD",
   "shares": 1,
   "cost": 2000.0,
-  "price": 3861.0,
+  "price": 3790.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 733.0C 11-23",
+    "label": "SPY 736.0C 11-23",
     "kind": "call",
     "exp": "2026-11-23",
     "dte": 0,
-    "strike": 733.0,
-    "qty": 5,
-    "cost": 240.0,
-    "value": 240.0,
+    "strike": 736.0,
+    "qty": 9,
+    "cost": 486.0,
+    "value": 486.0,
     "pnl": 0.0
    }
   ]
@@ -180,21 +180,21 @@
   ]
  },
  {
-  "sym": "MATCH_ORB",
+  "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1972.0,
+  "price": 2230.0,
   "src": "paper",
   "moons": [
    {
-    "label": "TSLA 397.5C 11-23",
+    "label": "SPY 731.0C 11-23",
     "kind": "call",
     "exp": "2026-11-23",
     "dte": 0,
-    "strike": 397.5,
+    "strike": 731.0,
     "qty": 1,
-    "cost": 104.0,
-    "value": 104.0,
+    "cost": 138.0,
+    "value": 138.0,
     "pnl": 0.0
    }
   ]
