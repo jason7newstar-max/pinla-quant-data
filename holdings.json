@@ -43,18 +43,18 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 5752.0,
+  "price": 5371.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 666.0C 11-23",
+    "label": "SPY 734.0C 11-23",
     "kind": "call",
     "exp": "2026-11-23",
     "dte": 0,
-    "strike": 666.0,
-    "qty": 12,
-    "cost": 624.0,
-    "value": 624.0,
+    "strike": 734.0,
+    "qty": 17,
+    "cost": 561.0,
+    "value": 561.0,
     "pnl": 0.0
    }
   ]
@@ -143,18 +143,18 @@
   "sym": "MATCH_NEA",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2612.0,
+  "price": 2448.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 730.0C 11-23",
+    "label": "SPY 728.0C 11-23",
     "kind": "call",
     "exp": "2026-11-23",
     "dte": 0,
-    "strike": 730.0,
-    "qty": 1,
-    "cost": 140.0,
-    "value": 140.0,
+    "strike": 728.0,
+    "qty": 2,
+    "cost": 234.0,
+    "value": 234.0,
     "pnl": 0.0
    }
   ]
@@ -163,18 +163,18 @@
   "sym": "MATCH_CUT",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2245.0,
+  "price": 2191.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 730.0C 11-23",
+    "label": "SPY 728.0C 11-23",
     "kind": "call",
     "exp": "2026-11-23",
     "dte": 0,
-    "strike": 730.0,
+    "strike": 728.0,
     "qty": 1,
-    "cost": 174.0,
-    "value": 174.0,
+    "cost": 141.0,
+    "value": 141.0,
     "pnl": 0.0
    }
   ]
@@ -183,18 +183,18 @@
   "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2230.0,
+  "price": 2173.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 731.0C 11-23",
+    "label": "SPY 729.0C 11-23",
     "kind": "call",
     "exp": "2026-11-23",
     "dte": 0,
-    "strike": 731.0,
+    "strike": 729.0,
     "qty": 1,
-    "cost": 138.0,
-    "value": 138.0,
+    "cost": 125.0,
+    "value": 125.0,
     "pnl": 0.0
    }
   ]
