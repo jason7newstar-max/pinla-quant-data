@@ -40,6 +40,26 @@
   ]
  },
  {
+  "sym": "PAPER_ORB",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 1911.39,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ S",
+    "kind": "spread",
+    "exp": null,
+    "dte": null,
+    "strike": null,
+    "qty": 1,
+    "cost": 64835.0,
+    "value": 64835.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
   "sym": "BC·SPY",
   "shares": 1,
   "cost": 6250.0,
@@ -89,14 +109,6 @@
  },
  {
   "sym": "BWB·DALI",
-  "shares": 1,
-  "cost": 6250.0,
-  "price": 6250.0,
-  "src": "paper",
-  "moons": []
- },
- {
-  "sym": "CALENDAR",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
