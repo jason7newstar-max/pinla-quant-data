@@ -43,18 +43,18 @@
   "sym": "MATCH_FAR",
   "shares": 1,
   "cost": 2000.0,
-  "price": 4332.0,
+  "price": 4043.0,
   "src": "paper",
   "moons": [
    {
-    "label": "QQQ 626.0P 11-24",
+    "label": "QQQ 630.0P 11-24",
     "kind": "put",
     "exp": "2026-11-24",
     "dte": 0,
-    "strike": 626.0,
+    "strike": 630.0,
     "qty": 17,
-    "cost": 476.0,
-    "value": 476.0,
+    "cost": 425.0,
+    "value": 425.0,
     "pnl": 0.0
    }
   ]
