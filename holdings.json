@@ -40,26 +40,6 @@
   ]
  },
  {
-  "sym": "MATCH_FAR",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 4043.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "QQQ 630.0P 11-24",
-    "kind": "put",
-    "exp": "2026-11-24",
-    "dte": 0,
-    "strike": 630.0,
-    "qty": 17,
-    "cost": 425.0,
-    "value": 425.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
   "sym": "MATCH_RID",
   "shares": 1,
   "cost": 2000.0,
@@ -145,6 +125,14 @@
  },
  {
   "sym": "BOUNCE",
+  "shares": 1,
+  "cost": 6250.0,
+  "price": 6250.0,
+  "src": "paper",
+  "moons": []
+ },
+ {
+  "sym": "BFLY·IWM",
   "shares": 1,
   "cost": 6250.0,
   "price": 6250.0,
