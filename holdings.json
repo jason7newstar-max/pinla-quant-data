@@ -160,10 +160,30 @@
   ]
  },
  {
-  "sym": "MATCH_FIL",
+  "sym": "MATCH_BE3",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2021.0,
+  "price": 2100.0,
+  "src": "paper",
+  "moons": [
+   {
+    "label": "QQQ 630.0P 11-24",
+    "kind": "put",
+    "exp": "2026-11-24",
+    "dte": 0,
+    "strike": 630.0,
+    "qty": 1,
+    "cost": 158.0,
+    "value": 158.0,
+    "pnl": 0.0
+   }
+  ]
+ },
+ {
+  "sym": "MATCH_CUT",
+  "shares": 1,
+  "cost": 2000.0,
+  "price": 2093.0,
   "src": "paper",
   "moons": [
    {
@@ -173,28 +193,8 @@
     "dte": 0,
     "strike": 632.0,
     "qty": 1,
-    "cost": 110.0,
-    "value": 110.0,
-    "pnl": 0.0
-   }
-  ]
- },
- {
-  "sym": "MATCH_BE3",
-  "shares": 1,
-  "cost": 2000.0,
-  "price": 1989.0,
-  "src": "paper",
-  "moons": [
-   {
-    "label": "QQQ 634.0P 11-24",
-    "kind": "put",
-    "exp": "2026-11-24",
-    "dte": 0,
-    "strike": 634.0,
-    "qty": 1,
-    "cost": 134.0,
-    "value": 134.0,
+    "cost": 199.0,
+    "value": 199.0,
     "pnl": 0.0
    }
   ]
