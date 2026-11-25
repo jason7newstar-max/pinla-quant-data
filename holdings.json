@@ -143,18 +143,18 @@
   "sym": "MATCH_NEA",
   "shares": 1,
   "cost": 2000.0,
-  "price": 2295.0,
+  "price": 2149.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 694.0P 11-25",
+    "label": "SPY 696.0P 11-25",
     "kind": "put",
     "exp": "2026-11-25",
     "dte": 0,
-    "strike": 694.0,
-    "qty": 1,
-    "cost": 161.0,
-    "value": 161.0,
+    "strike": 696.0,
+    "qty": 2,
+    "cost": 224.0,
+    "value": 224.0,
     "pnl": 0.0
    }
   ]
@@ -163,38 +163,38 @@
   "sym": "MATCH_FIL",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1937.0,
+  "price": 1896.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 694.0P 11-25",
+    "label": "SPY 696.0P 11-25",
     "kind": "put",
     "exp": "2026-11-25",
     "dte": 0,
-    "strike": 694.0,
+    "strike": 696.0,
     "qty": 1,
-    "cost": 158.0,
-    "value": 158.0,
+    "cost": 119.0,
+    "value": 119.0,
     "pnl": 0.0
    }
   ]
  },
  {
-  "sym": "MATCH_EAR",
+  "sym": "MATCH_RUN",
   "shares": 1,
   "cost": 2000.0,
-  "price": 1828.0,
+  "price": 1701.0,
   "src": "paper",
   "moons": [
    {
-    "label": "SPY 694.0P 11-25",
+    "label": "SPY 696.0P 11-25",
     "kind": "put",
     "exp": "2026-11-25",
     "dte": 0,
-    "strike": 694.0,
+    "strike": 696.0,
     "qty": 1,
-    "cost": 158.0,
-    "value": 158.0,
+    "cost": 112.0,
+    "value": 112.0,
     "pnl": 0.0
    }
   ]
