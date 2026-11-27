@@ -1,43 +1,43 @@
 {
-  "as_of": "2026-11-26T21:10:24.405000+00:00",
-  "market_open": false,
+  "as_of": "2026-11-27T14:40:20.440227+00:00",
+  "market_open": true,
   "spy": {
     "symbol": "SPY",
     "last": 716.73,
-    "bid": 720.36,
-    "ask": 720.46,
-    "volume": 73261827,
-    "mark": 720.4100000000001,
-    "change_pct": -0.2852054870753158,
-    "close": 718.78
+    "bid": 726.13,
+    "ask": 726.17,
+    "volume": 1444064,
+    "mark": 726.15,
+    "change_pct": 0.004185851820841735,
+    "close": 716.7
   },
   "qqq": {
     "symbol": "QQQ",
     "last": 633.96,
-    "bid": 636.58,
-    "ask": 636.7,
-    "volume": 82154112,
-    "mark": 636.6400000000001,
-    "change_pct": -0.6488011283497862,
-    "close": 638.1
+    "bid": 646.32,
+    "ask": 646.38,
+    "volume": 2436298,
+    "mark": 646.35,
+    "change_pct": 0.004732383701684161,
+    "close": 633.93
   },
   "senate": {
-    "date": "2026-11-26",
-    "ts": "2026-11-26T14:26:19.845508+00:00",
-    "brief": "Date: 2026-11-26 (US market open).\nSPY $716.73 (-0.29% today, -2.1% 5d) \u2014 above 5d-MA, below 10d-MA, at 39% of 10d range\nQQQ $633.96 (-0.65% today, -3.5% 5d) \u2014 below 5d-MA, below 10d-MA, at 31% of 10d range\nIWM $268.84 (+0.64% today, -0.1% 5d) \u2014 above 5d-MA, below 10d-MA, at 46% of 10d range\nVIX 27.1 (rising vs 5d)\nRegime: broad downtrend (all 3 below 10d-MA); tech lagging; small-caps participating (broad); VIX high & rising.\nCalendar: next FOMC 2026-12-09 (13d away).",
+    "date": "2026-11-27",
+    "ts": "2026-11-27T14:26:21.974765+00:00",
+    "brief": "Date: 2026-11-27 (US market open).\nSPY $716.73 (+0.00% today, -1.9% 5d) \u2014 above 5d-MA, below 10d-MA, at 39% of 10d range\nQQQ $633.96 (+0.00% today, -3.9% 5d) \u2014 below 5d-MA, below 10d-MA, at 31% of 10d range\nIWM $268.84 (-0.01% today, -0.5% 5d) \u2014 above 5d-MA, below 10d-MA, at 48% of 10d range\nVIX 25.6 (falling vs 5d)\nRegime: broad downtrend (all 3 below 10d-MA); tech lagging; small-caps participating (broad); VIX high & falling.\nCalendar: next FOMC 2026-12-09 (12d away).",
     "votes": [
       {
         "direction": "bear",
-        "confidence": 70,
-        "reason": "Broad downtrend, tech lagging, VIX rising, all major indices below 10\u2011day MA",
+        "confidence": 60,
+        "reason": "Broad downtrend, tech lagging, VIX elevated despite falling",
         "seat": "GPT-OSS-120B#1",
         "provider": "groq",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 70,
-        "reason": "Broad downtrend, tech lag, rising VIX, pre\u2011FOMC uncertainty",
+        "confidence": 65,
+        "reason": "Broad downtrend, tech lag, all indices below 10\u2011day MA, VIX elevated",
         "seat": "GPT-OSS-120B#2",
         "provider": "groq",
         "ok": true
@@ -45,7 +45,7 @@
       {
         "direction": "bear",
         "confidence": 70,
-        "reason": "Broad downtrend, tech lag, rising VIX, near\u2011term FOMC uncertainty",
+        "reason": "Broad downtrend, all indices under 10d-MA, tech lagging, elevated VIX",
         "seat": "GPT-OSS-120B#3",
         "provider": "groq",
         "ok": true
@@ -53,7 +53,7 @@
       {
         "direction": "bear",
         "confidence": 70,
-        "reason": "Downtrend, tech lag, rising VIX, weak 5d/10d MAs",
+        "reason": "Downtrend persists, tech lagging, VIX high yet falling, FOMC pending.",
         "seat": "GPT-OSS-20B",
         "provider": "groq",
         "ok": true
@@ -66,96 +66,96 @@
       },
       {
         "direction": "bear",
-        "confidence": 72,
-        "reason": "Broad downtrend below 10d-MA, rising VIX, tech lagging, and FOMC uncertainty ahead.",
+        "confidence": 70,
+        "reason": "Broad downtrend intact, tech leading lower with QQQ -3.9% 5d, VIX still elevated; fade counter-trend bounces.",
         "seat": "DeepSeek-V4P",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 68,
-        "reason": "Broad downtrend, rising high VIX, and weak tech outweigh small-cap strength near term.",
+        "direction": "chop",
+        "confidence": 58,
+        "reason": "High falling VIX and stabilizing small-caps offset tech weakness and downtrend; pre-FOMC favors chop.",
         "seat": "Qwen3.8-Max",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 75,
-        "reason": "Downtrend, tech lagging, VIX rising, FOMC uncertainty.",
+        "direction": "chop",
+        "confidence": 70,
+        "reason": "VIX falling but below 10d-MA; FOMC looms.",
         "seat": "Mistral",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
+        "direction": "chop",
         "confidence": 58,
-        "reason": "Broad downtrend, lagging tech, rising VIX 27 favor further large-cap weakness.",
+        "reason": "Downtrend intact but falling VIX and mixed MAs favor 1-2d range.",
         "seat": "Grok-4.6",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 62,
-        "reason": "Downtrend regime, VIX high and rising, tech lagging; no catalyst before December FOMC favors continued downside.",
+        "direction": "chop",
+        "confidence": 55,
+        "reason": "Falling VIX and SPY above 5d-MA support a bounce, but broad downtrend and weak QQQ cap upside; no near-term catalysts.",
         "seat": "GLM-5.3",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 70,
-        "reason": "Broad downtrend regime with tech lagging, indices below 10d-MA, and rising high VIX pressure large-caps downward.",
+        "direction": "bull",
+        "confidence": 55,
+        "reason": "Falling elevated VIX and SPY reclaiming 5-day MA signal a short-term tactical mean-reversion bounce.",
         "seat": "Gemini-3.7F",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 75,
-        "reason": "High rising VIX and severe tech weakness in a broad downtrend dictate near-term large-cap pressure.",
+        "direction": "chop",
+        "confidence": 60,
+        "reason": "Falling VIX and SPY above 5d-MA suggest stabilization, but lagging tech and broad downtrend limit upside.",
         "seat": "Gemini3-Pro",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 68,
-        "reason": "Broad downtrend, tech weakness, and rising high VIX outweigh small-cap resilience; near-term risk remains lower.",
+        "direction": "chop",
+        "confidence": 58,
+        "reason": "Broad downtrend persists, but falling high VIX and small-cap participation favor a near-term stabilization bounce.",
         "seat": "GPT-5.6-Terra",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 62,
-        "reason": "All below 10d-MA, tech lagging, VIX high and rising; small-cap bounce insufficient to offset downtrend.",
+        "direction": "chop",
+        "confidence": 55,
+        "reason": "Downtrend but VIX falling and small-caps stable suggest stabilization, not clean trend continuation.",
         "seat": "Fable-5",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 68,
-        "reason": "Broad downtrend, tech lagging, VIX rising; FOMC risk in 13d caps upside.",
+        "direction": "chop",
+        "confidence": 55,
+        "reason": "Broad downtrend with VIX elevated but falling; pre-FOMC caution likely caps upside.",
         "seat": "MiniMax-M3",
         "provider": "openrouter",
         "ok": true
       },
       {
         "direction": "bear",
-        "confidence": 70,
-        "reason": "Broad downtrend, tech lagging, VIX rising, small-cap divergence insufficient to offset",
+        "confidence": 65,
+        "reason": "Broad downtrend intact, tech lagging, VIX high despite falling, FOMC uncertainty ahead",
         "seat": "Nemotron-Ult",
         "provider": "openrouter",
         "ok": true
       },
       {
-        "direction": "bear",
-        "confidence": 75,
-        "reason": "Broad downtrend confirmed, tech leadership weak, VIX elevated and rising, small-cap bounce likely temporary.",
+        "direction": "chop",
+        "confidence": 65,
+        "reason": "Downtrend intact but VIX falling and small-caps stabilizing suggests consolidation before FOMC.",
         "seat": "Kimi-K3",
         "provider": "openrouter",
         "ok": true
@@ -182,29 +182,29 @@
     "seats_ok": 16,
     "seats_total": 20,
     "tally": {
-      "bull": 0,
-      "bear": 16,
-      "chop": 0
+      "bull": 1,
+      "bear": 6,
+      "chop": 9
     },
-    "consensus": "bear",
-    "strength": 1.0,
-    "dispersion": 0.0,
+    "consensus": "chop",
+    "strength": 0.54,
+    "dispersion": 0.438,
     "mode": "live"
   },
   "sentiment": {
-    "date": "2026-11-26",
-    "ts": "2026-11-26T14:25:06.979043+00:00",
+    "date": "2026-11-27",
+    "ts": "2026-11-27T14:25:01.337473+00:00",
     "raw": {
       "fear_greed": {
-        "score": 14.9967450271248,
+        "score": 19.8571428571429,
         "rating": "extreme fear",
         "put_call_options": {
-          "score": 7,
+          "score": 21,
           "rating": "extreme fear"
         },
         "market_volatility_vix": {
-          "score": 34.1772151898734,
-          "rating": "fear"
+          "score": 50,
+          "rating": "neutral"
         },
         "stock_price_momentum": {
           "score": null,
@@ -216,171 +216,171 @@
         }
       },
       "stocktwits_trending": [
-        "BB.TSX",
-        "XAUUSD",
-        "LTC.X",
-        "AC.TSX",
-        "B",
-        "XRP",
+        "CHWY",
+        "DOGE.X",
+        "EWZ",
+        "MDB",
         "VRTX",
-        "ADUR",
-        "NXT",
+        "ABCL",
+        "CRO.X",
+        "MLTX",
         "MO",
-        "NASA",
-        "ALM"
+        "PBR",
+        "XPEV",
+        "WLFI.X"
       ],
       "wsb": {
         "tradestie": [
           {
             "t": "NVDA",
-            "s": "Bullish",
-            "n": 20
+            "s": "Bearish",
+            "n": 29
           },
           {
             "t": "SPY",
             "s": "Bullish",
-            "n": 7
-          },
-          {
-            "t": "ASTS",
-            "s": "Bullish",
-            "n": 6
-          },
-          {
-            "t": "MU",
-            "s": "Bearish",
-            "n": 6
-          },
-          {
-            "t": "AMD",
-            "s": "Bullish",
-            "n": 6
+            "n": 10
           },
           {
             "t": "QQQ",
-            "s": "Bullish",
-            "n": 6
+            "s": "Bearish",
+            "n": 5
           },
           {
-            "t": "GOOGL",
-            "s": "Bearish",
-            "n": 3
+            "t": "VALU",
+            "s": "Bullish",
+            "n": 5
           },
           {
             "t": "SNDK",
             "s": "Bearish",
-            "n": 3
-          },
-          {
-            "t": "RDDT",
-            "s": "Bearish",
-            "n": 3
+            "n": 5
           },
           {
             "t": "SOXL",
+            "s": "Bearish",
+            "n": 4
+          },
+          {
+            "t": "TTWO",
+            "s": "Bullish",
+            "n": 4
+          },
+          {
+            "t": "MU",
             "s": "Bullish",
             "n": 3
           },
           {
-            "t": "MRVL",
+            "t": "SBC",
+            "s": "Bullish",
+            "n": 3
+          },
+          {
+            "t": "RL",
             "s": "Bullish",
             "n": 2
           },
           {
-            "t": "DJT",
-            "s": "Bullish",
-            "n": 2
-          },
-          {
-            "t": "ARKK",
-            "s": "Bullish",
-            "n": 2
-          },
-          {
-            "t": "HSBC",
+            "t": "ASTS",
             "s": "Bearish",
             "n": 2
           },
           {
-            "t": "NVO",
-            "s": "Neutral",
-            "n": 1
+            "t": "UPS",
+            "s": "Bullish",
+            "n": 2
+          },
+          {
+            "t": "AMD",
+            "s": "Bullish",
+            "n": 2
+          },
+          {
+            "t": "IBM",
+            "s": "Bearish",
+            "n": 2
+          },
+          {
+            "t": "TER",
+            "s": "Bearish",
+            "n": 2
           }
         ],
         "apewisdom": [
           {
-            "t": "SPY",
-            "m": 394,
+            "t": "NVDA",
+            "m": 180,
             "r": 1
           },
           {
-            "t": "NVDA",
-            "m": 392,
+            "t": "SPY",
+            "m": 119,
             "r": 2
           },
           {
             "t": "QQQ",
-            "m": 176,
+            "m": 59,
             "r": 3
           },
           {
             "t": "MU",
-            "m": 98,
+            "m": 49,
             "r": 4
           },
           {
             "t": "SNDK",
-            "m": 82,
+            "m": 37,
             "r": 5
           },
           {
-            "t": "VOO",
-            "m": 80,
+            "t": "DTE",
+            "m": 33,
             "r": 6
           },
           {
-            "t": "AMD",
-            "m": 79,
+            "t": "SOXL",
+            "m": 30,
             "r": 7
           },
           {
-            "t": "SOXL",
-            "m": 72,
+            "t": "AMD",
+            "m": 30,
             "r": 8
           },
           {
-            "t": "DTE",
-            "m": 63,
+            "t": "PS",
+            "m": 26,
             "r": 9
           },
           {
-            "t": "ASTS",
-            "m": 55,
+            "t": "NBIS",
+            "m": 19,
             "r": 10
           },
           {
-            "t": "AAPL",
-            "m": 52,
+            "t": "VOO",
+            "m": 17,
             "r": 11
           },
           {
-            "t": "SPCX",
-            "m": 50,
+            "t": "ET",
+            "m": 14,
             "r": 12
           },
           {
-            "t": "DELL",
-            "m": 36,
+            "t": "TSLA",
+            "m": 13,
             "r": 13
           },
           {
-            "t": "GOOGL",
-            "m": 33,
+            "t": "PR",
+            "m": 12,
             "r": 14
           },
           {
-            "t": "NBIS",
-            "m": 31,
+            "t": "CRWV",
+            "m": 11,
             "r": 15
           }
         ]
@@ -392,12 +392,16 @@
       "crowded": [
         "NVDA",
         "SPY",
-        "ASTS",
+        "QQQ",
+        "SNDK",
+        "SOXL",
         "MU",
+        "TTWO",
+        "UPS",
         "AMD"
       ],
       "divergence": true,
-      "summary": "Retail in extreme fear yet bullish on tech and index ETFs, diverging from likely downtrend."
+      "summary": "Retail in extreme fear, high activity on NVDA and SPY, sentiment at odds with neutral market volatility."
     },
     "zone": "extreme",
     "mode": "live"
@@ -3106,7 +3110,7 @@
       "wins": 4
     },
     {
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "pnl": 0.0,
       "equity": 35986.0,
       "trades": 0,
